@@ -65,7 +65,9 @@
 			<sourceReference>
 				<reference value="ValueSet/allergy-intolerance-substance-condition-uv-ips"/>
 			</sourceReference>
-		</resource>		<resource>
+		</resource>	
+    
+    	<resource>
 			<example value="false"/>
 			<sourceReference>
 				<reference value="ValueSet/condition-severity-uv-ips"/>
@@ -97,7 +99,7 @@
     
     
 
-          <!--
+      
     	<resource>
     			<example value="false"/>
 			<sourceReference>
@@ -105,7 +107,6 @@
 			</sourceReference>
 		</resource>	
 
-              -->
               
     	<resource>
 			<example value="false"/>
@@ -119,7 +120,7 @@
 			</sourceReference>
 		</resource>	
     
-     <!--
+    
     	<resource>
 			<example value="false"/>
 			<sourceReference>
@@ -127,7 +128,7 @@
 			</sourceReference>
 		</resource>	
     
-    -->
+  
      
     	<resource>
 			<example value="false"/>
@@ -171,14 +172,14 @@
 			</sourceReference>
 		</resource>	
     
-    <!--
+    
     	<resource>
 			<example value="false"/>
 			<sourceReference>
 				<reference value="ValueSet/personal-relationship-uv-ips"/>
 			</sourceReference>
 		</resource>	
-    -->
+   
     
     	<resource>
 			<example value="false"/>
@@ -230,16 +231,8 @@
              
     <!-- ADDED BY GIORGIO END -->
     
-    <!--
-		<resource>
-			<example value="false"/>
-			<sourceReference>
-				<reference value="ValueSet/condition-severity-uv-ips"/>
-			</sourceReference>
-		</resource>
-    
-    -->
-    
+  
+   
 		<resource>
 			<example value="false"/>
 			<sourceReference>
@@ -247,7 +240,7 @@
 			</sourceReference>
 		</resource>
     
-    <!--
+    
 		<resource>
 			<example value="false"/>
 			<sourceReference>
@@ -255,7 +248,7 @@
 			</sourceReference>
 		</resource>
     
-    -->
+
     
 		<resource>
 			<example value="false"/>
@@ -295,7 +288,7 @@
 		</resource>
 
 <!-- added by Giorgio -->
-                                                         <!--
+
 		<resource>
 			<example value="false"/>
 			<sourceReference>
@@ -303,9 +296,9 @@
 			</sourceReference>
 		</resource>
     
-    -->
+
     
-    <!--    
+
 		<resource>
 			<example value="false"/>
 			<sourceReference>
@@ -313,10 +306,10 @@
 			</sourceReference>
 		</resource>
     
-    -->
+
     
     
-    <!--
+
 		<resource>
 			<example value="false"/>
 			<sourceReference>
@@ -324,7 +317,7 @@
 			</sourceReference>
 		</resource>
     
-    -->
+
     
 		<resource>
 			<example value="false"/>
@@ -339,7 +332,7 @@
 			</sourceReference>
 		</resource>
     
-    <!--
+  
     
 		<resource>
 			<example value="false"/>
@@ -348,9 +341,9 @@
 			</sourceReference>
 		</resource>
     
-    -->
+
     
-    <!--
+  
 		<resource>
 			<example value="false"/>
 			<sourceReference>
@@ -358,9 +351,9 @@
 			</sourceReference>
 		</resource>
     
-    -->
+  
     
-           <!--
+  
 		<resource>
 			<example value="false"/>
 			<sourceReference>
@@ -368,9 +361,7 @@
 			</sourceReference>
 		</resource>
     
-    -->
-    
-    <!--
+  
 		<resource>
 			<example value="false"/>
 			<sourceReference>
@@ -378,7 +369,7 @@
 			</sourceReference>
 		</resource>
     
-    -->
+   
     
 		<resource>
 			<example value="false"/>
@@ -393,16 +384,16 @@
 			</sourceReference>
 		</resource>
     
-    <!--
+ 
 		<resource>
 			<example value="false"/>
 			<sourceReference>
 				<reference value="StructureDefinition/observation-imaging-uv-ips"/>
 			</sourceReference>
 		</resource>
-    -->
+
     
-    <!--
+  
     
 		<resource>
 			<example value="false"/>
@@ -411,17 +402,16 @@
 			</sourceReference>
 		</resource>
     
-    -->
+
     
-     <!--
+
 		<resource>
 			<example value="false"/>
 			<sourceReference>
 				<reference value="StructureDefinition/observation-member-imaging-uv-ips"/>
 			</sourceReference>
 		</resource>
-    
-    -->
+  
     
 		<resource>
 			<example value="false"/>
@@ -435,7 +425,7 @@
 				<reference value="StructureDefinition/observation-member-pathology-uv-ips"/>
 			</sourceReference>
 		</resource>
-    <!--
+  
 		<resource>
 			<example value="false"/>
 			<sourceReference>
@@ -443,7 +433,7 @@
 			</sourceReference>
 		</resource>
     
-    -->
+  
     
 		<resource>
 			<example value="false"/>
@@ -476,7 +466,7 @@
 			</sourceReference>
 		</resource>
     
-    <!--
+  
 		<resource>
 			<example value="false"/>
 			<sourceReference>
@@ -484,16 +474,14 @@
 			</sourceReference>
 		</resource>
     
-    -->
-<!--
-		<resource>
+   		<resource>
 			<example value="false"/>
 			<sourceReference>
 				<reference value="StructureDefinition/organization-observation-uv-ips"/>
 			</sourceReference>
 		</resource>
     
-    -->
+
     
 		<resource>
 			<example value="false"/>
@@ -514,7 +502,7 @@
 			</sourceReference>
 		</resource>
     
-    <!--
+  
 		<resource>
 			<example value="false"/>
 			<sourceReference>
@@ -522,7 +510,7 @@
 			</sourceReference>
 		</resource>
 		
-    -->
+   
     
     <resource>
 			<example value="false"/>
@@ -549,14 +537,14 @@
 			</sourceReference>
 		</resource>
     
-    <!--
+   
 		<resource>
 			<example value="false"/>
 			<sourceReference>
 				<reference value="StructureDefinition/statement-uv-ips"/>
 			</sourceReference>
 		</resource>
-    -->
+    
     
 		<resource>
 			<example value="false"/>
@@ -565,7 +553,7 @@
 			</sourceReference>
 		</resource>
     
-    <!--
+  
     
 		<resource>
 			<example value="false"/>
@@ -574,7 +562,6 @@
 			</sourceReference>
 		</resource>
 
-    -->
 
 <!-- end added by Giorgio -->
 
