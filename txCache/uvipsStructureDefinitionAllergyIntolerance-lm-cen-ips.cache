@@ -1,0 +1,121 @@
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/uv/ips/StructureDefinition/AllergyIntolerance-lm-cen-ips",
+  "code" : "AllergyorIntolerance"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "java.lang.NullPointerException"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/uv/ips/StructureDefinition/AllergyIntolerance-lm-cen-ips",
+  "code" : "AllergyorIntolerance.EndDate"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "java.lang.NullPointerException"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/uv/ips/StructureDefinition/AllergyIntolerance-lm-cen-ips",
+  "code" : "AllergyorIntolerance.ClinicalStatus"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "java.lang.NullPointerException"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/uv/ips/StructureDefinition/AllergyIntolerance-lm-cen-ips",
+  "code" : "AllergyorIntolerance.Certainty"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "java.lang.NullPointerException"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/uv/ips/StructureDefinition/AllergyIntolerance-lm-cen-ips",
+  "code" : "AllergyorIntolerance.TypeOfPropensity"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "java.lang.NullPointerException"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/uv/ips/StructureDefinition/AllergyIntolerance-lm-cen-ips",
+  "code" : "AllergyorIntolerance.Criticality"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "java.lang.NullPointerException"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/uv/ips/StructureDefinition/AllergyIntolerance-lm-cen-ips",
+  "code" : "AllergyorIntolerance.Diagnosis"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "java.lang.NullPointerException"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/uv/ips/StructureDefinition/AllergyIntolerance-lm-cen-ips",
+  "code" : "AllergyorIntolerance.Agent.Code"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "java.lang.NullPointerException"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/uv/ips/StructureDefinition/AllergyIntolerance-lm-cen-ips",
+  "code" : "AllergyorIntolerance.OnsetDate"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "java.lang.NullPointerException"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/uv/ips/StructureDefinition/AllergyIntolerance-lm-cen-ips",
+  "code" : "AllergyorIntolerance.Reaction"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "java.lang.NullPointerException"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/uv/ips/StructureDefinition/AllergyIntolerance-lm-cen-ips",
+  "code" : "AllergyorIntolerance.Reaction.Manifestation"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "java.lang.NullPointerException"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/uv/ips/StructureDefinition/AllergyIntolerance-lm-cen-ips",
+  "code" : "AllergyorIntolerance.Reaction.Severity"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "java.lang.NullPointerException"
+}
+-------------------------------------------------------------------------------------

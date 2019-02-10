@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/uv/ips/StructureDefinition/AllergyIntoleranceSection-lm-cen-ips",
+  "code" : "AllergiesAndIntolerancesSection.AllergiesIntolerancesContentStatus"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "java.lang.NullPointerException"
+}
+-------------------------------------------------------------------------------------

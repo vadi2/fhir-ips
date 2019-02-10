@@ -21,6 +21,12 @@ The <b>Bundle</b> used for the transport or the persistence SHALL include all th
 
 A complete list of the sections and of the used profiles is available in the <a href="ipsStructure.html">International Patient Summary Structure </a> page.
  
+# List of Logical Models
+
+The links to the Logical Models used by this implementation guide are listed hereafter.
+
+{% include list-logicals.xhtml %}
+
 
 # List of Profiles
 

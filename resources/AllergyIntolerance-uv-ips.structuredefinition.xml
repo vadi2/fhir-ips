@@ -188,7 +188,7 @@
 			</type>
 			<mustSupport value="true"/>
 		</element>
-		<element id="AllergyIntolerance.onsetDateTime.extension:abatement-datetime">
+		<element id="AllergyIntolerance.onsetDateTime.extension:data-absent-reason">
 			<path value="AllergyIntolerance.onsetDateTime.extension"/>
 			<sliceName value="data-absent-reason"/>
 			<short value="onsetDateTime Absent Reason"/>

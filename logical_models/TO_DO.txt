@@ -1,0 +1,4 @@
+To do
+
+(2) define a code system/ value set for the conformance (M, R, RK; C; O)
+(3) remove cardinality (it requires that the publication template is changed for our logical Models)
