@@ -11,7 +11,7 @@ Business Rules:
 1.	Dates SHALL be valid dates
 2.	If no additional constraints have been specified (e.g. day precision), at least a full year SHALL be specified
 3.	If the time is provided the time zone SHALL be indicated." />
-	<kind value="logical" />
+	<kind value="complex-type" />
 	<abstract value="true"/>
 	<type value="DateTime"/>
 	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Element"/>

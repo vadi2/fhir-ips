@@ -6,7 +6,7 @@
 	<title value="Label Concept (EN 17269)"/>
 	<status value="draft"/>
 	<description value="The term ‘Label Concept’ is used to describe data model elements that play the role of container and usually have complex structures, for instance they may contain clinical statements or participants.  Label Concepts also facilitate recursive definitions.  For example, the result of an assessment can be an assessment."/>
-	<kind value="logical"/>
+	<kind value="complex-type"/>
 	<abstract value="true"/>
 	<type value="LabelConcept"/>
 	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Element"/>

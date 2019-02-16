@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../__FHIRr4Tools/fhir-all-xsd/structuredefinition.xsd">
+	<id value="HealthcareProvider-lm-cen-ips"/>
+	<url value="http://hl7.org/fhir/uv/ips/StructureDefinition/HealthcareProvider-lm-cen-ips"/>
+	<name value="HealthcareProvider-lm-cen-ips"/>
+	<title value="Healthcare Provider (EN 17269)"/>
+	<status value="draft"/>
+	<description value="Healthcare actor that is able to be assigned one or more care period mandates."/>
+	<kind value="complex-type"/>
+	<abstract value="true"/>
+	<type value="HealthcareProvider"/>
+	<baseDefinition value="http://hl7.org/fhir/uv/ips/StructureDefinition/LabelConcept-lm-cen-ips"/>
+	<derivation value="specialization"/>
+	<differential>
+		<element id="HealthcareProvider">
+			<path value="HealthcareProvider"/>
+			<short value="HealthcareProvider"/>
+			<definition value="Healthcare actor that is able to be assigned one or more care period mandates."/>
+			<min value="0"/>
+			<max value="*"/>
+		</element>
+	</differential>
+</StructureDefinition>

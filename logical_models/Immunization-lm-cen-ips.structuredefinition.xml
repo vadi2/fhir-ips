@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../__FHIRr4Tools/fhir-all-xsd/structuredefinition.xsd">
+	<id value="Immunization-lm-cen-ips"/>
+	<url value="http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-lm-cen-ips"/>
+	<name value="Immunization-lm-cen-ips"/>
+	<title value="Immunization (EN 17269)"/>
+	<status value="draft"/>
+	<description value="A container for information related to information of the vaccine and its administration."/>
+	<kind value="logical"/>
+	<abstract value="true"/>
+	<type value="Immunization"/>
+	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Element"/>
+	<derivation value="specialization"/>
+	<differential>
+		<element id="Immunization">
+			<path value="Immunization"/>
+			<short value="Immunization"/>
+			<definition value="A container for information related to information of the vaccine and its administration."/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="LabelConcept"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/LabelConcept-lm-cen-ips"/>
+			</type>
+		</element>
+		<element id="Immunization.Type">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="R"/>
+			</extension>
+			<path value="Immunization.Type"/>
+			<short value="Vaccine for type of disease"/>
+			<definition value="TBD"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="CodedElement"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/CodedElement-lm-cen-ips"/>
+			</type>
+		</element>
+		<element id="Immunization.TargetDiseases">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="O"/>
+			</extension>
+			<path value="Immunization.TargetDiseases"/>
+			<short value="Target diseases"/>
+			<definition value="dddsddds"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="List"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/List-lm-cen-ips"/>
+			</type>
+		</element>
+		<element id="Immunization.TargetDiseases.TargetDisease">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="R"/>
+			</extension>
+			<path value="Immunization.TargetDiseases.TargetDisease"/>
+			<short value="Target disease"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="CodedElement"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/CodedElement-lm-cen-ips"/>
+			</type>
+		</element>
+		<element id="Immunization.DateOfImmunization">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="R"/>
+			</extension>
+			<path value="Immunization.DateOfImmunization"/>
+			<short value="Date of immunization"/>
+			<definition value="DDDD"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="DateTime"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/DateTime-lm-cen-ips"/>
+			</type>
+		</element>
+		<element id="Immunization.ProductAdministered">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="O"/>
+			</extension>
+			<path value="Immunization.ProductAdministered"/>
+			<short value="Product administered"/>
+			<definition value="ddsd"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="LabelConcept"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/LabelConcept-lm-cen-ips"/>
+			</type>
+		</element>
+		<element id="Immunization.ProductAdministered.BrandName">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="RK"/>
+			</extension>
+			<path value="Immunization.ProductAdministered.BrandName"/>
+			<short value="Brand name"/>
+			<definition value="ddsd"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="Text"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/Text-lm-cen-ips"/>
+			</type>
+		</element>
+		<element id="Immunization.ProductAdministrationProcess">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="O"/>
+			</extension>
+			<path value="Immunization.ProductAdministrationProcess"/>
+			<short value="Product administration process"/>
+			<definition value="ddsd"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="LabelConcept"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/LabelConcept-lm-cen-ips"/>
+			</type>
+		</element>
+		<element id="Immunization.ProductAdministrationProcess.Performer">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="O"/>
+			</extension>
+			<path value="Immunization.ProductAdministrationProcess.Performer"/>
+			<short value="Performer"/>
+			<definition value="ddsd"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="HealthcareProvider"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/HealthcareProvider-lm-cen-ips"/>
+			</type>
+		</element>
+		<element id="Immunization.ProductAdministrationProcess.RouteOfAdministration">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="O"/>
+			</extension>
+			<path value="Immunization.ProductAdministrationProcess.RouteOfAdministration"/>
+			<short value="Route of administration"/>
+			<definition value="ddsd"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="CodedElement"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/CodedElement-lm-cen-ips"/>
+			</type>
+		</element>
+	</differential>
+</StructureDefinition>

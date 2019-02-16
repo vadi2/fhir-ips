@@ -6,7 +6,7 @@
 	<title value="Coded Element (EN 17269)" />
 	<status value="draft"/>
 	<description value="An element representing a single concept, usually supplied by providing a reference to external code systems, terminologies or ontologies. In exceptional cases, it might be allowed to define it by the provision of text."/>
-	<kind value="logical" />
+	<kind value="complex-type"/>
 	<abstract value="true"/>
 	<type value="CodedElement"/>
 	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Element"/>
