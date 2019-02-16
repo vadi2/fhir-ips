@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../__FHIRr4Tools/fhir-all-xsd/structuredefinition.xsd">
 	<id value="DateTime-lm-cen-ips"/>
 	<url value="http://hl7.org/fhir/uv/ips/StructureDefinition/DateTime-lm-cen-ips"/>
-	<name value="DateTime-lm-cen-ips"/>
+	<name value="DateTime"/>
 	<title value="Date Time (EN 17269)" />
 	<status value="draft"/>
 	<description value="A quantity specifying a point on the axis of natural time. It might be a complete or a partial date (e.g. just year or year + month). It may indicate the time zone.

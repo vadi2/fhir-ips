@@ -170,3 +170,60 @@ v: {
   "error" : "The code system \"\" is not known; The code provided (#Problem) is not  valid in the value set FHIRDefinedType"
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "LabelConcept-lm-cen-ips"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/fhir/data-types"
+    },
+    {
+      "system" : "http://hl7.org/fhir/resource-types"
+    }]
+  }
+}}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"\" is not known; The code provided (#LabelConcept-lm-cen-ips) is not  valid in the value set FHIRDefinedType"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "CodedElement-lm-cen-ips"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/fhir/data-types"
+    },
+    {
+      "system" : "http://hl7.org/fhir/resource-types"
+    }]
+  }
+}}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"\" is not known; The code provided (#CodedElement-lm-cen-ips) is not  valid in the value set FHIRDefinedType"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "DateTime-lm-cen-ips"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/fhir/data-types"
+    },
+    {
+      "system" : "http://hl7.org/fhir/resource-types"
+    }]
+  }
+}}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"\" is not known; The code provided (#DateTime-lm-cen-ips) is not  valid in the value set FHIRDefinedType"
+}
+-------------------------------------------------------------------------------------

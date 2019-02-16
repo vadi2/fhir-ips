@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../__FHIRr4Tools/fhir-all-xsd/structuredefinition.xsd">
 	<id value="CodedElement-lm-cen-ips"/>
 	<url value="http://hl7.org/fhir/uv/ips/StructureDefinition/CodedElement-lm-cen-ips"/>
-	<name value="CodedElement-lm-cen-ips"/>
+	<name value="CodedElement"/>
 	<title value="Coded Element (EN 17269)" />
 	<status value="draft"/>
 	<description value="An element representing a single concept, usually supplied by providing a reference to external code systems, terminologies or ontologies. In exceptional cases, it might be allowed to define it by the provision of text."/>

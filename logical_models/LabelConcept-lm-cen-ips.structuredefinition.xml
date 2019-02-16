@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../__FHIRr4Tools/fhir-all-xsd/structuredefinition.xsd">
 	<id value="LabelConcept-lm-cen-ips"/>
 	<url value="http://hl7.org/fhir/uv/ips/StructureDefinition/LabelConcept-lm-cen-ips"/>
-	<name value="LabelConcept-lm-cen-ips"/>
+	<name value="LabelConcept"/>
 	<title value="Label Concept (EN 17269)"/>
 	<status value="draft"/>
 	<description value="The term ‘Label Concept’ is used to describe data model elements that play the role of container and usually have complex structures, for instance they may contain clinical statements or participants.  Label Concepts also facilitate recursive definitions.  For example, the result of an assessment can be an assessment."/>

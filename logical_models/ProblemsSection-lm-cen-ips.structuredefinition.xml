@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../__FHIRr4Tools/fhir-all-xsd/structuredefinition.xsd">
 	<id value="ProblemsSection-lm-cen-ips"/>
-	<url value="http://hl7.org/fhir/uv/ips/StructureDefinition/ProblemSection-lm-cen-ips"/>
-	<name value="ProblemSection-lm-cen-ips"/>
+	<url value="http://hl7.org/fhir/uv/ips/StructureDefinition/ProblemsSection-lm-cen-ips"/>
+	<name value="ProblemsSection-lm-cen-ips"/>
 	<title value="Problems Section (EN 17269)"/>
 	<status value="draft"/>
 	<description value="Health condition considered by a healthcare actor to be a problem; A list of current, active problems that have not been resolved or are existing concerns that are still being monitored."/>

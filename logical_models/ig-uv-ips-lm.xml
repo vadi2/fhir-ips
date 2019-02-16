@@ -112,6 +112,13 @@
 				<reference value="StructureDefinition/HealthcareProvider-lm-cen-ips"/>
 			</reference>
 		</resource>
+		
+				<resource>
+			<reference>
+				<reference value="StructureDefinition/Identifier-lm-cen-ips"/>
+			</reference>
+		</resource>
+		
 		<resource>
 			<reference>
 				<reference value="StructureDefinition/AllergyIntoleranceSection-lm-cen-ips"/>
@@ -144,6 +151,30 @@
 				<reference value="StructureDefinition/Immunization-lm-cen-ips"/>
 			</reference>
 		</resource>
+		
+		
+	<resource>
+			<reference>
+				<reference value="StructureDefinition/ProceduresSection-lm-cen-ips"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/Procedure-lm-cen-ips"/>
+			</reference>
+		</resource>		
+		
+		
+			<resource>
+			<reference>
+				<reference value="StructureDefinition/MedicalDevicesSection-lm-cen-ips"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/Device-lm-cen-ips"/>
+			</reference>
+		</resource>	
 		
 		
 		<page>
