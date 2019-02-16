@@ -199,6 +199,16 @@
 			"source": "Problem-lm-cen-ips.structuredefinition.xml",
 			"base": "StructureDefinition-Problem-lm-cen-ips.html"
 		},
+		"StructureDefinition/ImmunizationsSection-lm-cen-ips": {
+			"defns": "ImmunizationsSection.html",
+			"source": "ImmunizationsSection-lm-cen-ips.structuredefinition.xml",
+			"base": "StructureDefinition-ImmunizationsSection-lm-cen-ips.html"
+		},
+		"StructureDefinition/Immunization-lm-cen-ips": {
+			"defns": "StructureDefinition-Immunization-lm-cen-ips-definitions.html",
+			"source": "Immunization-lm-cen-ips.structuredefinition.xml",
+			"base": "StructureDefinition-Immunization-lm-cen-ips.html"
+		},
 		"ValueSet/allergy-intolerance-substance-condition-uv-ips": {
 			"source": "valueset-allergy-intolerance-substance-condition-uv-ips.xml",
 			"base": "ValueSet-allergy-intolerance-substance-condition-uv-ips.html"

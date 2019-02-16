@@ -132,6 +132,20 @@
 				<reference value="StructureDefinition/Problem-lm-cen-ips"/>
 			</reference>
 		</resource>
+		
+
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/ImmunizationsSection-lm-cen-ips"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/Immunization-lm-cen-ips"/>
+			</reference>
+		</resource>
+		
+		
 		<page>
 			<nameUrl value="index.md"/>
 			<title value="International Patient Summary Home"/>
