@@ -1,0 +1,227 @@
+{
+	"broken-links": "warning",
+	"no-inactive-codes": "false",
+	"extensions": [
+		"abatement-dateTime-uv-ips", "participant-uv-ips", "statement-uv-ips"
+	],
+	"license": "CC0-1.0",
+	"npm-name": "hl7.fhir.uv.ips-lm",
+	"dependencyList": [],
+	"fixed-business-version": "0.0.1",
+	"valuesets": [
+		"absent-or-unknown-allergies-uv-ips", "allergy-intolerance-substance-condition-uv-ips", "allergy-reaction-uv-ips", "condition-severity-uv-ips", "healthcare-professional-roles-uv-ips", "personal-relationship-uv-ips"
+	],
+	"paths": {
+		"pages": [
+			"framework", "pages-lm"
+		],
+		"specification": "http://build.fhir.org",
+		"temp": "temp",
+		"txCache": "txCache",
+		"output": "output",
+		"qa": "qa",
+		"resources": [
+			"logical_models", "resources", "concept_maps"
+		]
+	},
+	"logging": [
+		"progress"
+	],
+	"codesystems": [
+		"absent-unknown-uv-ips"
+	],
+	"searches": [],
+	"publisher": "Health Level Seven International",
+	"status": "active",
+	"do-transforms": "false",
+	"structuremaps": [],
+	"defaults": {
+		"ConceptMap": {
+			"template-base": "base.html"
+		},
+		"CapabilityStatement": {
+			"template-base": "base.html"
+		},
+		"StructureDefinition": {
+			"template-mappings": "sd-mappings.html",
+			"template-base": "sd.html",
+			"template-defns": "sd-definitions.html"
+		},
+		"Basic": {
+			"template-base": "ex.html"
+		},
+		"CodeSystem": {
+			"template-base": "base.html"
+		},
+		"SearchParameter": {
+			"template-base": "base.html"
+		},
+		"Any": {
+			"template-base": "base.html",
+			"template-format": "format.html"
+		},
+		"StructureMap": {
+			"profiles": false,
+			"script": false,
+			"template-base": "ex.html",
+			"content": false
+		},
+		"AllergyIntolerance": {
+			"template-base": "ex.html"
+		},
+		"Observation": {
+			"template-base": "ex.html"
+		},
+		"OperationDefinition": {
+			"template-base": "base.html"
+		},
+		"ValueSet": {
+			"template-base": "base.html"
+		}
+	},
+	"source": "ig-uv-ips-lm.xml",
+	"gen-examples": "false",
+	"title": "International Patient Summary Implementation Guide",
+	"extraTemplates": [],
+	"jurisdiction": "001",
+	"tool": "jekyll",
+	"canonicalBase": "http://hl7.org/fhir/uv/ips",
+	"spreadsheets": [],
+	"special-urls": [],
+	"sct-edition": "http://snomed.info/sct/900000000000207008",
+	"check-aggregation": true,
+	"check-mustSupport": true,
+	"hintAboutNonMustSupport": true,
+	"resources": {
+		"StructureDefinition/participant-uv-ips": {
+			"defns": "StructureDefinition-participant-uv-ips-definitions.html",
+			"source": "participant-uv-ips.structuredefinition.xml",
+			"base": "StructureDefinition-participant-uv-ips.html"
+		},
+		"StructureDefinition/Patient-uv-ips": {
+			"defns": "StructureDefinition-Patient-uv-ips-definitions.html",
+			"source": "Patient-uv-ips.structuredefinition.xml",
+			"base": "StructureDefinition-Patient-uv-ips.html"
+		},
+		"StructureDefinition/Practitioner-uv-ips": {
+			"defns": "StructureDefinition-Practitioner-uv-ips-definitions.html",
+			"source": "Practitioner-uv-ips.structuredefinition.xml",
+			"base": "StructureDefinition-Practitioner-uv-ips.html"
+		},
+		"StructureDefinition/statement-uv-ips": {
+			"defns": "StructureDefinition-statement-uv-ips-definitions.html",
+			"source": "statement-uv-ips.structuredefinition.xml",
+			"base": "StructureDefinition-statement-uv-ips.html"
+		},
+		"StructureDefinition/AllergyIntolerance-uv-ips": {
+			"defns": "StructureDefinition-AllergyIntolerance-uv-ips-definitions.html",
+			"source": "AllergyIntolerance-uv-ips.structuredefinition.xml",
+			"base": "StructureDefinition-AllergyIntolerance-uv-ips.html"
+		},
+		"StructureDefinition/CodeableConcept-uv-ips": {
+			"defns": "StructureDefinition-CodeableConcept-uv-ips-definitions.html",
+			"source": "CodeableConcept-uv-ips.structuredefinition.xml",
+			"base": "StructureDefinition-CodeableConcept-uv-ips.html"
+		},
+		"StructureDefinition/translation": {
+			"defns": "StructureDefinition-translation-definitions.html",
+			"source": "translation.xml",
+			"base": "StructureDefinition-translation.html"
+		},
+		"StructureDefinition/abatement-dateTime-uv-ips": {
+			"defns": "StructureDefinition-abatement-dateTime-uv-ips-definitions.html",
+			"source": "abatement-dateTime-uv-ips.structuredefinition.xml",
+			"base": "StructureDefinition-abatement-dateTime-uv-ips.html"
+		},
+		"StructureDefinition/Coding-uv-ips": {
+			"defns": "StructureDefinition-Coding-uv-ips-definitions.html",
+			"source": "Coding-uv-ips.structuredefinition.xml",
+			"base": "StructureDefinition-Coding-uv-ips.html"
+		},
+		"CodeSystem/absent-unknown-uv-ips": {
+			"base": "CodeSystem-absent-unknown-uv-ips.html"
+		},
+		"StructureDefinition/conformance-cen-ips": {
+			"defns": "StructureDefinition-conformance-cen-ips-definitions.html",
+			"source": "conformance-cen-ips.structuredefinition.xml",
+			"base": "StructureDefinition-conformance-cen-ips.html"
+		},
+		"StructureDefinition/LabelConcept-lm-cen-ips": {
+			"defns": "StructureDefinition-LabelConcept-lm-cen-ips-definitions.html",
+			"source": "LabelConcept-lm-cen-ips.structuredefinition.xml",
+			"base": "StructureDefinition-LabelConcept-lm-cen-ips.html"
+		},
+		"StructureDefinition/CodedElement-lm-cen-ips": {
+			"defns": "StructureDefinition-CodedElement-lm-cen-ips-definitions.html",
+			"source": "CodedElement-lm-cen-ips.structuredefinition.xml",
+			"base": "StructureDefinition-CodedElement-lm-cen-ips.html"
+		},
+		"StructureDefinition/Text-lm-cen-ips": {
+			"defns": "StructureDefinition-Text-lm-cen-ips-definitions.html",
+			"source": "Text-lm-cen-ips.structuredefinition.xml",
+			"base": "StructureDefinition-Text-lm-cen-ips.html"
+		},
+		"StructureDefinition/DateTime-lm-cen-ips": {
+			"defns": "StructureDefinition-DateTime-lm-cen-ips-definitions.html",
+			"source": "DateTime-lm-cen-ips.structuredefinition.xml",
+			"base": "StructureDefinition-DateTime-lm-cen-ips.html"
+		},
+		"StructureDefinition/List-lm-cen-ips": {
+			"defns": "StructureDefinition-List-lm-cen-ips-definitions.html",
+			"source": "List-lm-cen-ips.structuredefinition.xml",
+			"base": "StructureDefinition-List-lm-cen-ips.html"
+		},
+		"StructureDefinition/HealthcareProvider-lm-cen-ips": {
+			"defns": "StructureDefinition-HealthcareProvider-lm-cen-ips-definitions.html",
+			"source": "HealthcareProvider-lm-cen-ips.structuredefinition.xml",
+			"base": "StructureDefinition-HealthcareProvider-lm-cen-ips.html"
+		},
+		"StructureDefinition/AllergyIntoleranceSection-lm-cen-ips": {
+			"defns": "StructureDefinition-AllergyIntoleranceSection-lm-cen-ips-definitions.html",
+			"source": "AllergyIntoleranceSection-lm-cen-ips.structuredefinition.xml",
+			"base": "StructureDefinition-AllergyIntoleranceSection-lm-cen-ips.html"
+		},
+		"StructureDefinition/AllergyIntolerance-lm-cen-ips": {
+			"defns": "StructureDefinition-AllergyIntolerance-lm-cen-ips-definitions.html",
+			"source": "AllergyIntolerance-lm-cen-ips.structuredefinition.xml",
+			"base": "StructureDefinition-AllergyIntolerance-lm-cen-ips.html"
+		},
+		"ConceptMap/AllergyIntolerance-cp-cen-fhir-ips": {
+			"base": "AllergyIntolerance-cp-cen-fhir-ips.html"
+		},
+		"StructureDefinition/ProblemsSection-lm-cen-ips": {
+			"defns": "ProblemsSection.html",
+			"source": "ProblemsSection-lm-cen-ips.structuredefinition.xml",
+			"base": "StructureDefinition-ProblemsSection-lm-cen-ips.html"
+		},
+		"StructureDefinition/Problem-lm-cen-ips": {
+			"defns": "StructureDefinition-Problem-lm-cen-ips-definitions.html",
+			"source": "Problem-lm-cen-ips.structuredefinition.xml",
+			"base": "StructureDefinition-Problem-lm-cen-ips.html"
+		},
+		"ValueSet/allergy-intolerance-substance-condition-uv-ips": {
+			"source": "valueset-allergy-intolerance-substance-condition-uv-ips.xml",
+			"base": "ValueSet-allergy-intolerance-substance-condition-uv-ips.html"
+		},
+		"ValueSet/allergy-reaction-uv-ips": {
+			"source": "valueset-allergy-reaction-uv-ips.xml",
+			"base": "ValueSet-allergy-reaction-uv-ips.html"
+		},
+		"ValueSet/condition-severity-uv-ips": {
+			"source": "valueset-condition-severity-uv-ips.xml",
+			"base": "ValueSet-condition-severity-uv-ips.html"
+		},
+		"ValueSet/healthcare-professional-roles-uv-ips": {
+			"source": "valueset-healthcare-professional-roles-uv-ips.xml",
+			"base": "ValueSet-healthcare-professional-roles-uv-ips.html"
+		},
+		"ValueSet/condition-severity-uv-ips": {
+			"source": "valueset-condition-severity-uv-ips.xml",
+			"base": "ValueSet-condition-severity-uv-ips.html"
+		},
+		"ValueSet/absent-or-unknown-allergies-uv-ips": {
+			"source": "valueset-absent-or-unknown-allergies-uv-ips.xml",
+			"base": "ValueSet-absent-or-unknown-allergies-uv-ips.html"
+		}
+	}
+}

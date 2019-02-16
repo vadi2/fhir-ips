@@ -23,11 +23,11 @@
 				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/LabelConcept-lm-cen-ips"/>
 			</type>
 		</element>
-		<element id="AllergyorIntolerance.AllergyIntoleranceDescription">
+		<element id="AllergyorIntolerance.Description">
 			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
 				<valueCode value="R"/>
 			</extension>
-			<path value="AllergyorIntolerance.AllergyIntoleranceDescription"/>
+			<path value="AllergyorIntolerance.Description"/>
 			<short value="Allergy or Intolerance description"/>
 			<definition value="Textual description of the allergy or intolerance.
 Derived models may choose to use distinct elements for each narrative statement or to collect them into a single section level narrative block." />

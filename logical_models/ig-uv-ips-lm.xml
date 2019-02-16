@@ -1,0 +1,148 @@
+<ImplementationGuide xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../__FHIRr4Tools/fhir-all-xsd/implementationguide.xsd">
+	<id value="ig-uv-ips"/>
+	<url value="http://hl7.org/fhir/uv/ips/ImplementationGuide/ig-uv-ips"/>
+	<version value="0.3.0"/>
+	<name value="International_Patient_Summary_Implementation_Guide"/>
+	<title value="International Patient Summary Implementation Guide"/>
+	<status value="active"/>
+	<publisher value="Health Level Seven International"/>
+	<packageId value="hl7.fhir.uv.ips"/>
+	<fhirVersion value="4.0.0"/>
+	<definition>
+		<grouping>
+			<name value="base"/>
+		</grouping>
+		<resource>
+			<reference>
+				<reference value="ValueSet/absent-or-unknown-allergies-uv-ips"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/allergy-intolerance-substance-condition-uv-ips"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/allergy-reaction-uv-ips"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/condition-severity-uv-ips"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="CodeSystem/absent-unknown-uv-ips"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/CodeableConcept-uv-ips"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/abatement-dateTime-uv-ips"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/Coding-uv-ips"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/participant-uv-ips"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/Patient-uv-ips"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/Practitioner-uv-ips"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/statement-uv-ips"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/AllergyIntolerance-uv-ips"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/conformance-cen-ips"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/CodedElement-lm-cen-ips"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/LabelConcept-lm-cen-ips"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/Text-lm-cen-ips"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/DateTime-lm-cen-ips"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/List-lm-cen-ips"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/HealthcareProvider-lm-cen-ips"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/AllergyIntoleranceSection-lm-cen-ips"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/AllergyIntolerance-lm-cen-ips"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/ProblemsSection-lm-cen-ips"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/Problem-lm-cen-ips"/>
+			</reference>
+		</resource>
+		<page>
+			<nameUrl value="index.md"/>
+			<title value="International Patient Summary Home"/>
+			<generation value="markdown"/>
+			<!--
+			<page>
+				<nameReference value="_includes/toc.md"/>
+				<title value="International Patient Summary Table of Contents"/>
+				<generation value="markdown"/>
+			</page>
+			-->
+		</page>
+	</definition>
+</ImplementationGuide>
