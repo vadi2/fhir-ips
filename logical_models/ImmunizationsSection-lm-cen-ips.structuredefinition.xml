@@ -67,7 +67,7 @@ A predicate that tests if any immunizations have been performed."/>
 			<min value="0"/>
 			<max value="*"/>
 			<type>
-				<code value="List"/>
+				<code value="List-lm-cen-ips"/>
 				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/List-lm-cen-ips"/>
 			</type>
 		</element>

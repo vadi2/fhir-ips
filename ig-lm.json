@@ -69,12 +69,6 @@
 		"AllergyIntolerance": {
 			"template-base": "ex.html"
 		},
-		"Observation": {
-			"template-base": "ex.html"
-		},
-		"OperationDefinition": {
-			"template-base": "base.html"
-		},
 		"ValueSet": {
 			"template-base": "base.html"
 		}
@@ -137,34 +131,34 @@
 			"base": "StructureDefinition-conformance-cen-ips.html"
 		},
 		"StructureDefinition/LabelConcept-lm-cen-ips": {
-			"defns": "StructureDefinition-LabelConcept-lm-cen-ips-definitions.html",
+			"defns": "LabelConcept-lm-cen-ips-definitions.html",
 			"source": "LabelConcept-lm-cen-ips.structuredefinition.xml",
-			"base": "StructureDefinition-LabelConcept-lm-cen-ips.html"
+			"base": "LabelConcept-lm-cen-ips.html"
 		},
 		"StructureDefinition/CodedElement-lm-cen-ips": {
-			"defns": "StructureDefinition-CodedElement-lm-cen-ips-definitions.html",
+			"defns": "CodedElement-lm-cen-ips-definitions.html",
 			"source": "CodedElement-lm-cen-ips.structuredefinition.xml",
-			"base": "StructureDefinition-CodedElement-lm-cen-ips.html"
+			"base": "CodedElement-lm-cen-ips.html"
 		},
 		"StructureDefinition/Text-lm-cen-ips": {
-			"defns": "StructureDefinition-Text-lm-cen-ips-definitions.html",
+			"defns": "Text-lm-cen-ips-definitions.html",
 			"source": "Text-lm-cen-ips.structuredefinition.xml",
-			"base": "StructureDefinition-Text-lm-cen-ips.html"
+			"base": "Text-lm-cen-ips.html"
 		},
 		"StructureDefinition/DateTime-lm-cen-ips": {
-			"defns": "StructureDefinition-DateTime-lm-cen-ips-definitions.html",
+			"defns": "DateTime-lm-cen-ips-definitions.html",
 			"source": "DateTime-lm-cen-ips.structuredefinition.xml",
-			"base": "StructureDefinition-DateTime-lm-cen-ips.html"
+			"base": "DateTime-lm-cen-ips.html"
 		},
 		"StructureDefinition/List-lm-cen-ips": {
-			"defns": "StructureDefinition-List-lm-cen-ips-definitions.html",
+			"defns": "List-lm-cen-ips-definitions.html",
 			"source": "List-lm-cen-ips.structuredefinition.xml",
-			"base": "StructureDefinition-List-lm-cen-ips.html"
+			"base": "List-lm-cen-ips.html"
 		},
 		"StructureDefinition/HealthcareProvider-lm-cen-ips": {
-			"defns": "StructureDefinition-HealthcareProvider-lm-cen-ips-definitions.html",
+			"defns": "HealthcareProvider-lm-cen-ips-definitions.html",
 			"source": "HealthcareProvider-lm-cen-ips.structuredefinition.xml",
-			"base": "StructureDefinition-HealthcareProvider-lm-cen-ips.html"
+			"base": "HealthcareProvider-lm-cen-ips.html"
 		},
 		"StructureDefinition/AllergyIntoleranceSection-lm-cen-ips": {
 			"defns": "StructureDefinition-AllergyIntoleranceSection-lm-cen-ips-definitions.html",
@@ -190,7 +184,7 @@
 			"base": "StructureDefinition-Problem-lm-cen-ips.html"
 		},
 		"StructureDefinition/ImmunizationsSection-lm-cen-ips": {
-			"defns": "ImmunizationsSection.html",
+			"defns": "StructureDefinition-ImmunizationsSection.html",
 			"source": "ImmunizationsSection-lm-cen-ips.structuredefinition.xml",
 			"base": "StructureDefinition-ImmunizationsSection-lm-cen-ips.html"
 		},
@@ -211,10 +205,10 @@
     },		
 		
 		
-		    "StructureDefinition/device-lm-cen-ips": {
-      "defns": "StructureDefinition-device-lm-cen-ips-definitions.html",
+		    "StructureDefinition/Device-lm-cen-ips": {
+      "defns": "Device-lm-cen-ips-definitions.html",
       "source": "Device-lm-cen-ips.structuredefinition.xml",
-      "base": "StructureDefinition-device-lm-cen-ips.html"
+      "base": "Device-lm-cen-ips.html"
     },    "StructureDefinition/medicaldevicessection-lm-cen-ips": {
       "defns": "StructureDefinition-medicaldevicessection-lm-cen-ips-definitions.html",
       "source": "MedicalDevicesSection-lm-cen-ips.structuredefinition.xml",
