@@ -54,22 +54,12 @@
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/participant-uv-ips"/>
-			</reference>
-		</resource>
-		<resource>
-			<reference>
 				<reference value="StructureDefinition/Patient-uv-ips"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
 				<reference value="StructureDefinition/Practitioner-uv-ips"/>
-			</reference>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/statement-uv-ips"/>
 			</reference>
 		</resource>
 		<resource>

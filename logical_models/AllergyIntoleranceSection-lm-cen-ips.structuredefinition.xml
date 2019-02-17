@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../__FHIRr4Tools/fhir-all-xsd/structuredefinition.xsd">
 	<id value="AllergyIntoleranceSection-lm-cen-ips"/>
 	<url value="http://hl7.org/fhir/uv/ips/StructureDefinition/AllergyIntoleranceSection-lm-cen-ips"/>
-	<name value="AllergyIntoleranceSection-lm-cen-ips"/>
+	<name value="AllergyIntoleranceSection"/>
 	<title value="Allergies and Intolerances Section (EN 17269)"/>
 	<status value="draft"/>
 	<description value="Relevant patient’s allergies and/or intolerance conditions.
@@ -57,7 +57,7 @@ NOTE	‘Alerts’ was used to describe this Section in the eHN guidance -lines, 
 			<min value="0"/>
 			<max value="*"/>
 			<type>
-				<code value="CodedElement"/>
+				<code value="CodedElement-lm-cen-ips"/>
 				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/CodedElement-lm-cen-ips"/>
 			</type>
 		</element>

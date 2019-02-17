@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../__FHIRr4Tools/fhir-all-xsd/structuredefinition.xsd">
 	<id value="MedicalDevicesSection-lm-cen-ips"/>
 	<url value="http://hl7.org/fhir/uv/ips/StructureDefinition/MedicalDevicesSection-lm-cen-ips"/>
-	<name value="MedicalDevicesSection-lm-cen-ips"/>
+	<name value="MedicalDevicesSection"/>
 	<title value="MedicalDevices Section (EN 17269)"/>
 	<status value="draft"/>
 	<description value="Devices that are implanted in the patient and external medical devices and equipment that the health status depends on."/>
@@ -43,7 +43,7 @@
 			<min value="0"/>
 			<max value="*"/>
 			<type>
-				<code value="CodedElement"/>
+				<code value="CodedElement-lm-cen-ips"/>
 				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/CodedElement-lm-cen-ips"/>
 			</type>
 		</element>

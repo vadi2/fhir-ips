@@ -1,1 +1,1 @@
-# AllergyIntoleranceSection-lm-cen-ips-summary.md  file
+# allergyintolerancesection-lm-cen-ips-summary.md file

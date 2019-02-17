@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../__FHIRr4Tools/fhir-all-xsd/structuredefinition.xsd">
 	<id value="Device-lm-cen-ips"/>
 	<url value="http://hl7.org/fhir/uv/ips/StructureDefinition/Device-lm-cen-ips"/>
-	<name value="Device-lm-cen-ips"/>
+	<name value="Device"/>
 	<title value="Device (EN 17269)"/>
 	<status value="draft"/>
 	<description value="Each member of the list describes the type of Device and identifies the actual Device performed and when it happened."/>
@@ -48,7 +48,7 @@ Unique and normalized identifier of the device"/>
 			<min value="0"/>
 			<max value="*"/>
 			<type>
-				<code value="Identifier"/> 
+				<code value="Identifier-lm-cen-ips"/> 
 				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/Identifier-lm-cen-ips"/>
 			</type>
 		</element>
@@ -62,7 +62,7 @@ Unique and normalized identifier of the device"/>
 			<min value="0"/>
 			<max value="*"/>
 			<type>
-				<code value="DateTime"/> 
+				<code value="DateTime-lm-cen-ips"/> 
 				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/DateTime-lm-cen-ips"/>
 			</type>
 		</element>

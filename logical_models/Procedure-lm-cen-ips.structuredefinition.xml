@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../__FHIRr4Tools/fhir-all-xsd/structuredefinition.xsd">
 	<id value="Procedure-lm-cen-ips"/>
 	<url value="http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-lm-cen-ips"/>
-	<name value="Procedure-lm-cen-ips"/>
+	<name value="Procedure"/>
 	<title value="Procedure (EN 17269)"/>
 	<status value="draft"/>
 	<description value="Each member of the list describes the type of procedure and identifies the actual procedure performed and when it happened."/>
@@ -19,7 +19,7 @@
 			<min value="0"/>
 			<max value="*"/>
 			<type>
-				<code value="LabelConcept"/>
+				<code value="LabelConcept-lm-cen-ips"/>
 				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/LabelConcept-lm-cen-ips"/>
 			</type>
 		</element>
@@ -32,7 +32,7 @@
 			<min value="0"/>
 			<max value="*"/>
 			<type>
-				<code value="CodedElement"/>
+				<code value="CodedElement-lm-cen-ips"/>
 				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/CodedElement-lm-cen-ips"/>
 			</type>
 		</element>
@@ -47,7 +47,7 @@ Derived models may choose to use distinct elements for each narrative statement 
 			<min value="0"/>
 			<max value="*"/>
 			<type>
-				<code value="Text"/>
+				<code value="Text-lm-cen-ips"/>
 				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/Text-lm-cen-ips"/>
 			</type>
 		</element>
@@ -61,7 +61,7 @@ Derived models may choose to use distinct elements for each narrative statement 
 			<min value="0"/>
 			<max value="*"/>
 			<type>
-				<code value="CodedElement"/>
+				<code value="CodedElement-lm-cen-ips"/>
 				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/CodedElement-lm-cen-ips"/>
 			</type>
 		</element>
@@ -74,7 +74,7 @@ Derived models may choose to use distinct elements for each narrative statement 
 			<min value="0"/>
 			<max value="*"/>
 			<type>
-				<code value="DateTime"/>
+				<code value="DateTime-lm-cen-ips"/>
 				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/DateTime-lm-cen-ips"/>
 			</type>
 		</element>

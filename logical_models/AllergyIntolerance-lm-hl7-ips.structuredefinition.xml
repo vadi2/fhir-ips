@@ -10,7 +10,7 @@
 		<div xmlns="http://www.w3.org/1999/xhtml">This Logical Model documents the relevant allergies or intolerances (conditions) for a patient, describing the kind of reaction (e.g. rash, anaphylaxis,..); preferably the agents that cause it; and optionally the criticality and the certainty of the allergy.</div>
 	</text>
 	<url value="http://hl7.org/fhir/uv/ips/StructureDefinition/AllergyIntolerance-lm-hl7-ips"/>
-	<name value="AllergyIntolerance-lm-hl7-ips"/>
+	<name value="AllergyIntolerance"/>
 	<title value="Allergy Intolerance (HL7 IPS)"/>
 	<status value="draft"/>
 	<date value="2018-02-14T07:57:18.78-06:00"/>
@@ -28,7 +28,7 @@
 			<min value="0"/>
 			<max value="*"/>
 			<type>
-				<code value="LabelConcept"/>
+				<code value="LabelConcept-lm-cen-ips"/>
 				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/LabelConcept-lm-cen-ips"/>
 			</type>
 		</element>
@@ -44,7 +44,7 @@
 			<min value="0"/>
 			<max value="*"/>
 			<type>
-				<code value="CodedElement"/>
+				<code value="CodedElement-lm-cen-ips"/>
 				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/CodedElement-lm-cen-ips"/>
 			</type>
 		</element>
@@ -65,7 +65,7 @@ Format: Coded information:  Value set should include:
 			<min value="0"/>
 			<max value="*"/>
 			<type>
-				<code value="CodedElement"/>
+				<code value="CodedElement-lm-cen-ips"/>
 				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/CodedElement-lm-cen-ips"/>
 			</type>
 		</element>
@@ -82,7 +82,7 @@ Value set should include:
 			<min value="0"/>
 			<max value="*"/>
 			<type>
-				<code value="CodedElement"/>
+				<code value="CodedElement-lm-cen-ips"/>
 				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/CodedElement-lm-cen-ips"/>
 			</type>
 		</element>
@@ -96,7 +96,7 @@ Value set should include:
 			<min value="0"/>
 			<max value="*"/>
 			<type>
-				<code value="DateTime"/>
+				<code value="DateTime-lm-cen-ips"/>
 				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/DateTime-lm-cen-ips"/>
 			</type>
 		</element>
@@ -108,7 +108,7 @@ It shall be provided with the highest known precision, at least year." />
 			<min value="0"/>
 			<max value="*"/>
 			<type>
-				<code value="DateTime"/>
+				<code value="DateTime-lm-cen-ips"/>
 				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/DateTime-lm-cen-ips"/>
 			</type>
 		</element>
@@ -130,7 +130,7 @@ Example: lactose intolerance" />
 			<min value="0"/>
 			<max value="*"/>
 			<type>
-				<code value="CodedElement"/>
+				<code value="CodedElement-lm-cen-ips"/>
 				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/CodedElement-lm-cen-ips"/>
 			</type>
 		</element>
@@ -144,7 +144,7 @@ Example: lactose intolerance" />
 			<min value="0"/>
 			<max value="*"/>
 			<type>
-				<code value="LabelConcept"/>
+				<code value="LabelConcept-lm-cen-ips"/>
 				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/LabelConcept-lm-cen-ips"/>
 			</type>
 		</element>
@@ -160,7 +160,7 @@ Example: “intestinal discomfort” is the manifestation of the reaction." />
 			<min value="0"/>
 			<max value="*"/>
 			<type>
-				<code value="CodedElement"/>
+				<code value="CodedElement-lm-cen-ips"/>
 				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/CodedElement-lm-cen-ips"/>
 			</type>
 		</element>
@@ -175,7 +175,7 @@ Example: “intestinal discomfort” is the manifestation of the reaction." />
 			<min value="0"/>
 			<max value="1"/>
 			<type>
-				<code value="DateTime"/>
+				<code value="DateTime-lm-cen-ips"/>
 				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/DateTime-lm-cen-ips"/>
 			</type>
 		</element>
@@ -189,7 +189,7 @@ Example: “intestinal discomfort” is the manifestation of the reaction." />
 			<min value="0"/>
 			<max value="*"/>
 			<type>
-				<code value="CodedElement"/>
+				<code value="CodedElement-lm-cen-ips"/>
 				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/CodedElement-lm-cen-ips"/>
 			</type>
 		</element>
@@ -202,7 +202,7 @@ Example: “intestinal discomfort” is the manifestation of the reaction." />
 			<min value="0"/>
 			<max value="*"/>
 			<type>
-				<code value="LabelConcept"/>
+				<code value="LabelConcept-lm-cen-ips"/>
 				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/LabelConcept-lm-cen-ips"/>
 			</type>
 		</element>
@@ -216,7 +216,7 @@ Example: “intestinal discomfort” is the manifestation of the reaction." />
 			<min value="0"/>
 			<max value="*"/>
 			<type>
-				<code value="CodedElement"/>
+				<code value="CodedElement-lm-cen-ips"/>
 				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/CodedElement-lm-cen-ips"/>
 			</type>
 		</element>
@@ -233,7 +233,7 @@ Example: “intestinal discomfort” is the manifestation of the reaction." />
 			<min value="0"/>
 			<max value="*"/>
 			<type>
-				<code value="CodedElement"/>
+				<code value="CodedElement-lm-cen-ips"/>
 				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/CodedElement-lm-cen-ips"/>
 			</type>
 		</element>

@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../__FHIRr4Tools/fhir-all-xsd/structuredefinition.xsd">
 	<id value="Immunization-lm-cen-ips"/>
 	<url value="http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-lm-cen-ips"/>
-	<name value="Immunization-lm-cen-ips"/>
+	<name value="Immunization"/>
 	<title value="Immunization (EN 17269)"/>
 	<status value="draft"/>
 	<description value="A container for information related to information of the vaccine and its administration."/>
@@ -19,7 +19,7 @@
 			<min value="0"/>
 			<max value="*"/>
 			<type>
-				<code value="LabelConcept"/>
+				<code value="LabelConcept-lm-cen-ips"/>
 				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/LabelConcept-lm-cen-ips"/>
 			</type>
 		</element>
@@ -29,11 +29,11 @@
 			</extension>
 			<path value="Immunization.Type"/>
 			<short value="Vaccine for type of disease"/>
-			<definition value="TBD"/>
+			<definition value="The type of vaccine for particular disease or diseases against which the patient has been immunised."/>
 			<min value="0"/>
 			<max value="*"/>
 			<type>
-				<code value="CodedElement"/>
+				<code value="CodedElement-lm-cen-ips"/>
 				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/CodedElement-lm-cen-ips"/>
 			</type>
 		</element>
@@ -43,7 +43,7 @@
 			</extension>
 			<path value="Immunization.TargetDiseases"/>
 			<short value="Target diseases"/>
-			<definition value="dddsddds"/>
+			<definition value="Optionally, a list of specific diseases may be given to add precision."/>
 			<min value="0"/>
 			<max value="*"/>
 			<type>
@@ -60,7 +60,7 @@
 			<min value="0"/>
 			<max value="*"/>
 			<type>
-				<code value="CodedElement"/>
+				<code value="CodedElement-lm-cen-ips"/>
 				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/CodedElement-lm-cen-ips"/>
 			</type>
 		</element>
@@ -70,11 +70,10 @@
 			</extension>
 			<path value="Immunization.DateOfImmunization"/>
 			<short value="Date of immunization"/>
-			<definition value="DDDD"/>
 			<min value="0"/>
 			<max value="*"/>
 			<type>
-				<code value="DateTime"/>
+				<code value="DateTime-lm-cen-ips"/>
 				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/DateTime-lm-cen-ips"/>
 			</type>
 		</element>
@@ -84,11 +83,13 @@
 			</extension>
 			<path value="Immunization.ProductAdministered"/>
 			<short value="Product administered"/>
-			<definition value="ddsd"/>
+			<definition value="Medicinal product administered; this may include Local product code; lot number; etc.
+At least the brand name should be provided if nothing else is available.
+Composite object identifying and describing the product that has been administered."/>
 			<min value="0"/>
 			<max value="*"/>
 			<type>
-				<code value="LabelConcept"/>
+				<code value="LabelConcept-lm-cen-ips"/>
 				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/LabelConcept-lm-cen-ips"/>
 			</type>
 		</element>
@@ -98,11 +99,10 @@
 			</extension>
 			<path value="Immunization.ProductAdministered.BrandName"/>
 			<short value="Brand name"/>
-			<definition value="ddsd"/>
 			<min value="0"/>
 			<max value="*"/>
 			<type>
-				<code value="Text"/>
+				<code value="Text-lm-cen-ips"/>
 				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/Text-lm-cen-ips"/>
 			</type>
 		</element>
@@ -112,11 +112,10 @@
 			</extension>
 			<path value="Immunization.ProductAdministrationProcess"/>
 			<short value="Product administration process"/>
-			<definition value="ddsd"/>
 			<min value="0"/>
 			<max value="*"/>
 			<type>
-				<code value="LabelConcept"/>
+				<code value="LabelConcept-lm-cen-ips"/>
 				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/LabelConcept-lm-cen-ips"/>
 			</type>
 		</element>
@@ -126,11 +125,11 @@
 			</extension>
 			<path value="Immunization.ProductAdministrationProcess.Performer"/>
 			<short value="Performer"/>
-			<definition value="ddsd"/>
+			<definition value="Healthcare provider (person, organization) who administered or supplied the vaccine.  At least name and possible identification and contact details."/>
 			<min value="0"/>
 			<max value="*"/>
 			<type>
-				<code value="HealthcareProvider"/>
+				<code value="HealthcareProvider-lm-cen-ips"/>
 				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/HealthcareProvider-lm-cen-ips"/>
 			</type>
 		</element>
@@ -140,11 +139,12 @@
 			</extension>
 			<path value="Immunization.ProductAdministrationProcess.RouteOfAdministration"/>
 			<short value="Route of administration"/>
-			<definition value="ddsd"/>
+			<definition value="To record how the patient received the vaccine.
+Path by which the pharmaceutical product is taken into or makes contact with the body [ISO 11239:2012]."/>
 			<min value="0"/>
 			<max value="*"/>
 			<type>
-				<code value="CodedElement"/>
+				<code value="CodedElement-lm-cen-ips"/>
 				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/CodedElement-lm-cen-ips"/>
 			</type>
 		</element>

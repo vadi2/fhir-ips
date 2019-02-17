@@ -1,5 +1,5 @@
-{{site.data.structuredefinitions.AllergyIntoleranceSection-lm-cen-ips-intro.name}}
+{{site.data.structuredefinitions.allergyintolerancesection-lm-cen-ips-intro.name}}
 
-{{site.data.structuredefinitions.AllergyIntoleranceSection-lm-cen-ips.description}}
+{{site.data.structuredefinitions.allergyintolerancesection-lm-cen-ips.description}}
 
-
+#### Conformance resource variables defined [here](http://wiki.hl7.org/index.php?title=IG_Publisher_Documentation#Jekyll)
