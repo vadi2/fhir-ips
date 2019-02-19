@@ -11,6 +11,31 @@
 	<type value="CodedElement"/>
 	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Element"/>
 	<derivation value="specialization"/>
+	<snapshot>
+		<element id="CodedElement">
+			<path value="CodedElement"/>
+			<short value="Coded Element"/>
+			<definition value="A concept that may be defined by a formal reference to a terminology or ontology or may be provided by text."/>
+			<min value="0"/>
+			<max value="*"/>
+			<mapping>
+				<identity value="fhir"/>
+				<map value="CodeableConcept"/>
+			</mapping>
+						<mapping>
+				<identity value="fhir"/>
+				<map value="code"/>
+			</mapping>
+			<mapping>
+				<identity value="rim"/>
+				<map value="CD"/>
+			</mapping>
+			<mapping>
+				<identity value="rim"/>
+				<map value="CS"/>
+			</mapping>
+		</element>
+	</snapshot>
 	<differential>
 		<element id="CodedElement">
 			<path value="CodedElement"/>

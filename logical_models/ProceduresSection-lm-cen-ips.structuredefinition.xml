@@ -20,7 +20,8 @@
 			<min value="0"/>
 			<max value="*"/>
 			<type>
-				<code value="Section"/>
+				<code value="Section-lm-cen-ips"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/Section-lm-cen-ips"/>
 			</type>
 			<constraint>
 				<key value="br-proc-1"/>

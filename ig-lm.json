@@ -44,7 +44,7 @@
 		},
 		"StructureDefinition": {
 			"template-mappings": "sd-mappings.html",
-			"template-base": "sd.html",
+			"template-base": "sd-lm.html",
 			"template-defns": "sd-definitions.html"
 		},
 		"Basic": {
@@ -84,8 +84,8 @@
 	"special-urls": [],
 	"sct-edition": "http://snomed.info/sct/900000000000207008",
 	"check-aggregation": true,
-	"check-mustSupport": true,
-	"hintAboutNonMustSupport": true,
+	"check-mustSupport": false,
+	"hintAboutNonMustSupport": false,
 	"resources": {
 		"StructureDefinition/Patient-uv-ips": {
 			"defns": "StructureDefinition-Patient-uv-ips-definitions.html",
@@ -166,9 +166,9 @@
 			"base": "StructureDefinition-AllergyIntoleranceSection-lm-cen-ips.html"
 		},
 		"StructureDefinition/AllergyIntolerance-lm-cen-ips": {
-			"defns": "StructureDefinition-AllergyIntolerance-lm-cen-ips-definitions.html",
+			"defns": "AllergyIntolerance-lm-cen-ips-definitions.html",
 			"source": "AllergyIntolerance-lm-cen-ips.structuredefinition.xml",
-			"base": "StructureDefinition-AllergyIntolerance-lm-cen-ips.html"
+			"base": "AllergyIntolerance-lm-cen-ips.html"
 		},
 		"ConceptMap/AllergyIntolerance-cp-cen-fhir-ips": {
 			"base": "AllergyIntolerance-cp-cen-fhir-ips.html"
@@ -176,12 +176,12 @@
 		"StructureDefinition/ProblemsSection-lm-cen-ips": {
 			"defns": "ProblemsSection.html",
 			"source": "ProblemsSection-lm-cen-ips.structuredefinition.xml",
-			"base": "StructureDefinition-ProblemsSection-lm-cen-ips.html"
+			"base": "ProblemsSection-lm-cen-ips.html"
 		},
 		"StructureDefinition/Problem-lm-cen-ips": {
-			"defns": "StructureDefinition-Problem-lm-cen-ips-definitions.html",
+			"defns": "Problem-lm-cen-ips-definitions.html",
 			"source": "Problem-lm-cen-ips.structuredefinition.xml",
-			"base": "StructureDefinition-Problem-lm-cen-ips.html"
+			"base": "Problem-lm-cen-ips.html"
 		},
 		"StructureDefinition/ImmunizationsSection-lm-cen-ips": {
 			"defns": "StructureDefinition-ImmunizationsSection.html",
@@ -189,38 +189,55 @@
 			"base": "StructureDefinition-ImmunizationsSection-lm-cen-ips.html"
 		},
 		"StructureDefinition/Immunization-lm-cen-ips": {
-			"defns": "StructureDefinition-Immunization-lm-cen-ips-definitions.html",
+			"defns": "Immunization-lm-cen-ips-definitions.html",
 			"source": "Immunization-lm-cen-ips.structuredefinition.xml",
-			"base": "StructureDefinition-Immunization-lm-cen-ips.html"
+			"base": "Immunization-lm-cen-ips.html"
 		},
-		
-    "StructureDefinition/procedure-lm-cen-ips": {
-      "defns": "StructureDefinition-procedure-lm-cen-ips-definitions.html",
-      "source": "Procedure-lm-cen-ips.structuredefinition.xml",
-      "base": "StructureDefinition-procedure-lm-cen-ips.html"
-    },    "StructureDefinition/proceduressection-lm-cen-ips": {
-      "defns": "StructureDefinition-proceduressection-lm-cen-ips-definitions.html",
-      "source": "ProceduresSection-lm-cen-ips.structuredefinition.xml",
-      "base": "StructureDefinition-proceduressection-lm-cen-ips.html"
-    },		
-		
-		
-		    "StructureDefinition/Device-lm-cen-ips": {
-      "defns": "Device-lm-cen-ips-definitions.html",
-      "source": "Device-lm-cen-ips.structuredefinition.xml",
-      "base": "Device-lm-cen-ips.html"
-    },    "StructureDefinition/medicaldevicessection-lm-cen-ips": {
-      "defns": "StructureDefinition-medicaldevicessection-lm-cen-ips-definitions.html",
-      "source": "MedicalDevicesSection-lm-cen-ips.structuredefinition.xml",
-      "base": "StructureDefinition-medicaldevicessection-lm-cen-ips.html"
-    },
-    
-        "StructureDefinition/identifier-lm-cen-ips": {
-      "defns": "StructureDefinition-identifier-lm-cen-ips-definitions.html",
-      "source": "Identifier-lm-cen-ips.structuredefinition.xml",
-      "base": "StructureDefinition-identifier-lm-cen-ips.html"
-    },
-		
+		"StructureDefinition/Procedure-lm-cen-ips": {
+			"defns": "Procedure-lm-cen-ips-definitions.html",
+			"source": "Procedure-lm-cen-ips.structuredefinition.xml",
+			"base": "Procedure-lm-cen-ips.html"
+		},
+		"StructureDefinition/proceduressection-lm-cen-ips": {
+			"defns": "StructureDefinition-proceduressection-lm-cen-ips-definitions.html",
+			"source": "ProceduresSection-lm-cen-ips.structuredefinition.xml",
+			"base": "StructureDefinition-proceduressection-lm-cen-ips.html"
+		},
+		"StructureDefinition/Device-lm-cen-ips": {
+			"defns": "Device-lm-cen-ips-definitions.html",
+			"source": "Device-lm-cen-ips.structuredefinition.xml",
+			"base": "Device-lm-cen-ips.html"
+		},
+		"StructureDefinition/MedicalDevicesSection-lm-cen-ips": {
+			"defns": "StructureDefinition-MedicalDevicesSection-lm-cen-ips-definitions.html",
+			"source": "MedicalDevicesSection-lm-cen-ips.structuredefinition.xml",
+			"base": "StructureDefinition-MedicalDevicesSection-lm-cen-ips.html"
+		},
+		"StructureDefinition/Identifier-lm-cen-ips": {
+			"defns": "Identifier-lm-cen-ips-definitions.html",
+			"source": "Identifier-lm-cen-ips.structuredefinition.xml",
+			"base": "Identifier-lm-cen-ips.html"
+		},
+		"StructureDefinition/LifestyleFactor-lm-cen-ips": {
+			"defns": "LifestyleFactor-lm-cen-ips-definitions.html",
+			"source": "LifestyleFactor-lm-cen-ips.structuredefinition.xml",
+			"base": "LifestyleFactor-lm-cen-ips.html"
+		},
+		"StructureDefinition/Period-lm-cen-ips": {
+			"defns": "Period-lm-cen-ips-definitions.html",
+			"source": "Period-lm-cen-ips.structuredefinition.xml",
+			"base": "Period-lm-cen-ips.html"
+		},
+		"StructureDefinition/Section-lm-cen-ips": {
+			"defns": "Section-lm-cen-ips-definitions.html",
+			"source": "Section-lm-cen-ips.structuredefinition.xml",
+			"base": "Section-lm-cen-ips.html"
+		},
+		"StructureDefinition/SocialHistorySection-lm-cen-ips": {
+			"defns": "SocialHistorySection-lm-cen-ips-definitions.html",
+			"source": "SocialHistorySection-lm-cen-ips.structuredefinition.xml",
+			"base": "SocialHistorySection-lm-cen-ips.html"
+		},
 		"ValueSet/allergy-intolerance-substance-condition-uv-ips": {
 			"source": "valueset-allergy-intolerance-substance-condition-uv-ips.xml",
 			"base": "ValueSet-allergy-intolerance-substance-condition-uv-ips.html"

@@ -11,6 +11,15 @@
 	<type value="Identifier"/>
 	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Element"/>
 	<derivation value="specialization"/>
+	<snapshot>
+		<element id="Identifier">
+			<path value="Identifier"/>
+			<short value="Identifier"/>
+			<definition value="An element that uniquely identifies a thing or an object."/>
+			<min value="0"/>
+			<max value="*"/>
+		</element>
+	</snapshot>
 	<differential>
 		<element id="Identifier">
 			<path value="Identifier"/>

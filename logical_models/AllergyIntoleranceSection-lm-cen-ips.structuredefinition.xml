@@ -24,7 +24,8 @@ NOTE	‘Alerts’ was used to describe this Section in the eHN guidance -lines, 
 			<min value="0"/>
 			<max value="*"/>
 			<type>
-				<code value="Section"/>
+				<code value="Section-lm-cen-ips"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/Section-lm-cen-ips"/>
 			</type>
 			<constraint>
 				<key value="el-1"/>
@@ -84,7 +85,7 @@ NOTE	‘Alerts’ was used to describe this Section in the eHN guidance -lines, 
 			<min value="0"/>
 			<max value="*"/>
 			<type>
-				<code value="AllergyorIntolerance"/>
+				<code value="AllergyIntolerance-lm-cen-ips"/>
 				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/AllergyIntolerance-lm-cen-ips"/>
 			</type>
 		</element>

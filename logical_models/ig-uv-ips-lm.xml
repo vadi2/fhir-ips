@@ -67,11 +67,14 @@
 				<reference value="StructureDefinition/AllergyIntolerance-uv-ips"/>
 			</reference>
 		</resource>
+		<!-- Extensions begin -->
 		<resource>
 			<reference>
 				<reference value="StructureDefinition/conformance-cen-ips"/>
 			</reference>
 		</resource>
+		<!-- Extensions end-->
+		<!-- Data Types begin-->
 		<resource>
 			<reference>
 				<reference value="StructureDefinition/CodedElement-lm-cen-ips"/>
@@ -102,13 +105,23 @@
 				<reference value="StructureDefinition/HealthcareProvider-lm-cen-ips"/>
 			</reference>
 		</resource>
-		
-				<resource>
+		<resource>
 			<reference>
 				<reference value="StructureDefinition/Identifier-lm-cen-ips"/>
 			</reference>
 		</resource>
-		
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/Section-lm-cen-ips"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/Period-lm-cen-ips"/>
+			</reference>
+		</resource>
+		<!-- Data Types end -->
+		<!-- Logical Models begin-->
 		<resource>
 			<reference>
 				<reference value="StructureDefinition/AllergyIntoleranceSection-lm-cen-ips"/>
@@ -129,8 +142,6 @@
 				<reference value="StructureDefinition/Problem-lm-cen-ips"/>
 			</reference>
 		</resource>
-		
-
 		<resource>
 			<reference>
 				<reference value="StructureDefinition/ImmunizationsSection-lm-cen-ips"/>
@@ -141,9 +152,7 @@
 				<reference value="StructureDefinition/Immunization-lm-cen-ips"/>
 			</reference>
 		</resource>
-		
-		
-	<resource>
+		<resource>
 			<reference>
 				<reference value="StructureDefinition/ProceduresSection-lm-cen-ips"/>
 			</reference>
@@ -152,10 +161,8 @@
 			<reference>
 				<reference value="StructureDefinition/Procedure-lm-cen-ips"/>
 			</reference>
-		</resource>		
-		
-		
-			<resource>
+		</resource>
+		<resource>
 			<reference>
 				<reference value="StructureDefinition/MedicalDevicesSection-lm-cen-ips"/>
 			</reference>
@@ -164,9 +171,18 @@
 			<reference>
 				<reference value="StructureDefinition/Device-lm-cen-ips"/>
 			</reference>
-		</resource>	
-		
-		
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/SocialHistorySection-lm-cen-ips"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/LifestyleFactor-lm-cen-ips"/>
+			</reference>
+		</resource>
+		<!-- Logical Models end-->
 		<page>
 			<nameUrl value="index.md"/>
 			<title value="International Patient Summary Home"/>

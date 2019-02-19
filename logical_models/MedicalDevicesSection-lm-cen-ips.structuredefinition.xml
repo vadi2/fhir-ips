@@ -3,7 +3,7 @@
 	<id value="MedicalDevicesSection-lm-cen-ips"/>
 	<url value="http://hl7.org/fhir/uv/ips/StructureDefinition/MedicalDevicesSection-lm-cen-ips"/>
 	<name value="MedicalDevicesSection"/>
-	<title value="MedicalDevices Section (EN 17269)"/>
+	<title value="Medical Devices Section (EN 17269)"/>
 	<status value="draft"/>
 	<description value="Devices that are implanted in the patient and external medical devices and equipment that the health status depends on."/>
 	<purpose value="To inform the reader that the patient has internal and/or external devices, and these may need to be taken into account in any planned treatment or intervention."/>
@@ -20,7 +20,8 @@
 			<min value="0"/>
 			<max value="*"/>
 			<type>
-				<code value="Section"/>
+				<code value="Section-lm-cen-ips"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/Section-lm-cen-ips"/>
 			</type>
 			<constraint>
 				<key value="br-md-1"/>

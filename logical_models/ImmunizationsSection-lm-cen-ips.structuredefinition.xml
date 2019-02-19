@@ -22,7 +22,8 @@ It may include a complete vaccination history"/>
 			<min value="0"/>
 			<max value="*"/>
 			<type>
-				<code value="Section"/>
+				<code value="Section-lm-cen-ips"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/Section-lm-cen-ips"/>
 			</type>
 			<constraint>
 				<key value="br-imm-1"/>
@@ -81,7 +82,7 @@ A predicate that tests if any immunizations have been performed."/>
 			<min value="1"/>
 			<max value="*"/>
 			<type>
-				<code value="Immunization"/>
+				<code value="Immunization-lm-cen-ips"/>
 				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-lm-cen-ips"/>
 			</type>
 		</element>

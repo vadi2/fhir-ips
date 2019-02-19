@@ -20,20 +20,21 @@
 			<min value="0"/>
 			<max value="*"/>
 			<type>
-				<code value="Section"/>
+				<code value="Section-lm-cen-ips"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/Section-lm-cen-ips"/>
 			</type>
 			<constraint>
-				<key value="el-1"/>
+				<key value="br-prob-1"/>
 				<severity value="error"/>
 				<human value="This is a required IPS Section for conformance and shall not be empty; at the least, some statement is given explaining the missing data."/>
 			</constraint>
 			<constraint>
-				<key value="el-2"/>
+				<key value="br-prob-2"/>
 				<severity value="error"/>
 				<human value="If content status positive then Current Problems list SHALL be non-empty AND the content status SHALL be omitted."/>
 			</constraint>
 			<constraint>
-				<key value="el-3"/>
+				<key value="br-prob-3"/>
 				<severity value="error"/>
 				<human value="If content status records absence then Current Problems List SHALL be empty or omitted."/>
 			</constraint>
@@ -76,7 +77,7 @@
 			<min value="1"/>
 			<max value="*"/>
 			<type>
-				<code value="Problem"/>
+				<code value="Problem-lm-cen-ips"/>
 				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/Problem-lm-cen-ips"/>
 			</type>
 		</element>

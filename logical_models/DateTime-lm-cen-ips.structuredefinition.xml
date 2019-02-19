@@ -16,6 +16,42 @@ Business Rules:
 	<type value="DateTime"/>
 	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Element"/>
 	<derivation value="specialization"/>
+	<snapshot>
+		<element id="DateTime">
+			<path value="DateTime"/>
+			<short value="Date Time"/>
+			<definition value="A quantity specifying a point on the axis of natural time. It might be a complete or a partial date (e.g. just year or year + month). It may indicate the time zone."/>
+			<min value="0"/>
+			<max value="*"/>
+			<constraint>
+				<key value="el-1"/>
+				<severity value="error"/>
+				<human value="	Dates SHALL be valid dates"/>
+			</constraint>
+				<constraint>
+				<key value="el-2"/>
+				<severity value="error"/>
+				<human value="	If no additional constraints have been specified (e.g. day precision), at least a full year SHALL be specified"/>
+			</constraint>
+					<constraint>
+				<key value="el-3"/>
+				<severity value="error"/>
+				<human value="If the time is provided the time zone SHALL be indicated."/>
+			</constraint>
+			<mapping>
+				<identity value="fhir"/>
+				<map value="Date"/>
+			</mapping>
+			<mapping>
+				<identity value="fhir"/>
+				<map value="dateTime"/>
+			</mapping>
+			<mapping>
+				<identity value="rim"/>
+				<map value="TS"/>
+			</mapping>
+		</element>
+	</snapshot>
 	<differential>
 		<element id="DateTime">
 			<path value="DateTime"/>
