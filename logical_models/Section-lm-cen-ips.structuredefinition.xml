@@ -11,15 +11,6 @@
 	<type value="Section"/>
 	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Element"/>
 	<derivation value="specialization"/>
-	<snapshot>
-		<element id="Section">
-			<path value="Section"/>
-			<short value="Section"/>
-			<definition value="Healthcare-specific content grouped with respect to clinical utility for inclusion in the IPS Document"/>
-			<min value="0"/>
-			<max value="*"/>
-		</element>
-	</snapshot>
 	<differential>
 		<element id="Section">
 			<path value="Section"/>

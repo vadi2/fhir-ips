@@ -118,9 +118,6 @@ This Implementation Guide is being balloted as STU with the intention to go norm
 | --- | --- | --- | --- |
 | **Primary Editor** | Giorgio Cangioli, PhD | Consultant, HL7 Italy | giorgio.cangioli@gmail.com |
 | **Primary Editor** | Rob Hausam | Hausam Consulting LLC | rob@hausamconsulting.com |
-| **Primary Editor** |  Dr Kai U. Heitmann | Heitmann Consulting and Services, Gefyra GmbH, HL7 Germany | info@kheitmann.de  
-| **Primary Editor** | François Macary | Phast | francois.macary@phast.fr |
-| **Contributor** | Dr Christof Geßner | Gematik | christof.gessner@gematik.de |
-| **Contributor** | Gary Dickinson | CentriHealth | gary.dickinson@ehr-standards.com |
-| **Contributor** | Catherine Chronaki | HL7 International Foundation | chronaki@gmail.com |
+| **Primary Editor** | Michael van der Zel  | xxx | xxx  
+| **Primary Editor** | Steve Kay | xxx | xxx |
 

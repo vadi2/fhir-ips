@@ -28,22 +28,22 @@ NOTE	‘Alerts’ was used to describe this Section in the eHN guidance -lines, 
 				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/Section-lm-cen-ips"/>
 			</type>
 			<constraint>
-				<key value="el-1"/>
+				<key value="br-1"/>
 				<severity value="error"/>
 				<human value="This is a required IPS Section and must be in the document. Unknown and known absence should be stated explicitly."/>
 			</constraint>
 			<constraint>
-				<key value="el-2"/>
+				<key value="br-2"/>
 				<severity value="error"/>
 				<human value="If ‘there is content’ then Allergies and Intolerances list SHALL be non-empty AND the content status SHALL be omitted. (i.e. it is not Required)"/>
 			</constraint>
 			<constraint>
-				<key value="el-3"/>
+				<key value="br-3"/>
 				<severity value="error"/>
 				<human value="If content status records absence then Allergies and Intolerances list SHALL be omitted"/>
 			</constraint>
 			<constraint>
-				<key value="el-4"/>
+				<key value="br-4"/>
 				<severity value="error"/>
 				<human value="End Date SHALL be given if Clinical Status indicates ‘resolved’"/>
 			</constraint>

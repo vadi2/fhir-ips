@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../__FHIRr4Tools/fhir-all-xsd/structuredefinition.xsd">
+	<id value="PregnancyHistorySection-lm-cen-ips"/>
+	<url value="http://hl7.org/fhir/uv/ips/StructureDefinition/PregnancyHistorySection-lm-cen-ips"/>
+	<name value="PregnancyHistorySection"/>
+	<title value="History of Pregnancy Section (EN 17269)"/>
+	<status value="draft"/>
+	<description value="Considered to be generic to the English language and not specific to this standard."/>
+	<purpose value="To present the current health state of the woman with respect to pregnancy and to provide chronological and outcome information about past pregnancies."/>
+	<kind value="logical"/>
+	<abstract value="true"/>
+	<type value="Element"/>
+	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Element"/>
+	<derivation value="specialization"/>
+	<differential>
+		<element id="PregnancyHistorySection">
+			<path value="PregnancyHistorySection"/>
+			<short value="History of Pregnancy Section"/>
+			<definition value="Present the current health state of the woman with respect to pregnancy and to provide chronological and outcome information about past pregnancies"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="Section-lm-cen-ips"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/Section-lm-cen-ips"/>
+			</type>
+			<constraint>
+				<key value="br-1"/>
+				<severity value="error"/>
+				<human value="If pregnancy state is given then the expected delivery date SHALL be given."></human>
+			</constraint>
+			<constraint>
+				<key value="br-2"/>
+				<severity value="error"/>
+				<human value="The description of the current Pregnancy SHALL be in Text or in a structured form, or both."></human>
+			</constraint>
+			<constraint>
+				<key value="br-1"/>
+				<severity value="error"/>
+				<human value="If this IPS Section is included in the IPS Summary then it SHALL provide data concerning the current pregnancy status and optionally any information about previous pregnancies if known."></human>
+			</constraint>
+			<constraint>
+				<key value="br-1"/>
+				<severity value="error"/>
+				<human value="If previous pregnancies are included then three possible ways of representing such information are given, i.e. Text or List of date and outcome pairs or a Summary metric.   One way SHALL be given but this does not exclude other descriptions being exchanged in the summary."/>
+			</constraint>
+		</element>
+		<element id="PregnancyHistorySection.PregnancyStatus">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="R"/>
+			</extension>
+			<path value="PregnancyHistorySection.PregnancyStatus"/>
+			<short value="Status of pregnancy"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="LabelConcept-lm-cen-ips"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/LabelConcept-lm-cen-ips"/>
+			</type>
+		</element>
+		<element id="PregnancyHistorySection.KnownPreviousPregnancies">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="O"/>
+			</extension>
+			<path value="PregnancyHistorySection.PreviousPregnancies"/>
+			<short value="Known previous pregnancies"/>
+			<definition value="XXX"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="LabelConcept-lm-cen-ips"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/LabelConcept-lm-cen-ips"/>
+			</type>
+		</element>
+		<element id="PregnancyHistorySection.PreviousPregnancies.Description">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="C"/>
+			</extension>
+			<path value="PregnancyHistorySection.PreviousPregnancies.Description"/>
+			<short value="Previous pregnancies description"/>
+			<definition value="The details of the current Pregnancy is either given as text or in a structured form, but not in both."/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="Text-lm-cen-ips"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/Text-lm-cen-ips"/>
+			</type>
+		</element>
+		<element id="PregnancyHistorySection.PreviousPregnancies.List">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="C"/>
+			</extension>
+			<path value="PregnancyHistorySection.PreviousPregnancies.List"/>
+			<short value="Previous pregnancies"/>
+			<definition value="XXX"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="List-lm-cen-ips"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/List-lm-cen-ips"/>
+			</type>
+		</element>
+		<element id="PregnancyHistorySection.PreviousPregnancies.List.PreviousPregnancy">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="C"/>
+			</extension>
+			<path value="PregnancyHistorySection.PreviousPregnancies.List.PreviousPregnancy"/>
+			<short value="Previous pregnancy"/>
+			<definition value="XXX"/>
+			<min value="0"/>
+			<max value="*"/>
+			<!-- change -->
+			<type>
+				<code value="List-lm-cen-ips"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/List-lm-cen-ips"/>
+			</type>
+		</element>
+				<element id="PregnancyHistorySection.PreviousPregnancies.SummaryMetric">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="C"/>
+			</extension>
+			<path value="PregnancyHistorySection.PreviousPregnancies.SummaryMetric"/>
+			<short value="Summary metric"/>
+			<definition value="XXX"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="LabelConcept-lm-cen-ips"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/LabelConcept-lm-cen-ips"/>
+			</type>
+		</element>
+						<element id="PregnancyHistorySection.PreviousPregnancies.Specialist">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="O"/>
+			</extension>
+			<path value="PregnancyHistorySection.PreviousPregnancies.Specialist"/>
+			<short value="Specialist contact"/>
+			<definition value="An optional healthcare provider who may have expertise related to the pregnancy, but is not necessarily the author of the IPS Document.
+The specialist contact may provide an additional resource relevant to the treatment at the point of care.  The detail may be found in the Patient’s address book, and may be defined with a specific role."/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="HealthcareProvider-lm-cen-ips"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/HealthcareProvider-lm-cen-ips"/>
+			</type>
+		</element>
+	</differential>
+</StructureDefinition>

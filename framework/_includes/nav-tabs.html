@@ -1,10 +1,20 @@
 <!--  - choose what you want  comment out or Change what you don't-->
 <ul class="nav nav-tabs">
-{% if {{include.active}} == "content" %}
-	<li class="active"><a href="#">Narrative Content</a></li>
-{% else %}
-	<li><a href="{{include.type}}-{{include.id}}.html">Narrative Content</a></li>
-{% endif %}
+ 
+  {% if {{include.active}} == "content" %}
+  	<li class="active"><a href="#">Narrative Content</a></li>    
+  {% else %}
+     {% case {{include.kind}} %}
+      {% when "logical" %}
+           	<li><a href="{{include.id}}.html">Narrative Content</a></li>
+        <!-- <li><a href="{{include.type}}-{{include.id}}.html">Narrative Content</a></li> -->
+      {% when "complex-type" %}
+         <li><a href="{{include.id}}.html">Narrative Content</a></li>
+      {% else %}
+          <li><a href="{{include.type}}-{{include.id}}.html">Narrative Content</a></li>
+     {% endcase %}
+  {% endif %}
+
 <!--
 { % if {{include.type}} == "StructureDefinition"  % }
 	{ % if {{include.active}} == "definitions"  % }
@@ -20,14 +30,14 @@
 { % endif % }
 -->
 {% if {{include.active}} == "xml" %}
-	<li class="active"><a href="#">XML</a></li>
+  <li class="active"><a href="#">XML</a></li>
 {% else %}
-<li><a href="{{include.type}}-{{include.id}}.xml.html">XML</a></li>
+  <li><a href="{{include.type}}-{{include.id}}.xml.html">XML</a></li>
 {% endif %}
 {% if {{include.active}} == "json" %}
-	<li class="active"><a href="#">JSON</a></li>
+  <li class="active"><a href="#">JSON</a></li>
 {% else %}
-	<li><a href="{{include.type}}-{{include.id}}.json.html">JSON</a></li>
+  <li><a href="{{include.type}}-{{include.id}}.json.html">JSON</a></li>
 {% endif %}
 <!--
 { % if {{include.active}} == "turtle" % }

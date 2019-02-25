@@ -13,15 +13,6 @@ In the Patient Summary and similar clinical communication, it is necessary to de
 	<type value="List"/>
 	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Element"/>
 	<derivation value="specialization"/>
-	<snapshot>
-		<element id="List">
-			<path value="List"/>
-			<short value="A list of items"/>
-			<definition value="A list of items"/>
-			<min value="0"/>
-			<max value="*"/>
-		</element>
-	</snapshot>
 	<differential>
 		<element id="List">
 			<path value="List"/>

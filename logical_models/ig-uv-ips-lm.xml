@@ -120,6 +120,36 @@
 				<reference value="StructureDefinition/Period-lm-cen-ips"/>
 			</reference>
 		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/Any-lm-cen-ips"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/PersonName-lm-cen-ips"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/Telecom-lm-cen-ips"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/Reference-lm-cen-ips"/>
+			</reference>
+		</resource>
+    
+    		<resource>
+			<reference>
+				<reference value="StructureDefinition/GTS-lm-cen-ips"/>
+			</reference>
+		</resource>
+    
+ 
+ 
+    
 		<!-- Data Types end -->
 		<!-- Logical Models begin-->
 		<resource>
@@ -129,17 +159,7 @@
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/AllergyIntolerance-lm-cen-ips"/>
-			</reference>
-		</resource>
-		<resource>
-			<reference>
 				<reference value="StructureDefinition/ProblemsSection-lm-cen-ips"/>
-			</reference>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/Problem-lm-cen-ips"/>
 			</reference>
 		</resource>
 		<resource>
@@ -149,22 +169,45 @@
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/Immunization-lm-cen-ips"/>
-			</reference>
-		</resource>
-		<resource>
-			<reference>
 				<reference value="StructureDefinition/ProceduresSection-lm-cen-ips"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/Procedure-lm-cen-ips"/>
+				<reference value="StructureDefinition/MedicalDevicesSection-lm-cen-ips"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/MedicalDevicesSection-lm-cen-ips"/>
+				<reference value="StructureDefinition/AdvanceDirectivesSection-lm-cen-ips"/>
+			</reference>
+		</resource>
+    
+    		<resource>
+			<reference>
+				<reference value="StructureDefinition/PlanOfCareSection-lm-cen-ips"/>
+			</reference>
+		</resource>
+    
+		<!-- SECTIONS END -->
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/AllergyIntolerance-lm-cen-ips"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/Problem-lm-cen-ips"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/Immunization-lm-cen-ips"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/Procedure-lm-cen-ips"/>
 			</reference>
 		</resource>
 		<resource>
@@ -179,9 +222,36 @@
 		</resource>
 		<resource>
 			<reference>
+				<reference value="StructureDefinition/FunctionalStatusSection-lm-cen-ips"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
 				<reference value="StructureDefinition/LifestyleFactor-lm-cen-ips"/>
 			</reference>
 		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/Disability-lm-cen-ips"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/FunctionalAssessment-lm-cen-ips"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/AdvanceDirective-lm-cen-ips"/>
+			</reference>
+		</resource>
+    
+    		<resource>
+			<reference>
+				<reference value="StructureDefinition/Plan-lm-cen-ips"/>
+			</reference>
+		</resource>
+    
 		<!-- Logical Models end-->
 		<page>
 			<nameUrl value="index.md"/>

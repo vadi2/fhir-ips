@@ -25,6 +25,18 @@
 			<path value="AllergyIntolerance"/>
 			<mustSupport value="true"/>
 		</element>
+		<element id="AllergyIntolerance.id">
+			<path value="AllergyIntolerance.id"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="AllergyIntolerance.meta">
+			<path value="AllergyIntolerance.meta"/>
+			<mustSupport value="true"/>
+		</element>
+				<element id="AllergyIntolerance.meta.profile">
+			<path value="AllergyIntolerance.meta.profile"/>
+			<mustSupport value="true"/>
+		</element>
 		<element id="AllergyIntolerance.extension:abatement-datetime">
 			<path value="AllergyIntolerance.extension"/>
 			<sliceName value="abatement-datetime"/>
@@ -107,6 +119,7 @@
 				<valueSet value="http://hl7.org/fhir/uv/ips/ValueSet/absent-or-unknown-allergies-uv-ips"/>
 			</binding>
 		</element>
+		<!--
 		<element id="AllergyIntolerance.code:absentOrUnknownAllergy.coding">
 			<path value="AllergyIntolerance.code.coding"/>
 			<min value="1"/>
@@ -117,7 +130,7 @@
 			</type>
 			<mustSupport value="true"/>
 		</element>
-		<!--
+		
 		<element id="AllergyIntolerance.code.coding">
 			<path value="AllergyIntolerance.code.coding"/>
 			<slicing>

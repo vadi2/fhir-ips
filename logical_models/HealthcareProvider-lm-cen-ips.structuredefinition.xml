@@ -11,15 +11,6 @@
 	<type value="HealthcareProvider"/>
 	<baseDefinition value="http://hl7.org/fhir/uv/ips/StructureDefinition/LabelConcept-lm-cen-ips"/>
 	<derivation value="specialization"/>
-	<snapshot>
-		<element id="HealthcareProvider">
-			<path value="HealthcareProvider"/>
-			<short value="HealthcareProvider"/>
-			<definition value="Healthcare actor that is able to be assigned one or more care period mandates."/>
-			<min value="0"/>
-			<max value="*"/>
-		</element>
-	</snapshot>
 	<differential>
 		<element id="HealthcareProvider">
 			<path value="HealthcareProvider"/>

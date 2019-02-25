@@ -11,31 +11,7 @@
 	<type value="Text"/>
 	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Element"/>
 	<derivation value="specialization"/>
-	<snapshot>
-		<element id="Text">
-			<path value="Text"/>
-			<short value="Text"/>
-			<definition value="This pattern provides a means to convey textual information about a thing. For example, an advance directive, a medication statement, a section narrative. It is primarily intended for human interpretation. This includes unformatted or formatted written language."/>
-			<min value="0"/>
-			<max value="*"/>
-			<mapping>
-				<identity value="fhir"/>
-				<map value="Narrative"/>
-				</mapping>
-					<mapping>
-				<identity value="fhir"/>
-				<map value="string"/>
-				</mapping>
-			<mapping>
-				<identity value="rim"/>
-				<map value="ED"/>
-			</mapping>
-			<mapping>
-				<identity value="rim"/>
-				<map value="ST"/>
-			</mapping>
-		</element>
-	</snapshot>
+
 	<differential>
 		<element id="Text">
 			<path value="Text"/>

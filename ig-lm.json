@@ -87,48 +87,33 @@
 	"check-mustSupport": false,
 	"hintAboutNonMustSupport": false,
 	"resources": {
-		"StructureDefinition/Patient-uv-ips": {
-			"defns": "StructureDefinition-Patient-uv-ips-definitions.html",
-			"source": "Patient-uv-ips.structuredefinition.xml",
-			"base": "StructureDefinition-Patient-uv-ips.html"
-		},
-		"StructureDefinition/Practitioner-uv-ips": {
-			"defns": "StructureDefinition-Practitioner-uv-ips-definitions.html",
-			"source": "Practitioner-uv-ips.structuredefinition.xml",
-			"base": "StructureDefinition-Practitioner-uv-ips.html"
-		},
-		"StructureDefinition/AllergyIntolerance-uv-ips": {
-			"defns": "StructureDefinition-AllergyIntolerance-uv-ips-definitions.html",
-			"source": "AllergyIntolerance-uv-ips.structuredefinition.xml",
-			"base": "StructureDefinition-AllergyIntolerance-uv-ips.html"
-		},
 		"StructureDefinition/CodeableConcept-uv-ips": {
-			"defns": "StructureDefinition-CodeableConcept-uv-ips-definitions.html",
+			"defns": "CodeableConcept-uv-ips-definitions.html",
 			"source": "CodeableConcept-uv-ips.structuredefinition.xml",
-			"base": "StructureDefinition-CodeableConcept-uv-ips.html"
+			"base": "CodeableConcept-uv-ips.html"
 		},
 		"StructureDefinition/translation": {
-			"defns": "StructureDefinition-translation-definitions.html",
+			"defns": "translation-definitions.html",
 			"source": "translation.xml",
-			"base": "StructureDefinition-translation.html"
+			"base": "translation.html"
 		},
 		"StructureDefinition/abatement-dateTime-uv-ips": {
-			"defns": "StructureDefinition-abatement-dateTime-uv-ips-definitions.html",
+			"defns": "abatement-dateTime-uv-ips-definitions.html",
 			"source": "abatement-dateTime-uv-ips.structuredefinition.xml",
-			"base": "StructureDefinition-abatement-dateTime-uv-ips.html"
+			"base": "abatement-dateTime-uv-ips.html"
 		},
 		"StructureDefinition/Coding-uv-ips": {
-			"defns": "StructureDefinition-Coding-uv-ips-definitions.html",
+			"defns": "Coding-uv-ips-definitions.html",
 			"source": "Coding-uv-ips.structuredefinition.xml",
-			"base": "StructureDefinition-Coding-uv-ips.html"
+			"base": "Coding-uv-ips.html"
 		},
 		"CodeSystem/absent-unknown-uv-ips": {
 			"base": "CodeSystem-absent-unknown-uv-ips.html"
 		},
 		"StructureDefinition/conformance-cen-ips": {
-			"defns": "StructureDefinition-conformance-cen-ips-definitions.html",
+			"defns": "conformance-cen-ips-definitions.html",
 			"source": "conformance-cen-ips.structuredefinition.xml",
-			"base": "StructureDefinition-conformance-cen-ips.html"
+			"base": "conformance-cen-ips.html"
 		},
 		"StructureDefinition/LabelConcept-lm-cen-ips": {
 			"defns": "LabelConcept-lm-cen-ips-definitions.html",
@@ -160,10 +145,46 @@
 			"source": "HealthcareProvider-lm-cen-ips.structuredefinition.xml",
 			"base": "HealthcareProvider-lm-cen-ips.html"
 		},
+		
+		
+	"StructureDefinition/Any-lm-cen-ips": {
+			"defns": "Any-lm-cen-ips-definitions.html",
+			"source": "Any-lm-cen-ips.structuredefinition.xml",
+			"base": "Any-lm-cen-ips.html"
+		},		
+	  
+		"StructureDefinition/Period-lm-cen-ips": {
+			"defns": "Period-lm-cen-ips-definitions.html",
+			"source": "Period-lm-cen-ips.structuredefinition.xml",
+			"base": "Period-lm-cen-ips.html"
+		},
+		
+    	"StructureDefinition/Section-lm-cen-ips": {
+			"defns": "Section-lm-cen-ips-definitions.html",
+			"source": "Section-lm-cen-ips.structuredefinition.xml",
+			"base": "Section-lm-cen-ips.html"
+		},
+    
+		"StructureDefinition/Patient-uv-ips": {
+			"defns": "Patient-uv-ips-definitions.html",
+			"source": "Patient-uv-ips.structuredefinition.xml",
+			"base": "Patient-uv-ips.html"
+		},
+		"StructureDefinition/Practitioner-uv-ips": {
+			"defns": "Practitioner-uv-ips-definitions.html",
+			"source": "Practitioner-uv-ips.structuredefinition.xml",
+			"base": "Practitioner-uv-ips.html"
+		},
+		"StructureDefinition/AllergyIntolerance-uv-ips": {
+			"defns": "AllergyIntolerance-uv-ips-definitions.html",
+			"source": "AllergyIntolerance-uv-ips.structuredefinition.xml",
+			"base": "AllergyIntolerance-uv-ips.html"
+		},
+    
 		"StructureDefinition/AllergyIntoleranceSection-lm-cen-ips": {
-			"defns": "StructureDefinition-AllergyIntoleranceSection-lm-cen-ips-definitions.html",
+			"defns": "AllergyIntoleranceSection-lm-cen-ips-definitions.html",
 			"source": "AllergyIntoleranceSection-lm-cen-ips.structuredefinition.xml",
-			"base": "StructureDefinition-AllergyIntoleranceSection-lm-cen-ips.html"
+			"base": "AllergyIntoleranceSection-lm-cen-ips.html"
 		},
 		"StructureDefinition/AllergyIntolerance-lm-cen-ips": {
 			"defns": "AllergyIntolerance-lm-cen-ips-definitions.html",
@@ -184,9 +205,9 @@
 			"base": "Problem-lm-cen-ips.html"
 		},
 		"StructureDefinition/ImmunizationsSection-lm-cen-ips": {
-			"defns": "StructureDefinition-ImmunizationsSection.html",
+			"defns": "ImmunizationsSection.html",
 			"source": "ImmunizationsSection-lm-cen-ips.structuredefinition.xml",
-			"base": "StructureDefinition-ImmunizationsSection-lm-cen-ips.html"
+			"base": "ImmunizationsSection-lm-cen-ips.html"
 		},
 		"StructureDefinition/Immunization-lm-cen-ips": {
 			"defns": "Immunization-lm-cen-ips-definitions.html",
@@ -198,10 +219,10 @@
 			"source": "Procedure-lm-cen-ips.structuredefinition.xml",
 			"base": "Procedure-lm-cen-ips.html"
 		},
-		"StructureDefinition/proceduressection-lm-cen-ips": {
-			"defns": "StructureDefinition-proceduressection-lm-cen-ips-definitions.html",
+		"StructureDefinition/ProceduresSection-lm-cen-ips": {
+			"defns": "ProceduresSection-lm-cen-ips-definitions.html",
 			"source": "ProceduresSection-lm-cen-ips.structuredefinition.xml",
-			"base": "StructureDefinition-proceduressection-lm-cen-ips.html"
+			"base": "ProceduresSection-lm-cen-ips.html"
 		},
 		"StructureDefinition/Device-lm-cen-ips": {
 			"defns": "Device-lm-cen-ips-definitions.html",
@@ -209,9 +230,9 @@
 			"base": "Device-lm-cen-ips.html"
 		},
 		"StructureDefinition/MedicalDevicesSection-lm-cen-ips": {
-			"defns": "StructureDefinition-MedicalDevicesSection-lm-cen-ips-definitions.html",
+			"defns": "MedicalDevicesSection-lm-cen-ips-definitions.html",
 			"source": "MedicalDevicesSection-lm-cen-ips.structuredefinition.xml",
-			"base": "StructureDefinition-MedicalDevicesSection-lm-cen-ips.html"
+			"base": "MedicalDevicesSection-lm-cen-ips.html"
 		},
 		"StructureDefinition/Identifier-lm-cen-ips": {
 			"defns": "Identifier-lm-cen-ips-definitions.html",
@@ -223,22 +244,69 @@
 			"source": "LifestyleFactor-lm-cen-ips.structuredefinition.xml",
 			"base": "LifestyleFactor-lm-cen-ips.html"
 		},
-		"StructureDefinition/Period-lm-cen-ips": {
-			"defns": "Period-lm-cen-ips-definitions.html",
-			"source": "Period-lm-cen-ips.structuredefinition.xml",
-			"base": "Period-lm-cen-ips.html"
-		},
-		"StructureDefinition/Section-lm-cen-ips": {
-			"defns": "Section-lm-cen-ips-definitions.html",
-			"source": "Section-lm-cen-ips.structuredefinition.xml",
-			"base": "Section-lm-cen-ips.html"
-		},
+	
 		"StructureDefinition/SocialHistorySection-lm-cen-ips": {
 			"defns": "SocialHistorySection-lm-cen-ips-definitions.html",
 			"source": "SocialHistorySection-lm-cen-ips.structuredefinition.xml",
 			"base": "SocialHistorySection-lm-cen-ips.html"
 		},
-		"ValueSet/allergy-intolerance-substance-condition-uv-ips": {
+		
+	
+
+		"StructureDefinition/FunctionalStatusSection-lm-cen-ips": {
+			"defns": "FunctionalStatusSection-lm-cen-ips-definitions.html",
+			"source": "FunctionalStatusSection-lm-cen-ips.structuredefinition.xml",
+			"base": "FunctionalStatusSection-lm-cen-ips.html"
+		},
+		
+				"StructureDefinition/Disability-lm-cen-ips": {
+			"defns": "Disability-lm-cen-ips-definitions.html",
+			"source": "Disability-lm-cen-ips.structuredefinition.xml",
+			"base": "Disability-lm-cen-ips.html"
+		},
+		
+				"StructureDefinition/FunctionalAssessment-lm-cen-ips": {
+			"defns": "FunctionalAssessment-lm-cen-ips-definitions.html",
+			"source": "FunctionalAssessment-lm-cen-ips.structuredefinition.xml",
+			"base": "FunctionalAssessment-lm-cen-ips.html"
+		},
+		
+		   "StructureDefinition/AdvanceDirective-lm-cen-ips": {
+      "defns": "AdvanceDirective-lm-cen-ips-definitions.html",
+      "source": "AdvanceDirective-lm-cen-ips.structuredefinition.xml",
+      "base": "AdvanceDirective-lm-cen-ips.html"
+    },    "StructureDefinition/AdvanceDirectivessection-lm-cen-ips": {
+      "defns": "AdvanceDirectivessection-lm-cen-ips-definitions.html",
+      "source": "AdvanceDirectivesSection-lm-cen-ips.structuredefinition.xml",
+      "base": "AdvanceDirectivessection-lm-cen-ips.html"
+    },    "StructureDefinition/PersonName-lm-cen-ips": {
+      "defns": "PersonName-lm-cen-ips-definitions.html",
+      "source": "PersonName-lm-cen-ips.structuredefinition.xml",
+      "base": "PersonName-lm-cen-ips.html"
+    },    "StructureDefinition/Reference-lm-cen-ips": {
+      "defns": "Reference-lm-cen-ips-definitions.html",
+      "source": "Reference-lm-cen-ips.structuredefinition.xml",
+      "base": "Reference-lm-cen-ips.html"
+    },    "StructureDefinition/Telecom-lm-cen-ips": {
+      "defns": "Telecom-lm-cen-ips-definitions.html",
+      "source": "Telecom-lm-cen-ips.structuredefinition.xml",
+      "base": "Telecom-lm-cen-ips.html"
+      
+      },   "StructureDefinition/GTS-lm-cen-ips": {
+      "defns": "StructureDefinition-GTS-lm-cen-ips-definitions.html",
+      "source": "GTS-lm-cen-ips.structuredefinition.xml",
+      "base": "StructureDefinition-GTS-lm-cen-ips.html"
+      
+    },    "StructureDefinition/Plan-lm-cen-ips": {
+      "defns": "StructureDefinition-Plan-lm-cen-ips-definitions.html",
+      "source": "Plan-lm-cen-ips.structuredefinition.xml",
+      "base": "StructureDefinition-Plan-lm-cen-ips.html"
+    },    "StructureDefinition/PlanOfCareSection-lm-cen-ips": {
+      "defns": "StructureDefinition-PlanOfCareSection-lm-cen-ips-definitions.html",
+      "source": "PlanOfCareSection-lm-cen-ips.structuredefinition.xml",
+      "base": "StructureDefinition-PlanOfCareSection-lm-cen-ips.html"
+ 
+ 		 }, "ValueSet/allergy-intolerance-substance-condition-uv-ips": {
 			"source": "valueset-allergy-intolerance-substance-condition-uv-ips.xml",
 			"base": "ValueSet-allergy-intolerance-substance-condition-uv-ips.html"
 		},
