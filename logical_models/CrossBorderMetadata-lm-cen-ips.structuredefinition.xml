@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../__FHIRr4Tools/fhir-all-xsd/structuredefinition.xsd">
+	<id value="CrossBorderMetadata-lm-cen-ips"/>
+	<url value="http://hl7.org/fhir/uv/ips/StructureDefinition/CrossBorderMetadata-lm-cen-ips"/>
+	<name value="CrossBorderMetadata"/>
+	<title value="Cross Border Metadata (EN 17269)"/>
+	<status value="draft"/>
+	<description value="Considered to be generic to the English language and not specific to this standard. Notes:  Data required for cross border application.   At this moment, this data are scant and is specific to the EU and the official Country Contact points.  It is Conditional in the IPS Document depending solely on the intent to use the IPS cross border.   Local and National applications do not need this data.
+Note to that the cross-border metadata also uses the provenance data relates to the preferred healthcare provider."/>
+	<purpose value="This metadata are the provenance detail necessary for cross border transactions."/>
+	<kind value="logical"/>
+	<abstract value="true"/>
+	<type value="Element"/>
+	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Element"/>
+	<derivation value="specialization"/>
+	<differential>
+		<element id="CrossBorderMetadata">
+			<path value="CrossBorderMetadata"/>
+			<short value="Cross Border Metadata"/>
+			<definition value="Provenance detail necessary for cross border transactions"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="MetadataCollection-lm-cen-ips"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/MetadataCollection-lm-cen-ips"/>
+			</type>
+		</element>
+		<element id="CrossBorderMetadata.CountryOfAffiliation">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="M"/>
+			</extension>
+			<path value="CrossBorderMetadata.CountryOfAffiliation"/>
+			<short value="Patient’s name"/>
+			<definition value="Country of affiliation is the designated source country where the patient and their healthcare information are based. This may be provided through a coded element or as a string if the adopted datatype doesn’t support coded country information; as, for example, the country address part used by the HL7 CDA standard."/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="LabelConcept-lm-cen-ips"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/LabelConcept-lm-cen-ips"/>
+			</type>
+		</element>
+		<element id="CrossBorderMetadata.CountryRequirements">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="RK"/>
+			</extension>
+			<path value="CrossBorderMetadata.CountryRequirements"/>
+			<short value="Country specific requirements"/>
+			<definition value="A placeholder; used to describe unique facts, cultural, legal details and jurisdictional matters of the realm that need stating as part of the agreement to interchange.  It may include Confidentiality/consent rules for sharing data, details of languages and translations but some of these can be considered with respect to the individual needs as well as the country or national characteristics."/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="LabelConcept-lm-cen-ips"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/LabelConcept-lm-cen-ips"/>
+			</type>
+		</element>
+		<element id="CrossBorderMetadata.AddressTelecom.Address">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="C"/>
+			</extension>
+			<path value="CrossBorderMetadata.AddressTelecom.Address"/>
+			<short value="Address"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="Address-lm-cen-ips"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/Address-lm-cen-ips"/>
+			</type>
+		</element>
+
+		<element id="CrossBorderMetadata.AddressTelecom.Telecom">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="C"/>
+			</extension>
+			<path value="CrossBorderMetadata.AddressTelecom.Telecom"/>
+			<short value="Telecoms"/>
+			<definition value="XXX"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="Telecom-lm-cen-ips"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/Telecom-lm-cen-ips"/>
+			</type>
+		</element>
+		<element id="CrossBorderMetadata.Gender">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="RK"/>
+			</extension>
+			<path value="CrossBorderMetadata.Gender"/>
+			<short value="Administrative gender"/>
+			<definition value="Some countries require ‘gender’ as part of their identification of the patient.  Administrative gender SHALL be specified from a value set including, ‘Male’, ‘Female’, ‘Unknown’, ‘Neutral’. It SHALL not be used to record a person’s sex.
+Notes: This item should not be used to record the ‘sex’ of a person.  ‘Sex’ is a clinical term but not always provided or collected at source."/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="CodedElement-lm-cen-ips"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/CodedElement-lm-cen-ips"/>
+			</type>
+		</element>
+		<element id="CrossBorderMetadata.DateOfBirth">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="RK"/>
+			</extension>
+			<path value="CrossBorderMetadata.DateOfBirth"/>
+			<short value="Date of birth"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="DateTime-lm-cen-ips"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/DateTime-lm-cen-ips"/>
+			</type>
+		</element>
+		<element id="CrossBorderMetadata.Language">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="O"/>
+			</extension>
+			<path value="CrossBorderMetadata.Language"/>
+			<short value="Patient’s preferred language"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="CodedElement-lm-cen-ips"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/CodedElement-lm-cen-ips"/>
+			</type>
+		</element>
+		<element id="CrossBorderMetadata.HealthcareIdentifiers">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="RK"/>
+			</extension>
+			<path value="CrossBorderMetadata.HealthcareIdentifiers"/>
+			<short value="Healthcare related identifiers"/>
+			<definition value="A list of patient identifiers.
+Notes:  Arguably a national health number would be of more use locally than for cross-border purposes.  It is also possible, even probable, that a person will have several numbers, each one related to one or more healthcare providers.  In an international context, a national healthcare identifier may be useful.   However not all countries have such a registration scheme in place."/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="List-lm-cen-ips"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/List-lm-cen-ips"/>
+			</type>
+		</element>
+		<element id="CrossBorderMetadata.HealthcareIdentifiers.Identifier">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="RK"/>
+			</extension>
+			<path value="CrossBorderMetadata.HealthcareIdentifiers.Identifier"/>
+			<short value="Patient identifier"/>
+			<definition value="Note, Patient Number is often used as a synonym, albeit that the identifier is not necessarily numeric; some jurisdictions use the Social Security Number as a healthcare identifier."/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="Identifier-lm-cen-ips"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/Identifier-lm-cen-ips"/>
+			</type>
+		</element>
+		<element id="CrossBorderMetadata.InsuranceInformation">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="O"/>
+			</extension>
+			<path value="CrossBorderMetadata.InsuranceInformation"/>
+			<short value="Insurance information"/>
+			<definition value="Insurance information is not always required in a patient summary. However, in some jurisdictions, the insurance number is also used as the patient identifier.  It is necessary not just for identification but also forms access to funding for care.   In those countries that require such information, it must be present."/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="LabelConcept-lm-cen-ips"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/LabelConcept-lm-cen-ips"/>
+			</type>
+		</element>
+		<element id="CrossBorderMetadata.InsuranceInformation.Identifier">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="RK"/>
+			</extension>
+			<path value="CrossBorderMetadata.InsuranceInformation.Identifier"/>
+			<short value="Insurance identifier"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="Identifier-lm-cen-ips"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/Identifier-lm-cen-ips"/>
+			</type>
+		</element>
+	</differential>
+</StructureDefinition>

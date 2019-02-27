@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../__FHIRr4Tools/fhir-all-xsd/structuredefinition.xsd">
+	<id value="AddressBook-lm-cen-ips"/>
+	<url value="http://hl7.org/fhir/uv/ips/StructureDefinition/AddressBook-lm-cen-ips"/>
+	<name value="AddressBook"/>
+	<title value="Patient's Address Book (EN 17269)"/>
+	<status value="draft"/>
+	<description value="Considered to be generic to the English language and not specific to this standard."/>
+	<purpose value="This IPS Attribute Collection provides an Address Book resource detailing the address details for people and organisations relevant to the patient with respect to the IPS."/>
+	<kind value="logical"/>
+	<abstract value="true"/>
+	<type value="Element"/>
+	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Element"/>
+	<derivation value="specialization"/>
+	<differential>
+		<element id="AddressBook">
+			<path value="AddressBook"/>
+			<short value="Patient Attributes"/>
+			<definition value="Non-exhaustive, collection of data used for administration, identification, assurance of identity and preferences within a patient summary."/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="AttributeCollection-lm-cen-ips"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/AttributeCollection-lm-cen-ips"/>
+			</type>
+			<constraint>
+				<key value="br-1"/>
+				<severity value="error"/>
+				<human value="The Preferred Healthcare Provider (either Person or Organization, or both) SHALL be required if Known"/>
+			</constraint>
+		</element>
+		<element id="AddressBook.PreferredHPs">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="RK"/>
+			</extension>
+			<path value="AddressBook.PreferredHPs"/>
+			<short value="Preferred healthcare providers"/>
+			<definition value="If known, this information shall be provided.  Note it is not necessarily the case that Preferred Healthcare Provider is the same party as the source of the patient summary; the latter is given by the Provenance meta data. ‘Preferred’ indicates the most relevant entity to be contacted for use in this patient summary."/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="List-lm-cen-ips"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/List-lm-cen-ips"/>
+			</type>
+		</element>
+		<element id="AddressBook.PreferredHPs.Person">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="C"/>
+			</extension>
+			<path value="AddressBook.PreferredHPs.Person"/>
+			<short value="Healthcare provider (person)"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="HealthcareProvider-lm-cen-ips"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/HealthcareProvider-lm-cen-ips"/>
+			</type>
+		</element>
+		<element id="AddressBook.PreferredHPs.Person.Name">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="R"/>
+			</extension>
+			<path value="AddressBook.PreferredHPs.Person.Name"/>
+			<short value="Name"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="PersonName-lm-cen-ips"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/PersonName-lm-cen-ips"/>
+			</type>
+		</element>
+		<element id="AddressBook.PreferredHPs.Person.Telecoms">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="RK"/>
+			</extension>
+			<path value="AddressBook.PreferredHPs.Person.Telecoms"/>
+			<short value="Telecoms"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="Telecom-lm-cen-ips"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/Telecom-lm-cen-ips"/>
+			</type>
+		</element>
+		<element id="AddressBook.PreferredHPs.Organization">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="C"/>
+			</extension>
+			<path value="AddressBook.PreferredHPs.Organization"/>
+			<short value="Healthcare provider (organization)"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="HealthcareProvider-lm-cen-ips"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/HealthcareProvider-lm-cen-ips"/>
+			</type>
+		</element>
+		<element id="AddressBook.PreferredHPs.Organization.Telecoms">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="C"/>
+			</extension>
+			<path value="AddressBook.PreferredHPs.Organization.Telecoms"/>
+			<short value="Telecoms"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="Telecom-lm-cen-ips"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/Telecom-lm-cen-ips"/>
+			</type>
+		</element>
+		<element id="AddressBook.PreferredHPs.Organization.Name">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="R"/>
+			</extension>
+			<path value="AddressBook.PreferredHPs.Organization.Name"/>
+			<short value="Organization’s name"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="OrganizationName-lm-cen-ips"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/OrganizationName-lm-cen-ips"/>
+			</type>
+		</element>
+		<element id="AddressBook.OtherDetails">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="O"/>
+			</extension>
+			<path value="AddressBook.OtherDetails"/>
+			<short value="Other’s address details"/>
+			<definition value="The urgency of the scenario suggests that the contact details will be minimized to the most likely means of getting in touch.  The role distinguishes between individuals (and organisations) by means of their function with respect to the patient’s care to enable the relevant person to be contacted by the healthcare provider at the point of care.  The role can be both functional (e.g. doctor) and a specialization (e.g. specialist).
+Examples: Legal guardian, Next of kin, Decision maker with respect to advance directives, clinical specialist.
+"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="List-lm-cen-ips"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/List-lm-cen-ips"/>
+			</type>
+		</element>
+		<element id="AddressBook.OtherDetails.Addressee">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="R"/>
+			</extension>
+			<path value="AddressBook.OtherDetails.Addressee"/>
+			<short value="Addressee"/>
+			<definition value="xxx"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="LabelConcept-lm-cen-ips"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/LabelConcept-lm-cen-ips"/>
+			</type>
+		</element>
+		<element id="AddressBook.OtherDetails.Addressee.Role">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="RK"/>
+			</extension>
+			<path value="AddressBook.OtherDetails.Addressee.Role"/>
+			<short value="Role"/>
+			<definition value="XXX"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="CodedElement-lm-cen-ips"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/CodedElement-lm-cen-ips"/>
+			</type>
+		</element>
+		<element id="AddressBook.OtherDetails.Addressee.Name">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="R"/>
+			</extension>
+			<path value="AddressBook.OtherDetails.Addressee.Name"/>
+			<short value="Name"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="PersonName-lm-cen-ips"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/PersonName-lm-cen-ips"/>
+			</type>
+		</element>
+		<element id="AddressBook.OtherDetails.Addressee.Address">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="RK"/>
+			</extension>
+			<path value="AddressBook.OtherDetails.Addressee.Address"/>
+			<short value="Address"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="Address-lm-cen-ips"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/Address-lm-cen-ips"/>
+			</type>
+		</element>
+		<element id="AddressBook.OtherDetails.Addressee.Telecoms">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="RK"/>
+			</extension>
+			<path value="AddressBook.OtherDetails.Addressee.Telecoms"/>
+			<short value="Telecoms"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="Telecom-lm-cen-ips"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/Telecom-lm-cen-ips"/>
+			</type>
+		</element>
+	</differential>
+</StructureDefinition>

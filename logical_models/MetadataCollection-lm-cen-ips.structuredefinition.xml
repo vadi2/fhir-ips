@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../__FHIRr4Tools/fhir-all-xsd/structuredefinition.xsd">
+	<id value="MetadataCollection-lm-cen-ips"/>
+	<url value="http://hl7.org/fhir/uv/ips/StructureDefinition/MetadataCollection-lm-cen-ips"/>
+	<name value="MetadataCollection"/>
+	<title value="Metadata Collection (EN 17269)"/>
+	<status value="draft"/>
+	<description value="Hierarchical description of data elements"/>
+	<kind value="complex-type"/>
+	<abstract value="true"/>
+	<type value="MetadataCollection"/>
+	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Element"/>
+	<derivation value="specialization"/>
+	<differential>
+		<element id="MetadataCollection">
+			<path value="MetadataCollection"/>
+			<short value="MetadataCollection"/>
+			<definition value="Hierarchical description of data elements"/>
+			<min value="0"/>
+			<max value="*"/>
+		</element>
+	</differential>
+</StructureDefinition>

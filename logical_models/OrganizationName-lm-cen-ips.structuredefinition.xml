@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../__FHIRr4Tools/fhir-all-xsd/structuredefinition.xsd">
+	<id value="OrganizationName-lm-cen-ips"/>
+	<url value="http://hl7.org/fhir/uv/ips/StructureDefinition/OrganizationName-lm-cen-ips"/>
+	<name value="OrganizationName"/>
+	<title value="Person Name (EN 17269)"/>
+	<status value="draft"/>
+	<description value="A name for an organization."/>	
+	<kind value="complex-type"/>
+	<abstract value="true"/>
+	<type value="OrganizationName"/>
+	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Element"/>
+	<derivation value="specialization"/>
+	<differential>
+		<element id="OrganizationName">
+			<path value="OrganizationName"/>
+			<short value="OrganizationName"/>
+			<definition value="A name for a person constituted by a sequence of name parts, such as given name or family name, prefix, suffix."/>
+			<min value="0"/>
+			<max value="*"/>
+			<constraint>
+				<key value="br-1"/>
+				<severity value="error"/>
+				<human value="Organization Names SHALL be represented as a simple string."/>
+			</constraint>
+			<constraint>
+				<key value="br-2"/>
+				<severity value="error"/>
+				<human value="In case of non-alphabetic representations of the names, at least one alphabetic representation SHALL be provided."/>
+			</constraint>
+			
+			<mapping>
+				<identity value="fhir"/>
+				<map value="string"/>
+			</mapping>
+			<mapping>
+				<identity value="rim"/>
+				<map value="EN.TN"/>
+			</mapping>
+		</element>
+	</differential>
+</StructureDefinition>

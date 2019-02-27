@@ -18,10 +18,10 @@
 			<definition value="This pattern provides detailed information about Telecommunication Addresses associated to a person or an organization. For example, a patient’s contact telephone, email, etc."/>
 			<min value="0"/>
 			<max value="*"/>
-					<constraint>
+			<constraint>
 				<key value="br-1"/>
 				<severity value="error"/>
-				<human value="At least one telephone or mail address SHALL be provided; it is allowed to provide both."/>
+				<human value="At least one telephone or mail address SHALL be provided; it is allowed to provide both"/>
 			</constraint>
 			<mapping>
 				<identity value="fhir"/>
