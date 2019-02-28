@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../__FHIRr4Tools/fhir-all-xsd/structuredefinition.xsd">
 	<id value="MedicationSummarySection-lm-cen-ips"/>
 	<text xmlns:xhtml="http://www.w3.org/1999/xhtml">
-		<status ></status>
+		<status value="generated"/>
 		<xhtml:div>The IPS Medication Summary and IDMP
 NOTE 1	Medication Summary has had extensive attention lavished upon it, primarily because of the EN-ISO IDMP Standards, but also because of European eHealth projects. Consequently, it has a rich depth of specification and the hierarchy of 5 levels used throughout this standard is exceeded by several levels.  Rather than extend every template to seven levels that would make the presentation difficult to read, an exception has been made for Medication Summary, using a two-part table.
 NOTE 2	The IDMP standards are the recognized and recommended direction of travel for this IPS (i.e. EN-ISO 11238, EN-ISO 11239, EN-ISO 11240 and EN-ISO 11615). However, currently the IDMP standards are not yet fully implemented in practice and so the concept descriptions in the IPS Medication Summary Section are intended to be at a high level of abstraction, permitting the current ways of implementing the concepts to exist but with the expectation that they will evolve to the IDMP notation and specification in due course. This IPS standard restricts the term ‘Medicinal Product’, defined in EN-ISO 11615:2017, to ‘human use’ and to clinical care settings for which the patient summary use case scenario applies.  The world-wide unique Product Identifier is not yet a reality and consequently the more general ‘Product Code’ is used if required.

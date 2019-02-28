@@ -133,11 +133,11 @@ Examples: 1 tablet"/>
 			<min value="0"/>
 			<max value="*"/>
 			<type>
-				<code value="LabelConcept-lm-cen-ips"/>
+				<code value="Range-lm-cen-ips"/>
 				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/Range-lm-cen-ips"/>
 			</type>
 			<type>
-				<code value="LabelConcept-lm-cen-ips"/>
+				<code value="Quantity-lm-cen-ips"/>
 				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/Quantity-lm-cen-ips"/>
 			</type>
 		</element>

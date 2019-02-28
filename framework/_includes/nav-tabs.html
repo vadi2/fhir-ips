@@ -4,16 +4,8 @@
   {% if {{include.active}} == "content" %}
   	<li class="active"><a href="#">Narrative Content</a></li>    
   {% else %}
-     {% case {{include.kind}} %}
-      {% when "logical" %}
-           	<li><a href="{{include.id}}.html">Narrative Content</a></li>
-        <!-- <li><a href="{{include.type}}-{{include.id}}.html">Narrative Content</a></li> -->
-      {% when "complex-type" %}
-         <li><a href="{{include.id}}.html">Narrative Content</a></li>
-      {% else %}
-          <li><a href="{{include.type}}-{{include.id}}.html">Narrative Content</a></li>
-     {% endcase %}
-  {% endif %}
+   	<li><a href="{{include.id}}.html">Narrative Content</a></li>
+{% endif %}
 
 <!--
 { % if {{include.type}} == "StructureDefinition"  % }

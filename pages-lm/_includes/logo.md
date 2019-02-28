@@ -1,6 +1,6 @@
 <!--
 <a id="your-logo" no-external="true" href="http://www.hl7.org">
-<img height="50" alt="visit the hl7 website" width="42" src="assets/images/hl7-logo.png"/>
+<img height="50" alt="visit the hl7 website" width="42" src="assets/images/CEN-HL7-logo.png"/>
 </a>
 
 your logo here
@@ -13,6 +13,6 @@ can only resize using html  or css ;-(
 -->
 
 <a id="your-logo" no-external="true" href="http://www.hl7.org">
-<img alt="Visit the HL7 website" class="img-responsive project-logo" src="assets/images/hl7-logo.png"/>
+<img alt="Visit the HL7 website" class="img-responsive project-logo" src="assets/images/CEN-HL7-logo.png"/>
 </a>
 
