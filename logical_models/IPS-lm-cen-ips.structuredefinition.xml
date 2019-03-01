@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../__FHIRr4Tools/fhir-all-xsd/structuredefinition.xsd">
+	<id value="IPS-lm-cen-ips"/>
+	<url value="http://hl7.org/fhir/uv/ips/StructureDefinition/IPS-lm-cen-ips"/>
+	<name value="IPS_document"/>
+	<title value="IPS document (EN 17269)"/>
+	<status value="draft"/>
+	<description value="electronic patient summary for use at the point of care comprising, as a minimum, the required elements of the IPS Data Set.
+NOTE 1 to entry: The Use Case is ‘a patient summary for use at the point of care’; the following are IPS scenarios:
+•	‘Unscheduled, Cross Border care’ is the initial IPS scenario 1;
+•	‘Scheduled, Cross Border care’ is IPS Scenario 2;
+•	‘Unscheduled, Local care’ is IPS Scenario 3;
+•	‘Scheduled, Local care’ is IPS Scenario 4.
+NOTE 2 to entry: National and local applications of IPS are served by this standard.  The specific cross border scenario requires the Cross Border Data Block to be used, but this is not required for within border applications.
+NOTE 3 to entry: IPS is applicable in any situation, irrespective of local/international and scheduled/unscheduled care situations.
+NOTE 4 to entry:  IPS Data Blocks may be readily used in other applications, but to be an IPS the application must have the same scope including the same purpose of summarising the patient’s healthcare history for continuity of care.
+NOTE 5 to entry:  IPS is also used as shorthand to denote the activity of the two SDO initiatives focused on delivering the IPS, i.e. CEN IPS and HL7 IPS. The context in which the term is used determines the specific meaning, e.g. when it is associated with the SDO name it refers explicitly to the initiative rather than to the IPS content.
+"/>
+	<purpose value="provides the logical structure required to convey patient summary content, i.e. documentation concerning the IPS itself and patient-related information, in order to provide continuity of care and to coordinate further healthcare activity.
+The International Patient Summary (IPS) is synonymous with the IPS Document and is described as being a “minimal and non-exhaustive Patient Summary, specialty-agnostic, condition-independent, readily usable by all clinicians for the care of a patient."/>
+	<kind value="logical"/>
+	<abstract value="true"/>
+	<type value="Document"/>
+	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Element"/>
+	<derivation value="specialization"/>
+	<differential>
+		<element id="IPS">
+			<path value="IPS"/>
+			<short value="IPS"/>
+			<definition value="Electronic patient summary for use at the point of care comprising, as a minimum, the required elements of the IPS Data Set. The IPS Document describes the totality of patient summary content to be interchanged as a conformant IPS"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="Document-lm-cen-ips"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/Document-lm-cen-ips"/>
+			</type>
+		</element>
+		<element id="IPS.PatientAttributes">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="M"/>
+			</extension>
+			<path value="IPS.PatientAttributes"/>
+			<short value="IPS Attribute Collection: Patient Attributes"/>
+			<definition value="Contains ‘Patient’s name’ attribute necessary for IPS conformance"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="PatientAttributes-lm-cen-ips"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/PatientAttributes-lm-cen-ips"/>
+			</type>
+		</element>
+		<element id="IPS.AllergyIntoleranceSection">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="M"/>
+			</extension>
+			<path value="IPS.AllergyIntoleranceSection"/>
+			<short value="IPS Section: Allergies and Intolerances"/>
+			<definition value="Section necessary for IPS conformance"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="AllergyIntoleranceSection-lm-cen-ips"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/AllergyIntoleranceSection-lm-cen-ips"/>
+			</type>
+		</element>
+		<element id="IPS.MedicationSummarySection">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="M"/>
+			</extension>
+			<path value="IPS.MedicationSummarySection"/>
+			<short value="IPS Section: Medication Summary"/>
+			<definition value="Section necessary for IPS conformance"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="MedicationSummarySection-lm-cen-ips"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationSummarySection-lm-cen-ips"/>
+			</type>
+		</element>
+		<element id="IPS.ProblemsSection">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="M"/>
+			</extension>
+			<path value="IPS.ProblemsSection"/>
+			<short value="IPS Section: Problems"/>
+			<definition value="Section necessary for IPS conformance"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="ProblemsSection-lm-cen-ips"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/ProblemsSection-lm-cen-ips"/>
+			</type>
+		</element>
+		<element id="IPS.ProvenanceMetadata">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="M"/>
+			</extension>
+			<path value="IPS.ProvenanceMetadata"/>
+			<short value="IPS Attribute Collection: Provenance meta data Collection"/>
+			<definition value="Contains ‘Date of IPS Document Creation’ attribute necessary for IPS conformance"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="ProvenanceMetadata-lm-cen-ips"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/ProvenanceMetadata-lm-cen-ips"/>
+			</type>
+		</element>
+		<element id="IPS.CrossBorderMetadata">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="C"/>
+			</extension>
+			<path value="IPS.CrossBorderMetadata"/>
+			<short value="IPS Attribute Collection: Cross border metadata"/>
+			<definition value="Section necessary for IPS cross border application conformance only"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="CrossBorderMetadata-lm-cen-ips"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/CrossBorderMetadata-lm-cen-ips"/>
+			</type>
+		</element>
+		<!--- RK sections BEGIN -->
+		<element id="IPS.AddressBook">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="RK"/>
+			</extension>
+			<path value="IPS.AddressBook"/>
+			<short value="IPS Attribute Collection: Patient’s Address Book"/>
+			<definition value="This is a ‘required if known’ section.  These are deemed important for inclusion in a patient summary but it is accepted that data may not be collected in the same form or at all in different countries and within countries"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="AddressBook-lm-cen-ips"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/AddressBook-lm-cen-ips"/>
+			</type>
+		</element>
+		
+		<element id="IPS.ProceduresSection">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="RK"/>
+			</extension>
+			<path value="IPS.ProceduresSection"/>
+			<short value="IPS Section: History of Procedures"/>
+			<definition value="This is a ‘required if known’ section.  These are deemed important for inclusion in a patient summary but it is accepted that data may not be collected in the same form or at all in different countries and within countries"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="ProceduresSection-lm-cen-ips"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/ProceduresSection-lm-cen-ips"/>
+			</type>
+		</element>
+
+
+		<element id="IPS.ImmunizationsSection">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="RK"/>
+			</extension>
+			<path value="IPS.ImmunizationsSection"/>
+			<short value="IPS Section: Immunizations"/>
+			<definition value="This is a ‘required if known’ section.  These are deemed important for inclusion in a patient summary but it is accepted that data may not be collected in the same form or at all in different countries and within countries"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="ImmunizationsSection-lm-cen-ips"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/ImmunizationsSection-lm-cen-ips"/>
+			</type>
+		</element>
+		<element id="IPS.MedicalDevicesSection">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="RK"/>
+			</extension>
+			<path value="IPS.MedicalDevicesSection"/>
+			<short value="IPS Section: Medical Devices"/>
+			<definition value="This is a ‘required if known’ section.  These are deemed important for inclusion in a patient summary but it is accepted that data may not be collected in the same form or at all in different countries and within countries"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="MedicalDevicesSection-lm-cen-ips"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/MedicalDevicesSection-lm-cen-ips"/>
+			</type>
+		</element>
+		<element id="IPS.ResultsSection">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="RK"/>
+			</extension>
+			<path value="IPS.ResultsSection"/>
+			<short value="IPS Section: Results"/>
+			<definition value="This is a ‘required if known’ section.  These are deemed important for inclusion in a patient summary but it is accepted that data may not be collected in the same form or at all in different countries and within countries"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="ResultsSection-lm-cen-ips"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/ResultsSection-lm-cen-ips"/>
+			</type>
+		</element>
+		<!-- 	 RK sections END -->
+		<!-- O sections BEGIN -->
+		<element id="IPS.AdvanceDirectivesSection">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="RK"/>
+			</extension>
+			<path value="IPS.AdvanceDirectivesSection"/>
+			<short value="IPS Section: Advance Directives"/>
+			<definition value="This is an ‘optional’ section.  These sections may be absent without any concern being raised."/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="AdvanceDirectivesSection-lm-cen-ips"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/AdvanceDirectivesSection-lm-cen-ips"/>
+			</type>
+		</element>
+		<element id="IPS.FunctionalStatusSection">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="RK"/>
+			</extension>
+			<path value="IPS.FunctionalStatusSection"/>
+			<short value="IPS Section: Functional Status"/>
+			<definition value="This is an ‘optional’ section.  These sections may be absent without any concern being raised."/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="FunctionalStatusSection-lm-cen-ips"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/FunctionalStatusSection-lm-cen-ips"/>
+			</type>
+		</element>
+		<element id="IPS.PlanOfCareSection">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="RK"/>
+			</extension>
+			<path value="IPS.PlanOfCareSection"/>
+			<short value="IPS Section: Plan of Care"/>
+			<definition value="This is an ‘optional’ section.  These sections may be absent without any concern being raised."/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="PlanOfCareSection-lm-cen-ips"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/PlanOfCareSection-lm-cen-ips"/>
+			</type>
+		</element>
+		<element id="IPS.SocialHistorySection">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="RK"/>
+			</extension>
+			<path value="IPS.SocialHistorySection"/>
+			<short value="IPS Section: Social History"/>
+			<definition value="This is an ‘optional’ section.  These sections may be absent without any concern being raised."/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="SocialHistorySection-lm-cen-ips"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/SocialHistorySection-lm-cen-ips"/>
+			</type>
+		</element>
+		
+		<element id="IPS.PregnancyHistorySection">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="RK"/>
+			</extension>
+			<path value="IPS.PregnancyHistorySection"/>
+			<short value="IPS Section: Pregnancy History"/>
+			<definition value="This is an ‘optional’ section.  These sections may be absent without any concern being raised."/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="PregnancyHistorySection-lm-cen-ips"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/PregnancyHistorySection-lm-cen-ips"/>
+			</type>
+		</element>
+		<!-- 
+
+•	History of Past Illness -->
+		<!-- O sections END -->
+	</differential>
+</StructureDefinition>

@@ -1,7 +1,7 @@
 {:.nav .navbar-nav}
 <!-- don't remove the line above - to add or remove a menu item commeent in or out -->
 - [Home](index.html)
-- [General Principles and Design](general.html)
+- [Conformance](conformance.html)
 - [Logical Models](profiles.html)
 <!-- - [Profiles](profiles.html) -->
 <!-- - [Mappings](structuremaps.html) -->
@@ -12,5 +12,5 @@
 <!-- - [Capability Statements](capstatements.html) -->
 <!-- - [Security](security.html) -->
 <!-- - [Examples](examples.html) -->
-- [Downloads](downloads.html)
+<!-- - [Downloads](downloads.html) -->
 - [History](history.html)
