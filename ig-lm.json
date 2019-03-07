@@ -21,7 +21,7 @@
 		"output": "output",
 		"qa": "qa",
 		"resources": [
-			"logical_models", "resources", "concept_maps"
+			"logical_models", "logical_models/_ips_doc", "logical_models/_data_block", "logical_models/_datatypes", "resources", "concept_maps"
 		]
 	},
 	"logging": [
