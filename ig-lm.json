@@ -73,7 +73,7 @@
 			"template-base": "base.html"
 		}
 	},
-	"source": "ig-uv-ips-lm.xml",
+	"source": "ig-cen-ips-lm.xml",
 	"gen-examples": "false",
 	"title": "International Patient Summary Implementation Guide",
 	"extraTemplates": [],
