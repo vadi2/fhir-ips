@@ -1,0 +1,55 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "LA6752-5",
+        "display" : "Mild"
+      },
+      {
+        "code" : "LA6751-7",
+        "display" : "Moderate"
+      },
+      {
+        "code" : "LA6750-9",
+        "display" : "Severe"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:106046c1-7880-4652-93d3-b64eac724ee4",
+    "timestamp" : "2019-03-30T16:36:30.518Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://loinc.org?version=2.65"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "LA6752-5",
+      "display" : "Mild"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA6751-7",
+      "display" : "Moderate"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA6750-9",
+      "display" : "Severe"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------

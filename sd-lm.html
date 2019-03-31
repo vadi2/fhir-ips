@@ -115,7 +115,7 @@ This profile builds on <a href= "{{site.data.structuredefinitions.{{[id]}}.basep
   </div>
  </div>
 {% endunless %}
-
+ <!-- REMOVED SNAPSHOT 
  <div id="tabs-diff">
   <div id="tbl-diff">
    <div id="tbl-diff-inner">
@@ -123,6 +123,8 @@ This profile builds on <a href= "{{site.data.structuredefinitions.{{[id]}}.basep
    </div>
   </div>
  </div>
+ 
+ -->
 
  <div id="tabs-snap">
   <div id="tbl-snap">
@@ -169,18 +171,18 @@ This profile builds on <a href= "{{site.data.structuredefinitions.{{[id]}}.basep
 
   </div>
   {% endunless %}
-
+ <!-- NO Differential 
  <div id="all-tbl-diff">
    <p><b>Differential View</b></p>
 
    <div id="all-tbl-diff-inner">
    {% include {{[type]}}-{{[id]}}-diff.xhtml %}
    </div>
-
+     -->
   </div>
 
   <div id="all-tbl-snap">
-   <p><b>Snapshot View</b></p>
+   <p><b>Logical Model</b></p>
 
    <div id="all-tbl-snap-inner">
 {% include {{[type]}}-{{[id]}}-snapshot.xhtml %}

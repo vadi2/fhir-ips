@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../__FHIRr4Tools/fhir-all-xsd/structuredefinition.xsd">
+<StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../../__FHIRr4Tools/fhir-all-xsd/structuredefinition.xsd">
 	<id value="Period-lm-cen-ips"/>
 	<url value="http://hl7.org/fhir/uv/ips/StructureDefinition/Period-lm-cen-ips"/>
 	<name value="Period"/>
@@ -13,6 +13,38 @@ This standard imposes restrictions on the possible options allowed by the ISO 21
 	<type value="Period"/>
 	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Element"/>
 	<derivation value="specialization"/>
+	<snapshot>
+		<element id="Period">
+			<path value="Period"/>
+			<short value="Date Time"/>
+			<definition value="A quantity specifying a point on the axis of natural time. It might be a complete or a partial date (e.g. just year or year + month). It may indicate the time zone."/>
+			<min value="0"/>
+			<max value="*"/>
+			<constraint>
+				<key value="el-1"/>
+				<severity value="error"/>
+				<human value="A period SHALL be represented either specifying the start and the end date times or specifying the start date time and the width. No other options are allowed."/>
+			</constraint>
+				<constraint>
+				<key value="el-2"/>
+				<severity value="warning"/>
+				<human value="A derived model can restrict the representation to a start and end date times."/>
+			</constraint>
+					<constraint>
+				<key value="el-3"/>
+				<severity value="warning"/>
+				<human value="It is allowed to omit or value with exceptional values the used components (start date time; end date time; width)."/>
+			</constraint>
+			<mapping>
+				<identity value="fhir"/>
+				<map value="Period"/>
+			</mapping>
+			<mapping>
+				<identity value="rim"/>
+				<map value="IVL_TS"/>
+			</mapping>
+		</element>
+	</snapshot>
 	<differential>
 		<element id="Period">
 			<path value="Period"/>

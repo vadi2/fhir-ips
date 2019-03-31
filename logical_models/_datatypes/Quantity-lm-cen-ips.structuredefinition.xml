@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../__FHIRr4Tools/fhir-all-xsd/structuredefinition.xsd">
+<StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../../__FHIRr4Tools/fhir-all-xsd/structuredefinition.xsd">
 	<id value="Quantity-lm-cen-ips"/>
 	<url value="http://hl7.org/fhir/uv/ips/StructureDefinition/Quantity-lm-cen-ips"/>
 	<name value="Quantity"/>
@@ -11,6 +11,38 @@
 	<type value="Quantity"/>
 	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Element"/>
 	<derivation value="specialization"/>
+	<snapshot>
+		<element id="Quantity">
+			<path value="Quantity"/>
+			<short value="Quantity"/>
+			<definition value="A dimensioned quantity expressing the result of measuring"/>
+			<min value="0"/>
+			<max value="*"/>
+			<constraint>
+				<key value="br-1"/>
+				<severity value="error"/>
+				<human value="The choice of unit SHALL follow recommendations of ISO 80000: 2009 Quantities and Units standards series’, in particular the International System of Units, SI, where possible."/>
+			</constraint>
+			<constraint>
+				<key value="br-2"/>
+				<severity value="error"/>
+				<human value="For communication of units between systems UCUM expressions are recommended. UCUM unit expressions should not be used in screen, display or print interfaces intended for human reading."/>
+			</constraint>
+			<constraint>
+				<key value="br-3"/>
+				<severity value="error"/>
+				<human value="In such interfaces the presentation SHALL follow the recommendations of ISO 80000: 2009 ‘Quantities and Units standards series"/>
+			</constraint>
+			<mapping>
+				<identity value="fhir"/>
+				<map value="Simple Quantity"/>
+			</mapping>
+			<mapping>
+				<identity value="rim"/>
+				<map value="PQ"/>
+			</mapping>
+		</element>
+	</snapshot>
 	<differential>
 		<element id="Quantity">
 			<path value="Quantity"/>

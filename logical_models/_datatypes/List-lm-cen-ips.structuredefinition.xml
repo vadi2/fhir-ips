@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../__FHIRr4Tools/fhir-all-xsd/structuredefinition.xsd">
+<StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../../__FHIRr4Tools/fhir-all-xsd/structuredefinition.xsd">
 	<id value="List-lm-cen-ips"/>
 	<url value="http://hl7.org/fhir/uv/ips/StructureDefinition/List-lm-cen-ips"/>
 	<name value="List"/>
@@ -13,6 +13,15 @@ In the Patient Summary and similar clinical communication, it is necessary to de
 	<type value="List"/>
 	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Element"/>
 	<derivation value="specialization"/>
+	<snapshot>
+		<element id="List">
+			<path value="List"/>
+			<short value="A list of items"/>
+			<definition value="A list of items"/>
+			<min value="0"/>
+			<max value="*"/>
+		</element>
+	</snapshot>
 	<differential>
 		<element id="List">
 			<path value="List"/>
