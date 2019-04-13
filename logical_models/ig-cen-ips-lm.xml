@@ -116,16 +116,12 @@
 				<reference value="StructureDefinition/Section-lm-cen-ips"/>
 			</reference>
 		</resource>
-		
 		<resource>
 			<reference>
 				<reference value="StructureDefinition/Document-lm-cen-ips"/>
 			</reference>
 		</resource>
-		
 		<resource>
-		
-		
 			<reference>
 				<reference value="StructureDefinition/Period-lm-cen-ips"/>
 			</reference>
@@ -185,7 +181,7 @@
 				<reference value="StructureDefinition/AttributeCollection-lm-cen-ips"/>
 			</reference>
 		</resource>
-				<resource>
+		<resource>
 			<reference>
 				<reference value="StructureDefinition/MetadataCollection-lm-cen-ips"/>
 			</reference>
@@ -196,16 +192,13 @@
 			</reference>
 		</resource>
 		<!-- Data Types end -->
-
-<!-- Document Model -->
+		<!-- Document Model -->
 		<resource>
 			<reference>
 				<reference value="StructureDefinition/IPS-lm-cen-ips"/>
 			</reference>
 		</resource>
-
-<!-- Docuemnt Model -->		
-		
+		<!-- Docuemnt Model -->
 		<!-- Section Logical Models begin-->
 		<resource>
 			<reference>
@@ -252,17 +245,11 @@
 				<reference value="StructureDefinition/MedicationSummarySection-lm-cen-ips"/>
 			</reference>
 		</resource>
-
-<resource>
+		<resource>
 			<reference>
 				<reference value="StructureDefinition/PregnancyHistorySection-lm-cen-ips"/>
 			</reference>
 		</resource>
-
-
-
-
-		
 		<resource>
 			<reference>
 				<reference value="StructureDefinition/PatientAttributes-lm-cen-ips"/>
@@ -271,6 +258,11 @@
 		<resource>
 			<reference>
 				<reference value="StructureDefinition/AddressBook-lm-cen-ips"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/HxPastIllnessSection-lm-cen-ips"/>
 			</reference>
 		</resource>
 		<resource>
@@ -292,6 +284,11 @@
 		<resource>
 			<reference>
 				<reference value="StructureDefinition/Problem-lm-cen-ips"/>
+			</reference>
+		</resource>
+			<resource>
+			<reference>
+				<reference value="StructureDefinition/PastProblem-lm-cen-ips"/>
 			</reference>
 		</resource>
 		<resource>

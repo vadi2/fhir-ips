@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../__FHIRr4Tools/fhir-all-xsd/structuredefinition.xsd">
+<StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../../__FHIRr4Tools/R4_fhir-all-xsd/structuredefinition.xsd">
 	<id value="IPS-lm-cen-ips"/>
 	<url value="http://hl7.org/fhir/uv/ips/StructureDefinition/IPS-lm-cen-ips"/>
 	<name value="IPS_document"/>
@@ -134,7 +134,6 @@ The International Patient Summary (IPS) is synonymous with the IPS Document and 
 				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/AddressBook-lm-cen-ips"/>
 			</type>
 		</element>
-		
 		<element id="IPS.ProceduresSection">
 			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
 				<valueCode value="RK"/>
@@ -149,8 +148,6 @@ The International Patient Summary (IPS) is synonymous with the IPS Document and 
 				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/ProceduresSection-lm-cen-ips"/>
 			</type>
 		</element>
-
-
 		<element id="IPS.ImmunizationsSection">
 			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
 				<valueCode value="RK"/>
@@ -251,7 +248,6 @@ The International Patient Summary (IPS) is synonymous with the IPS Document and 
 				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/SocialHistorySection-lm-cen-ips"/>
 			</type>
 		</element>
-		
 		<element id="IPS.PregnancyHistorySection">
 			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
 				<valueCode value="RK"/>
@@ -266,9 +262,19 @@ The International Patient Summary (IPS) is synonymous with the IPS Document and 
 				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/PregnancyHistorySection-lm-cen-ips"/>
 			</type>
 		</element>
-		<!-- 
-
-•	History of Past Illness -->
-		<!-- O sections END -->
+		<element id="IPS.HistoryPastIllnessSection">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="O"/>
+			</extension>
+			<path value="IPS.HistoryPastIllnessSection"/>
+			<short value="IPS Section: History of Past Illness"/>
+			<definition value="This is an ‘optional’ section.  These sections may be absent without any concern being raised."/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="HxPastIllnessSection-lm-cen-ips"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/HxPastIllnessSection-lm-cen-ips"/>
+			</type>
+		</element>
 	</differential>
 </StructureDefinition>

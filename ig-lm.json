@@ -2,7 +2,7 @@
 	"broken-links": "warning",
 	"no-inactive-codes": "false",
 	"extensions": [
-		"abatement-dateTime-uv-ips", "participant-uv-ips", "statement-uv-ips"
+		"abatement-dateTime-uv-ips"
 	],
 	"license": "CC0-1.0",
 	"npm-name": "hl7.fhir.uv.ips-lm",
@@ -145,26 +145,21 @@
 			"source": "HealthcareProvider-lm-cen-ips.structuredefinition.xml",
 			"base": "HealthcareProvider-lm-cen-ips.html"
 		},
-		
-		
-	"StructureDefinition/Any-lm-cen-ips": {
+		"StructureDefinition/Any-lm-cen-ips": {
 			"defns": "Any-lm-cen-ips-definitions.html",
 			"source": "Any-lm-cen-ips.structuredefinition.xml",
 			"base": "Any-lm-cen-ips.html"
-		},		
-	  
+		},
 		"StructureDefinition/Period-lm-cen-ips": {
 			"defns": "Period-lm-cen-ips-definitions.html",
 			"source": "Period-lm-cen-ips.structuredefinition.xml",
 			"base": "Period-lm-cen-ips.html"
 		},
-		
-    	"StructureDefinition/Section-lm-cen-ips": {
+		"StructureDefinition/Section-lm-cen-ips": {
 			"defns": "Section-lm-cen-ips-definitions.html",
 			"source": "Section-lm-cen-ips.structuredefinition.xml",
 			"base": "Section-lm-cen-ips.html"
 		},
-    
 		"StructureDefinition/Patient-uv-ips": {
 			"defns": "Patient-uv-ips-definitions.html",
 			"source": "Patient-uv-ips.structuredefinition.xml",
@@ -180,7 +175,6 @@
 			"source": "AllergyIntolerance-uv-ips.structuredefinition.xml",
 			"base": "AllergyIntolerance-uv-ips.html"
 		},
-    
 		"StructureDefinition/AllergyIntoleranceSection-lm-cen-ips": {
 			"defns": "AllergyIntoleranceSection-lm-cen-ips-definitions.html",
 			"source": "AllergyIntoleranceSection-lm-cen-ips.structuredefinition.xml",
@@ -203,6 +197,16 @@
 			"defns": "Problem-lm-cen-ips-definitions.html",
 			"source": "Problem-lm-cen-ips.structuredefinition.xml",
 			"base": "Problem-lm-cen-ips.html"
+		},
+		"StructureDefinition/HxPastIllnessSection-lm-cen-ips": {
+			"defns": "HxPastIllnessSection.html",
+			"source": "HxPastIllnessSection-lm-cen-ips.structuredefinition.xml",
+			"base": "HxPastIllnessSection-lm-cen-ips.html"
+		},
+		"StructureDefinition/PastProblem-lm-cen-ips": {
+			"defns": "PastProblem-lm-cen-ips-definitions.html",
+			"source": "PastProblem-lm-cen-ips.structuredefinition.xml",
+			"base": "PastProblem-lm-cen-ips.html"
 		},
 		"StructureDefinition/ImmunizationsSection-lm-cen-ips": {
 			"defns": "ImmunizationsSection.html",
@@ -244,155 +248,152 @@
 			"source": "LifestyleFactor-lm-cen-ips.structuredefinition.xml",
 			"base": "LifestyleFactor-lm-cen-ips.html"
 		},
-	
 		"StructureDefinition/SocialHistorySection-lm-cen-ips": {
 			"defns": "SocialHistorySection-lm-cen-ips-definitions.html",
 			"source": "SocialHistorySection-lm-cen-ips.structuredefinition.xml",
 			"base": "SocialHistorySection-lm-cen-ips.html"
 		},
-		
-	
-
 		"StructureDefinition/FunctionalStatusSection-lm-cen-ips": {
 			"defns": "FunctionalStatusSection-lm-cen-ips-definitions.html",
 			"source": "FunctionalStatusSection-lm-cen-ips.structuredefinition.xml",
 			"base": "FunctionalStatusSection-lm-cen-ips.html"
 		},
-		
-				"StructureDefinition/Disability-lm-cen-ips": {
+		"StructureDefinition/Disability-lm-cen-ips": {
 			"defns": "Disability-lm-cen-ips-definitions.html",
 			"source": "Disability-lm-cen-ips.structuredefinition.xml",
 			"base": "Disability-lm-cen-ips.html"
 		},
-		
-				"StructureDefinition/FunctionalAssessment-lm-cen-ips": {
+		"StructureDefinition/FunctionalAssessment-lm-cen-ips": {
 			"defns": "FunctionalAssessment-lm-cen-ips-definitions.html",
 			"source": "FunctionalAssessment-lm-cen-ips.structuredefinition.xml",
 			"base": "FunctionalAssessment-lm-cen-ips.html"
 		},
-		
-		   "StructureDefinition/AdvanceDirective-lm-cen-ips": {
-      "defns": "AdvanceDirective-lm-cen-ips-definitions.html",
-      "source": "AdvanceDirective-lm-cen-ips.structuredefinition.xml",
-      "base": "AdvanceDirective-lm-cen-ips.html"
-    },    "StructureDefinition/AdvanceDirectivessection-lm-cen-ips": {
-      "defns": "AdvanceDirectivessection-lm-cen-ips-definitions.html",
-      "source": "AdvanceDirectivesSection-lm-cen-ips.structuredefinition.xml",
-      "base": "AdvanceDirectivessection-lm-cen-ips.html"
-    },    "StructureDefinition/PersonName-lm-cen-ips": {
-      "defns": "PersonName-lm-cen-ips-definitions.html",
-      "source": "PersonName-lm-cen-ips.structuredefinition.xml",
-      "base": "PersonName-lm-cen-ips.html"
-    },    "StructureDefinition/Reference-lm-cen-ips": {
-      "defns": "Reference-lm-cen-ips-definitions.html",
-      "source": "Reference-lm-cen-ips.structuredefinition.xml",
-      "base": "Reference-lm-cen-ips.html"
-    },    "StructureDefinition/Telecom-lm-cen-ips": {
-      "defns": "Telecom-lm-cen-ips-definitions.html",
-      "source": "Telecom-lm-cen-ips.structuredefinition.xml",
-      "base": "Telecom-lm-cen-ips.html"
-      
-      },   "StructureDefinition/GTS-lm-cen-ips": {
-      "defns": "GTS-lm-cen-ips-definitions.html",
-      "source": "GTS-lm-cen-ips.structuredefinition.xml",
-      "base": "GTS-lm-cen-ips.html"
-      
-    },    "StructureDefinition/Plan-lm-cen-ips": {
-      "defns": "Plan-lm-cen-ips-definitions.html",
-      "source": "Plan-lm-cen-ips.structuredefinition.xml",
-      "base": "Plan-lm-cen-ips.html"
-    },    "StructureDefinition/PlanOfCareSection-lm-cen-ips": {
-      "defns": "PlanOfCareSection-lm-cen-ips-definitions.html",
-      "source": "PlanOfCareSection-lm-cen-ips.structuredefinition.xml",
-      "base": "PlanOfCareSection-lm-cen-ips.html"
- 
- 		 },  "StructureDefinition/Result-lm-cen-ips": {
-      "defns": "Result-lm-cen-ips-definitions.html",
-      "source": "Result-lm-cen-ips.structuredefinition.xml",
-      "base": "Result-lm-cen-ips.html"
-    },    "StructureDefinition/ResultsSection-lm-cen-ips": {
-      "defns": "ResultsSection-lm-cen-ips-definitions.html",
-      "source": "ResultsSection-lm-cen-ips.structuredefinition.xml",
-      "base": "ResultsSection-lm-cen-ips.html"
-    },
- 		 
- 		 
- 		 
-
-    "StructureDefinition/Medication-lm-cen-ips": {
-      "defns": "Medication-lm-cen-ips-definitions.html",
-      "source": "Medication-lm-cen-ips.structuredefinition.xml",
-      "base": "Medication-lm-cen-ips.html"
-    },    "StructureDefinition/MedicationStatement-lm-cen-ips": {
-      "defns": "MedicationStatement-lm-cen-ips-definitions.html",
-      "source": "MedicationStatement-lm-cen-ips.structuredefinition.xml",
-      "base": "MedicationStatement-lm-cen-ips.html"
-    },    "StructureDefinition/Medicationsummarysection-lm-cen-ips": {
-      "defns": "Medicationsummarysection-lm-cen-ips-definitions.html",
-      "source": "MedicationSummarySection-lm-cen-ips.structuredefinition.xml",
-      "base": "Medicationsummarysection-lm-cen-ips.html"
-    },    "StructureDefinition/Quantity-lm-cen-ips": {
-      "defns": "Quantity-lm-cen-ips-definitions.html",
-      "source": "Quantity-lm-cen-ips.structuredefinition.xml",
-      "base": "Quantity-lm-cen-ips.html"
-    },    "StructureDefinition/Range-lm-cen-ips": {
-      "defns": "Range-lm-cen-ips-definitions.html",
-      "source": "Range-lm-cen-ips.structuredefinition.xml",
-      "base": "Range-lm-cen-ips.html"
-    },    "StructureDefinition/Ratio-lm-cen-ips": {
-      "defns": "Ratio-lm-cen-ips-definitions.html",
-      "source": "Ratio-lm-cen-ips.structuredefinition.xml",
-      "base": "Ratio-lm-cen-ips.html"
-    },    "StructureDefinition/String-lm-cen-ips": {
-      "defns": "String-lm-cen-ips-definitions.html",
-      "source": "String-lm-cen-ips.structuredefinition.xml",
-      "base": "String-lm-cen-ips.html"
-    }, 		 
- 		 
- 		 
- 		     "StructureDefinition/Address-lm-cen-ips": {
-      "defns": "Address-lm-cen-ips-definitions.html",
-      "source": "Address-lm-cen-ips.structuredefinition.xml",
-      "base": "Address-lm-cen-ips.html"
-    },    "StructureDefinition/AttributeCollection-lm-cen-ips": {
-      "defns": "AttributeCollection-lm-cen-ips-definitions.html",
-      "source": "AttributeCollection-lm-cen-ips.structuredefinition.xml",
-      "base": "AttributeCollection-lm-cen-ips.html"
-    },    "StructureDefinition/PatientAttributes-lm-cen-ips": {
-      "defns": "PatientAttributes-lm-cen-ips-definitions.html",
-      "source": "PatientAttributes-lm-cen-ips.structuredefinition.xml",
-      "base": "PatientAttributes-lm-cen-ips.html"
-    },  
- 		 
- 		 
- 		     "StructureDefinition/AddressBook-lm-cen-ips": {
-      "defns": "AddressBook-lm-cen-ips-definitions.html",
-      "source": "AddressBook-lm-cen-ips.structuredefinition.xml",
-      "base": "AddressBook-lm-cen-ips.html"
-    },    "StructureDefinition/OrganizationName-lm-cen-ips": {
-      "defns": "OrganizationName-lm-cen-ips-definitions.html",
-      "source": "OrganizationName-lm-cen-ips.structuredefinition.xml",
-      "base": "OrganizationName-lm-cen-ips.html"
-    },    
-    
-
- "StructureDefinition/MetadataCollection-lm-cen-ips": {
-      "defns": "MetadataCollection-lm-cen-ips-definitions.html",
-      "source": "MetadataCollection-lm-cen-ips.structuredefinition.xml",
-      "base": "MetadataCollection-lm-cen-ips.html"
-    },     
-    
-      "StructureDefinition/CrossBorderMetadata-lm-cen-ips": {
-      "defns": "CrossBorderMetadata-lm-cen-ips-definitions.html",
-      "source": "CrossBorderMetadata-lm-cen-ips.structuredefinition.xml",
-      "base": "CrossBorderMetadata-lm-cen-ips.html"
-    },    "StructureDefinition/ProvenanceMetadata-lm-cen-ips": {
-      "defns": "ProvenanceMetadata-lm-cen-ips-definitions.html",
-      "source": "ProvenanceMetadata-lm-cen-ips.structuredefinition.xml",
-      "base": "ProvenanceMetadata-lm-cen-ips.html"
-    },
- 		 
- 		 "ValueSet/allergy-intolerance-substance-condition-uv-ips": {
+		"StructureDefinition/AdvanceDirective-lm-cen-ips": {
+			"defns": "AdvanceDirective-lm-cen-ips-definitions.html",
+			"source": "AdvanceDirective-lm-cen-ips.structuredefinition.xml",
+			"base": "AdvanceDirective-lm-cen-ips.html"
+		},
+		"StructureDefinition/AdvanceDirectivessection-lm-cen-ips": {
+			"defns": "AdvanceDirectivessection-lm-cen-ips-definitions.html",
+			"source": "AdvanceDirectivesSection-lm-cen-ips.structuredefinition.xml",
+			"base": "AdvanceDirectivessection-lm-cen-ips.html"
+		},
+		"StructureDefinition/PersonName-lm-cen-ips": {
+			"defns": "PersonName-lm-cen-ips-definitions.html",
+			"source": "PersonName-lm-cen-ips.structuredefinition.xml",
+			"base": "PersonName-lm-cen-ips.html"
+		},
+		"StructureDefinition/Reference-lm-cen-ips": {
+			"defns": "Reference-lm-cen-ips-definitions.html",
+			"source": "Reference-lm-cen-ips.structuredefinition.xml",
+			"base": "Reference-lm-cen-ips.html"
+		},
+		"StructureDefinition/Telecom-lm-cen-ips": {
+			"defns": "Telecom-lm-cen-ips-definitions.html",
+			"source": "Telecom-lm-cen-ips.structuredefinition.xml",
+			"base": "Telecom-lm-cen-ips.html"
+		},
+		"StructureDefinition/GTS-lm-cen-ips": {
+			"defns": "GTS-lm-cen-ips-definitions.html",
+			"source": "GTS-lm-cen-ips.structuredefinition.xml",
+			"base": "GTS-lm-cen-ips.html"
+		},
+		"StructureDefinition/Plan-lm-cen-ips": {
+			"defns": "Plan-lm-cen-ips-definitions.html",
+			"source": "Plan-lm-cen-ips.structuredefinition.xml",
+			"base": "Plan-lm-cen-ips.html"
+		},
+		"StructureDefinition/PlanOfCareSection-lm-cen-ips": {
+			"defns": "PlanOfCareSection-lm-cen-ips-definitions.html",
+			"source": "PlanOfCareSection-lm-cen-ips.structuredefinition.xml",
+			"base": "PlanOfCareSection-lm-cen-ips.html"
+		},
+		"StructureDefinition/Result-lm-cen-ips": {
+			"defns": "Result-lm-cen-ips-definitions.html",
+			"source": "Result-lm-cen-ips.structuredefinition.xml",
+			"base": "Result-lm-cen-ips.html"
+		},
+		"StructureDefinition/ResultsSection-lm-cen-ips": {
+			"defns": "ResultsSection-lm-cen-ips-definitions.html",
+			"source": "ResultsSection-lm-cen-ips.structuredefinition.xml",
+			"base": "ResultsSection-lm-cen-ips.html"
+		},
+		"StructureDefinition/Medication-lm-cen-ips": {
+			"defns": "Medication-lm-cen-ips-definitions.html",
+			"source": "Medication-lm-cen-ips.structuredefinition.xml",
+			"base": "Medication-lm-cen-ips.html"
+		},
+		"StructureDefinition/MedicationStatement-lm-cen-ips": {
+			"defns": "MedicationStatement-lm-cen-ips-definitions.html",
+			"source": "MedicationStatement-lm-cen-ips.structuredefinition.xml",
+			"base": "MedicationStatement-lm-cen-ips.html"
+		},
+		"StructureDefinition/Medicationsummarysection-lm-cen-ips": {
+			"defns": "Medicationsummarysection-lm-cen-ips-definitions.html",
+			"source": "MedicationSummarySection-lm-cen-ips.structuredefinition.xml",
+			"base": "Medicationsummarysection-lm-cen-ips.html"
+		},
+		"StructureDefinition/Quantity-lm-cen-ips": {
+			"defns": "Quantity-lm-cen-ips-definitions.html",
+			"source": "Quantity-lm-cen-ips.structuredefinition.xml",
+			"base": "Quantity-lm-cen-ips.html"
+		},
+		"StructureDefinition/Range-lm-cen-ips": {
+			"defns": "Range-lm-cen-ips-definitions.html",
+			"source": "Range-lm-cen-ips.structuredefinition.xml",
+			"base": "Range-lm-cen-ips.html"
+		},
+		"StructureDefinition/Ratio-lm-cen-ips": {
+			"defns": "Ratio-lm-cen-ips-definitions.html",
+			"source": "Ratio-lm-cen-ips.structuredefinition.xml",
+			"base": "Ratio-lm-cen-ips.html"
+		},
+		"StructureDefinition/String-lm-cen-ips": {
+			"defns": "String-lm-cen-ips-definitions.html",
+			"source": "String-lm-cen-ips.structuredefinition.xml",
+			"base": "String-lm-cen-ips.html"
+		},
+		"StructureDefinition/Address-lm-cen-ips": {
+			"defns": "Address-lm-cen-ips-definitions.html",
+			"source": "Address-lm-cen-ips.structuredefinition.xml",
+			"base": "Address-lm-cen-ips.html"
+		},
+		"StructureDefinition/AttributeCollection-lm-cen-ips": {
+			"defns": "AttributeCollection-lm-cen-ips-definitions.html",
+			"source": "AttributeCollection-lm-cen-ips.structuredefinition.xml",
+			"base": "AttributeCollection-lm-cen-ips.html"
+		},
+		"StructureDefinition/PatientAttributes-lm-cen-ips": {
+			"defns": "PatientAttributes-lm-cen-ips-definitions.html",
+			"source": "PatientAttributes-lm-cen-ips.structuredefinition.xml",
+			"base": "PatientAttributes-lm-cen-ips.html"
+		},
+		"StructureDefinition/AddressBook-lm-cen-ips": {
+			"defns": "AddressBook-lm-cen-ips-definitions.html",
+			"source": "AddressBook-lm-cen-ips.structuredefinition.xml",
+			"base": "AddressBook-lm-cen-ips.html"
+		},
+		"StructureDefinition/OrganizationName-lm-cen-ips": {
+			"defns": "OrganizationName-lm-cen-ips-definitions.html",
+			"source": "OrganizationName-lm-cen-ips.structuredefinition.xml",
+			"base": "OrganizationName-lm-cen-ips.html"
+		},
+		"StructureDefinition/MetadataCollection-lm-cen-ips": {
+			"defns": "MetadataCollection-lm-cen-ips-definitions.html",
+			"source": "MetadataCollection-lm-cen-ips.structuredefinition.xml",
+			"base": "MetadataCollection-lm-cen-ips.html"
+		},
+		"StructureDefinition/CrossBorderMetadata-lm-cen-ips": {
+			"defns": "CrossBorderMetadata-lm-cen-ips-definitions.html",
+			"source": "CrossBorderMetadata-lm-cen-ips.structuredefinition.xml",
+			"base": "CrossBorderMetadata-lm-cen-ips.html"
+		},
+		"StructureDefinition/ProvenanceMetadata-lm-cen-ips": {
+			"defns": "ProvenanceMetadata-lm-cen-ips-definitions.html",
+			"source": "ProvenanceMetadata-lm-cen-ips.structuredefinition.xml",
+			"base": "ProvenanceMetadata-lm-cen-ips.html"
+		},
+		"ValueSet/allergy-intolerance-substance-condition-uv-ips": {
 			"source": "valueset-allergy-intolerance-substance-condition-uv-ips.xml",
 			"base": "ValueSet-allergy-intolerance-substance-condition-uv-ips.html"
 		},
@@ -407,10 +408,6 @@
 		"ValueSet/healthcare-professional-roles-uv-ips": {
 			"source": "valueset-healthcare-professional-roles-uv-ips.xml",
 			"base": "ValueSet-healthcare-professional-roles-uv-ips.html"
-		},
-		"ValueSet/condition-severity-uv-ips": {
-			"source": "valueset-condition-severity-uv-ips.xml",
-			"base": "ValueSet-condition-severity-uv-ips.html"
 		},
 		"ValueSet/absent-or-unknown-allergies-uv-ips": {
 			"source": "valueset-absent-or-unknown-allergies-uv-ips.xml",

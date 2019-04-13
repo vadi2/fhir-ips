@@ -11,10 +11,8 @@ An address may or may not include a specific use code; if this attribute is not 
 	<kind value="complex-type"/>
 	<abstract value="true"/>
 	<type value="Address"/>
-	
-	 <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Element"/>
-	<derivation value="specialization"/> 
-
+	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Element"/>
+	<derivation value="specialization"/>
 	<snapshot>
 		<element id="Address">
 			<path value="Address"/>
@@ -39,7 +37,7 @@ An address may or may not include a specific use code; if this attribute is not 
 			</mapping>
 		</element>
 	</snapshot>
-		<differential>
+	<differential>
 		<element id="Address">
 			<path value="Address"/>
 			<short value="Address"/>
