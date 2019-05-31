@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../../__FHIRr4Tools/R4_fhir-all-xsd/structuredefinition.xsd">
+	<id value="SocialHistorySection"/>
+	<url value="http://hl7.org/fhir/uv/ips/StructureDefinition/SocialHistorySection"/>
+	<name value="SocialHistorySection"/>
+	<title value="Social History Section (EN 17269)"/>
+	<status value="draft"/>
+	<description value="Health related “lifestyle factors” or “lifestyle observations” (e.g. smoking habits; alcohol consumption; diets etc.)"/>
+	<purpose value="To present observations on social factors such as alcohol consumption, smoking and diet.  From the healthcare perspective, life-style factors relate to well-being but can also provide a source of risk factors."/>
+	<kind value="logical"/>
+	<abstract value="true"/>
+	<type value="http://hl7.org/fhir/uv/ips/StructureDefinition/SocialHistorySection"/>
+	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Element"/>
+	<derivation value="specialization"/>
+	<differential>
+		<element id="SocialHistorySection">
+			<path value="SocialHistorySection"/>
+			<short value="Social History Section"/>
+			<definition value="Health related “lifestyle factors” or “lifestyle observations” (e.g. smoking habits; alcohol consumption; diets etc.)"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/Section"/>
+			</type>
+		</element>
+		<element id="SocialHistorySection.LifestyleFactors">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="R"/>
+			</extension>
+			<path value="SocialHistorySection.LifestyleFactors"/>
+			<short value="Life style factors"/>
+			<definition value="An open-ended list of composite objects that describes the past and current habits of the patient with respect to a particular life style observation.
+If this IPS Section is present then the list shall be non-empty.
+Composite object describing the name of the lifestyle factor and descriptive text or structured codes providing more details, with ranges and amounts when applicable; Textual information if coded/quantified data are not available"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/List"/>
+			</type>
+		</element>
+		<element id="SocialHistorySection.SocialHistory.Problem">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="M"/>
+			</extension>
+			<path value="SocialHistorySection.LifestyleFactors.LifestyleFactor"/>
+			<short value="Life style factor"/>
+			<definition value="The purpose is to identify the particular factor of interest.  Currently the possible factors for consideration and should be included are:
+•	alcohol consumption
+•	smoking
+•	diet
+Other kinds of lifestyle factors may also be considered such as risk factors, exercise, exposure risks, or other types of dependencies such as drugs."/>
+			<min value="1"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/LifestyleFactor"/>
+			</type>
+		</element>
+	</differential>
+</StructureDefinition>

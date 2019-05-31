@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../../__FHIRr4Tools/fhir-all-xsd/structuredefinition.xsd">
+	<id value="List"/>
+	<url value="http://hl7.org/fhir/uv/ips/StructureDefinition/List"/>
+	<name value="List"/>
+	<title value="List (EN 17269)"/>
+	<status value="draft"/>
+	<description value="List structures are common place in clinical records. Virtually all of the IPS Sections comprise lists as part or perhaps all of their main content.   It is therefore possible to represent parts of this specification with formal list structures to support business rules that assist with precision, conciseness and readability.   However, the representation chosen to represent the lists in this standard does not necessitate a particular implementation.
+A list may be an empty list, a container awaiting content.  The items in the list are of the same type and so their structure/content can be defined as a single template, rather than creating a separate template for each individual item to be placed in the list.  For example, a list of Lifestyle factors, would have the same item structure (described generically once) for a factor, but the list would grow as new lifestyle data was required to be added, e.g. a smoking factor, an alcohol factor, drug dependency etc.
+In the Patient Summary and similar clinical communication, it is necessary to determine why certain data are missing, and whether or not its absence is permissible. For example, the IPS Section PROBLEMS is required in the IPS Document, and it comprises a list of problems; it maybe that the patient has never had any type of problem before this particular event and the problem list will be empty. In this example it would be necessary to explicitly state that there are NO problems in the patient’s history. Often a predicate is evaluated and the following material becomes conditional on the result."/>
+	<kind value="logical"/>
+	<abstract value="true"/>
+	<type value="http://hl7.org/fhir/uv/ips/StructureDefinition/List"/>
+	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Element"/>
+	<derivation value="specialization"/>
+	<differential>
+		<element id="List">
+			<path value="List"/>
+			<short value="A list of items"/>
+			<definition value="A list of items"/>
+			<min value="0"/>
+			<max value="*"/>
+		</element>
+	</differential>
+</StructureDefinition>

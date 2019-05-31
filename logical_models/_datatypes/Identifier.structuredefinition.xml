@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../../__FHIRr4Tools/fhir-all-xsd/structuredefinition.xsd">
+	<id value="Identifier"/>
+	<url value="http://hl7.org/fhir/uv/ips/StructureDefinition/Identifier"/>
+	<name value="Identifier"/>
+	<title value="Identifier (EN 17269)"/>
+	<status value="draft"/>
+	<description value="An element that uniquely identifies a thing or an object."/>
+	<kind value="logical"/>
+	<abstract value="true"/>
+	<type value="http://hl7.org/fhir/uv/ips/StructureDefinition/Identifier"/>
+	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Element"/>
+	<derivation value="specialization"/>
+	<differential>
+		<element id="Identifier">
+			<path value="Identifier"/>
+			<short value="Identifier"/>
+			<definition value="An element that uniquely identifies a thing or an object."/>
+			<min value="0"/>
+			<max value="*"/>
+		</element>
+	</differential>
+</StructureDefinition>

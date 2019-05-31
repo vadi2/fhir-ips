@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../../__FHIRr4Tools/fhir-all-xsd/structuredefinition.xsd">
+	<id value="AttributeCollection"/>
+	<url value="http://hl7.org/fhir/uv/ips/StructureDefinition/AttributeCollection"/>
+	<name value="AttributeCollection"/>
+	<title value="Attribute Collection (EN 17269)"/>
+	<status value="draft"/>
+	<description value="Healthcare-related content within the IPS Data Set and grouped with respect to identification and administrative purposes for inclusion in the IPS Document
+NOTE 1 to entry:  Attributes in IPS Attribute Collections are used in IPS Sections."/>
+	<kind value="logical"/>
+	<abstract value="true"/>
+	<type value="http://hl7.org/fhir/uv/ips/StructureDefinition/AttributeCollection"/>
+	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Element"/>
+	<derivation value="specialization"/>
+	<differential>
+		<element id="AttributeCollection">
+			<path value="AttributeCollection"/>
+			<short value="AttributeCollection"/>
+			<definition value="Healthcare-related content within the IPS Data Set and grouped with respect to identification and administrative purposes for inclusion in the IPS Document
+NOTE 1 to entry:  Attributes in IPS Attribute Collections are used in IPS Sections."/>
+			<min value="0"/>
+			<max value="*"/>
+		</element>
+	</differential>
+</StructureDefinition>

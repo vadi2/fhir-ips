@@ -5,10 +5,12 @@
 	<meta>
 		<profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
 	</meta>
+	<!--
 	<text>
 		<status value="generated"/>
 		<div xmlns="http://www.w3.org/1999/xhtml">This value set includes (at the end) some clinical observations, which may be relevant in a lab report (body weight, temperature ….).Value Set Definition:LOINC {  {    COMPONENT not containing the word &#34;panel&#34;    STATUS in {ACTIVE}    CLASSTYPE in {1}    ORDER_OBS in {Observation, Both}    CLASS exclude {CHALSKIN, H&amp;P.HX.LAB, H&amp;P.HX, LABORDERS, NR STATS, PATH.PROTOCOLS.*}  }  UNION  {    COMPONENT not ( containing the word &#34;panel&#34; OR starting with &#34;can pronounce&#34; )    STATUS in {ACTIVE}    CLASSTYPE in {2}    ORDER_OBS in {Observation, Both}    SYSTEM = ^Patient  }}</div>
 	</text>
+	-->
 	<url value="http://hl7.org/fhir/uv/ips/ValueSet/laboratory-and-vital-signs-observations"/>
 	<identifier>
 		<use value="official"/>
@@ -36,11 +38,12 @@
 			<value value="info@hl7.org"/>
 		</telecom>
 	</contact>
-	<description value=" This value set includes (at the end) some clinical observations, which may be relevant in a lab report (body weight, temperature ….).Value Set Definition:LOINC {  {    COMPONENT not containing the word &#34;panel&#34;    STATUS in {ACTIVE}    CLASSTYPE in {1}    ORDER_OBS in {Observation, Both}    CLASS exclude {CHALSKIN, H&amp;P.HX.LAB, H&amp;P.HX, LABORDERS, NR STATS, PATH.PROTOCOLS.*}  }  UNION  {    COMPONENT not ( containing the word &#34;panel&#34; OR starting with &#34;can pronounce&#34; )    STATUS in {ACTIVE}    CLASSTYPE in {2}    ORDER_OBS in {Observation, Both}    SYSTEM = ^Patient  }}"/>
+	<description value="This value set includes (at the end) some clinical observations, which may be relevant in a lab report (body weight, temperature ….).  Value Set Definition: LOINC {  {    COMPONENT not containing the word &#34;panel&#34;    STATUS in {ACTIVE}    CLASSTYPE in {1}    ORDER_OBS in {Observation, Both}    CLASS exclude {CHALSKIN, H&amp;P.HX.LAB, H&amp;P.HX, LABORDERS, NR STATS, PATH.PROTOCOLS.*}  }  UNION  {    COMPONENT not ( containing the word &#34;panel&#34; OR starting with &#34;can pronounce&#34; )    STATUS in {ACTIVE}    CLASSTYPE in {2}    ORDER_OBS in {Observation, Both}    SYSTEM = ^Patient  }}  Note: This definition is only partially implemented and the current value set expansion contains more than the expected set of codes, as the required regex filters for the LOINC code system are not currently supported by the terminology service."/>
 	<immutable value="false"/>
 	<compose>
 		<include>
 			<system value="http://loinc.org"/>
+			<!-- regex not supported currently
 			<filter>
 				<property value="COMPONENT"/>
 				<op value="regex"/>
@@ -51,6 +54,7 @@
 				<op value="regex"/>
 				<value value="^((?!panel).)*$"/>
 			</filter>
+			-->
 			<filter>
 				<property value="STATUS"/>
 				<op value="="/>
@@ -61,6 +65,7 @@
 				<op value="="/>
 				<value value="1"/>
 			</filter>
+			<!-- regex not supported currently
 			<filter>
 				<property value="ORDER_OBS"/>
 				<op value="regex"/>
@@ -91,9 +96,11 @@
 				<op value="regex"/>
 				<value value="^(?!CHALSKIN.*$).*"/>
 			</filter>
+			-->
 		</include>
 		<include>
 			<system value="http://loinc.org"/>
+			<!-- regex not supported currently
 			<filter>
 				<property value="COMPONENT"/>
 				<op value="regex"/>
@@ -109,6 +116,7 @@
 				<op value="regex"/>
 				<value value="^(?!Can pronounce.*$).*"/>
 			</filter>
+			-->
 			<filter>
 				<property value="STATUS"/>
 				<op value="="/>
@@ -119,11 +127,13 @@
 				<op value="="/>
 				<value value="2"/>
 			</filter>
+			<!-- regex not supported currently
 			<filter>
 				<property value="ORDER_OBS"/>
 				<op value="regex"/>
 				<value value="Observation|Both"/>
 			</filter>
+			-->
 			<filter>
 				<property value="SYSTEM"/>
 				<op value="="/>

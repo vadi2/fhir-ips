@@ -1,0 +1,1 @@
+# allergyintolerance-search.md file

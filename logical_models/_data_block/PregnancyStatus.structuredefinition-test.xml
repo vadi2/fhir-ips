@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../../__FHIRr4Tools/fhir-all-xsd/structuredefinition.xsd">
+	<id value="PregnancyStatus"/>
+	<url value="http://hl7.org/fhir/uv/ips/StructureDefinition/PregnancyStatus"/>
+	<name value="PregnancyStatus"/>
+	<title value="PregnancyStatus (EN 17269)"/>
+	<status value="draft"/>
+	<description value="Relevant patient’s allergies or intolerance condition"/>
+	<kind value="logical"/>
+	<abstract value="true"/>
+	<type value="http://hl7.org/fhir/uv/ips/StructureDefinition/PregnancyStatus"/>
+	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Element"/>
+	<derivation value="specialization"/>
+	<differential>
+		<element id="PregnancyStatus">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="C"/>
+			</extension>
+			<path value="PregnancyStatus"/>
+			<short value="PregnancyStatus"/>
+			<definition value="One or more PregnancyStatuss are listed; each comprising the same structure describing the nature of the PregnancyStatus and its date of onset."/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/LabelConcept"/>
+			</type>
+		</element>
+		<element id="PregnancyStatus.PregnanciesDescription">
+			<path value="PregnancyStatus.PregnanciesDescription"/>
+			<short value="Pregnancies description"/>
+			<definition value="The detail of the current Pregnancy is either given as text or in a structured form, but not in both"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/Text"/>
+			</type>
+		</element>
+		<element id="PregnancyStatus.PregnancyDetails">
+			<path value="PregnancyStatus.PregnancyDetails"/>
+			<short value="Pregnancy details"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/LabelConcept"/>
+			</type>
+		</element>
+		<element id="PregnancyStatus.PregnancyDetails.ObservationDate">
+			<path value="PregnancyStatus.PregnancyDetails.ObservationDate"/>
+			<short value="Date of observation"/>
+			<definition value="Provides information about when the observation of the pregnancy state was made."/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/DateTime"/>
+			</type>
+		</element>
+		<element id="PregnancyStatus.PregnancyDetails.State">
+			<path value="PregnancyStatus.PregnancyDetails.State"/>
+			<short value="Pregnancy state"/>
+			<definition value="Purpose: To give the women’s current state at the date the observation made.  Pregnant state value set should include:
+•	Pregnant
+•	Not Pregnant
+•	Unknown"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/CodedElement"/>
+			</type>
+		</element>
+		<element id="PregnancyStatus.PregnancyDetails.DeliveryDate">
+			<path value="PregnancyStatus.PregnancyDetails.DeliveryDate"/>
+			<short value="Expected delivery date"/>
+			<definition value="If pregnant, this attribute provides delivery information, an approximation usually month/year but no day element."/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/DateTime"/>
+			</type>
+		</element>
+		<element id="PregnancyStatus.PregnancyDetails.Specialist">
+			<path value="PregnancyStatus.PregnancyDetails.Specialist"/>
+			<short value="Specialist contact"/>
+			<definition value="An optional healthcare provider who may have expertise related to the pregnancy, but is not necessarily the author of the IPS Document.
+The specialist contact may provide an additional resource relevant to the treatment at the point of care.  The detail may be found in the Patient’s address book, and may be defined with a specific role."/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/HealthcareProvider"/>
+			</type>
+		</element>
+	</differential>
+</StructureDefinition>

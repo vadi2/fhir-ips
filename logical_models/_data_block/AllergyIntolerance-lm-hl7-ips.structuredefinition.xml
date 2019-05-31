@@ -28,8 +28,8 @@
 			<min value="0"/>
 			<max value="*"/>
 			<type>
-				<code value="LabelConcept-lm-cen-ips"/>
-				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/LabelConcept-lm-cen-ips"/>
+				
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/LabelConcept"/>
 			</type>
 		</element>
 		
@@ -44,8 +44,8 @@
 			<min value="0"/>
 			<max value="*"/>
 			<type>
-				<code value="CodedElement-lm-cen-ips"/>
-				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/CodedElement-lm-cen-ips"/>
+				
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/CodedElement"/>
 			</type>
 		</element>
 				
@@ -65,8 +65,8 @@ Format: Coded information:  Value set should include:
 			<min value="0"/>
 			<max value="*"/>
 			<type>
-				<code value="CodedElement-lm-cen-ips"/>
-				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/CodedElement-lm-cen-ips"/>
+				
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/CodedElement"/>
 			</type>
 		</element>
 		
@@ -82,8 +82,8 @@ Value set should include:
 			<min value="0"/>
 			<max value="*"/>
 			<type>
-				<code value="CodedElement-lm-cen-ips"/>
-				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/CodedElement-lm-cen-ips"/>
+				
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/CodedElement"/>
 			</type>
 		</element>
 		
@@ -96,8 +96,8 @@ Value set should include:
 			<min value="0"/>
 			<max value="*"/>
 			<type>
-				<code value="DateTime-lm-cen-ips"/>
-				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/DateTime-lm-cen-ips"/>
+				
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/DateTime"/>
 			</type>
 		</element>
 		<element id="AllergyorIntolerance.EndDate">
@@ -108,8 +108,8 @@ It shall be provided with the highest known precision, at least year." />
 			<min value="0"/>
 			<max value="*"/>
 			<type>
-				<code value="DateTime-lm-cen-ips"/>
-				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/DateTime-lm-cen-ips"/>
+				
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/DateTime"/>
 			</type>
 		</element>
 		
@@ -130,8 +130,8 @@ Example: lactose intolerance" />
 			<min value="0"/>
 			<max value="*"/>
 			<type>
-				<code value="CodedElement-lm-cen-ips"/>
-				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/CodedElement-lm-cen-ips"/>
+				
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/CodedElement"/>
 			</type>
 		</element>
 		<element id="AllergyorIntolerance.Reaction">
@@ -144,8 +144,8 @@ Example: lactose intolerance" />
 			<min value="0"/>
 			<max value="*"/>
 			<type>
-				<code value="LabelConcept-lm-cen-ips"/>
-				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/LabelConcept-lm-cen-ips"/>
+				
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/LabelConcept"/>
 			</type>
 		</element>
 		<element id="AllergyorIntolerance.Reaction.Manifestation">
@@ -160,8 +160,8 @@ Example: “intestinal discomfort” is the manifestation of the reaction." />
 			<min value="0"/>
 			<max value="*"/>
 			<type>
-				<code value="CodedElement-lm-cen-ips"/>
-				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/CodedElement-lm-cen-ips"/>
+				
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/CodedElement"/>
 			</type>
 		</element>
 		
@@ -175,8 +175,8 @@ Example: “intestinal discomfort” is the manifestation of the reaction." />
 			<min value="0"/>
 			<max value="1"/>
 			<type>
-				<code value="DateTime-lm-cen-ips"/>
-				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/DateTime-lm-cen-ips"/>
+				
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/DateTime"/>
 			</type>
 		</element>
 		<element id="AllergyorIntolerance.Reaction.Severity">
@@ -189,8 +189,8 @@ Example: “intestinal discomfort” is the manifestation of the reaction." />
 			<min value="0"/>
 			<max value="*"/>
 			<type>
-				<code value="CodedElement-lm-cen-ips"/>
-				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/CodedElement-lm-cen-ips"/>
+				
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/CodedElement"/>
 			</type>
 		</element>
 		<element id="AllergyorIntolerance.Agent">
@@ -202,8 +202,8 @@ Example: “intestinal discomfort” is the manifestation of the reaction." />
 			<min value="0"/>
 			<max value="*"/>
 			<type>
-				<code value="LabelConcept-lm-cen-ips"/>
-				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/LabelConcept-lm-cen-ips"/>
+				
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/LabelConcept"/>
 			</type>
 		</element>
 		<element id="AllergyorIntolerance.Agent.Code">
@@ -216,8 +216,8 @@ Example: “intestinal discomfort” is the manifestation of the reaction." />
 			<min value="0"/>
 			<max value="*"/>
 			<type>
-				<code value="CodedElement-lm-cen-ips"/>
-				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/CodedElement-lm-cen-ips"/>
+				
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/CodedElement"/>
 			</type>
 		</element>
 		<element id="AllergyorIntolerance.Agent.Category">
@@ -233,8 +233,8 @@ Example: “intestinal discomfort” is the manifestation of the reaction." />
 			<min value="0"/>
 			<max value="*"/>
 			<type>
-				<code value="CodedElement-lm-cen-ips"/>
-				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/CodedElement-lm-cen-ips"/>
+				
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/CodedElement"/>
 			</type>
 		</element>
 

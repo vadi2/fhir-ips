@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../../__FHIRr4Tools/fhir-all-xsd/structuredefinition.xsd">
+	<id value="String"/>
+	<url value="http://hl7.org/fhir/uv/ips/StructureDefinition/String"/>
+	<name value="String"/>
+	<title value="String (EN 17269)"/>
+	<status value="draft"/>
+	<description value="The character string datatype stands for text data, primarily intended for machine processing (e.g. sorting, querying, indexing, etc.) or direct display. Used for names, symbols, presentation and formal expressions.
+A String shall have at least one character or else have a nullFlavor."/>
+	<kind value="logical"/>
+	<abstract value="true"/>
+	<type value="http://hl7.org/fhir/uv/ips/StructureDefinition/String"/>
+	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Element"/>
+	<derivation value="specialization"/>
+		<differential>
+		<element id="String">
+			<path value="String"/>
+			<short value="String"/>
+			<definition value="The character string datatype stands for text data, primarily intended for machine processing (e.g. sorting, querying, indexing, etc.) or direct display. Used for names, symbols, presentation and formal expressions.
+A String shall have at least one character or else have a nullFlavor."/>
+			<min value="0"/>
+			<max value="*"/>
+			<mapping>
+				<identity value="fhir"/>
+				<map value="string"/>
+			</mapping>
+			<mapping>
+				<identity value="rim"/>
+				<map value="ST"/>
+			</mapping>
+		</element>
+	</differential>
+</StructureDefinition>

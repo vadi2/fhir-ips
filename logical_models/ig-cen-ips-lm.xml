@@ -5,7 +5,13 @@
 	<name value="EN_17269_HL7_FHIR_Logical_Model"/>
 	<title value="EN 17269: HL7 FHIR Logical Models"/>
 	<status value="active"/>
-	<publisher value="Health Level Seven International"/>
+	<publisher value="CEN/TC 251"/>
+	<contact>
+		<telecom>
+			<system value="url"/>
+			<value value="http://hl7.eu"/>
+		</telecom>
+	</contact>
 	<!-- this is only a temporary WIP; the real one has to be assigned -->
 	<packageId value="hl7.fhir.uv.ips.cen.lm"/>
 	<fhirVersion value="4.0.0"/>
@@ -13,6 +19,17 @@
 		<grouping>
 			<name value="base"/>
 		</grouping>
+		<grouping id="datatypes">
+			<name value="datatypes"/>
+		</grouping>
+		<!-- Extensions begin -->
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/conformance-cen-ips"/>
+			</reference>
+		</resource>
+		<!-- Extensions end-->
+		<!-- IPS resources begin 
 		<resource>
 			<reference>
 				<reference value="ValueSet/absent-or-unknown-allergies-uv-ips"/>
@@ -68,297 +85,305 @@
 				<reference value="StructureDefinition/AllergyIntolerance-uv-ips"/>
 			</reference>
 		</resource>
-		<!-- Extensions begin -->
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/conformance-cen-ips"/>
-			</reference>
-		</resource>
-		<!-- Extensions end-->
+		IPS resources begin -->
 		<!-- Data Types begin-->
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/CodedElement-lm-cen-ips"/>
+				<reference value="StructureDefinition/CodedElement"/>
+			</reference>
+			<groupingId value="datatypes"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/LabelConcept"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/LabelConcept-lm-cen-ips"/>
+				<reference value="StructureDefinition/Text"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/Text-lm-cen-ips"/>
+				<reference value="StructureDefinition/DateTime"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/DateTime-lm-cen-ips"/>
+				<reference value="StructureDefinition/List"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/List-lm-cen-ips"/>
+				<reference value="StructureDefinition/HealthcareProvider"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/HealthcareProvider-lm-cen-ips"/>
+				<reference value="StructureDefinition/Identifier"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/Identifier-lm-cen-ips"/>
+				<reference value="StructureDefinition/Section"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/Section-lm-cen-ips"/>
+				<reference value="StructureDefinition/Document"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/Document-lm-cen-ips"/>
+				<reference value="StructureDefinition/Period"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/Period-lm-cen-ips"/>
+				<reference value="StructureDefinition/Any"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/Any-lm-cen-ips"/>
+				<reference value="StructureDefinition/PersonName"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/PersonName-lm-cen-ips"/>
+				<reference value="StructureDefinition/Telecom"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/Telecom-lm-cen-ips"/>
+				<reference value="StructureDefinition/Reference"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/Reference-lm-cen-ips"/>
+				<reference value="StructureDefinition/GTS"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/GTS-lm-cen-ips"/>
+				<reference value="StructureDefinition/Quantity"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/Quantity-lm-cen-ips"/>
+				<reference value="StructureDefinition/Range"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/Range-lm-cen-ips"/>
+				<reference value="StructureDefinition/Ratio"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/Ratio-lm-cen-ips"/>
+				<reference value="StructureDefinition/String"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/String-lm-cen-ips"/>
+				<reference value="StructureDefinition/Address"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/Address-lm-cen-ips"/>
+				<reference value="StructureDefinition/AttributeCollection"/>
 			</reference>
 		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/AttributeCollection-lm-cen-ips"/>
-			</reference>
-		</resource>
+		<!--
 		<resource>
 			<reference>
 				<reference value="StructureDefinition/MetadataCollection-lm-cen-ips"/>
 			</reference>
 		</resource>
+    
+    -->
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/OrganizationName-lm-cen-ips"/>
+				<reference value="StructureDefinition/OrganizationName"/>
 			</reference>
 		</resource>
 		<!-- Data Types end -->
 		<!-- Document Model -->
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/IPS-lm-cen-ips"/>
+				<reference value="StructureDefinition/IPS"/>
 			</reference>
 		</resource>
 		<!-- Docuemnt Model -->
 		<!-- Section Logical Models begin-->
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/AllergyIntoleranceSection-lm-cen-ips"/>
+				<reference value="StructureDefinition/AllergyIntoleranceSection"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/ProblemsSection-lm-cen-ips"/>
+				<reference value="StructureDefinition/ProblemsSection"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/ImmunizationsSection-lm-cen-ips"/>
+				<reference value="StructureDefinition/ImmunizationsSection"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/ProceduresSection-lm-cen-ips"/>
+				<reference value="StructureDefinition/ProceduresSection"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/MedicalDevicesSection-lm-cen-ips"/>
+				<reference value="StructureDefinition/MedicalDevicesSection"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/AdvanceDirectivesSection-lm-cen-ips"/>
+				<reference value="StructureDefinition/AdvanceDirectivesSection"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/PlanOfCareSection-lm-cen-ips"/>
+				<reference value="StructureDefinition/PlanOfCareSection"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/ResultsSection-lm-cen-ips"/>
+				<reference value="StructureDefinition/ResultsSection"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/MedicationSummarySection-lm-cen-ips"/>
+				<reference value="StructureDefinition/MedicationSummarySection"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/PregnancyHistorySection-lm-cen-ips"/>
+				<reference value="StructureDefinition/PregnancyHistorySection"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/PatientAttributes-lm-cen-ips"/>
+				<reference value="StructureDefinition/PatientAttributes"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/AddressBook-lm-cen-ips"/>
+				<reference value="StructureDefinition/AddressBook"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/HxPastIllnessSection-lm-cen-ips"/>
+				<reference value="StructureDefinition/HxPastProblemsSection"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/CrossBorderMetadata-lm-cen-ips"/>
+				<reference value="StructureDefinition/CrossBorderAttributes"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/ProvenanceMetadata-lm-cen-ips"/>
+				<reference value="StructureDefinition/Provenance"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/VitalSignsSection"/>
 			</reference>
 		</resource>
 		<!-- SECTIONS END -->
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/AllergyIntolerance-lm-cen-ips"/>
+				<reference value="StructureDefinition/AllergyIntolerance"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/Problem-lm-cen-ips"/>
-			</reference>
-		</resource>
-			<resource>
-			<reference>
-				<reference value="StructureDefinition/PastProblem-lm-cen-ips"/>
+				<reference value="StructureDefinition/Problem"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/Immunization-lm-cen-ips"/>
+				<reference value="StructureDefinition/PastProblem"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/Procedure-lm-cen-ips"/>
+				<reference value="StructureDefinition/Immunization"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/Device-lm-cen-ips"/>
+				<reference value="StructureDefinition/Procedure"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/SocialHistorySection-lm-cen-ips"/>
+				<reference value="StructureDefinition/Device"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/FunctionalStatusSection-lm-cen-ips"/>
+				<reference value="StructureDefinition/SocialHistorySection"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/LifestyleFactor-lm-cen-ips"/>
+				<reference value="StructureDefinition/FunctionalStatusSection"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/Disability-lm-cen-ips"/>
+				<reference value="StructureDefinition/LifestyleFactor"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/FunctionalAssessment-lm-cen-ips"/>
+				<reference value="StructureDefinition/Disability"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/AdvanceDirective-lm-cen-ips"/>
+				<reference value="StructureDefinition/FunctionalAssessment"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/MedicationStatement-lm-cen-ips"/>
+				<reference value="StructureDefinition/AdvanceDirective"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/Medication-lm-cen-ips"/>
+				<reference value="StructureDefinition/MedicationStatement"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/Plan-lm-cen-ips"/>
+				<reference value="StructureDefinition/Medication"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/Result-lm-cen-ips"/>
+				<reference value="StructureDefinition/Plan"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/PregnancyStatus-lm-cen-ips"/>
+				<reference value="StructureDefinition/Result"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/PregnancyStatus"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/VitalSign"/>
 			</reference>
 		</resource>
 		<!-- Logical Models end-->

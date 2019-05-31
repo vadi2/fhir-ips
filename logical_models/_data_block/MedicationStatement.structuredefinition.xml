@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../../__FHIRr4Tools/R4_fhir-all-xsd/structuredefinition.xsd">
+	<id value="MedicationStatement"/>
+	<url value="http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationStatement"/>
+	<name value="MedicationStatement"/>
+	<title value="Medication Statement (EN 17269)"/>
+	<status value="draft"/>
+	<description value="A complex structure that comprises a list of paired concepts, Medicinal Product and associated Administration Instruction."/>
+	<kind value="logical"/>
+	<abstract value="true"/>
+	<type value="http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationStatement"/>
+	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Element"/>
+	<derivation value="specialization"/>
+	<differential>
+		<element id="MedicationStatement">
+			<path value="MedicationStatement"/>
+			<short value="MedicationStatement"/>
+			<definition value="A complex structure that comprises a list of paired concepts, Medicinal Product and associated Administration Instruction."/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/LabelConcept"/>
+			</type>
+		</element>
+		<element id="MedicationStatement.Reason">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="O"/>
+			</extension>
+			<path value="MedicationStatement.Reason"/>
+			<short value="Reason"/>
+			<definition value="This is the reason why the medication is being prescribed or used.  It provides a link to the Past or current health conditions or problems that the patient has had or has."/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/LabelConcept"/>
+			</type>
+		</element>
+		<element id="MedicationStatement.Medication">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="R"/>
+			</extension>
+			<path value="MedicationStatement.Medication"/>
+			<short value="Medicinal product"/>
+			<definition value="Any substance or combination of substances, which may be administered to human beings … for treating or preventing disease, with the view to making diagnosis or to restore, correct or modify physiological functions.
+Whilst the term and definition of Medicinal Product serves here, it should not be assumed that the IDMP standard as a whole is usable for the IPS Standard at this point in time. The term ‘Medicine’ may satisfy the need to more general.
+In certain jurisdictions, a medicinal product may also be defined as any substance or combination of substances which may be used to make a medical diagnosis. [Modified EN-ISO 11615:2017]"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/Medication"/>
+			</type>
+		</element>
+		<element id="MedicationStatement.Administration">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="R"/>
+			</extension>
+			<path value="MedicationStatement.Administration"/>
+			<short value="Administration instruction"/>
+			<definition value="Medication is the first part of a pair and Administration Instruction is the associated second part of the same pair that describes the members of the medication Summary list."/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/LabelConcept"/>
+			</type>
+		</element>
+		<element id="MedicationStatement.Administration.Instruction">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="O"/>
+			</extension>
+			<path value="MedicationStatement.Administration.Instruction"/>
+			<short value="Instruction"/>
+			<definition value="Textual description of the Rationale.
+Derived models may choose to use distinct elements for describing this element or to include it into a single section level narrative block."/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/Text"/>
+			</type>
+		</element>
+		<element id="MedicationStatement.Administration.UsagePeriod">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="R"/>
+			</extension>
+			<path value="MedicationStatement.Administration.UsagePeriod"/>
+			<short value="Period of medication use"/>
+			<definition value="This information may be expressed using start and end date times OR indicating the duration. The first is used to indicate a specified interval (e.g. from March 15th, 2017); the latter for indicating a 'floating' period (e.g. 2 weeks). In case of unbounded period (continuous therapy) the end element will be valued with an exceptional value."/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/Period"/>
+			</type>
+		</element>
+		<element id="MedicationStatement.Administration.Route">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="O"/>
+			</extension>
+			<path value="MedicationStatement.Administration.Route"/>
+			<short value="Route of administration"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/CodedElement"/>
+			</type>
+		</element>
+		<element id="MedicationStatement.Administration.Dose">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="R"/>
+			</extension>
+			<path value="MedicationStatement.Administration.Dose"/>
+			<short value="Dose instruction"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/LabelConcept"/>
+			</type>
+		</element>
+		<element id="MedicationStatement.Administration.Dose.UnitsForIntake">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="R"/>
+			</extension>
+			<path value="MedicationStatement.Administration.Dose.UnitsForIntake"/>
+			<short value="No. of units per intake"/>
+			<definition value="The number of units per intake that the patient is taking.
+Examples: 1 tablet"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/Range"/>
+			</type>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/Quantity"/>
+			</type>
+		</element>
+		<element id="MedicationStatement.Administration.Dose.FrequencyOfIntake">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="R"/>
+			</extension>
+			<path value="MedicationStatement.Administration.Dose.FrequencyOfIntake"/>
+			<short value="No. of units per intake"/>
+			<definition value="Purpose: Frequency of intakes per hour/day/week/month.
+Examples: each 24 h."/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/GTS"/>
+			</type>
+		</element>
+	</differential>
+</StructureDefinition>

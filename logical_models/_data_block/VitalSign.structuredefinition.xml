@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../../__FHIRr4Tools/R4_fhir-all-xsd/structuredefinition.xsd">
+	<id value="VitalSign"/>
+	<url value="http://hl7.org/fhir/uv/ips/StructureDefinition/VitalSign"/>
+	<name value="VitalSign"/>
+	<title value="Vital Sign (EN 17269)"/>
+	<status value="draft"/>
+	<description value="Relevant observation results to record the vital signs associated with a patient that include the primary vital signs plus additional measurements such as height, weight and BMI."/>
+	<kind value="logical"/>
+	<abstract value="true"/>
+	<type value="VitalSign"/>
+	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Element"/>
+	<derivation value="specialization"/>
+	<differential>
+		<element id="VitalSign">
+			<path value="VitalSign"/>
+			<short value="Vital Sign"/>
+			<definition value="Relevant observation results to record the vital signs associated with a patient that include the primary vital signs plus additional measurements such as height, weight and BMI."/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/LabelConcept"/>
+			</type>
+			<constraint>
+				<key value="br-1"/>
+				<severity value="error"/>
+				<human value="Each Vital sign entry SHALL include a value OR a subordinated Vital sign (not both). The subordinated Vital sign SHALL include a value."/>
+			</constraint>
+		</element>
+		<element id="VitalSign.Date">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="R"/>
+			</extension>
+			<path value="VitalSign.Date"/>
+			<short value="Date of observation"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/DateTime"/>
+			</type>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/Period"/>
+			</type>
+		</element>
+		<element id="VitalSign.Type">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="R"/>
+			</extension>
+			<path value="VitalSign.Type"/>
+			<short value="Observation type"/>
+			<definition value="The list contains members representing the types of vital signs.
+Typical vital signs types are represented by the LOINC panel “Vital signs, weight, height, head circumference, oxygen saturation and BMI panel” (LOINC code 85353-1)."/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/CodedElement"/>
+			</type>
+		</element>
+		<element id="VitalSign.Description">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="R"/>
+			</extension>
+			<path value="VitalSign.Description"/>
+			<short value="Result description"/>
+			<definition value="A description of the recorded Vital Signs.Derived models may choose to use distinct elements for each description or to collect them into a single section level narrative block."/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/Text"/>
+			</type>
+		</element>
+		<element id="VitalSign.Value">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="C"/>
+			</extension>
+			<path value="VitalSign.Value"/>
+			<short value="Value"/>
+			<definition value="The measurement value."/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/Any"/>
+			</type>
+		</element>
+		<element id="VitalSign.VitalSign">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="C"/>
+			</extension>
+			<path value="VitalSign.VitalSign"/>
+			<short value="Observation result"/>
+			<definition value="This Concept Label refers to the same concept that is listed in #2. It is recursive permitting a Vital sign to be part of the group of Vital signs."/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/VitalSign"/>
+			</type>
+		</element>
+	</differential>
+</StructureDefinition>

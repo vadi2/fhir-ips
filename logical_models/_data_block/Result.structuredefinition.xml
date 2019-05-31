@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../../__FHIRr4Tools/R4_fhir-all-xsd/structuredefinition.xsd">
+	<id value="Result"/>
+	<url value="http://hl7.org/fhir/uv/ips/StructureDefinition/Result"/>
+	<name value="Result"/>
+	<title value="Result (EN 17269)"/>
+	<status value="draft"/>
+	<description value=" Relevant observation results obtained on the patient. These may be measurements, laboratory results, anatomic pathology results, radiology results or other imaging or clinical results."/>
+	<kind value="logical"/>
+	<abstract value="true"/>
+	<type value="http://hl7.org/fhir/uv/ips/StructureDefinition/Result"/>
+	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Element"/>
+	<derivation value="specialization"/>
+	<differential>
+		<element id="Result">
+			<path value="Result"/>
+			<short value="Result"/>
+			<definition value=" Relevant observation results obtained on the patient. These may be measurements, laboratory results, anatomic pathology results, radiology results or other imaging or clinical results."/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/LabelConcept"/>
+			</type>
+			<constraint>
+				<key value="br-1"/>
+				<severity value="error"/>
+				<human value="Each observation result entry SHALL include a value OR a subordinated observation result (not both). The subordinated observation result SHALL include a value."/>
+			</constraint>
+		</element>
+		<element id="Result.Date">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="R"/>
+			</extension>
+			<path value="Result.Date"/>
+			<short value="Date of observation"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/DateTime"/>
+			</type>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/Period"/>
+			</type>
+		</element>
+		<element id="Result.Type">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="R"/>
+			</extension>
+			<path value="Result.Type"/>
+			<short value="Observation type"/>
+			<definition value="The list contains members representing the types of results.
+The eHN give only two examples (non-exhaustive) and these may be represented in a value set with these two types included:
+•	Diagnostic results
+•	Physical findings"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/CodedElement"/>
+			</type>
+		</element>
+		<element id="Result.Description">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="R"/>
+			</extension>
+			<path value="Result.Description"/>
+			<short value="Result description"/>
+			<definition value="Two blood-related results were presented by the eHN Guideline:
+for Diagnostic results, a Blood Group test; and for Physical findings, a Blood pressure measurement.
+Derived models may choose to use distinct elements for each description or to collect them into a single section level narrative block."/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/Text"/>
+			</type>
+		</element>
+		<element id="Result.Value">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="C"/>
+			</extension>
+			<path value="Result.Value"/>
+			<short value="Value"/>
+			<definition value="The measurement value and details about how the tests were done to get the result values."/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/Any"/>
+			</type>
+		</element>
+		<element id="Result.Result">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="C"/>
+			</extension>
+			<path value="Result.Result"/>
+			<short value="Observation result"/>
+			<definition value="This Concept Label refers to the same concept as in Result.  It is recursive permitting an Observation Result to be part of the group of Observation Results."/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/Result"/>
+			</type>
+		</element>
+		<element id="Result.Performer">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="RK"/>
+			</extension>
+			<path value="Result.Performer"/>
+			<short value="Performer"/>
+			<definition value="Identifies the originator/author and provides provenance information about the source of the results data that may have not originated with the source of the whole IPS document."/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/HealthcareProvider"/>
+			</type>
+		</element>
+		<element id="Result.Observer">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="RK"/>
+			</extension>
+			<path value="Result.Observer"/>
+			<short value="Observer"/>
+			<definition value="With certain observation results, e.g. radiology, there may also be an interpreter."/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/HealthcareProvider"/>
+			</type>
+		</element>
+	</differential>
+</StructureDefinition>

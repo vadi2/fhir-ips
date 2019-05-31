@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../../__FHIRr4Tools/R4_fhir-all-xsd/structuredefinition.xsd">
+	<id value="MedicationSummarySection"/>
+	<text xmlns:xhtml="http://www.w3.org/1999/xhtml">
+		<status value="generated"/>
+		<xhtml:div>The IPS Medication Summary and IDMP
+NOTE 1	Medication Summary has had extensive attention lavished upon it, primarily because of the EN-ISO IDMP Standards, but also because of European eHealth projects. Consequently, it has a rich depth of specification and the hierarchy of 5 levels used throughout this standard is exceeded by several levels.  Rather than extend every template to seven levels that would make the presentation difficult to read, an exception has been made for Medication Summary, using a two-part table.
+NOTE 2	The IDMP standards are the recognized and recommended direction of travel for this IPS (i.e. EN-ISO 11238, EN-ISO 11239, EN-ISO 11240 and EN-ISO 11615). However, currently the IDMP standards are not yet fully implemented in practice and so the concept descriptions in the IPS Medication Summary Section are intended to be at a high level of abstraction, permitting the current ways of implementing the concepts to exist but with the expectation that they will evolve to the IDMP notation and specification in due course. This IPS standard restricts the term ‘Medicinal Product’, defined in EN-ISO 11615:2017, to ‘human use’ and to clinical care settings for which the patient summary use case scenario applies.  The world-wide unique Product Identifier is not yet a reality and consequently the more general ‘Product Code’ is used if required.
+</xhtml:div>
+	</text>
+	<url value="http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationSummarySection"/>
+	<name value="MedicationSummarySection"/>
+	<title value="Medication Summary Section (EN 17269)"/>
+	<status value="draft"/>
+	<description value="All medicines whose period of time indicated for the treatment has not yet expired whether it has been dispensed or not.
+[derived from source eHN Guideline]
+The eHN restricted the medication summary to ‘prescribed medicines’; here the scope is broadened to all known medicines taken, or to be taken, by the patient. It may be known that non-prescribed medication is being taken and this may be included.
+NOTE	Compliance to any medication is not certain."/>
+	<purpose value="List of current medicines relevant for this patient summary."/>
+	<kind value="logical"/>
+	<abstract value="true"/>
+	<type value="http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationSummarySection"/>
+	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Element"/>
+	<derivation value="specialization"/>
+	<differential>
+		<element id="MedicationSummarySection">
+			<path value="MedicationSummarySection"/>
+			<short value="MedicationSummary Section"/>
+			<definition value="Health condition considered by a healthcare actor to be a Medication; A list of current, active MedicationSummary that have not been resolved or are existing concerns that are still being monitored."/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/Section"/>
+			</type>
+			<constraint>
+				<key value="br-1"/>
+				<severity value="error"/>
+				<human value="If content status positive then Medication list SHALL be non-empty AND the content status SHALL be omitted."/>
+			</constraint>
+			<constraint>
+				<key value="br-2"/>
+				<severity value="error"/>
+				<human value="If content status records absence then Medication List SHALL be omitted."/>
+			</constraint>
+		</element>
+		<element id="MedicationSummarySection.ContentStatus">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="C"/>
+			</extension>
+			<path value="MedicationSummarySection.ContentStatus"/>
+			<short value="MedicationSummary content status"/>
+			<definition value="As this IPS Section is mandatory this attribute records whether there is no information about a medication history or whether there is no medication in the patient’s history; the reason for no medication data has to be stated."/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/CodedElement"/>
+			</type>
+		</element>
+		<element id="MedicationSummarySection.Medications">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="C"/>
+			</extension>
+			<path value="MedicationSummarySection.Medications"/>
+			<short value="Medications"/>
+			<definition value="If Medication information is present then the list cannot be empty. It will contain details of pairs of medicine and the associated administration instruction for the particular patient."/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/List"/>
+			</type>
+		</element>
+		<element id="MedicationSummarySection.Medications.MedicationStatement">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="M"/>
+			</extension>
+			<path value="MedicationSummarySection.Medications.MedicationStatement"/>
+			<short value="Medication"/>
+			<definition value="A complex structure that comprises a list of paired concepts, Medicinal Product and associated Administration Instruction."/>
+			<min value="1"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationStatement"/>
+			</type>
+		</element>
+	</differential>
+</StructureDefinition>

@@ -6,6 +6,7 @@ active: format
 layout: fhir-artifact
 type: {{[type]}}
 id: {{[id]}}
+topofpage: True
 ---
 
 <!-- ig template for many conformance resource html pages  ('base' in definitions file)  can not be used for conformance resources that have more that a single base template. e.g.,  sd since there are mapping and definitions templates for it as well  they need to be split out into 3 separate templates -->
@@ -25,53 +26,41 @@ id: {{[id]}}
   {% include {{[type]}}-{{[id]}}-expansion.xhtml %}
 <!-- ============VAlUESET CONTENT CONTENT=============== -->
 
-<!-- ( % when 'StructureMap' % }
-============StructureMap CONTENT CONTENT===============
-  ( % include nav-tabs.html type="{{[type]}}" id="{{[id]}}" active="content" % }
+{% when 'CodeSystem' %}
+<!-- ============CODESYSTEM CONTENT CONTENT=============== -->
 
-  <p>
-  Thise is the mapping between FHIR resources and the Logical Model:
-  </p>
+  {% include {{[type]}}-{{[id]}}-summary.xhtml %}
 
-  <a name="summary"> </a>
-  <h2>Summary</h2>
-  ( % include {{[type]}}-{{[id]}}-summary.xhtml % }
-  <br/>
+  {% include {{[type]}}-{{[name]}}.xhtml %}
 
-  <h2>Content</h2>
-  ( %  include {{[type]}}-{{[id]}}-content.xhtml % }
-  <br/>
-
-  <a name="script"> </a>
-  <h2>Script</h2>
-  <pre>
-  ( % include {{[type]}}-{{[id]}}-script.xhtml % }
-  </pre>
-============StructureMap CONTENT CONTENT=============== -->
+  <!-- ============CODESYSTEM CONTENT CONTENT=============== -->
 
 {% when 'OperationDefinition' %}
 <!-- ============OperationDefinition CONTENT CONTENT=============== -->
 
   {% include {{[type]}}-{{[name]}}.xhtml %}
 
-  {% capture my-include %}{% include {{[id]}}.md %}{% endcapture %}{{ my-include | markdownify }}  <!--add inline examples here -->
+  {% capture my-include %}{% include {{[id]}}-example.md %}{% endcapture %}{{ my-include | markdownify }}  <!--add inline examples here -->
 <!-- ============OperationDefinition CONTENT CONTENT=============== -->
 
-{% when 'CodeSystem' %}
-<!-- ============CodeSystem CONTENT CONTENT=============== -->
 
-  {% include {{[type]}}-{{[id]}}-summary.xhtml %}
-  {% include {{[type]}}-{{[id]}}-xref.xhtml %}
-  {% include {{[type]}}-{{[id]}}-content.xhtml %}
-  
- <!-- ============CodeSystem CONTENT CONTENT=============== --> 
-  
-{% else %}
-<!-- ============ ConceptMap CapabilityStatement CONTENT CONTENT=============== -->
+{% when 'CapabilityStatement' %}
+<!-- ============CapabilityStatement CONTENT CONTENT=============== -->
 
-  <h2>{{[type]}}: {{[id]}}</h2>
+<p>
+Downloads:  CapabilityStatement: (<a href="{{[type]}}-{{[id]}}.xml" download>XML</a>, <a href="{{[type]}}-{{[id]}}.json" download>JSON</a>),<a href="{{[id]}}.openapi.json">OpenAPI-Swagger Definition file</a>
+</p>
 
   {% include {{[type]}}-{{[name]}}.xhtml %}
+
+<!-- ============CapabilityStatement CONTENT CONTENT=============== -->
+
+{% else %}
+<!-- ============ConceptMap CapabilityStatement SearchParameter CONTENT CONTENT=============== -->
+
+
+  {% include {{[type]}}-{{[name]}}.xhtml %}
+
   <!-- ============CodeSystem ConceptMap CapabilityStatement CONTENT CONTENT=============== -->
 
 {% endcase %}

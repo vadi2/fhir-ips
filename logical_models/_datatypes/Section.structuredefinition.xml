@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../../__FHIRr4Tools/fhir-all-xsd/structuredefinition.xsd">
+	<id value="Section"/>
+	<url value="http://hl7.org/fhir/uv/ips/StructureDefinition/Section"/>
+	<name value="Section"/>
+	<title value="Section (EN 17269)"/>
+	<status value="draft"/>
+	<description value="Healthcare-specific content grouped with respect to clinical utility for inclusion in the IPS Document"/>
+	<kind value="logical"/>
+	<abstract value="true"/>
+	<type value="Section"/>
+	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Element"/>
+	<derivation value="specialization"/>
+	<differential>
+		<element id="Section">
+			<path value="Section"/>
+			<short value="Section"/>
+			<definition value="Healthcare-specific content grouped with respect to clinical utility for inclusion in the IPS Document"/>
+			<min value="0"/>
+			<max value="*"/>
+		</element>
+	</differential>
+</StructureDefinition>

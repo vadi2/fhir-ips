@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../../__FHIRr4Tools/R4_fhir-all-xsd/structuredefinition.xsd">
+	<id value="AdvanceDirective"/>
+	<url value="http://hl7.org/fhir/uv/ips/StructureDefinition/AdvanceDirective"/>
+	<name value="AdvanceDirective"/>
+	<title value="Advance directive (EN 17269)"/>
+	<status value="draft"/>
+	<description value="Provision for healthcare decisions in the event that, in the future, a person is unable to make those decisions"/>
+	<kind value="logical"/>
+	<abstract value="true"/>
+	<type value="AdvanceDirective"/>
+	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Element"/>
+	<derivation value="specialization"/>
+	<differential>
+		<element id="AdvanceDirective">
+			<path value="AdvanceDirective"/>
+			<short value="AdvanceDirective"/>
+			<definition value="Provision for healthcare decisions in the event that, in the future, a person is unable to make those decisions"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/LabelConcept"/>
+			</type>
+		</element>
+		<element id="AdvanceDirective.AuthorizingPerson">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="RK"/>
+			</extension>
+			<path value="AdvanceDirective.AuthorizingPerson"/>
+			<short value="Person authorizing directive"/>
+			<definition value="The source of each directive if known; the decision maker is usually the patient and/or a delegated person such as a Legal Guardian. If the authority is not the patient, then it will be someone to contact for further information and clarification of the patient’s wishes. The postal address elements are not included reflecting the urgency for the contact; however, full details should be consistent and available from the Patient’s Address Book."/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/LabelConcept"/>
+			</type>
+		</element>
+		<element id="AdvanceDirective.AuthorizingPerson.Name">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="RK"/>
+			</extension>
+			<path value="AdvanceDirective.AuthorizingPerson.Name"/>
+			<short value="Name"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/PersonName"/>
+			</type>
+		</element>
+		<element id="AdvanceDirective.AuthorizingPerson.Telecoms">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="RK"/>
+			</extension>
+			<path value="AdvanceDirective.AuthorizingPerson.Telecoms"/>
+			<short value="Telecoms"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/Telecom"/>
+			</type>
+		</element>
+		<element id="AdvanceDirective.Category">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="O"/>
+			</extension>
+			<path value="AdvanceDirective.Category"/>
+			<short value="Directive category"/>
+			<definition value="There are Directives related to decisions prior and after death.  For example, directives prior to death might relate to Blood transfusions, and Non-Resuscitation and post death directives might relate to organ donation."/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/CodedElement"/>
+			</type>
+		</element>
+		<element id="AdvanceDirective.Description">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="C"/>
+			</extension>
+			<path value="AdvanceDirective.Description"/>
+			<short value="Directive description"/>
+			<definition value="Textual description of the directive.
+Derived models may choose to use distinct elements for each narrative directive or to collect them into a single section level narrative block."/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/Text"/>
+			</type>
+		</element>
+		<element id="AdvanceDirective.DocumentReference">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="C"/>
+			</extension>
+			<path value="AdvanceDirective.DocumentReference"/>
+			<short value="Reference to Legal Document"/>
+			<definition value="The Directives may take the form of a reference to a legal document (e.g. Living Will) or an external textual description."/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/Reference"/>
+			</type>
+		</element>
+	</differential>
+</StructureDefinition>

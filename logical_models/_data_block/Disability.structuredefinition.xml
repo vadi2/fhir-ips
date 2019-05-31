@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../../__FHIRr4Tools/R4_fhir-all-xsd/structuredefinition.xsd">
+	<id value="Disability"/>
+	<url value="http://hl7.org/fhir/uv/ips/StructureDefinition/Disability"/>
+	<name value="Disability"/>
+	<title value="Disability (EN 17269)"/>
+	<status value="draft"/>
+	<description value="Disability is an umbrella term, covering impairments, activity limitations, and participation restrictions. An impairment is a problem in body function or structure; an activity limitation is a difficulty encountered by an individual in executing a task or action; while a participation restriction is a problem experienced by an individual in involvement in life situations."/>
+	<kind value="logical"/>
+	<abstract value="true"/>
+	<type value="http://hl7.org/fhir/uv/ips/StructureDefinition/Disability"/>
+	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Element"/>
+	<derivation value="specialization"/>
+	<differential>
+		<element id="Disability">
+			<path value="Disability"/>
+			<short value="Disability"/>
+			<definition value="Disability is an umbrella term, covering impairments, activity limitations, and participation restrictions. An impairment is a problem in body function or structure; an activity limitation is a difficulty encountered by an individual in executing a task or action; while a participation restriction is a problem experienced by an individual in involvement in life situations."/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/LabelConcept"/>
+			</type>
+		</element>
+		<element id="Disability.Description">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="R"/>
+			</extension>
+			<path value="Disability.Description"/>
+			<short value="Disability description"/>
+			<definition value="A narrative description of the nature of the invalidity.
+Derived models may choose to use distinct elements for each narrative statement or to collect them into a single section level narrative block."/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/Text"/>
+			</type>
+		</element>
+		<element id="Disability.Code">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="O"/>
+			</extension>
+			<path value="Disability.Code"/>
+			<short value="Disability code"/>
+			<definition value="Code Identifying the disability of the subject of care."/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/CodedElement"/>
+			</type>
+		</element>
+		<element id="Disability.OnsetDate">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="O"/>
+			</extension>
+			<path value="Disability.OnsetDate"/>
+			<short value="Onset date"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/DateTime"/>
+			</type>
+		</element>
+	</differential>
+</StructureDefinition>

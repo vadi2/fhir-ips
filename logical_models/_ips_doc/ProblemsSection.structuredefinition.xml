@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../../__FHIRr4Tools/R4_fhir-all-xsd/structuredefinition.xsd">
+	<id value="ProblemsSection"/>
+	<url value="http://hl7.org/fhir/uv/ips/StructureDefinition/ProblemsSection"/>
+	<name value="ProblemsSection"/>
+	<title value="Problems Section (EN 17269)"/>
+	<status value="draft"/>
+	<description value="Health condition considered by a healthcare actor to be a problem; A list of current, active problems that have not been resolved or are existing concerns that are still being monitored."/>
+	<purpose value="To provide a concise overview of health conditions affecting the patient.  Medical alerts and clinical risks identified e.g. problematic intubation, person with brittle diabetes, immuno-compromised/risk of infection etc.  can also be described here."/>
+	<kind value="logical"/>
+	<abstract value="true"/>
+	<type value="http://hl7.org/fhir/uv/ips/StructureDefinition/ProblemsSection"/>
+	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Element"/>
+	<derivation value="specialization"/>
+	<differential>
+		<element id="ProblemsSection">
+			<path value="ProblemsSection"/>
+			<short value="Problems Section"/>
+			<definition value="Health condition considered by a healthcare actor to be a problem; A list of current, active problems that have not been resolved or are existing concerns that are still being monitored."/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/Section"/>
+			</type>
+			<constraint>
+				<key value="br-prob-1"/>
+				<severity value="error"/>
+				<human value="This is a required IPS Section for conformance and shall not be empty; at the least, some statement is given explaining the missing data."/>
+			</constraint>
+			<constraint>
+				<key value="br-prob-2"/>
+				<severity value="error"/>
+				<human value="If content status positive then Current Problems list SHALL be non-empty AND the content status SHALL be omitted."/>
+			</constraint>
+			<constraint>
+				<key value="br-prob-3"/>
+				<severity value="error"/>
+				<human value="If content status records absence then Current Problems List SHALL be empty or omitted."/>
+			</constraint>
+		</element>
+		<element id="ProblemsSection.ContentStatus">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="C"/>
+			</extension>
+			<path value="ProblemsSection.ContentStatus"/>
+			<short value="Problems content status"/>
+			<definition value="The patient has had no previous problems, or the problem information is unknown."/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/CodedElement"/>
+			</type>
+		</element>
+		<element id="ProblemsSection.Problems">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="C"/>
+			</extension>
+			<path value="ProblemsSection.Problems"/>
+			<short value="Problems"/>
+			<definition value="The problem list comprises members that are current, either because they are active, unresolved or of concern and being monitored."/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/List"/>
+			</type>
+		</element>
+		<element id="ProblemsSection.Problems.Problem">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="M"/>
+			</extension>
+			<path value="ProblemsSection.Problems.Problem"/>
+			<short value="Problem"/>
+			<definition value="One or more problems are listed; each comprising the same structure describing the nature of the problem and its date of onset."/>
+			<min value="1"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/Problem"/>
+			</type>
+		</element>
+	</differential>
+</StructureDefinition>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../../__FHIRr4Tools/R4_fhir-all-xsd/structuredefinition.xsd">
+	<id value="FunctionalStatusSection"/>
+	<url value="http://hl7.org/fhir/uv/ips/StructureDefinition/FunctionalStatusSection"/>
+	<name value="FunctionalStatusSection"/>
+	<title value="Functional Status Section (EN 17269)"/>
+	<status value="draft"/>
+	<description value="An individual’s ability to perform normal daily activities required to meet basic needs, fulfil usual roles and maintain health and well-being."/>
+	<purpose value="The Need of the patient to be continuously assessed by third parties, invalidity status may influence decisions about how to administer treatments"/>
+	<kind value="logical"/>
+	<abstract value="true"/>
+	<type value="http://hl7.org/fhir/uv/ips/StructureDefinition/FunctionalStatusSection"/>
+	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Element"/>
+	<derivation value="specialization"/>
+	<differential>
+		<element id="FunctionalStatusSection">
+			<path value="FunctionalStatusSection"/>
+			<short value="Functional Status Section"/>
+			<definition value="It provides information about patient disabilities and their functional assessment(s)."/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/Section"/>
+			</type>
+			<constraint>
+				<key value="br-1"/>
+				<severity value="error"/>
+				<human value="For the Functional Status a Functional Assessment or a Disabilities list SHALL be provided (or both)."/>
+			</constraint>
+			<constraint>
+				<key value="br-2"/>
+				<severity value="error"/>
+				<human value="Each functional assessment entry SHALL include a result OR a subordinated functional assessment entry (not both). The subordinated functional assessment SHALL include a result."/>
+			</constraint>
+		</element>
+		<element id="FunctionalStatusSection.Disabilities">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="C"/>
+			</extension>
+			<path value="FunctionalStatusSection.Disabilities"/>
+			<short value="Disabilities"/>
+			<definition value="Disabilities is an umbrella term, covering impairments, activity limitations, and participation restrictions. An impairment is a problem in body function or structure; an activity limitation is a difficulty encountered by an individual in executing a task or action; while a participation restriction is a problem experienced by an individual in involvement in life situations."/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/List"/>
+			</type>
+		</element>
+		<element id="FunctionalStatusSection.FunctionalStatus.Problem">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="R"/>
+			</extension>
+			<path value="FunctionalStatusSection.Disabilities.Disability"/>
+			<short value="Disability"/>
+			<min value="1"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/Disability"/>
+			</type>
+		</element>
+		<element id="FunctionalStatusSection.FunctionalAssessments">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="C"/>
+			</extension>
+			<path value="FunctionalStatusSection.FunctionalAssessments"/>
+			<short value="Functional Assessments"/>
+			<definition value="It lists the results of reviews of an individual's mobility, transfer skills, and activities of daily living, etcetera, to determine also his/her autonomy."/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/List"/>
+			</type>
+		</element>
+		<element id="FunctionalStatusSection.FunctionalAssessments.FunctionalAssessment">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="R"/>
+			</extension>
+			<path value="FunctionalStatusSection.FunctionalAssessments.FunctionalAssessment"/>
+			<short value="Functional Assessment"/>
+			<definition value="This label concept describes a single or a group of assessments performed on this subject of care.
+For each of the assessments or group of assessments, a date; a coded description of the type of assessment(s) should be provided if known.
+In case this element refers to a group of assessments the contained functional assessment(s) should be provided if known. In case it refers to a single assessment its result should be provided if known; the result may be a physical quantity, a string, a coded descriptor; or other types of data depending on the kind of assessment performed."/>
+			<min value="1"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/FunctionalAssessment"/>
+			</type>
+		</element>
+	</differential>
+</StructureDefinition>

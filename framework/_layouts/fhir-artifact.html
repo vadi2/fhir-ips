@@ -6,8 +6,6 @@
 
 {% include header.html %}
 
-
-
 {% include navbar.html %}
 
 {% include container-start.html %}
@@ -16,48 +14,44 @@
 
 {% include breadcrumbs.html %}
 
-
-
-
-
-
 <!-- ============Publish box=============== -->
 
-<!--status-bar-->
+
 {% include publish-box.html %}
 
 {% include pagenumber.html %}
 
 <!-- ============nav-tabs=============== -->
 
-<!-- ADDED for passing the kind ot the nav tabs -->
-<!-- No more used
-{% assign res_kind = {{site.data.structuredefinitions[{{page.id}}].kind}} %}
---> 
-<!-- end -->
-
 {% if page.template == 'format' %}
+
   {% if page.fmt == 'xml' %}
-    {% include nav-tabs.html type=page.type id=page.id active="xml" kind=res_kind %}
+    {% include nav-tabs.html type=page.type id=page.id active="xml" %}
     <h2>XML Format: {{page.type}}-{{page.id}}</h2>
   {% elsif page.fmt == 'json' %}
-    {% include nav-tabs.html type=page.type id=page.id active="json" kind=res_kind %}
+    {% include nav-tabs.html type=page.type id=page.id active="json" %}
     <h2> JSON Format: {{page.type}}-{{page.id}}</h2>
   {% else %}
-    {% include nav-tabs.html type=page.type id=page.id active="turtle" kind=res_kind %}
+    {% include nav-tabs.html type=page.type id=page.id active="turtle" %}
     <h2>Turtle Format: {{page.type}}-{{page.id}}</h2>
   {% endif %}
-<!--
-   { % elsif page.template == 'definitions'% }
-    { % include nav-tabs.html type=page.type id=page.id active="definitions" kind=res_kind % }
-  { % elsif page.template == 'mappings' %}
-    { % include nav-tabs.html type=page.type id=page.id active="mappings" kind=res_kind % }
- -->
-  {% else %}
-     {% include nav-tabs.html type=page.type id=page.id active="content" kind=res_kind %}
+
+{% elsif page.template == 'definitions'%}
+    {% include nav-tabs.html type=page.type id=page.id active="definitions" %}
+
+{% elsif page.template == 'mappings' %}
+    {% include nav-tabs.html type=page.type id=page.id active="mappings" %}
+
+{% elsif page.template == 'example' %}
+     {% include nav-tabs.html type=page.type id=page.id active="example" %}
+     <h2>Examples: {{page.type}}-{{page.id}}</h2>
+
+{% else %}
+     {% include nav-tabs.html type=page.type id=page.id active="content" %}
 {% endif %}
 
   <!-- ============CONTENT CONTENT=============== -->
+
 
 {{ content }}
 

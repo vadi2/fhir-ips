@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../../__FHIRr4Tools/R4_fhir-all-xsd/structuredefinition.xsd">
+	<id value="Provenance"/>
+	<url value="http://hl7.org/fhir/uv/ips/StructureDefinition/Provenance"/>
+	<name value="Provenance"/>
+	<title value="Provenance (EN 17269)"/>
+	<status value="draft"/>
+	<description value="Considered to be generic to the English language and not specific to this standard. Notes:  it provides a measure of trust and transparency, and permits the recipient to clarify what has been given by the authoring healthcare provider."/>
+	<purpose value="This provides the source and context of the information supplied. Data to afford trust in the communication and the data being interchanged.  Provenance data may be at the document level, the section level and even at the attribute level.  It is a sub-component of the IPS Data Set."/>
+	<kind value="logical"/>
+	<abstract value="true"/>
+	<type value="http://hl7.org/fhir/uv/ips/StructureDefinition/Provenance"/>
+	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Element"/>
+	<derivation value="specialization"/>
+	<differential>
+		<element id="Provenance">
+			<path value="Provenance"/>
+			<short value="Provenance Metadata"/>
+			<definition value="It provides the source and context of the information supplied. Data to afford trust in the communication and the data being interchanged.  Provenance data may be at the document level, the section level and even at the attribute level.  It is a sub-component of the IPS Data Set."/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/AttributeCollection"/>
+			</type>
+		</element>
+		<element id="Provenance.Asserter">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="RK"/>
+			</extension>
+			<path value="Provenance.Asserter"/>
+			<short value="Asserter (source of information)"/>
+			<definition value="The source of information, usually the patient"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/LabelConcept"/>
+			</type>
+		</element>
+		<element id="Provenance.DateOfIPS">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="M"/>
+			</extension>
+			<path value="Provenance.DateOfIPS"/>
+			<short value="Date of IPS Document creation"/>
+			<definition value="The IPS document can only be created once."/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/DateTime"/>
+			</type>
+		</element>
+		<element id="Provenance.Language">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="O"/>
+			</extension>
+			<path value="Provenance.Language"/>
+			<short value="Language of document"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/CodedElement"/>
+			</type>
+		</element>
+		<element id="Provenance.DateOfIPSUpdate">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="R"/>
+			</extension>
+			<path value="Provenance.DateOfIPSUpdate"/>
+			<short value="Date of last update to IPS content"/>
+			<definition value="The content of the IPS may have variable dates of update or change."/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/DateTime"/>
+			</type>
+		</element>
+		<element id="Provenance.IPSGeneration">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="R"/>
+			</extension>
+			<path value="Provenance.IPSGeneration"/>
+			<short value="Generation of IPS content"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/LabelConcept"/>
+			</type>
+		</element>
+		<element id="Provenance.IPSGeneration.IPSNature">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="R"/>
+			</extension>
+			<path value="Provenance.IPSGeneration.IPSNature"/>
+			<short value="Nature of the IPS"/>
+			<definition value="Defines the context in which the IPS was generated.  #5 considers two cases; Human created and automatically assembled.
+NOTE	Three methodological approaches to build the summary were suggested by the eHN Guideline: direct human intervention by an healthcare actor, automatically generated and a mixed approach. HL7 IPS have suggested that these can be resolved into two cases: Human curated and automatically assembled. The cases in which an automatically generated PS is edited by a human being (i.e. the mixed approach) is considered to be human curated. If a human verifies the content of an automatically generated IPS is still an automatic generated PS with a human verifier"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/LabelConcept"/>
+			</type>
+		</element>
+		<element id="Provenance.HealthcareProviders">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="R"/>
+			</extension>
+			<path value="Provenance.HealthcareProviders"/>
+			<short value="Healthcare providers"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/List"/>
+			</type>
+		</element>
+		<element id="Provenance.HealthcareProviders.AuthoringHP">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="R"/>
+			</extension>
+			<path value="Provenance.HealthcareProviders.AuthoringHP"/>
+			<short value="Authoring healthcare provider"/>
+			<definition value="A means of verifying origin and providing some measure of confidence /trust. At least an author organization shall be listed.  In case there is no healthcare professional, at least an healthcare organization shall be listed."/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/HealthcareProvider"/>
+			</type>
+		</element>
+		<element id="Provenance.Legitimacy">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="RK"/>
+			</extension>
+			<path value="Provenance.Legitimacy"/>
+			<short value="Legitimacy"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/LabelConcept"/>
+			</type>
+		</element>
+		<element id="Provenance.Legitimacy.LegalAuthenticator">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="RK"/>
+			</extension>
+			<path value="Provenance.Legitimacy.LegalAuthenticator"/>
+			<short value="Legal authenticator"/>
+			<definition value="The responsible author / healthcare provider.  Attesting or signing the patient summary or parts of it may be required, dependent on jurisdiction."/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/HealthcareProvider"/>
+			</type>
+		</element>
+	</differential>
+</StructureDefinition>

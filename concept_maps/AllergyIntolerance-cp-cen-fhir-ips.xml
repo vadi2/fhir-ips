@@ -10,7 +10,7 @@
 	<description value="Concept Map from / to the EN 17269 data set and the HL7 FHIR IPS implementation for the Allergy and Intolerance"/>
 	<group>
 		<source value="http://hl7.org/fhir/uv/ips/StructureDefinition/AllergyIntolerance-uv-ips"/>
-		<target value="http://hl7.org/fhir/uv/ips/StructureDefinition/AllergyIntolerance-lm-cen-ips"/>
+		<target value="http://hl7.org/fhir/uv/ips/StructureDefinition/AllergyIntolerance"/>
 		<element>
 			<code value="AllergyIntolerance"/>
 			<display value="Allergy Intolerance (IPS)"/>
@@ -141,7 +141,7 @@
 	</group>
 	<group>
 		<source value="http://hl7.org/fhir/uv/ips/StructureDefinition/AllergyIntolerance-uv-ips"/>
-		<target value="http://hl7.org/fhir/uv/ips/StructureDefinition/AllergyIntoleranceSection-lm-cen-ips"/>
+		<target value="http://hl7.org/fhir/uv/ips/StructureDefinition/AllergyIntoleranceSection"/>
 		<element>
 			<code value="AllergyIntolerance.code:absentOrUnknownAllergy"/>
 			<display value="Allergy Code"/>

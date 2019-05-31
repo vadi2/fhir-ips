@@ -1,0 +1,1 @@
+# allergyintolerance-summary.md file
