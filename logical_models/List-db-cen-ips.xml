@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<List xmlns="http://hl7.org/fhir">
+	<id value="List-db-cen-ips"/>
+	<status value="current"/>
+	<mode value="working"/>
+	<title value="CEN IPS Data Blocks"/>
+	<date value="2015-07-14T23:10:23+11:00"/>
+	<entry>
+		<item>
+			<reference value="StructureDefinition/AdvanceDirective"/>
+		</item>
+	</entry>
+	<entry>
+		<item>
+			<reference value="StructureDefinition/AllergyIntolerance"/>
+		</item>
+	</entry>
+	<entry>
+		<item>
+			<reference value="StructureDefinition/Device"/>
+		</item>
+	</entry>
+	<entry>
+		<item>
+			<reference value="StructureDefinition/Disability"/>
+		</item>
+	</entry>
+	<entry>
+		<item>
+			<reference value="StructureDefinition/FunctionalAssessment"/>
+		</item>
+	</entry>
+	<entry>
+		<item>
+			<reference value="StructureDefinition/FunctionalStatusSection"/>
+		</item>
+	</entry>
+	<entry>
+		<item>
+			<reference value="StructureDefinition/Immunization"/>
+		</item>
+	</entry>
+	<entry>
+		<item>
+			<reference value="StructureDefinition/LifestyleFactor"/>
+		</item>
+	</entry>
+	<entry>
+		<item>
+			<reference value="StructureDefinition/Medication"/>
+		</item>
+	</entry>
+	<entry>
+		<item>
+			<reference value="StructureDefinition/MedicationStatement"/>
+		</item>
+	</entry>
+	<entry>
+		<item>
+			<reference value="StructureDefinition/PastProblem"/>
+		</item>
+	</entry>
+	<entry>
+		<item>
+			<reference value="StructureDefinition/Plan"/>
+		</item>
+	</entry>
+	<entry>
+		<item>
+			<reference value="StructureDefinition/PregnancyStatus"/>
+		</item>
+	</entry>
+	<entry>
+		<item>
+			<reference value="StructureDefinition/Problem"/>
+		</item>
+	</entry>
+	<entry>
+		<item>
+			<reference value="StructureDefinition/Procedure"/>
+		</item>
+	</entry>
+	<entry>
+		<item>
+			<reference value="StructureDefinition/Result"/>
+		</item>
+	</entry>
+	<entry>
+		<item>
+			<reference value="StructureDefinition/SocialHistorySection"/>
+		</item>
+	</entry>
+	<entry>
+		<item>
+			<reference value="StructureDefinition/VitalSign"/>
+		</item>
+	</entry>
+</List>

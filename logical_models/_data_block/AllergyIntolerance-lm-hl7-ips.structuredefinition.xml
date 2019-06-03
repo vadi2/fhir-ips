@@ -16,7 +16,7 @@
 	<date value="2018-02-14T07:57:18.78-06:00"/>
 	<description value="This Logical Model documents the relevant allergies or intolerances (conditions) for a patient, describing the kind of reaction (e.g. rash, anaphylaxis,..); preferably the agents that cause it; and optionally the criticality and the certainty of the allergy"/>
 	<kind value="logical"/>
-	<abstract value="true" />
+	<abstract value="true"/>
 	<type value="AllergyorIntolerance"/>
 	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Element"/>
 	<derivation value="specialization"/>
@@ -24,7 +24,7 @@
 		<element id="AllergyIntolerance">
 			<path value="AllergyIntolerance"/>
 						<short value="Allergy or Intolerance"/>
-			<definition value="Relevant patient’s allergies or intolerance condition" />
+			<definition value="Relevant patient’s allergies or intolerance condition"/>
 			<min value="0"/>
 			<max value="*"/>
 			<type>
@@ -40,7 +40,7 @@
 			<definition value="Provides the current status of the allergy or intolerance, for example, whether it is active, in remission, resolved, and so on. Value set should include:
 •	active
 •	inactive
-•	resolved" />
+•	resolved"/>
 			<min value="0"/>
 			<max value="*"/>
 			<type>
@@ -61,7 +61,7 @@
 Format: Coded information:  Value set should include:
 —	Allergy
 —	Intolerance
-—	propensity to adverse reaction" />
+—	propensity to adverse reaction"/>
 			<min value="0"/>
 			<max value="*"/>
 			<type>
@@ -78,7 +78,7 @@ Notes: In some contexts, the severity is used as a synonym of the criticality.
 Value set should include:
 •	High
 •	Low
-•	Exception: unable to assess criticality" />
+•	Exception: unable to assess criticality"/>
 			<min value="0"/>
 			<max value="*"/>
 			<type>
@@ -92,7 +92,7 @@ Value set should include:
 
 			<path value="AllergyorIntolerance.OnsetDate"/>
 			<short value="Onset date"/>
-			<definition value="It shall be provided with the highest known precision, at least year" />
+			<definition value="It shall be provided with the highest known precision, at least year"/>
 			<min value="0"/>
 			<max value="*"/>
 			<type>
@@ -104,7 +104,7 @@ Value set should include:
 			<path value="AllergyorIntolerance.EndDate"/>
 			<short value="End date"/>
 			<definition value="If Clinical Status is non-active then an exception can be raised to indicate inconsistency.
-It shall be provided with the highest known precision, at least year." />
+It shall be provided with the highest known precision, at least year."/>
 			<min value="0"/>
 			<max value="*"/>
 			<type>
@@ -126,7 +126,7 @@ It shall be provided with the highest known precision, at least year." />
 			<path value="AllergyorIntolerance.Diagnosis"/>
 			<short value="Diagnosis"/>
 			<definition value="A code indicating the type of reaction and the agent; an alternative option for describing an allergy to the agent. Described with Textual information if coded data are unavailable.
-Example: lactose intolerance" />
+Example: lactose intolerance"/>
 			<min value="0"/>
 			<max value="*"/>
 			<type>
@@ -140,7 +140,7 @@ Example: lactose intolerance" />
 			</extension>
 			<path value="AllergyorIntolerance.Reaction"/>
 			<short value="Reaction"/>
-			<definition value="A Label Concept recognizing that other data concerning the reaction may be made available in later versions of this standard." />
+			<definition value="A Label Concept recognizing that other data concerning the reaction may be made available in later versions of this standard."/>
 			<min value="0"/>
 			<max value="*"/>
 			<type>
@@ -156,7 +156,7 @@ Example: lactose intolerance" />
 			<short value="Manifestation of the reaction"/>
 			<definition value="Description of the clinical manifestation of the allergic reaction. Example: anaphylactic shock, angioedema (the clinical manifestation also gives information about the severity of the observed reaction).
 Textual information if coded/quantified data are not available.  This is typically a more complex structure than simple text.
-Example: “intestinal discomfort” is the manifestation of the reaction." />
+Example: “intestinal discomfort” is the manifestation of the reaction."/>
 			<min value="0"/>
 			<max value="*"/>
 			<type>
@@ -185,7 +185,7 @@ Example: “intestinal discomfort” is the manifestation of the reaction." />
 			</extension>
 			<path value="AllergyorIntolerance.Reaction.Severity"/>
 			<short value="Severity"/>
-			<definition value="Coded element that described the subjective assessment of the severity of the condition as evaluated by the clinician, in the case of an allergy it is used as attribute of a manifestation of a reaction. For example, a person may have a severe rash as reaction, that it is not however critical." />
+			<definition value="Coded element that described the subjective assessment of the severity of the condition as evaluated by the clinician, in the case of an allergy it is used as attribute of a manifestation of a reaction. For example, a person may have a severe rash as reaction, that it is not however critical."/>
 			<min value="0"/>
 			<max value="*"/>
 			<type>
@@ -212,7 +212,7 @@ Example: “intestinal discomfort” is the manifestation of the reaction." />
 			</extension>
 			<path value="AllergyorIntolerance.Agent.Code"/>
 			<short value="Agent code"/>
-			<definition value="A specific allergen or other agent/substance to which the patient has an adverse reaction propensity.  This will be taken from a list of agents and the associated code from a value set." />
+			<definition value="A specific allergen or other agent/substance to which the patient has an adverse reaction propensity.  This will be taken from a list of agents and the associated code from a value set."/>
 			<min value="0"/>
 			<max value="*"/>
 			<type>
@@ -229,7 +229,7 @@ Example: “intestinal discomfort” is the manifestation of the reaction." />
 			<definition value="Allergy substance category, Value set should include:
 •	Food
 •	Medication
-•	Environment" />
+•	Environment"/>
 			<min value="0"/>
 			<max value="*"/>
 			<type>

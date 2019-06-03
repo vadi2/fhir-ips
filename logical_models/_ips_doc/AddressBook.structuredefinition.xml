@@ -16,7 +16,7 @@
 		<element id="AddressBook">
 			<path value="AddressBook"/>
 			<short value="Patient Attributes"/>
-			<definition value="Non-exhaustive, collection of data used for administration, identification, assurance of identity and preferences within a patient summary."/>
+			<definition value="Non-exhaustive, collection of data used for administration, identification, assurance of identity and preferences within a patient summary. People and organizations’ address details relevant for the patient’s healthcare."/>
 			<min value="0"/>
 			<max value="*"/>
 			<type>
@@ -59,10 +59,22 @@
 			</extension>
 			<path value="AddressBook.PreferredHPs.Person.Name"/>
 			<short value="Name"/>
-			<min value="0"/>
+			<min value="1"/>
 			<max value="*"/>
 			<type>
 				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/PersonName"/>
+			</type>
+		</element>
+    		<element id="AddressBook.PreferredHPs.Person.Role">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="O"/>
+			</extension>
+			<path value="AddressBook.PreferredHPs.Person.Role"/>
+			<short value="Role"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/CodedElement"/>
 			</type>
 		</element>
 		<element id="AddressBook.PreferredHPs.Person.Telecoms">
@@ -89,9 +101,23 @@
 				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/HealthcareProvider"/>
 			</type>
 		</element>
-		<element id="AddressBook.PreferredHPs.Organization.Telecoms">
+
+		<element id="AddressBook.PreferredHPs.Organization.Name">
 			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
-				<valueCode value="C"/>
+				<valueCode value="R"/>
+			</extension>
+			<path value="AddressBook.PreferredHPs.Organization.Name"/>
+			<short value="Organization’s name"/>
+			<min value="1"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/OrganizationName"/>
+			</type>
+		</element>
+    
+    		<element id="AddressBook.PreferredHPs.Organization.Telecoms">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="RK"/>
 			</extension>
 			<path value="AddressBook.PreferredHPs.Organization.Telecoms"/>
 			<short value="Telecoms"/>
@@ -101,18 +127,7 @@
 				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/Telecom"/>
 			</type>
 		</element>
-		<element id="AddressBook.PreferredHPs.Organization.Name">
-			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
-				<valueCode value="R"/>
-			</extension>
-			<path value="AddressBook.PreferredHPs.Organization.Name"/>
-			<short value="Organization’s name"/>
-			<min value="0"/>
-			<max value="*"/>
-			<type>
-				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/OrganizationName"/>
-			</type>
-		</element>
+    
 		<element id="AddressBook.OtherDetails">
 			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
 				<valueCode value="O"/>
@@ -134,8 +149,8 @@ Examples: Legal guardian, Next of kin, Decision maker with respect to advance di
 			</extension>
 			<path value="AddressBook.OtherDetails.Addressee"/>
 			<short value="Addressee"/>
-			<definition value="xxx"/>
-			<min value="0"/>
+
+			<min value="1"/>
 			<max value="*"/>
 			<type>
 				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/LabelConcept"/>
@@ -147,7 +162,7 @@ Examples: Legal guardian, Next of kin, Decision maker with respect to advance di
 			</extension>
 			<path value="AddressBook.OtherDetails.Addressee.Role"/>
 			<short value="Role"/>
-			<definition value="XXX"/>
+
 			<min value="0"/>
 			<max value="*"/>
 			<type>
@@ -160,7 +175,7 @@ Examples: Legal guardian, Next of kin, Decision maker with respect to advance di
 			</extension>
 			<path value="AddressBook.OtherDetails.Addressee.Name"/>
 			<short value="Name"/>
-			<min value="0"/>
+			<min value="1"/>
 			<max value="*"/>
 			<type>
 				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/PersonName"/>
@@ -168,7 +183,7 @@ Examples: Legal guardian, Next of kin, Decision maker with respect to advance di
 		</element>
 		<element id="AddressBook.OtherDetails.Addressee.Address">
 			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
-				<valueCode value="RK"/>
+				<valueCode value="O"/>
 			</extension>
 			<path value="AddressBook.OtherDetails.Addressee.Address"/>
 			<short value="Address"/>

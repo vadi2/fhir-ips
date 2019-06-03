@@ -81,6 +81,23 @@
 	"check-mustSupport": false,
 	"hintAboutNonMustSupport": false,
 	"resources": {
+		"List/List-dt-cen-ips": {
+			"source": "List-dt-cen-ips.xml"
+		},
+		"List/List-sections-cen-ips": {
+			"source": "List-sections-cen-ips.xml"
+		},
+		"List/List-db-cen-ips": {
+			"source": "List-db-cen-ips.xml"
+		},
+		"ValueSet/conformance-cen-ips": {
+			"source": "valueset-conformance-cen-ips.xml",
+			"base": "ValueSet-conformance-cen-ips.html"
+		},
+		"CodeSystem/conformance-cen-ips": {
+			"source": "codesystem-conformance-cen-ips.xml",
+			"base": "CodeSystem-conformance-cen-ips.html"
+		},
 		"StructureDefinition/conformance-cen-ips": {
 			"defns": "StructureDefinition-conformance-cen-ips-definitions.html",
 			"source": "conformance-cen-ips.structuredefinition.xml",
@@ -115,6 +132,11 @@
 			"defns": "StructureDefinition-HealthcareProvider-definitions.html",
 			"source": "HealthcareProvider.structuredefinition.xml",
 			"base": "StructureDefinition-HealthcareProvider.html"
+		},
+		"StructureDefinition/Document": {
+			"defns": "StructureDefinition-Document-definitions.html",
+			"source": "Document.structuredefinition.xml",
+			"base": "StructureDefinition-Document.html"
 		},
 		"StructureDefinition/Any": {
 			"defns": "StructureDefinition-Any-definitions.html",

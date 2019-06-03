@@ -22,6 +22,35 @@
 		<grouping id="datatypes">
 			<name value="datatypes"/>
 		</grouping>
+		<!-- Lists -->
+		<resource>
+			<reference>
+				<reference value="List/List-dt-cen-ips"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="List/List-db-cen-ips"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="List/List-sections-cen-ips"/>
+			</reference>
+		</resource>
+		<!-- Lists end -->
+		<!-- Terminologies -->
+		<resource>
+			<reference>
+				<reference value="ValueSet/conformance-cen-ips"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="CodeSystem/conformance-cen-ips"/>
+			</reference>
+		</resource>
+		<!-- Terminologies END -->
 		<!-- Extensions begin -->
 		<resource>
 			<reference>
@@ -86,127 +115,6 @@
 			</reference>
 		</resource>
 		IPS resources begin -->
-		<!-- Data Types begin-->
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/CodedElement"/>
-			</reference>
-			<groupingId value="datatypes"/>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/LabelConcept"/>
-			</reference>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/Text"/>
-			</reference>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/DateTime"/>
-			</reference>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/List"/>
-			</reference>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/HealthcareProvider"/>
-			</reference>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/Identifier"/>
-			</reference>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/Section"/>
-			</reference>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/Document"/>
-			</reference>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/Period"/>
-			</reference>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/Any"/>
-			</reference>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/PersonName"/>
-			</reference>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/Telecom"/>
-			</reference>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/Reference"/>
-			</reference>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/GTS"/>
-			</reference>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/Quantity"/>
-			</reference>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/Range"/>
-			</reference>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/Ratio"/>
-			</reference>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/String"/>
-			</reference>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/Address"/>
-			</reference>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/AttributeCollection"/>
-			</reference>
-		</resource>
-		<!--
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/MetadataCollection-lm-cen-ips"/>
-			</reference>
-		</resource>
-    
-    -->
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/OrganizationName"/>
-			</reference>
-		</resource>
-		<!-- Data Types end -->
 		<!-- Document Model -->
 		<resource>
 			<reference>
@@ -217,7 +125,22 @@
 		<!-- Section Logical Models begin-->
 		<resource>
 			<reference>
+				<reference value="StructureDefinition/PatientAttributes"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/AddressBook"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
 				<reference value="StructureDefinition/AllergyIntoleranceSection"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/MedicationSummarySection"/>
 			</reference>
 		</resource>
 		<resource>
@@ -242,6 +165,16 @@
 		</resource>
 		<resource>
 			<reference>
+				<reference value="StructureDefinition/ResultsSection"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/VitalSignsSection"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
 				<reference value="StructureDefinition/AdvanceDirectivesSection"/>
 			</reference>
 		</resource>
@@ -252,27 +185,7 @@
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/ResultsSection"/>
-			</reference>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/MedicationSummarySection"/>
-			</reference>
-		</resource>
-		<resource>
-			<reference>
 				<reference value="StructureDefinition/PregnancyHistorySection"/>
-			</reference>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/PatientAttributes"/>
-			</reference>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/AddressBook"/>
 			</reference>
 		</resource>
 		<resource>
@@ -290,12 +203,134 @@
 				<reference value="StructureDefinition/Provenance"/>
 			</reference>
 		</resource>
+		<!-- SECTIONS END -->
+		<!-- Data Types begin-->
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/VitalSignsSection"/>
+				<reference value="StructureDefinition/Address"/>
 			</reference>
 		</resource>
-		<!-- SECTIONS END -->
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/Any"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/AttributeCollection"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/CodedElement"/>
+			</reference>
+			<groupingId value="datatypes"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/DateTime"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/Document"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/GTS"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/HealthcareProvider"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/Identifier"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/LabelConcept"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/List"/>
+			</reference>
+		</resource>
+		<!--
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/MetadataCollection-lm-cen-ips"/>
+			</reference>
+		</resource>
+    
+    -->
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/OrganizationName"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/Period"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/PersonName"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/Quantity"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/Range"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/Ratio"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/Reference"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/Section"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/String"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/Telecom"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/Text"/>
+			</reference>
+		</resource>
+		<!-- Data Types end -->
+		<!-- DATA BLOCKS begin -->
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/AdvanceDirective"/>
+			</reference>
+		</resource>
 		<resource>
 			<reference>
 				<reference value="StructureDefinition/AllergyIntolerance"/>
@@ -303,42 +338,7 @@
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/Problem"/>
-			</reference>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/PastProblem"/>
-			</reference>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/Immunization"/>
-			</reference>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/Procedure"/>
-			</reference>
-		</resource>
-		<resource>
-			<reference>
 				<reference value="StructureDefinition/Device"/>
-			</reference>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/SocialHistorySection"/>
-			</reference>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/FunctionalStatusSection"/>
-			</reference>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/LifestyleFactor"/>
 			</reference>
 		</resource>
 		<resource>
@@ -353,12 +353,17 @@
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/AdvanceDirective"/>
+				<reference value="StructureDefinition/FunctionalStatusSection"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/MedicationStatement"/>
+				<reference value="StructureDefinition/Immunization"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/LifestyleFactor"/>
 			</reference>
 		</resource>
 		<resource>
@@ -368,7 +373,32 @@
 		</resource>
 		<resource>
 			<reference>
+				<reference value="StructureDefinition/MedicationStatement"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/PastProblem"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
 				<reference value="StructureDefinition/Plan"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/PregnancyStatus"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/Problem"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/Procedure"/>
 			</reference>
 		</resource>
 		<resource>
@@ -378,7 +408,7 @@
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/PregnancyStatus"/>
+				<reference value="StructureDefinition/SocialHistorySection"/>
 			</reference>
 		</resource>
 		<resource>

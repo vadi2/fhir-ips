@@ -3,11 +3,11 @@
 	<id value="Period"/>
 	<url value="http://hl7.org/fhir/uv/ips/StructureDefinition/Period"/>
 	<name value="Period"/>
-	<title value="Period (EN 17269)" />
+	<title value="Period (EN 17269)"/>
 	<status value="draft"/>
 	<description value="A set of consecutive values of time-stamps.
 In general, a period may be expressed in different ways: using start and end date times (e.g. from 2004 to 2005); using a start time and a width, a time quantity (e.g. from January 2nd 2019 for 3 weeks) and so on.
-This standard imposes restrictions on the possible options allowed by the ISO 21090 data type, but derived models can further constrain the period representation." />
+This standard imposes restrictions on the possible options allowed by the ISO 21090 data type, but derived models can further constrain the period representation."/>
 	<kind value="logical"/>
 	<abstract value="true"/>
 	<type value="http://hl7.org/fhir/uv/ips/StructureDefinition/Period"/>

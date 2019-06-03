@@ -22,7 +22,7 @@ A working GTS is specified as an expression tree built using a combination of op
 			<constraint>
 				<key value="el-1"/>
 				<severity value="error"/>
-				<human value="	Any implementable specification SHALL describe how this abstract pattern is realized (e.g. combination of intervals and event related times)."/>
+				<human value="Any implementable specification SHALL describe how this abstract pattern is realized (e.g. combination of intervals and event related times)."/>
 			</constraint>
 			<constraint>
 				<key value="el-2"/>

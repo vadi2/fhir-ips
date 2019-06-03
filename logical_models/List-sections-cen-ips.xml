@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<List xmlns="http://hl7.org/fhir">
+	<id value="List-sections-cen-ips"/>
+	<status value="current"/>
+	<mode value="working"/>
+	<title value="CEN IPS Sections and Attributes Collection"/>
+	<date value="2015-07-14T23:10:23+11:00"/>
+	<entry>
+		<item>
+			<reference value="StructureDefinition/PatientAttributes"/>
+		</item>
+	</entry>
+	<entry>
+		<item>
+			<reference value="StructureDefinition/AddressBook"/>
+		</item>
+	</entry>
+	<entry>
+		<item>
+			<reference value="StructureDefinition/AllergyIntoleranceSection"/>
+		</item>
+	</entry>
+	<entry>
+		<item>
+			<reference value="StructureDefinition/MedicationSummarySection"/>
+		</item>
+	</entry>
+	<entry>
+		<item>
+			<reference value="StructureDefinition/ProblemsSection"/>
+		</item>
+	</entry>
+	<entry>
+		<item>
+			<reference value="StructureDefinition/ImmunizationsSection"/>
+		</item>
+	</entry>
+	<entry>
+		<item>
+			<reference value="StructureDefinition/ProceduresSection"/>
+		</item>
+	</entry>
+	<entry>
+		<item>
+			<reference value="StructureDefinition/MedicalDevicesSection"/>
+		</item>
+	</entry>
+	<entry>
+		<item>
+			<reference value="StructureDefinition/ResultsSection"/>
+		</item>
+	</entry>
+	<entry>
+		<item>
+			<reference value="StructureDefinition/VitalSignsSection"/>
+		</item>
+	</entry>
+	<entry>
+		<item>
+			<reference value="StructureDefinition/AdvanceDirectivesSection"/>
+		</item>
+	</entry>
+	<entry>
+		<item>
+			<reference value="StructureDefinition/PlanOfCareSection"/>
+		</item>
+	</entry>
+	<entry>
+		<item>
+			<reference value="StructureDefinition/PregnancyHistorySection"/>
+		</item>
+	</entry>
+	<entry>
+		<item>
+			<reference value="StructureDefinition/HxPastProblemsSection"/>
+		</item>
+	</entry>
+	<entry>
+		<item>
+			<reference value="StructureDefinition/CrossBorderAttributes"/>
+		</item>
+	</entry>
+	<entry>
+		<item>
+			<reference value="StructureDefinition/Provenance"/>
+		</item>
+	</entry>
+</List>

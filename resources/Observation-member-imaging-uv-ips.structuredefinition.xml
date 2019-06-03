@@ -168,7 +168,7 @@
 			<min value="1"/>
 			<mustSupport value="true"/>
 		</element>
-		<!-- Removed for alignement with the parent imaging obseravtion; this is an "extension" added by Trillium II -->
+		<!-- Removed for alignement with the parent imaging obseravtion; this is an "extension"added by Trillium II -->
 		<!-- 
 		<element id="Observation.derivedFrom">
 			<path value="Observation.derivedFrom"/>

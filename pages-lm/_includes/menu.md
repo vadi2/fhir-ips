@@ -1,16 +1,44 @@
-{:.nav .navbar-nav}
-<!-- don't remove the line above - to add or remove a menu item commeent in or out -->
-- [Home](index.html)
-- [Conformance](conformance.html)
-- [Logical Models](profiles.html)
-<!-- - [Profiles](profiles.html) -->
-<!-- - [Mappings](structuremaps.html) -->
-- [Extensions and Datatypes](extensions.html)
-<!-- - [Operations](operations.html) -->
-- [Terminology](terminology.html)
-<!-- - [Search Parameters](searchparams.html) -->
-<!-- - [Capability Statements](capstatements.html) -->
-<!-- - [Security](security.html) -->
-<!-- - [Examples](examples.html) -->
-<!-- - [Downloads](downloads.html) -->
-- [History](history.html)
+  {:.nav .navbar-nav}
+  <ul class="nav navbar-nav">
+    <li>
+      <a href="index.html">Home</a>
+    </li>
+    <li>
+      <a href="conformance.html">Conformance</a>
+    </li>
+    <li class="dropdown">
+      <a href="#" data-toggle="dropdown" class="dropdown-toggle">Logical Models</a>
+      <ul class="dropdown-menu">
+        <li>
+          <a href="StructureDefinition-IPS.html">The International Patient Summary</a>
+        </li>
+        <li>
+          <a href="sections.html">Sections and Attributes Collection</a>
+        </li>
+        <li>
+          <a href="datablocks.html">Data Blocks</a>
+        </li>
+        <li>
+          <a href="datatypes.html">Datatypes</a>
+        </li>
+        <li>
+          <a href="extensions.html">Extensions</a>
+        </li>
+        <li>
+          <a href="profiles.html">All Logical Models</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="extensions.html">Extensions</a>
+    </li>
+    <li>
+      <a href="terminology.html">Terminology</a>
+    </li>
+    <li>
+      <a href="downloads.html">Downloads</a>
+    </li>
+    <li>
+      <a href="history.html">History</a>
+    </li>
+  </ul>

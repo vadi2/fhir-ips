@@ -28,7 +28,7 @@
 			</extension>
 			<path value="AdvanceDirective.AuthorizingPerson"/>
 			<short value="Person authorizing directive"/>
-			<definition value="The source of each directive if known; the decision maker is usually the patient and/or a delegated person such as a Legal Guardian. If the authority is not the patient, then it will be someone to contact for further information and clarification of the patient’s wishes. The postal address elements are not included reflecting the urgency for the contact; however, full details should be consistent and available from the Patient’s Address Book."/>
+			<definition value="The source of each directive if known; the decision maker is usually the patient and/or a delegated person such as a Legal Guardian.  There is an opportunity to be more specific about ‘role’ if known.  If the authority is not the patient, then it will be someone to contact for further information and clarification of the patient’s wishes. The postal address elements are not included reflecting the urgency for the contact; however, full details should be consistent and available from the Patient’s Address Book."/>
 			<min value="0"/>
 			<max value="*"/>
 			<type>
@@ -45,6 +45,18 @@
 			<max value="*"/>
 			<type>
 				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/PersonName"/>
+			</type>
+		</element>
+    		<element id="AdvanceDirective.AuthorizingPerson.Role">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="RK"/>
+			</extension>
+			<path value="AdvanceDirective.AuthorizingPerson.Role"/>
+			<short value="Role"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/CodedElement"/>
 			</type>
 		</element>
 		<element id="AdvanceDirective.AuthorizingPerson.Telecoms">

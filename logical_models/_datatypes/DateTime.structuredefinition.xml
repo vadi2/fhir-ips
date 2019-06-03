@@ -22,12 +22,12 @@ It is to be noted that partial dates and various formats of full dates are commo
 			<constraint>
 				<key value="el-1"/>
 				<severity value="error"/>
-				<human value="	Dates SHALL be valid dates"/>
+				<human value="Dates SHALL be valid dates"/>
 			</constraint>
 			<constraint>
 				<key value="el-2"/>
 				<severity value="error"/>
-				<human value="	If no additional constraints have been specified (e.g. day precision), at least a full year SHALL be specified"/>
+				<human value="If no additional constraints have been specified (e.g. day precision), at least a full year SHALL be specified"/>
 			</constraint>
 			<constraint>
 				<key value="el-3"/>

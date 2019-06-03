@@ -46,7 +46,7 @@
 			<short value="Advance directives"/>
 			<definition value="A list comprising one or more advance directives
 Note: Although not in this version of the standard, future versions of the Advance Directives IPS Section might also include definitions and descriptions regarding ‘CONSENT practices’ as directives and mandates from particular jurisdictions."/>
-			<min value="0"/>
+			<min value="1"/>
 			<max value="*"/>
 			<type>
 				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/List"/>
