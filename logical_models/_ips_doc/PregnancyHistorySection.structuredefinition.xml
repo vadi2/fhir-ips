@@ -109,7 +109,7 @@
       </extension>
       <path value="PregnancyHistorySection.PreviousPregnancies.PreviousPregnancy"/>
       <short value="Previous pregnancy"/>
-      <min value="0"/>
+      <min value="1"/>
       <max value="*"/>
       <type>
         <code value="http://hl7.org/fhir/uv/ips/StructureDefinition/LabelConcept"/>

@@ -92,9 +92,9 @@ It shall be provided with the highest known precision, at least year."/>
 			<definition value="This attribute represents the gravity of the potential risk for future life-threatening adverse reactions when exposed to a substance known to cause an adverse reaction in that individual. When the ‘worst case’ result is assessed to have a life-threatening or organ system threatening potential, it is considered to be of high criticality.
 Notes: In some contexts, the severity is used as a synonym of the criticality, but the IPS standards treat them as distinct concepts
 Value set should include:
-•	High
-•	Low
-•	Exception: unable to assess criticality"/>
+•	High Risk
+•	Low Risk
+•	Exception: Unable to assess risk"/>
 			<min value="0"/>
 			<max value="*"/>
 			<type>
@@ -107,12 +107,13 @@ Value set should include:
 			</extension>
 			<path value="AllergyorIntolerance.Certainty"/>
 			<short value="Certainty"/>
-			<definition value="Assertion about certainty associated with the propensity, or potential risk, of a reaction to the identified substance.  Value set should include:
-—	Unconfirmed (There is not sufficient diagnostic and/or clinical evidence to treat this as a confirmed condition.)
-o	Provisional (This is a tentative diagnosis - still a candidate that is under consideration.)
-o	Differential (One of a set of potential (and typically mutually exclusive) diagnoses asserted to further guide the diagnostic process and preliminary treatment.)
-—	Confirmed (A high level of certainty about the propensity for a reaction to the identified substance, which may include clinical evidence by testing or re-challenge).
-—	Refuted (A propensity for a reaction to the identified substance has been disproven with a high level of clinical certainty, which may include testing or re-challenge, and is refuted.)"/>
+			<definition value="Assertion about certainty associated with the propensity, or potential risk, of a reaction to the identified substance. 
+      Value set should include:
+•	Unconfirmed (There is not sufficient diagnostic and/or clinical evidence to treat this as a confirmed condition.)
+  o	Provisional (This is a tentative diagnosis - still a candidate that is under consideration.)
+  o	Differential (One of a set of potential (and typically mutually exclusive) diagnoses asserted to further guide the diagnostic process and preliminary treatment.)
+•	Confirmed (A high level of certainty about the propensity for a reaction to the identified substance, which may include clinical evidence by testing or re-challenge).
+•	Refuted (A propensity for a reaction to the identified substance has been disproven with a high level of clinical certainty, which may include testing or re-challenge, and is refuted.)"/>
 			<min value="0"/>
 			<max value="*"/>
 			<type>
@@ -127,9 +128,9 @@ o	Differential (One of a set of potential (and typically mutually exclusive) dia
 			<short value="Type of propensity"/>
 			<definition value="Type of allergy or intolerance.
 Format: Coded information:  Value set should include:
-—	Allergy
-—	Intolerance
-—	propensity to adverse reaction"/>
+•	Allergy
+•	Intolerance
+•	propensity to adverse reaction"/>
 			<min value="0"/>
 			<max value="*"/>
 			<type>
@@ -196,7 +197,7 @@ Example: “intestinal discomfort” is the manifestation of the reaction."/>
 		</element>
 		<element id="AllergyorIntolerance.Agent">
 			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
-				<valueCode value="O"/>
+				<valueCode value="R"/>
 			</extension>
 			<path value="AllergyorIntolerance.Agent"/>
 			<short value="Agent"/>

@@ -3,10 +3,10 @@
 	<id value="HxPastProblemsSection"/>
 	<url value="http://hl7.org/fhir/uv/ips/StructureDefinition/HxPastProblemsSection"/>
 	<name value="HxPastProblemsSection"/>
-	<title value="History of past illness Section (EN 17269)"/>
+	<title value="History of past problems Section (EN 17269)"/>
 	<status value="draft"/>
-	<description value="List of health conditions (e.g. diseases, disorders, injuries) and problems (decision made on the nature of one or more health conditions) the patient suffered in the past, and which have been closed or resolved and are not considered to be active or on-going and are therefore not currently monitored."/>
-	<purpose value="To describe historic record of illness; provides a context in which to view the current state of the patient."/>
+	<description value="List of problems that the patient suffered in the past, and which have been closed or resolved and are not considered to be active or on-going and are therefore not currently monitored."/>
+	<purpose value="To describe historic record of illness; provides a historical context from which to view the current state of the patient."/>
 	<kind value="logical"/>
 	<abstract value="true"/>
 	<type value="http://hl7.org/fhir/uv/ips/StructureDefinition/HxPastProblemsSection"/>
@@ -15,28 +15,13 @@
 	<differential>
 		<element id="HxPastProblemsSection">
 			<path value="HxPastProblemsSection"/>
-			<short value="History of past illness Section"/>
+			<short value="History of past problems Section"/>
 			<definition value="Health condition considered by a healthcare actor to be a problem; A list of current, active problems that have not been resolved or are existing concerns that are still being monitored."/>
 			<min value="0"/>
 			<max value="*"/>
 			<type>
 				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/Section"/>
 			</type>
-			<constraint>
-				<key value="br-prob-1"/>
-				<severity value="error"/>
-				<human value="If content status positive then list of health conditions SHALL be non-empty AND the content status SHALL be omitted."/>
-			</constraint>
-			<constraint>
-				<key value="br-prob-2"/>
-				<severity value="error"/>
-				<human value="If content status records absence then list of health conditions SHALL be omitted"/>
-			</constraint>
-			<constraint>
-				<key value="br-prob-3"/>
-				<severity value="error"/>
-				<human value="If health condition ‘resolved’ then Date Resolved SHALL be given."/>
-			</constraint>
 		</element>
 		<element id="HxPastProblemsSection.PastProblems">
 			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
@@ -44,8 +29,8 @@
 			</extension>
 			<path value="HxPastProblemsSection.PastProblems"/>
 			<short value="Past health conditions and problems"/>
-			<definition value="The healthcare matters are described as a list."/>
-			<min value="0"/>
+			<definition value="The past problems are described as a list."/>
+			<min value="1"/>
 			<max value="*"/>
 			<type>
 				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/List"/>
@@ -53,11 +38,11 @@
 		</element>
 		<element id="HxPastProblemsSection.PastProblems.PastProblem">
 			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
-				<valueCode value="M"/>
+				<valueCode value="R"/>
 			</extension>
 			<path value="HxPastProblemsSection.PastProblems.PastProblem"/>
 			<short value="Health condition/problem"/>
-			<definition value="Container of elements describing a health condition"/>
+			<definition value="Container of elements describing a problem"/>
 			<min value="1"/>
 			<max value="*"/>
 			<type>

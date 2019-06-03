@@ -25,12 +25,12 @@ It may include a complete vaccination history"/>
 				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/Section"/>
 			</type>
 			<constraint>
-				<key value="br-imm-1"/>
+				<key value="br-1"/>
 				<severity value="error"/>
 				<human value="If content status positive then immunization list SHALL be non-empty AND the content status SHALL be omitted."/>
 			</constraint>
 			<constraint>
-				<key value="br-imm-2"/>
+				<key value="br-2"/>
 				<severity value="error"/>
 				<human value="If content status records absence then immunization List SHALL be omitted."/>
 			</constraint>
@@ -71,7 +71,7 @@ A predicate that tests if any immunizations have been performed."/>
 		</element>
 		<element id="ImmunizationsSection.Immunizations.Immunization">
 			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
-				<valueCode value="M"/>
+				<valueCode value="R"/>
 			</extension>
 			<path value="ImmunizationsSection.Immunizations.Immunization"/>
 			<short value="Immunization"/>

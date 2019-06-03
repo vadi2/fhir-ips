@@ -5,7 +5,7 @@
 	<name value="ProblemsSection"/>
 	<title value="Problems Section (EN 17269)"/>
 	<status value="draft"/>
-	<description value="Health condition considered by a healthcare actor to be a problem; A list of current, active problems that have not been resolved or are existing concerns that are still being monitored."/>
+	<description value="Health condition considered by a healthcare actor to be a problem; a list of current, active problems that have not been resolved or are existing concerns that are still being monitored."/>
 	<purpose value="To provide a concise overview of health conditions affecting the patient.  Medical alerts and clinical risks identified e.g. problematic intubation, person with brittle diabetes, immuno-compromised/risk of infection etc.  can also be described here."/>
 	<kind value="logical"/>
 	<abstract value="true"/>
@@ -23,19 +23,14 @@
 				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/Section"/>
 			</type>
 			<constraint>
-				<key value="br-prob-1"/>
+				<key value="br-1"/>
 				<severity value="error"/>
-				<human value="This is a required IPS Section for conformance and shall not be empty; at the least, some statement is given explaining the missing data."/>
+				<human value="If a problem is reported in the IPS, then the Problems list SHALL be non-empty and the Problem content status SHALL be omitted"/>
 			</constraint>
 			<constraint>
-				<key value="br-prob-2"/>
+				<key value="br-2"/>
 				<severity value="error"/>
-				<human value="If content status positive then Current Problems list SHALL be non-empty AND the content status SHALL be omitted."/>
-			</constraint>
-			<constraint>
-				<key value="br-prob-3"/>
-				<severity value="error"/>
-				<human value="If content status records absence then Current Problems List SHALL be empty or omitted."/>
+				<human value="If no current problems are reported then a statement SHALL be given to that effect within the Problem content status."/>
 			</constraint>
 		</element>
 		<element id="ProblemsSection.ContentStatus">
@@ -44,7 +39,7 @@
 			</extension>
 			<path value="ProblemsSection.ContentStatus"/>
 			<short value="Problems content status"/>
-			<definition value="The patient has had no previous problems, or the problem information is unknown."/>
+			<definition value="The patient has no problems to be reported or the problem information is unavailable."/>
 			<min value="0"/>
 			<max value="*"/>
 			<type>

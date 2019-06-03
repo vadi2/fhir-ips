@@ -28,7 +28,7 @@
 			</extension>
 			<path value="Problem.Type"/>
 			<short value="Problem type"/>
-			<definition value="A means of categorizing the different types of problem.  This can be represented by a value set, for example it could be findings, preliminary diagnosis, diagnosis, etc"/>
+			<definition value="A means of categorizing the different types of problem.  This can be represented by a value set, for example it could be findings, preliminary diagnosis, diagnosis, clinical risks and medical alerts.  Note, ‘Medical Alerts’, i.e., one type of alert, are represented here in this first iteration of this standard."/>
 			<min value="0"/>
 			<max value="*"/>
 			<type>
@@ -43,7 +43,7 @@
 			<short value="Problem description"/>
 			<definition value="Narrative represented in a textual form of the nature of the problem.  It may be given even if a diagnosis is given and shall be given if the diagnosis is not given
 Derived models may choose to use distinct elements for each description or to collect them into a single section level narrative block."/>
-			<min value="0"/>
+			<min value="1"/>
 			<max value="*"/>
 			<type>
 				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/Text"/>
@@ -56,7 +56,7 @@ Derived models may choose to use distinct elements for each description or to co
 			<path value="Problem.Diagnosis"/>
 			<short value="Diagnosis"/>
 			<definition value="Label used to describe a problem; usually coded."/>
-			<min value="0"/>
+			<min value="1"/>
 			<max value="*"/>
 			<type>
 				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/CodedElement"/>
@@ -77,7 +77,7 @@ Derived models may choose to use distinct elements for each description or to co
 		</element>
 		<element id="Problem.OnsetDate">
 			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
-				<valueCode value="R"/>
+				<valueCode value="RK"/>
 			</extension>
 			<path value="Problem.OnsetDate"/>
 			<short value="Onset date"/>
@@ -86,6 +86,19 @@ Derived models may choose to use distinct elements for each description or to co
 			<max value="*"/>
 			<type>
 				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/DateTime"/>
+			</type>
+		</element>
+    		<element id="Problem.ClinicalStatus">
+			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+				<valueCode value="O"/>
+			</extension>
+			<path value="Problem.ClinicalStatus"/>
+			<short value="Problem status"/>
+			<definition value="The status of the problem may be, at least, active or inactive."/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/CodedElement"/>
 			</type>
 		</element>
 		<element id="Problem.SpecialistContact">

@@ -28,7 +28,7 @@
 			</extension>
 			<path value="Procedure.Code"/>
 			<short value="Procedure Code"/>
-			<min value="0"/>
+			<min value="1"/>
 			<max value="*"/>
 			<type>
 				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/CodedElement"/>
@@ -67,7 +67,7 @@ Derived models may choose to use distinct elements for each narrative statement 
 			</extension>
 			<path value="Procedure.Date"/>
 			<short value="Procedure Date"/>
-			<min value="0"/>
+			<min value="1"/>
 			<max value="*"/>
 			<type>
 				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/DateTime"/>

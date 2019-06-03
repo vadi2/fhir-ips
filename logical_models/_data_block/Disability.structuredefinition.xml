@@ -30,7 +30,7 @@
 			<short value="Disability description"/>
 			<definition value="A narrative description of the nature of the invalidity.
 Derived models may choose to use distinct elements for each narrative statement or to collect them into a single section level narrative block."/>
-			<min value="0"/>
+			<min value="1"/>
 			<max value="*"/>
 			<type>
 				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/Text"/>

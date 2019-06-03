@@ -43,7 +43,7 @@
 			<path value="Provenance.DateOfIPS"/>
 			<short value="Date of IPS Document creation"/>
 			<definition value="The IPS document can only be created once."/>
-			<min value="0"/>
+			<min value="1"/>
 			<max value="*"/>
 			<type>
 				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/DateTime"/>
@@ -68,7 +68,7 @@
 			<path value="Provenance.DateOfIPSUpdate"/>
 			<short value="Date of last update to IPS content"/>
 			<definition value="The content of the IPS may have variable dates of update or change."/>
-			<min value="0"/>
+			<min value="1"/>
 			<max value="*"/>
 			<type>
 				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/DateTime"/>
@@ -80,7 +80,8 @@
 			</extension>
 			<path value="Provenance.IPSGeneration"/>
 			<short value="Generation of IPS content"/>
-			<min value="0"/>
+			<definition value="This is the actual container of IPS provenance data: how it has been assembled from which sources etc."/>
+			<min value="1"/>
 			<max value="*"/>
 			<type>
 				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/LabelConcept"/>
@@ -92,9 +93,9 @@
 			</extension>
 			<path value="Provenance.IPSGeneration.IPSNature"/>
 			<short value="Nature of the IPS"/>
-			<definition value="Defines the context in which the IPS was generated.  #5 considers two cases; Human created and automatically assembled.
-NOTE	Three methodological approaches to build the summary were suggested by the eHN Guideline: direct human intervention by an healthcare actor, automatically generated and a mixed approach. HL7 IPS have suggested that these can be resolved into two cases: Human curated and automatically assembled. The cases in which an automatically generated PS is edited by a human being (i.e. the mixed approach) is considered to be human curated. If a human verifies the content of an automatically generated IPS is still an automatic generated PS with a human verifier"/>
-			<min value="0"/>
+			<definition value="Defines the context in which the IPS was generated.  �Nature of the IPS considers two cases; Human created and automatically assembled.
+NOTE:  Three methodological approaches to build the summary were suggested by the eHN Guideline: direct human intervention by a healthcare actor, automatically generated and a mixed approach. HL7 IPS have suggested that these can be resolved into two cases: Human curated and automatically assembled. The cases in which an automatically generated PS is edited by a human being (i.e. the mixed approach) is considered to be human curated. If a human verifies the content of an automatically generated IPS, the IPS is still an automatic generated PS with a human verifier."/>
+			<min value="1"/>
 			<max value="*"/>
 			<type>
 				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/LabelConcept"/>
@@ -106,7 +107,7 @@ NOTE	Three methodological approaches to build the summary were suggested by the 
 			</extension>
 			<path value="Provenance.HealthcareProviders"/>
 			<short value="Healthcare providers"/>
-			<min value="0"/>
+			<min value="1"/>
 			<max value="*"/>
 			<type>
 				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/List"/>
@@ -119,7 +120,7 @@ NOTE	Three methodological approaches to build the summary were suggested by the 
 			<path value="Provenance.HealthcareProviders.AuthoringHP"/>
 			<short value="Authoring healthcare provider"/>
 			<definition value="A means of verifying origin and providing some measure of confidence /trust. At least an author organization shall be listed.  In case there is no healthcare professional, at least an healthcare organization shall be listed."/>
-			<min value="0"/>
+			<min value="1"/>
 			<max value="*"/>
 			<type>
 				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/HealthcareProvider"/>

@@ -68,7 +68,7 @@
 			<short value="Pregnancy state"/>
 			<definition value="Purpose: To give the women’s current state at the date the observation made.  Pregnant state value set should include:•	Pregnant •	Not Pregnant •	Unknown"/>
 			<min value="1"/>
-			<max value="1"/>
+			<max value="*"/>
 			<type>
 				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/CodedElement"/>
 			</type>

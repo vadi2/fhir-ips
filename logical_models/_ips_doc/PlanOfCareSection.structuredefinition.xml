@@ -39,7 +39,7 @@
 			</extension>
 			<path value="PlanOfCareSection.Plans"/>
 			<short value="Plans"/>
-			<min value="0"/>
+			<min value="1"/>
 			<max value="*"/>
 			<type>
 				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/List"/>

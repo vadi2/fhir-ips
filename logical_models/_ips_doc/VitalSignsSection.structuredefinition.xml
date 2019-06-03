@@ -16,10 +16,9 @@ It may be necessary to convey the provenance and authoring for results that have
 	<differential>
 		<element id="VitalSignsSection">
 			<path value="VitalSignsSection"/>
-			<short value="Results Section"/>
+			<short value="Vital Signs Section"/>
 			<definition value="This section assembles relevant observation results to record the vital signs associated with a patient that include the primary vital signs plus additional measurements such as height, weight and BMI.
-It may be necessary to convey the provenance and authoring for results that have been collected from authors other than the IPS author.
-Provenance data should be recorded for each result to provide trust in the attending healthcare provider."/>
+It may be necessary to convey the provenance and authoring for results that have been collected from authors other than the IPS author."/>
 			<min value="0"/>
 			<max value="*"/>
 			<type>
@@ -31,9 +30,10 @@ Provenance data should be recorded for each result to provide trust in the atten
 				<valueCode value="R"/>
 			</extension>
 			<path value="VitalSignsSection.VitalSigns"/>
-			<short value="Results"/>
-			<definition value="A list of all observation results pertaining to the subject of care’s health condition."/>
-			<min value="0"/>
+			<short value="Vital signs"/>
+			<definition value="A list of all vital signs pertaining to the subject of care’s health condition.
+Vital Sign is a specialization of the Results’ Observation result."/>
+			<min value="1"/>
 			<max value="*"/>
 			<type>
 				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/List"/>
@@ -44,7 +44,7 @@ Provenance data should be recorded for each result to provide trust in the atten
 				<valueCode value="R"/>
 			</extension>
 			<path value="VitalSignsSection.VitalSigns.VitalSign"/>
-			<short value="Result"/>
+			<short value="Vital sign"/>
 			<min value="1"/>
 			<max value="*"/>
 			<type>

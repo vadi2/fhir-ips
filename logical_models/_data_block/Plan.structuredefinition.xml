@@ -80,7 +80,7 @@
 			<path value="Plan.Recommendations.Recommendation"/>
 			<short value="Recommendation"/>
 			<definition value="Each recommendation should contain a triple comprising two dates and a recommended treatment.  Both dates should be given if the information is available; the recommended treatment is required."/>
-			<min value="0"/>
+			<min value="1"/>
 			<max value="*"/>
 			<type>
 				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/LabelConcept"/>
@@ -93,7 +93,7 @@
 			<path value="Plan.Recommendations.Recommendation.Treatment"/>
 			<short value="Recommendation for treatment"/>
 			<definition value="A recommendation for treatment is given."/>
-			<min value="0"/>
+			<min value="1"/>
 			<max value="*"/>
 			<type>
 				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/Text"/>

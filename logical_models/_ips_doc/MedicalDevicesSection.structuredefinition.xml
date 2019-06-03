@@ -23,14 +23,14 @@
 				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/Section"/>
 			</type>
 			<constraint>
-				<key value="br-md-1"/>
+				<key value="br-1"/>
 				<severity value="error"/>
-				<human value="If content status positive then Device list SHALL be non-empty AND the content status SHALL be omitted."/>
+				<human value="If there is recorded content then Device list SHALL be non-empty AND the Device content status SHALL be omitted."/>
 			</constraint>
 			<constraint>
-				<key value="br-md-2"/>
+				<key value="br-2"/>
 				<severity value="error"/>
-				<human value="If content status records absence then Device List SHALL be omitted."/>
+				<human value="If there is no recorded content then Device List SHALL be omitted."/>
 			</constraint>
 		</element>
 		<element id="MedicalDevicesSection.ContentStatus">
@@ -61,7 +61,7 @@
 		</element>
 		<element id="MedicalDevicesSection.Devices.Device">
 			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
-				<valueCode value="M"/>
+				<valueCode value="R"/>
 			</extension>
 			<path value="MedicalDevicesSection.Devices.Device"/>
 			<short value="Device"/>

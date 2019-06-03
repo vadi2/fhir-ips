@@ -29,7 +29,7 @@
 			<path value="Device.Type"/>
 			<short value="Device type"/>
 			<definition value="Category of the device"/>
-			<min value="0"/>
+			<min value="1"/>
 			<max value="*"/>
 			<type>
 				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/CodedElement"/>
@@ -56,7 +56,7 @@ Unique and normalized identifier of the device"/>
 			<path value="Device.UseStartDate"/>
 			<short value="Use start date"/>
 			<definition value="Date when the device was implantable to the patient or the external device was first in use. This field may contain only the year if the day and month are not available (example: 01/01/2017)."/>
-			<min value="0"/>
+			<min value="1"/>
 			<max value="*"/>
 			<type>
 				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/DateTime"/>

@@ -38,8 +38,8 @@ Other kinds of lifestyle factors may also be considered such as risk factors, ex
 			<short value="Life style factor description"/>
 			<definition value="Drug dependencies are not in the eHN Guideline; in some countries, Life Style factors are type of sensitive information that requires special confidentiality rules.
 Derived models may choose to use distinct elements for each description or to collect them into a single section level narrative block.
-For the description, narrative is typical but Coded and quantified information are given if possible. These will be further described by the Life Factor Details element (#5)."/>
-			<min value="0"/>
+For the description, narrative is typical but Coded and quantified information are given if possible. These will be further described by the Life Factor Details element."/>
+			<min value="1"/>
 			<max value="*"/>
 			<type>
 				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/Text"/>

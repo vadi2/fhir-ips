@@ -14,7 +14,7 @@
 	<differential>
 		<element id="VitalSign">
 			<path value="VitalSign"/>
-			<short value="Vital Sign"/>
+			<short value="Vital sign"/>
 			<definition value="Relevant observation results to record the vital signs associated with a patient that include the primary vital signs plus additional measurements such as height, weight and BMI."/>
 			<min value="0"/>
 			<max value="*"/>
@@ -33,7 +33,7 @@
 			</extension>
 			<path value="VitalSign.Date"/>
 			<short value="Date of observation"/>
-			<min value="0"/>
+			<min value="1"/>
 			<max value="*"/>
 			<type>
 				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/DateTime"/>
@@ -50,7 +50,7 @@
 			<short value="Observation type"/>
 			<definition value="The list contains members representing the types of vital signs.
 Typical vital signs types are represented by the LOINC panel “Vital signs, weight, height, head circumference, oxygen saturation and BMI panel” (LOINC code 85353-1)."/>
-			<min value="0"/>
+			<min value="1"/>
 			<max value="*"/>
 			<type>
 				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/CodedElement"/>
@@ -58,11 +58,12 @@ Typical vital signs types are represented by the LOINC panel “Vital signs, wei
 		</element>
 		<element id="VitalSign.Description">
 			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
-				<valueCode value="R"/>
+				<valueCode value="RK"/>
 			</extension>
 			<path value="VitalSign.Description"/>
 			<short value="Result description"/>
-			<definition value="A description of the recorded Vital Signs.Derived models may choose to use distinct elements for each description or to collect them into a single section level narrative block."/>
+			<definition value="A description of the recorded Vital Signs.
+      Derived models may choose to use distinct elements for each description or to collect them into a single section level narrative block."/>
 			<min value="0"/>
 			<max value="*"/>
 			<type>

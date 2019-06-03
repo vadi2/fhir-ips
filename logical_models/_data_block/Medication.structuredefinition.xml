@@ -54,7 +54,7 @@ Irbesartan/Hydrochlorothiazide 300mg/12.5mg"/>
 			<min value="0"/>
 			<max value="*"/>
 			<type>
-				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/Identifier"/>
+				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/String"/>
 			</type>
 		</element>
 		<element id="Medication.DoseForm">
@@ -67,7 +67,7 @@ Irbesartan/Hydrochlorothiazide 300mg/12.5mg"/>
 NOTES:
 1.	Dose form, dosage form and pharmaceutical dose form are synonymous.
 2.	“Pharmaceutical dose form” can refer to the administered dose form or the manufactured dose form."/>
-			<min value="0"/>
+			<min value="1"/>
 			<max value="*"/>
 			<type>
 				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/CodedElement"/>
@@ -93,7 +93,7 @@ NOTES:
 			<path value="Medication.ActiveIngredients"/>
 			<short value="Active ingredients"/>
 			<definition value="A list of Substance that alone or in combination with one or more other ingredients produces the intended activity of a medicinal product."/>
-			<min value="0"/>
+			<min value="1"/>
 			<max value="*"/>
 			<type>
 				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/List"/>
@@ -105,7 +105,7 @@ NOTES:
 			</extension>
 			<path value="Medication.ActiveIngredients.Ingredient"/>
 			<short value="Active ingredient"/>
-			<min value="0"/>
+			<min value="1"/>
 			<max value="*"/>
 			<type>
 				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/LabelConcept"/>
@@ -119,7 +119,7 @@ NOTES:
 			<short value="Substance code"/>
 			<definition value="Eventually will be normalized with IDMP.
 Example: paracetamol"/>
-			<min value="0"/>
+			<min value="1"/>
 			<max value="*"/>
 			<type>
 				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/CodedElement"/>
@@ -133,7 +133,7 @@ Example: paracetamol"/>
 			<short value="Strength"/>
 			<definition value="Content of the substance(s) or specified substance(s), expressed quantitatively per dosage unit, unit of presentation, per unit of volume or mass, according to the dose form.
 Example: 500 mg per tablet"/>
-			<min value="0"/>
+			<min value="1"/>
 			<max value="*"/>
 			<type>
 				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/Ratio"/>

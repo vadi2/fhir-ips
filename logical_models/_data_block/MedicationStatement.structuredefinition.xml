@@ -44,7 +44,7 @@
 			<definition value="Any substance or combination of substances, which may be administered to human beings … for treating or preventing disease, with the view to making diagnosis or to restore, correct or modify physiological functions.
 Whilst the term and definition of Medicinal Product serves here, it should not be assumed that the IDMP standard as a whole is usable for the IPS Standard at this point in time. The term ‘Medicine’ may satisfy the need to more general.
 In certain jurisdictions, a medicinal product may also be defined as any substance or combination of substances which may be used to make a medical diagnosis. [Modified EN-ISO 11615:2017]"/>
-			<min value="0"/>
+			<min value="1"/>
 			<max value="*"/>
 			<type>
 				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/Medication"/>
@@ -57,7 +57,7 @@ In certain jurisdictions, a medicinal product may also be defined as any substan
 			<path value="MedicationStatement.Administration"/>
 			<short value="Administration instruction"/>
 			<definition value="Medication is the first part of a pair and Administration Instruction is the associated second part of the same pair that describes the members of the medication Summary list."/>
-			<min value="0"/>
+			<min value="1"/>
 			<max value="*"/>
 			<type>
 				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/LabelConcept"/>
@@ -84,7 +84,7 @@ Derived models may choose to use distinct elements for describing this element o
 			<path value="MedicationStatement.Administration.UsagePeriod"/>
 			<short value="Period of medication use"/>
 			<definition value="This information may be expressed using start and end date times OR indicating the duration. The first is used to indicate a specified interval (e.g. from March 15th, 2017); the latter for indicating a 'floating' period (e.g. 2 weeks). In case of unbounded period (continuous therapy) the end element will be valued with an exceptional value."/>
-			<min value="0"/>
+			<min value="1"/>
 			<max value="*"/>
 			<type>
 				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/Period"/>
@@ -108,7 +108,7 @@ Derived models may choose to use distinct elements for describing this element o
 			</extension>
 			<path value="MedicationStatement.Administration.Dose"/>
 			<short value="Dose instruction"/>
-			<min value="0"/>
+			<min value="1"/>
 			<max value="*"/>
 			<type>
 				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/LabelConcept"/>
@@ -122,7 +122,7 @@ Derived models may choose to use distinct elements for describing this element o
 			<short value="No. of units per intake"/>
 			<definition value="The number of units per intake that the patient is taking.
 Examples: 1 tablet"/>
-			<min value="0"/>
+			<min value="1"/>
 			<max value="*"/>
 			<type>
 				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/Range"/>
@@ -139,7 +139,7 @@ Examples: 1 tablet"/>
 			<short value="No. of units per intake"/>
 			<definition value="Purpose: Frequency of intakes per hour/day/week/month.
 Examples: each 24 h."/>
-			<min value="0"/>
+			<min value="1"/>
 			<max value="*"/>
 			<type>
 				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/GTS"/>

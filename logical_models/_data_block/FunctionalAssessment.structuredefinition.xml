@@ -34,7 +34,7 @@ In case this element refers to a group of assessments the contained functional a
 			<short value="Functional assessment description"/>
 			<definition value="Textual description of the functional assessment.
 Derived models may choose to use distinct elements for each narrative statement or to collect them into a single section level narrative block."/>
-			<min value="0"/>
+			<min value="1"/>
 			<max value="*"/>
 			<type>
 				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/Text"/>

@@ -25,7 +25,7 @@
 			<constraint>
 				<key value="br-1"/>
 				<severity value="error"/>
-				<human value="For the Functional Status a Functional Assessment or a Disabilities list SHALL be provided (or both)."/>
+				<human value="For the Functional Status a Functional Assessment or a Disability list SHALL be provided (or both)."/>
 			</constraint>
 			<constraint>
 				<key value="br-2"/>

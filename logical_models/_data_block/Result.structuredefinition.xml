@@ -33,7 +33,7 @@
 			</extension>
 			<path value="Result.Date"/>
 			<short value="Date of observation"/>
-			<min value="0"/>
+			<min value="1"/>
 			<max value="*"/>
 			<type>
 				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/DateTime"/>
@@ -48,11 +48,8 @@
 			</extension>
 			<path value="Result.Type"/>
 			<short value="Observation type"/>
-			<definition value="The list contains members representing the types of results.
-The eHN give only two examples (non-exhaustive) and these may be represented in a value set with these two types included:
-•	Diagnostic results
-•	Physical findings"/>
-			<min value="0"/>
+			<definition value="The list contains members representing the types of results."/>
+			<min value="1"/>
 			<max value="*"/>
 			<type>
 				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/CodedElement"/>
@@ -60,12 +57,11 @@ The eHN give only two examples (non-exhaustive) and these may be represented in 
 		</element>
 		<element id="Result.Description">
 			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
-				<valueCode value="R"/>
+				<valueCode value="RK"/>
 			</extension>
 			<path value="Result.Description"/>
 			<short value="Result description"/>
-			<definition value="Two blood-related results were presented by the eHN Guideline:
-for Diagnostic results, a Blood Group test; and for Physical findings, a Blood pressure measurement.
+			<definition value="A description of the Observed condition.
 Derived models may choose to use distinct elements for each description or to collect them into a single section level narrative block."/>
 			<min value="0"/>
 			<max value="*"/>
@@ -79,7 +75,7 @@ Derived models may choose to use distinct elements for each description or to co
 			</extension>
 			<path value="Result.Value"/>
 			<short value="Value"/>
-			<definition value="The measurement value and details about how the tests were done to get the result values."/>
+			<definition value="The measurement value."/>
 			<min value="0"/>
 			<max value="*"/>
 			<type>

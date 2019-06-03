@@ -29,7 +29,7 @@
 			<path value="Immunization.Type"/>
 			<short value="Vaccine for type of disease"/>
 			<definition value="The type of vaccine for particular disease or diseases against which the patient has been immunised."/>
-			<min value="0"/>
+			<min value="1"/>
 			<max value="*"/>
 			<type>
 				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/CodedElement"/>
@@ -54,7 +54,7 @@
 			</extension>
 			<path value="Immunization.TargetDiseases.TargetDisease"/>
 			<short value="Target disease"/>
-			<min value="0"/>
+			<min value="1"/>
 			<max value="*"/>
 			<type>
 				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/CodedElement"/>
@@ -66,7 +66,7 @@
 			</extension>
 			<path value="Immunization.DateOfImmunization"/>
 			<short value="Date of immunization"/>
-			<min value="0"/>
+			<min value="1"/>
 			<max value="*"/>
 			<type>
 				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/DateTime"/>

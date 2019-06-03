@@ -61,7 +61,7 @@
 		</element>
 		<element id="ProceduresSection.Procedures.Procedure">
 			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
-				<valueCode value="M"/>
+				<valueCode value="R"/>
 			</extension>
 			<path value="ProceduresSection.Procedures.Procedure"/>
 			<short value="Procedure"/>

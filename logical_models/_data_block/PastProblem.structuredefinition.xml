@@ -3,9 +3,9 @@
 	<id value="PastProblem"/>
 	<url value="http://hl7.org/fhir/uv/ips/StructureDefinition/PastProblem"/>
 	<name value="PastProblem"/>
-	<title value="Health condition / Problem (EN 17269)"/>
+	<title value="Past Problem (EN 17269)"/>
 	<status value="draft"/>
-	<description value="Container of elements describing a health condition."/>
+	<description value="Container of elements describing a problem."/>
 	<kind value="logical"/>
 	<abstract value="true"/>
 	<type value="http://hl7.org/fhir/uv/ips/StructureDefinition/PastProblem"/>
@@ -15,7 +15,7 @@
 		<element id="PastProblem">
 			<path value="PastProblem"/>
 			<short value="PastProblem"/>
-			<definition value="Container of elements describing a health condition."/>
+			<definition value="Container of elements describing a problem."/>
 			<min value="0"/>
 			<max value="*"/>
 			<type>
@@ -28,7 +28,7 @@
 			</extension>
 			<path value="PastProblem.Type"/>
 			<short value="Problem type"/>
-			<definition value="An agreed means of categorizing the health condition."/>
+			<definition value="An agreed means of categorizing the problem."/>
 			<min value="0"/>
 			<max value="*"/>
 			<type>
@@ -41,8 +41,9 @@
 			</extension>
 			<path value="PastProblem.Description"/>
 			<short value="Problem description"/>
-			<definition value="Textual description of the Health condition/ problem. Derived models may choose to use distinct elements for each narrative statement or to collect them into a single section level narrative block."/>
-			<min value="0"/>
+			<definition value="Textual description of the problem, including possible resolution circumstances.
+Derived models may choose to use distinct elements for each narrative statement or to collect them into a single section level narrative block."/>
+			<min value="1"/>
 			<max value="*"/>
 			<type>
 				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/Text"/>
@@ -55,7 +56,7 @@
 			<path value="PastProblem.Diagnosis"/>
 			<short value="Diagnosis"/>
 			<definition value="Label used to describe a problem; usually coded."/>
-			<min value="0"/>
+			<min value="1"/>
 			<max value="*"/>
 			<type>
 				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/CodedElement"/>
@@ -63,11 +64,11 @@
 		</element>
 		<element id="PastProblem.Severity">
 			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
-				<valueCode value="RK"/>
+				<valueCode value="O"/>
 			</extension>
 			<path value="PastProblem.Severity"/>
 			<short value="Severity"/>
-			<definition value="A qualifier of the health condition/ problem. Note: Indications of extreme severity may have bearing on the current health need.  The Severity attribute is also present in the IPS Section Problems"/>
+			<definition value="A qualifier of the problem. Note: Indications of extreme severity may have bearing on the current health need.  The Severity attribute is also present in the IPS Section Problems"/>
 			<min value="0"/>
 			<max value="*"/>
 			<type>
@@ -76,26 +77,24 @@
 		</element>
 		<element id="PastProblem.OnsetDate">
 			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
-				<valueCode value="R"/>
+				<valueCode value="RK"/>
 			</extension>
 			<path value="PastProblem.OnsetDate"/>
 			<short value="Onset date"/>
-			<definition value="It shall be provided with the highest known precision, at least year"/>
 			<min value="0"/>
 			<max value="*"/>
 			<type>
 				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/DateTime"/>
 			</type>
 		</element>
-		<element id="PastProblem.Resolution">
+		<element id="PastProblem.ClinicalStatus">
 			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
-				<valueCode value="R"/>
+				<valueCode value="O"/>
 			</extension>
-			<path value="PastProblem.Resolution"/>
-			<short value="Resolution"/>
-			<definition value="The status of the health condition; it may be resolved or on-going, or of sufficient concern to be tracked or monitored.
-NOTE	The eHN Guideline notes “if the resolution circumstances are not already included in other fields like surgical procedure. medical device, etc. e.g. hepatic cystectomy (this will be the resolution circumstances for the problem “hepatic cyst” and will be included in surgical procedures)”.   This standard, however, requires details of resolution to be present here even if they are duplicated in other fields.
-EXAMPLE	Hepatic cyst (the patient has been treated with an hepatic cystectomy that solved the problem and therefore it's a closed problem)."/>
+			<path value="PastProblem.ClinicalStatus"/>
+			<short value="Problem status"/>
+			<definition value="The status of the problem may be, at least, active or inactive.
+The eHN Guideline refers to a resolution textual field describing how the problem has been resolved if “not already included in other fields such as surgical procedure, medical device, etc.,” In this document this information is realized by the description field."/>
 			<min value="0"/>
 			<max value="*"/>
 			<type>
@@ -104,11 +103,11 @@ EXAMPLE	Hepatic cyst (the patient has been treated with an hepatic cystectomy th
 		</element>
 		<element id="PastProblem.DateResolved">
 			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
-				<valueCode value="C"/>
+				<valueCode value="RK"/>
 			</extension>
 			<path value="PastProblem.DateResolved"/>
 			<short value="Date resolved"/>
-			<definition value="Conditional on a health condition deemed to have been ‘resolved’."/>
+			<definition value="Date, if known, that the problem was ‘resolved’."/>
 			<min value="0"/>
 			<max value="*"/>
 			<type>
@@ -121,7 +120,7 @@ EXAMPLE	Hepatic cyst (the patient has been treated with an hepatic cystectomy th
 			</extension>
 			<path value="PastProblem.SpecialistContact"/>
 			<short value="Specialist contact"/>
-			<definition value="An optional healthcare provider who may have expertise related to a particular health condition or problem of interest at the healthcare event, but is not necessarily the author of the IPS Document.
+			<definition value="An optional healthcare provider who may have expertise related to a particular health condition or problem of interest at the healthcare event, but is not necessarily the author of the IPS.
 The specialist contact may provide an additional resource relevant to the treatment at the point of care.  The detail may be found in the Patient’s Address Book, and may be defined with a specific role."/>
 			<min value="0"/>
 			<max value="*"/>

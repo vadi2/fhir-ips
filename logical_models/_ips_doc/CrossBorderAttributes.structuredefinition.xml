@@ -5,9 +5,10 @@
 	<name value="CrossBorderAttributes"/>
 	<title value="Cross Border Metadata (EN 17269)"/>
 	<status value="draft"/>
-	<description value="Considered to be generic to the English language and not specific to this standard. Notes:  Data required for cross border application.   At this moment, this data are scant and is specific to the EU and the official Country Contact points.  It is Conditional in the IPS Document depending solely on the intent to use the IPS cross border.   Local and National applications do not need this data.
-Note to that the cross-border metadata also uses the provenance data relates to the preferred healthcare provider."/>
-	<purpose value="This metadata are the provenance detail necessary for cross border transactions."/>
+	<description value="Considered to be generic to the English language and not specific to this standard. 
+  Data required for cross border application.   At this moment, these data are scant and is specific to the EU and the official Country Contact points.  It is Conditional in the IPS Document depending solely on the intent to use the IPS cross border.   Local and National applications do not need this data.
+Note too, that the cross-border data uses the provenance data related to the preferred healthcare provider."/>
+	<purpose value="These data are the provenance detail necessary for cross border transactions."/>
 	<kind value="logical"/>
 	<abstract value="true"/>
 	<type value="http://hl7.org/fhir/uv/ips/StructureDefinition/CrossBorderAttributes"/>
@@ -31,7 +32,7 @@ Note to that the cross-border metadata also uses the provenance data relates to 
 			<path value="CrossBorderAttributes.CountryOfAffiliation"/>
 			<short value="Patient’s name"/>
 			<definition value="Country of affiliation is the designated source country where the patient and their healthcare information are based. This may be provided through a coded element or as a string if the adopted datatype doesn’t support coded country information; as, for example, the country address part used by the HL7 CDA standard."/>
-			<min value="0"/>
+			<min value="1"/>
 			<max value="*"/>
 			<type>
 				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/LabelConcept"/>
