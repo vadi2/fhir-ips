@@ -17,8 +17,8 @@
 		</coding>
 		<coding>
 			<system value="http://www.whocc.no/atc"/>
-			<code value="C10AA01"/>
-			<display value="simvastatin"/>
+			<code value="A01AB08"/>
+			<display value="neomycin"/>
 		</coding>
 		<text value="Fluspiral 50 mcg"/>
 	</code>

@@ -22,8 +22,8 @@
 		</coding>
 		<coding>
 			<system value="http://www.whocc.no/atc"/>
-			<code value="J07CA02"/>
-			<display value="DIPHTERIE - COQUELUCHE - POLIOMYELITE - TETANOS">
+			<code value="A01AB08"/>
+			<display value="neomycin">
 				<extension url="http://hl7.org/fhir/StructureDefinition/translation">
 					<extension url="lang">
 						<valueString value="en-GB"/>

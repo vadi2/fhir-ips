@@ -1501,3 +1501,42 @@ v: {
   "error" : "The code \"J07CA02\" is not valid in the system http://www.whocc.no/atc; The code provided (http://www.whocc.no/atc#J07CA02) is not  valid in the value set All codes known to the system"
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.whocc.no/atc",
+  "code" : "A01AB08"
+}, "valueSet" :null}####
+v: {
+  "display" : "neomycin",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.whocc.no/atc",
+  "code" : "A01AB08",
+  "display" : "neomycin"
+}, "valueSet" :null}####
+v: {
+  "display" : "neomycin",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.whocc.no/atc",
+  "code" : "A01AB08",
+  "display" : "neomycin"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://www.whocc.no/atc"
+    }]
+  }
+}}####
+v: {
+  "display" : "neomycin",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
