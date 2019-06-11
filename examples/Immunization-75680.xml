@@ -9,7 +9,7 @@
 		<coding>
 			<system value="http://snomed.info/sct"/>
 			<code value="414005006"/>
-			<display value="Vaccin anti diphtérie-coqueluche-tétanos-poliomyélite">
+			<display value="Diphtheria + tetanus + pertussis + poliomyelitis vaccine (product)">
 				<extension url="http://hl7.org/fhir/StructureDefinition/translation">
 					<extension url="lang">
 						<valueString value="en-GB"/>
@@ -52,7 +52,7 @@
 		<coding>
 			<system value="http://snomed.info/sct"/>
 			<code value="11207009"/>
-			<display value="Cuisse droite">
+			<display value="Structure of right thigh (body structure)">
 				<extension url="http://hl7.org/fhir/StructureDefinition/translation">
 					<extension url="lang">
 						<valueString value="en-GB"/>
@@ -68,7 +68,7 @@
 		<coding>
 			<system value="http://standardterms.edqm.eu"/>
 			<code value="20035000"/>
-			<display value="Voie intramusculaire">
+			<display value="Intramuscular use">
 				<extension url="http://hl7.org/fhir/StructureDefinition/translation">
 					<extension url="lang">
 						<valueString value="en-GB"/>
