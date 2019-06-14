@@ -2,7 +2,7 @@
 	<id value="ig-cen-ips-lm"/>
 	<url value="http://hl7.org/fhir/uv/ips/ImplementationGuide/ig-cen-ips-lm"/>
 	<version value="0.0.1"/>
-	<name value="EN_17269_HL7_FHIR_Logical_Model"/>
+	<name value="EN 17269: HL7 FHIR Logical Model"/>
 	<title value="EN 17269: HL7 FHIR Logical Models"/>
 	<status value="active"/>
 	<publisher value="CEN/TC 251"/>
@@ -178,6 +178,11 @@
 				<reference value="StructureDefinition/AdvanceDirectivesSection"/>
 			</reference>
 		</resource>
+        		<resource>
+			<reference>
+				<reference value="StructureDefinition/FunctionalStatusSection"/>
+			</reference>
+		</resource>
 		<resource>
 			<reference>
 				<reference value="StructureDefinition/PlanOfCareSection"/>
@@ -193,6 +198,12 @@
 				<reference value="StructureDefinition/HxPastProblemsSection"/>
 			</reference>
 		</resource>
+    		<resource>
+			<reference>
+				<reference value="StructureDefinition/SocialHistorySection"/>
+			</reference>
+		</resource>
+
 		<resource>
 			<reference>
 				<reference value="StructureDefinition/CrossBorderAttributes"/>
@@ -351,11 +362,7 @@
 				<reference value="StructureDefinition/FunctionalAssessment"/>
 			</reference>
 		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/FunctionalStatusSection"/>
-			</reference>
-		</resource>
+
 		<resource>
 			<reference>
 				<reference value="StructureDefinition/Immunization"/>
@@ -406,11 +413,7 @@
 				<reference value="StructureDefinition/Result"/>
 			</reference>
 		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/SocialHistorySection"/>
-			</reference>
-		</resource>
+
 		<resource>
 			<reference>
 				<reference value="StructureDefinition/VitalSign"/>

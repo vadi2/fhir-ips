@@ -19,6 +19,9 @@
       <definition value="Electronic patient summary for use at the point of care comprising, as a minimum, the required elements of the IPS Data Set. The IPS Document describes the totality of patient summary content to be interchanged as a conformant IPS"/>
       <min value="0"/>
       <max value="*"/>
+          <type>
+        <code value="http://hl7.org/fhir/uv/ips/StructureDefinition/Document"/>
+      </type>
     </element>
     <element id="IPS.PatientAttributes">
       <extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">

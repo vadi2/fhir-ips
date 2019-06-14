@@ -38,6 +38,12 @@ These are the site variables defined [here](http://wiki.hl7.org/index.php?title=
 
 - genDate : date of generation (so date stamps in the pages can match those in the conformance resources) -  {% raw %} {{site.data.fhir.genDate}} {% endraw %} = {{site.data.fhir.genDate}}
 -->
+
+<blockquote class="stu-note">
+<p><b>WARNING</b></p>
+<p>This is just a proof of concept ! </p>
+</blockquote>
+
 <blockquote class="stu-note">
 <p>This is a work in progress version <!-- Current officially released version --> of the {{site.data.fhir.igName}}, based on <a href="{{ site.data.fhir.path }}">FHIR Version {{ site.data.fhir.version }}</a>. See the <a href="history.html">Directory of published versions<img src="external.png"/></a>. It is subject to change, which may be significant, as part of that process.
 </p>
@@ -45,6 +51,9 @@ These are the site variables defined [here](http://wiki.hl7.org/index.php?title=
 Feedback is welcome but for the time being do not submit them through the <a href="http://gforge.hl7.org/gf/project/fhir/tracker/?action=TrackerItemAdd&amp;tracker_id=677">FHIR gForge tracker</a> indicating "International Patient Summary" as the specification.
 </p>
 </blockquote>
+
+
+
 
 ## Purpose of this guide
 

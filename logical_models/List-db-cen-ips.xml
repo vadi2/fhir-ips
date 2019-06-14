@@ -32,11 +32,6 @@
 	</entry>
 	<entry>
 		<item>
-			<reference value="StructureDefinition/FunctionalStatusSection"/>
-		</item>
-	</entry>
-	<entry>
-		<item>
 			<reference value="StructureDefinition/Immunization"/>
 		</item>
 	</entry>
@@ -83,11 +78,6 @@
 	<entry>
 		<item>
 			<reference value="StructureDefinition/Result"/>
-		</item>
-	</entry>
-	<entry>
-		<item>
-			<reference value="StructureDefinition/SocialHistorySection"/>
 		</item>
 	</entry>
 	<entry>

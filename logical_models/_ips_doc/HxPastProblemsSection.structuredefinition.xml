@@ -1,53 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
-<StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../../__FHIRr4Tools/R4_fhir-all-xsd/structuredefinition.xsd">
-	<id value="HxPastProblemsSection"/>
-	<url value="http://hl7.org/fhir/uv/ips/StructureDefinition/HxPastProblemsSection"/>
-	<name value="HxPastProblemsSection"/>
-	<title value="History of past problems Section (EN 17269)"/>
-	<status value="draft"/>
-	<description value="List of problems that the patient suffered in the past, and which have been closed or resolved and are not considered to be active or on-going and are therefore not currently monitored."/>
-	<purpose value="To describe historic record of illness; provides a historical context from which to view the current state of the patient."/>
-	<kind value="logical"/>
-	<abstract value="true"/>
-	<type value="http://hl7.org/fhir/uv/ips/StructureDefinition/HxPastProblemsSection"/>
-	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Element"/>
-	<derivation value="specialization"/>
-	<differential>
-		<element id="HxPastProblemsSection">
-			<path value="HxPastProblemsSection"/>
-			<short value="History of past problems Section"/>
-			<definition value="Health condition considered by a healthcare actor to be a problem; A list of current, active problems that have not been resolved or are existing concerns that are still being monitored."/>
-			<min value="0"/>
-			<max value="*"/>
-			<type>
-				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/Section"/>
-			</type>
-		</element>
-		<element id="HxPastProblemsSection.PastProblems">
-			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
-				<valueCode value="R"/>
-			</extension>
-			<path value="HxPastProblemsSection.PastProblems"/>
-			<short value="Past health conditions and problems"/>
-			<definition value="The past problems are described as a list."/>
-			<min value="1"/>
-			<max value="*"/>
-			<type>
-				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/List"/>
-			</type>
-		</element>
-		<element id="HxPastProblemsSection.PastProblems.PastProblem">
-			<extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
-				<valueCode value="R"/>
-			</extension>
-			<path value="HxPastProblemsSection.PastProblems.PastProblem"/>
-			<short value="Health condition/problem"/>
-			<definition value="Container of elements describing a problem"/>
-			<min value="1"/>
-			<max value="*"/>
-			<type>
-				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/PastProblem"/>
-			</type>
-		</element>
-	</differential>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="HxPastProblemsSection" />
+  <url value="http://hl7.org/fhir/uv/ips/StructureDefinition/HxPastProblemsSection" />
+  <name value="HxPastProblemsSection" />
+  <title value="History of past problems Section (EN 17269)" />
+  <status value="draft" />
+  <description value="List of problems that the patient suffered in the past, and which have been closed or resolved and are not considered to be active or on-going and are therefore not currently monitored." />
+  <purpose value="To describe historic record of illness; provides a historical context from which to view the current state of the patient." />
+  <kind value="logical" />
+  <abstract value="true" />
+  <type value="http://hl7.org/fhir/uv/ips/StructureDefinition/HxPastProblemsSection" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Element" />
+  <derivation value="specialization" />
+  <differential>
+    <element id="HxPastProblemsSection">
+      <path value="HxPastProblemsSection" />
+      <short value="History of past problems Section" />
+      <definition value="List of problems that the patient suffered in the past, and which have been closed or resolved and are not considered to be active or on-going and are therefore not currently monitored." />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="http://hl7.org/fhir/uv/ips/StructureDefinition/Section" />
+      </type>
+    </element>
+    <element id="HxPastProblemsSection.PastProblems">
+      <extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+        <valueCode value="R" />
+      </extension>
+      <path value="HxPastProblemsSection.PastProblems" />
+      <label value="Past problems" />
+      <short value="Past problems" />
+      <definition value="The past problems are described as a list." />
+      <alias value="Past problems" />
+      <min value="1" />
+      <max value="*" />
+      <type>
+        <code value="http://hl7.org/fhir/uv/ips/StructureDefinition/List" />
+      </type>
+    </element>
+    <element id="HxPastProblemsSection.PastProblems.PastProblem">
+      <extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
+        <valueCode value="R" />
+      </extension>
+      <path value="HxPastProblemsSection.PastProblems.PastProblem" />
+      <label value="Past problem" />
+      <short value="Past problem" />
+      <definition value="Container of elements describing a past problem" />
+      <min value="1" />
+      <max value="*" />
+      <type>
+        <code value="http://hl7.org/fhir/uv/ips/StructureDefinition/PastProblem" />
+      </type>
+    </element>
+  </differential>
 </StructureDefinition>

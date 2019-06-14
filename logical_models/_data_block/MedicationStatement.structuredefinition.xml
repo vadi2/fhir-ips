@@ -119,7 +119,7 @@ Derived models may choose to use distinct elements for describing this element o
 				<valueCode value="R"/>
 			</extension>
 			<path value="MedicationStatement.Administration.Dose.UnitsForIntake"/>
-			<short value="No. of units per intake"/>
+			<short value="Number of units per intake"/>
 			<definition value="The number of units per intake that the patient is taking.
 Examples: 1 tablet"/>
 			<min value="1"/>
@@ -136,7 +136,7 @@ Examples: 1 tablet"/>
 				<valueCode value="R"/>
 			</extension>
 			<path value="MedicationStatement.Administration.Dose.FrequencyOfIntake"/>
-			<short value="No. of units per intake"/>
+			<short value="Frequency of intakes"/>
 			<definition value="Purpose: Frequency of intakes per hour/day/week/month.
 Examples: each 24 h."/>
 			<min value="1"/>
