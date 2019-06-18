@@ -3,8 +3,16 @@
     <li>
       <a href="index.html">Home</a>
     </li>
-    <li>
-      <a href="conformance.html">Conformance</a>
+    <li class="dropdown">
+      <a href="#" data-toggle="dropdown" class="dropdown-toggle">General Rules</a>
+      <ul class="dropdown-menu">
+        <li>
+          <a href="conformance.html">Conformance</a>
+        </li>
+        <li>
+          <a href="formats.html">Formats</a>
+        </li>
+      </ul>
     </li>
     <li class="dropdown">
       <a href="#" data-toggle="dropdown" class="dropdown-toggle">Logical Models</a>

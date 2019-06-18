@@ -23,12 +23,9 @@ At a minimum, it should list currently active and any relevant historical allerg
 NOTE	‘Alerts’ was used to describe this Section in the eHN guidance -lines, but ‘Alerts’ are far more general and are not regarded here as a synonym. ‘Alerts’ more generally are recorded under ‘Problems’ in this iteration."/>
 			<min value="0"/>
 			<max value="*"/>
-			<!--
 			<type>
-				
 				<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/Section"/>
 			</type>
--->
 			<constraint>
 				<key value="br-1"/>
 				<severity value="error"/>

@@ -181,7 +181,7 @@
     </element>
     <element id="IPS.AdvanceDirectivesSection">
       <extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
-        <valueCode value="RK"/>
+        <valueCode value="O"/>
       </extension>
       <path value="IPS.AdvanceDirectivesSection"/>
       <short value="IPS Section: Advance Directives"/>
@@ -194,7 +194,7 @@
     </element>
     <element id="IPS.FunctionalStatusSection">
       <extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
-        <valueCode value="RK"/>
+        <valueCode value="O"/>
       </extension>
       <path value="IPS.FunctionalStatusSection"/>
       <short value="IPS Section: Functional Status"/>
@@ -207,7 +207,7 @@
     </element>
     <element id="IPS.PlanOfCareSection">
       <extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
-        <valueCode value="RK"/>
+        <valueCode value="O"/>
       </extension>
       <path value="IPS.PlanOfCareSection"/>
       <short value="IPS Section: Plan of Care"/>
@@ -220,7 +220,7 @@
     </element>
     <element id="IPS.SocialHistorySection">
       <extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
-        <valueCode value="RK"/>
+        <valueCode value="O"/>
       </extension>
       <path value="IPS.SocialHistorySection"/>
       <short value="IPS Section: Social History"/>
@@ -233,7 +233,7 @@
     </element>
     <element id="IPS.PregnancyHistorySection">
       <extension url="http://hl7.org/fhir/uv/ips/StructureDefinition/conformance-cen-ips">
-        <valueCode value="RK"/>
+        <valueCode value="O"/>
       </extension>
       <path value="IPS.PregnancyHistorySection"/>
       <short value="IPS Section: Pregnancy History"/>

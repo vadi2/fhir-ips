@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Lista>
+	<item>
+		<name>a1</name>
+		<conf>RK</conf>
+	</item>
+	<item>
+		<name>lng string</name>
+		<conf>R</conf>
+	</item>
+	<item>
+		<name>name 2</name>
+		<conf>M</conf>
+	</item>
+	<item>
+		<name>name 3</name>
+		<conf>O</conf>
+	</item>
+	
+	<item>
+		<name>name 4</name>
+		<conf>C</conf>
+	</item>
+</Lista>

@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="List" />
-  <meta>
-    <source value="EN 17269" />
-  </meta>
   <url value="http://hl7.org/fhir/uv/ips/StructureDefinition/List" />
   <name value="List" />
   <title value="List (EN 17269)" />

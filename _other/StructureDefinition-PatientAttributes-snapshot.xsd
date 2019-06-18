@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:complexType name="T4_span">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="title" type="xs:string"/>
+				<xs:attribute name="style" use="required" type="xs:string"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="T4_br"/>
+	<xs:complexType name="T4_a" mixed="true">
+		<xs:sequence>
+			<xs:element name="img" minOccurs="0">
+				<xs:complexType>
+					<xs:attribute name="style" use="required" type="xs:string"/>
+					<xs:attribute name="src" use="required" type="xs:anyURI"/>
+					<xs:attribute name="alt" use="required" type="xs:string"/>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="title" type="xs:string"/>
+		<xs:attribute name="name" type="xs:string"/>
+		<xs:attribute name="href" type="xs:string"/>
+	</xs:complexType>
+	<xs:element name="table">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="tr" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:choice>
+							<xs:element name="td" maxOccurs="unbounded">
+								<xs:complexType mixed="true">
+									<xs:choice minOccurs="0">
+										<xs:element name="span" type="T4_span"/>
+										<xs:sequence>
+											<xs:element name="img" minOccurs="0" maxOccurs="unbounded">
+												<xs:complexType>
+													<xs:attribute name="title" type="xs:string"/>
+													<xs:attribute name="style" use="required" type="xs:string"/>
+													<xs:attribute name="src" use="required" type="xs:string"/>
+													<xs:attribute name="class" use="required" type="xs:string"/>
+													<xs:attribute name="alt" use="required" type="xs:string"/>
+												</xs:complexType>
+											</xs:element>
+											<xs:element name="a" maxOccurs="unbounded" type="T4_a"/>
+										</xs:sequence>
+										<xs:sequence>
+											<xs:element name="br" type="T4_br"/>
+											<xs:choice minOccurs="0">
+												<xs:element name="a" type="T4_a"/>
+												<xs:sequence>
+													<xs:element name="span" type="T4_span"/>
+													<xs:element name="br" type="T4_br"/>
+													<xs:sequence minOccurs="0">
+														<xs:element name="span" type="T4_span"/>
+														<xs:element name="br" type="T4_br"/>
+													</xs:sequence>
+												</xs:sequence>
+											</xs:choice>
+										</xs:sequence>
+									</xs:choice>
+									<xs:attribute name="style" type="xs:string"/>
+									<xs:attribute name="colspan" type="xs:byte"/>
+									<xs:attribute name="class" use="required" type="xs:string"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="th" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="a">
+											<xs:complexType>
+												<xs:simpleContent>
+													<xs:extension base="xs:string">
+														<xs:attribute name="title" use="required" type="xs:string"/>
+														<xs:attribute name="href" use="required" type="xs:anyURI"/>
+													</xs:extension>
+												</xs:simpleContent>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="span" minOccurs="0">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="a">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="img">
+																	<xs:complexType>
+																		<xs:attribute name="style" use="required" type="xs:string"/>
+																		<xs:attribute name="src" use="required" type="xs:anyURI"/>
+																		<xs:attribute name="alt" use="required" type="xs:string"/>
+																	</xs:complexType>
+																</xs:element>
+															</xs:sequence>
+															<xs:attribute name="title" use="required" type="xs:string"/>
+															<xs:attribute name="href" use="required" type="xs:anyURI"/>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+												<xs:attribute name="style" use="required" type="xs:string"/>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute name="style" use="required" type="xs:string"/>
+									<xs:attribute name="class" use="required" type="xs:string"/>
+								</xs:complexType>
+							</xs:element>
+						</xs:choice>
+						<xs:attribute name="style" type="xs:string"/>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="style" use="required" type="xs:string"/>
+			<xs:attribute name="cellspacing" use="required" type="xs:byte"/>
+			<xs:attribute name="cellpadding" use="required" type="xs:byte"/>
+			<xs:attribute name="border" use="required" type="xs:byte"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
