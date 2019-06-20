@@ -14,14 +14,15 @@ active: conformance
 # IPS Document conformance
 
 <div>
-To conform to the IPS standard, a patient summary shall be an IPS Document, comprising five mandatory IPS Data Blocks. One additional, required IPS Data Block, is conditional on the need for any cross border application for the IPS. The six mandatory IPS Data Blocks within the IPS Document are:
-1.	Patient Attributes	(‘Patient’s name’ from the Collection)
-2.	Allergies and Intolerances	
-3.	Medication Summary	
-4.	Problems	
-5.	Provenance	(‘Date of IPS Document Creation’ from the Collection)
-6.	Cross Border (conditional)	
-An Attribute Collection Data Block is mandatory if an attribute within it is mandatory.
+To conform to the IPS standard, a patient summary shall be an IPS Document, comprising five mandatory IPS Data Blocks. One additional, required IPS Data Block, is conditional on the need for any cross border application for the IPS.
+<p>
+The six mandatory IPS Data Blocks within the IPS Document are:
+* Patient Attributes	(‘Patient’s name’ from the Collection)
+* Allergies and Intolerances
+* Medication Summary
+* Problems
+* Provenance (‘Date of IPS Document Creation’ from the Collection)
+* Cross Border (conditional) An Attribute Collection Data Block is mandatory if an attribute within it is mandatory.
 </div>
 <div>
 For cross-border applications only, a conformant IPS Document shall contain the IPS Cross Border metadata as the sixth required data element.
@@ -35,9 +36,9 @@ The IPS Document structure is essentially hierarchical.  Whereas the hierarchica
 <div>
 The Following Table shows the shorthand abbreviations for these and describes what they mean with respect to the different types of IPS data element.   That having been said, the data element conformance information has been derived from HL7 and IHE semantics, which illustrate ways of representing data for transmission and receipt to ensure consistency.
 A compliant model or a conformant implementation shall also:
-1.	Share the same scope of the IPS. Note, a Discharge Summary, although a type of continuity care document, does not have the same purpose as a patient summary and is not an IPS, although it can use the IPS Data Blocks as required.
-2.	Declare, if not self-evident, how the data patterns defined in section 6.3 are realized.
-3.	Fulfil the conformance rules, as described by the following table, for the IPS Data Blocks and elements specified in section 7 Definition of the IPS Document or IPS.
+* Share the same scope of the IPS. Note, a Discharge Summary, although a type of continuity care document, does not have the same purpose as a patient summary and is not an IPS, although it can use the IPS Data Blocks as required.
+* Declare, if not self-evident, how the data patterns defined in section 6.3 of EN 17269 are realized.
+* Fulfil the conformance rules, as described by the following table, for the IPS Data Blocks and elements specified in section 7 Definition of the IPS Document or IPS.
 </div>
 
 ## Table — Requirement Descriptors for IPS Document, Section types and Metadata

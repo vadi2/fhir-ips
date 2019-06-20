@@ -85,4 +85,9 @@
 			<reference value="StructureDefinition/Provenance"/>
 		</item>
 	</entry>
+		<entry>
+		<item>
+			<reference value="StructureDefinition/SocialHistorySection"/>
+		</item>
+	</entry>
 </List>
