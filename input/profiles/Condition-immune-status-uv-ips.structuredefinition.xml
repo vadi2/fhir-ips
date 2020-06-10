@@ -31,7 +31,7 @@
 			<mustSupport value="true"/>
 			<binding>
 				<strength value="required"/>
-				<valueSet value="http://hl7.org/fhir/ValueSet/condition-clinical-immuneStatus-uv-ips"/>
+				<valueSet value="http://hl7.org/fhir/uv/ips/ValueSet/condition-clinical-immuneStatus-uv-ips"/>
 			</binding>
 		</element>
 		<element id="Condition.verificationStatus">
@@ -43,7 +43,7 @@
 			<mustSupport value="true"/>
 			<binding>
 				<strength value="required"/>
-				<valueSet value="http://hl7.org/fhir/ValueSet/condition-verification-immuneStatus-uv-ips"/>
+				<valueSet value="http://hl7.org/fhir/uv/ips/ValueSet/condition-verification-immuneStatus-uv-ips"/>
 			</binding>
 		</element>
 		<element id="Condition.severity">
