@@ -166,8 +166,7 @@
 			</binding>
 		</element>
 		<element id="Immunization.performer">
-			<path value="Immunization.performer"/>
-			<max value="1"/>
+			<path value="Immunization.performer"/>			
 			<mustSupport value="true"/>
 		</element>
 		<element id="Immunization.performer.actor">
