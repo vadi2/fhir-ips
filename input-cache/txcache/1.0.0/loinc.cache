@@ -24,8 +24,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:4b043048-59ae-448e-8a37-fa83b8754b8d",
-    "timestamp" : "2020-12-23T15:59:59.391Z",
+    "identifier" : "urn:uuid:357af84e-0d74-4676-b2f5-c15f1f9418cf",
+    "timestamp" : "2021-04-20T22:02:19.621Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -36,7 +36,7 @@ e: {
     },
     {
       "name" : "version",
-      "valueString" : "http://loinc.org|2.68"
+      "valueString" : "http://loinc.org|2.69"
     }],
     "contains" : [{
       "system" : "http://loinc.org",
@@ -135,8 +135,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:cfb6244f-2692-4d4d-a0d1-f700b7216f6e",
-    "timestamp" : "2020-12-23T16:00:05.594Z",
+    "identifier" : "urn:uuid:f14754d3-72e6-441d-848a-7b184a686902",
+    "timestamp" : "2021-04-20T22:02:26.246Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -147,7 +147,7 @@ e: {
     },
     {
       "name" : "version",
-      "valueString" : "http://loinc.org|2.68"
+      "valueString" : "http://loinc.org|2.69"
     }],
     "contains" : [{
       "system" : "http://loinc.org",
@@ -219,8 +219,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:d4757b78-a186-4ea5-9f29-2eaad3dd6c81",
-    "timestamp" : "2020-12-23T16:00:05.734Z",
+    "identifier" : "urn:uuid:132f1ba5-70cf-4849-850d-58f920956d75",
+    "timestamp" : "2021-04-20T22:02:26.340Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -231,7 +231,7 @@ e: {
     },
     {
       "name" : "version",
-      "valueString" : "http://loinc.org|2.68"
+      "valueString" : "http://loinc.org|2.69"
     }],
     "contains" : [{
       "system" : "http://loinc.org",
@@ -302,8 +302,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:63a0559b-3584-4261-a5e2-69324dd22dca",
-    "timestamp" : "2020-12-23T16:01:00.046Z",
+    "identifier" : "urn:uuid:10a8c7a5-c1ba-4840-b599-e5abe84a4ff7",
+    "timestamp" : "2021-04-20T22:03:15.230Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -314,7 +314,7 @@ e: {
     },
     {
       "name" : "version",
-      "valueString" : "http://loinc.org|2.68"
+      "valueString" : "http://loinc.org|2.69"
     }],
     "contains" : [{
       "system" : "http://loinc.org",
@@ -391,8 +391,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:b5251e2e-5110-4753-8ec9-69a31c018caa",
-    "timestamp" : "2020-12-23T16:01:00.156Z",
+    "identifier" : "urn:uuid:6c2a33b2-1df8-4f2b-98f1-8284a04968e4",
+    "timestamp" : "2021-04-20T22:03:15.324Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -403,7 +403,7 @@ e: {
     },
     {
       "name" : "version",
-      "valueString" : "http://loinc.org|2.68"
+      "valueString" : "http://loinc.org|2.69"
     }],
     "contains" : [{
       "system" : "http://loinc.org",
@@ -442,8 +442,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:4fe3fd45-7412-466d-8ea5-e6f1901c90c4",
-    "timestamp" : "2020-12-23T16:01:00.328Z",
+    "identifier" : "urn:uuid:b13e471b-eb82-4e22-b392-031b6bb4a452",
+    "timestamp" : "2021-04-20T22:03:15.465Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -454,7 +454,7 @@ e: {
     },
     {
       "name" : "version",
-      "valueString" : "http://loinc.org|2.68"
+      "valueString" : "http://loinc.org|2.69"
     }],
     "contains" : [{
       "system" : "http://loinc.org",
@@ -488,8 +488,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-toocostly",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:1de73487-84e2-4c4d-8a39-85d19bb9e53d",
-    "timestamp" : "2020-12-23T16:03:11.561Z",
+    "identifier" : "urn:uuid:645a445f-83cb-4c52-af1c-d890f8c2e2c6",
+    "timestamp" : "2021-04-20T22:05:17.183Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -500,7 +500,7 @@ e: {
     },
     {
       "name" : "version",
-      "valueString" : "http://loinc.org|2.68"
+      "valueString" : "http://loinc.org|2.69"
     }],
     "contains" : [{
       "system" : "http://loinc.org",
@@ -810,7 +810,7 @@ e: {
     {
       "system" : "http://loinc.org",
       "code" : "10525-4",
-      "display" : "Microscopic observation [Identifier] in Unspecified specimen by Cyto stain"
+      "display" : "Microscopic observation [Identifier] in Specimen by Cyto stain"
     },
     {
       "system" : "http://loinc.org",
@@ -1315,7 +1315,7 @@ e: {
     {
       "system" : "http://loinc.org",
       "code" : "11270-6",
-      "display" : "Viral inclusion bodies [Identifier] in Unspecified specimen by Cyto stain"
+      "display" : "Viral inclusion bodies [Identifier] in Specimen by Cyto stain"
     },
     {
       "system" : "http://loinc.org",
@@ -1450,7 +1450,7 @@ e: {
     {
       "system" : "http://loinc.org",
       "code" : "19102-3",
-      "display" : "Genetic screen in Unspecified specimen by Molecular genetics method Narrative"
+      "display" : "Genetic screen in Specimen by Molecular genetics method Narrative"
     },
     {
       "system" : "http://loinc.org",
@@ -2845,62 +2845,62 @@ e: {
     {
       "system" : "http://loinc.org",
       "code" : "30911-2",
-      "display" : "DNA ploidy [Identifier] in Unspecified specimen by Flow cytometry (FC) Nominal"
+      "display" : "DNA ploidy [Identifier] in Specimen by Flow cytometry (FC) Nominal"
     },
     {
       "system" : "http://loinc.org",
       "code" : "30912-0",
-      "display" : "DNA index in Unspecified specimen by Flow cytometry (FC)"
+      "display" : "DNA index in Specimen by Flow cytometry (FC)"
     },
     {
       "system" : "http://loinc.org",
       "code" : "30913-8",
-      "display" : "S-phase cells/100 cells in Unspecified specimen by Flow cytometry (FC)"
+      "display" : "S-phase cells/100 cells in Specimen by Flow cytometry (FC)"
     },
     {
       "system" : "http://loinc.org",
       "code" : "30914-6",
-      "display" : "Hyperdiploid cells/100 cells in Unspecified specimen by Flow cytometry (FC)"
+      "display" : "Hyperdiploid cells/100 cells in Specimen by Flow cytometry (FC)"
     },
     {
       "system" : "http://loinc.org",
       "code" : "30915-3",
-      "display" : "Aneuploid cells/100 cells in Unspecified specimen by Flow cytometry (FC)"
+      "display" : "Aneuploid cells/100 cells in Specimen by Flow cytometry (FC)"
     },
     {
       "system" : "http://loinc.org",
       "code" : "30916-1",
-      "display" : "Euploid+Aneuploid cells/100 cells in Unspecified specimen"
+      "display" : "Euploid+Aneuploid cells/100 cells in Specimen"
     },
     {
       "system" : "http://loinc.org",
       "code" : "30917-9",
-      "display" : "DNA ploidy [Interpretation] in Unspecified specimen by Flow cytometry (FC) Narrative"
+      "display" : "DNA ploidy [Interpretation] in Specimen by Flow cytometry (FC) Narrative"
     },
     {
       "system" : "http://loinc.org",
       "code" : "31114-2",
-      "display" : "Aneuploid cell population 1/100 cells in Unspecified specimen"
+      "display" : "Aneuploid cell population 1/100 cells in Specimen"
     },
     {
       "system" : "http://loinc.org",
       "code" : "31115-9",
-      "display" : "Aneuploid cell population 2/100 cells in Unspecified specimen"
+      "display" : "Aneuploid cell population 2/100 cells in Specimen"
     },
     {
       "system" : "http://loinc.org",
       "code" : "31116-7",
-      "display" : "Euploid+Aneuploid cells population 1/100 cells in Unspecified specimen"
+      "display" : "Euploid+Aneuploid cells population 1/100 cells in Specimen"
     },
     {
       "system" : "http://loinc.org",
       "code" : "31117-5",
-      "display" : "Euploid+Aneuploid cells population 2/100 cells in Unspecified specimen"
+      "display" : "Euploid+Aneuploid cells population 2/100 cells in Specimen"
     },
     {
       "system" : "http://loinc.org",
       "code" : "31118-3",
-      "display" : "G2+M phase cells/100 cells in Unspecified specimen"
+      "display" : "G2+M phase cells/100 cells in Specimen"
     },
     {
       "system" : "http://loinc.org",
@@ -3065,12 +3065,12 @@ e: {
     {
       "system" : "http://loinc.org",
       "code" : "32785-8",
-      "display" : "Microscopic observation [Identifier] in Unspecified specimen by Non-gynecological cytology method"
+      "display" : "Microscopic observation [Identifier] in Specimen by Non-gynecological cytology method"
     },
     {
       "system" : "http://loinc.org",
       "code" : "32798-1",
-      "display" : "Microscopic observation [Identifier] in Unspecified specimen by Oil red O stain"
+      "display" : "Microscopic observation [Identifier] in Specimen by Oil red O stain"
     },
     {
       "system" : "http://loinc.org",
@@ -3085,32 +3085,32 @@ e: {
     {
       "system" : "http://loinc.org",
       "code" : "32814-6",
-      "display" : "Microscopic observation [Identifier] in Unspecified specimen by Chloracetate esterase stain"
+      "display" : "Microscopic observation [Identifier] in Specimen by Chloracetate esterase stain"
     },
     {
       "system" : "http://loinc.org",
       "code" : "32815-3",
-      "display" : "Microscopic observation [Identifier] in Unspecified specimen by Sudan black B stain"
+      "display" : "Microscopic observation [Identifier] in Specimen by Sudan black B stain"
     },
     {
       "system" : "http://loinc.org",
       "code" : "32816-1",
-      "display" : "Microscopic observation [Identifier] in Unspecified specimen by Terminal deoxynucleotidyl transferase stain"
+      "display" : "Microscopic observation [Identifier] in Specimen by Terminal deoxynucleotidyl transferase stain"
     },
     {
       "system" : "http://loinc.org",
       "code" : "32817-9",
-      "display" : "Microscopic observation [Identifier] in Unspecified specimen by Myeloperoxidase stain"
+      "display" : "Microscopic observation [Identifier] in Specimen by Myeloperoxidase stain"
     },
     {
       "system" : "http://loinc.org",
       "code" : "32818-7",
-      "display" : "Microscopic observation [Identifier] in Unspecified specimen by Acetate esterase stain"
+      "display" : "Microscopic observation [Identifier] in Specimen by Acetate esterase stain"
     },
     {
       "system" : "http://loinc.org",
       "code" : "32824-5",
-      "display" : "Microscopic observation [Identifier] in Unspecified specimen by Tartrate-resistant acid phosphatase stain"
+      "display" : "Microscopic observation [Identifier] in Specimen by Tartrate-resistant acid phosphatase stain"
     },
     {
       "system" : "http://loinc.org",
@@ -3125,7 +3125,7 @@ e: {
     {
       "system" : "http://loinc.org",
       "code" : "33675-0",
-      "display" : "Microscopic observation [Identifier] in Unspecified specimen by Esterase stain.combined"
+      "display" : "Microscopic observation [Identifier] in Specimen by Esterase stain.combined"
     },
     {
       "system" : "http://loinc.org",
@@ -3635,7 +3635,7 @@ e: {
     {
       "system" : "http://loinc.org",
       "code" : "34730-2",
-      "display" : "Chromosome breakage [Interpretation] in Unspecified specimen"
+      "display" : "Chromosome breakage [Interpretation] in Specimen"
     },
     {
       "system" : "http://loinc.org",
@@ -3685,7 +3685,7 @@ e: {
     {
       "system" : "http://loinc.org",
       "code" : "34972-0",
-      "display" : "DNA index 3 in Unspecified specimen by Flow cytometry (FC)"
+      "display" : "DNA index 3 in Specimen by Flow cytometry (FC)"
     },
     {
       "system" : "http://loinc.org",
@@ -3705,7 +3705,7 @@ e: {
     {
       "system" : "http://loinc.org",
       "code" : "34976-1",
-      "display" : "DNA index 2 in Unspecified specimen by Flow cytometry (FC)"
+      "display" : "DNA index 2 in Specimen by Flow cytometry (FC)"
     },
     {
       "system" : "http://loinc.org",
@@ -3720,7 +3720,7 @@ e: {
     {
       "system" : "http://loinc.org",
       "code" : "35129-6",
-      "display" : "Karyotype [Identifier] in Unspecified specimen Nominal"
+      "display" : "Karyotype [Identifier] in Specimen Nominal"
     },
     {
       "system" : "http://loinc.org",
@@ -4085,7 +4085,7 @@ e: {
     {
       "system" : "http://loinc.org",
       "code" : "35692-3",
-      "display" : "G0+G1 phase cells/100 cells in Unspecified specimen by Flow cytometry (FC)"
+      "display" : "G0+G1 phase cells/100 cells in Specimen by Flow cytometry (FC)"
     },
     {
       "system" : "http://loinc.org",
@@ -4525,7 +4525,7 @@ e: {
     {
       "system" : "http://loinc.org",
       "code" : "39575-6",
-      "display" : "Fungus.microscopic observation [Identifier] in Unspecified specimen by Periodic acid-Schiff stain"
+      "display" : "Fungus.microscopic observation [Identifier] in Specimen by Periodic acid-Schiff stain"
     },
     {
       "system" : "http://loinc.org",
@@ -5265,7 +5265,7 @@ e: {
     {
       "system" : "http://loinc.org",
       "code" : "41294-0",
-      "display" : "S-phase cells [Presence] in Unspecified specimen"
+      "display" : "S-phase cells [Presence] in Specimen"
     },
     {
       "system" : "http://loinc.org",
@@ -5530,8 +5530,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:a97c74bd-5df5-42d0-bc45-dda5c555eae8",
-    "timestamp" : "2020-12-23T16:03:12.467Z",
+    "identifier" : "urn:uuid:4d3cee2f-b897-4ff6-b1b9-de407d6252b7",
+    "timestamp" : "2021-04-20T22:05:18.074Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -5573,8 +5573,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:ec2cb00b-186f-452a-99b0-76b5c7bc43b1",
-    "timestamp" : "2020-12-23T16:03:25.592Z",
+    "identifier" : "urn:uuid:baea1368-799c-4547-8e2d-4d874384a9e0",
+    "timestamp" : "2021-04-20T22:05:33.449Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -5610,8 +5610,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-toocostly",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:b6c42a81-fb99-4704-a80c-2b6c7c30e8a1",
-    "timestamp" : "2020-12-23T16:03:39.404Z",
+    "identifier" : "urn:uuid:f45e8139-e01e-42ce-a271-e2bff872ffbb",
+    "timestamp" : "2021-04-20T22:05:45.824Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -5622,7 +5622,7 @@ e: {
     },
     {
       "name" : "version",
-      "valueString" : "http://loinc.org|2.68"
+      "valueString" : "http://loinc.org|2.69"
     }],
     "contains" : [{
       "system" : "http://loinc.org",
@@ -10650,8 +10650,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:9263f0b2-5c02-42ec-8fb0-a7ec0bbbb6f0",
-    "timestamp" : "2020-12-23T16:03:39.764Z",
+    "identifier" : "urn:uuid:ed7fa558-b0d9-4d86-be4b-7b800457ff80",
+    "timestamp" : "2021-04-20T22:05:46.152Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -10662,7 +10662,7 @@ e: {
     },
     {
       "name" : "version",
-      "valueString" : "http://loinc.org|2.68"
+      "valueString" : "http://loinc.org|2.69"
     }],
     "contains" : [{
       "system" : "http://loinc.org",
