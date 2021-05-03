@@ -22469,3 +22469,333 @@ v: {
   "error" : "The code provided (http://hl7.org/fhir/sid/icd-10#N95.1) is not valid in the value set 'NoProbsInfoUvIps' (from http://tx.fhir.org/r4)"
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "N95.1",
+  "display" : "Menopausal and female climacteric states"
+}, "valueSet" :178257015, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code provided (http://hl7.org/fhir/sid/icd-10#N95.1) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "N95.1",
+  "display" : "Menopausal and female climacteric states"
+}, "valueSet" :1515189322, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code provided (http://hl7.org/fhir/sid/icd-10#N95.1) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "N95.1",
+  "display" : "Menopausal and female climacteric states"
+}, "valueSet" :862970623, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code provided (http://hl7.org/fhir/sid/icd-10#N95.1) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "N95.1",
+  "display" : "Menopausal and female climacteric states"
+}, "valueSet" :1459359325, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code provided (http://hl7.org/fhir/sid/icd-10#N95.1) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "N95.1",
+  "display" : "Menopausal and female climacteric states"
+}, "valueSet" :null, "lang":"en-GB", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Menopausal and female climacteric states",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "N95.1",
+  "display" : "Menopausal and female climacteric states"
+}, "valueSet" :1461147892, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code provided (http://hl7.org/fhir/sid/icd-10#N95.1) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "N95.1",
+  "display" : "Menopausal and female climacteric states"
+}, "valueSet" :614898925, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code provided (http://hl7.org/fhir/sid/icd-10#N95.1) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "N95.1",
+  "display" : "Menopausal and female climacteric states"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Menopausal and female climacteric states",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "N95.1",
+  "display" : "Menopausal and female climacteric states"
+}, "valueSet" :1394575618, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code provided (http://hl7.org/fhir/sid/icd-10#N95.1) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "N95.1",
+  "display" : "Menopausal and female climacteric states"
+}, "valueSet" :1957114690, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code provided (http://hl7.org/fhir/sid/icd-10#N95.1) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "N95.1",
+  "display" : "Menopausal and female climacteric states"
+}, "valueSet" :1110036962, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code provided (http://hl7.org/fhir/sid/icd-10#N95.1) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "N95.1",
+  "display" : "Menopausal and female climacteric states"
+}, "valueSet" :668578061, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code provided (http://hl7.org/fhir/sid/icd-10#N95.1) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "N95.1",
+  "display" : "Menopausal and female climacteric states"
+}, "valueSet" :1211934554, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code provided (http://hl7.org/fhir/sid/icd-10#N95.1) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "N95.1",
+  "display" : "Menopausal and female climacteric states"
+}, "valueSet" :525605138, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code provided (http://hl7.org/fhir/sid/icd-10#N95.1) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "N95.1",
+  "display" : "Menopausal and female climacteric states"
+}, "valueSet" :393359453, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code provided (http://hl7.org/fhir/sid/icd-10#N95.1) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "N95.1",
+  "display" : "Menopausal and female climacteric states"
+}, "valueSet" :2004615719, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code provided (http://hl7.org/fhir/sid/icd-10#N95.1) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "N95.1",
+  "display" : "Menopausal and female climacteric states"
+}, "valueSet" :510291258, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code provided (http://hl7.org/fhir/sid/icd-10#N95.1) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "N95.1",
+  "display" : "Menopausal and female climacteric states"
+}, "valueSet" :687511338, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code provided (http://hl7.org/fhir/sid/icd-10#N95.1) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "N95.1",
+  "display" : "Menopausal and female climacteric states"
+}, "valueSet" :1881393312, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code provided (http://hl7.org/fhir/sid/icd-10#N95.1) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "N95.1",
+  "display" : "Menopausal and female climacteric states"
+}, "valueSet" :1957127291, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code provided (http://hl7.org/fhir/sid/icd-10#N95.1) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "N95.1",
+  "display" : "Menopausal and female climacteric states"
+}, "valueSet" :708844793, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code provided (http://hl7.org/fhir/sid/icd-10#N95.1) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "N95.1",
+  "display" : "Menopausal and female climacteric states"
+}, "valueSet" :1047086598, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code provided (http://hl7.org/fhir/sid/icd-10#N95.1) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "N95.1",
+  "display" : "Menopausal and female climacteric states"
+}, "valueSet" :1255257488, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code provided (http://hl7.org/fhir/sid/icd-10#N95.1) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "N95.1",
+  "display" : "Menopausal and female climacteric states"
+}, "valueSet" :308028640, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code provided (http://hl7.org/fhir/sid/icd-10#N95.1) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "N95.1",
+  "display" : "Menopausal and female climacteric states"
+}, "valueSet" :1968344757, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code provided (http://hl7.org/fhir/sid/icd-10#N95.1) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "N95.1",
+  "display" : "Menopausal and female climacteric states"
+}, "valueSet" :2080859457, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code provided (http://hl7.org/fhir/sid/icd-10#N95.1) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "N95.1",
+  "display" : "Menopausal and female climacteric states"
+}, "valueSet" :2076127824, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code provided (http://hl7.org/fhir/sid/icd-10#N95.1) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "N95.1",
+  "display" : "Menopausal and female climacteric states"
+}, "valueSet" :1247427942, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code provided (http://hl7.org/fhir/sid/icd-10#N95.1) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "N95.1",
+  "display" : "Menopausal and female climacteric states"
+}, "valueSet" :399435624, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code provided (http://hl7.org/fhir/sid/icd-10#N95.1) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "N95.1",
+  "display" : "Menopausal and female climacteric states"
+}, "valueSet" :1738291412, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code provided (http://hl7.org/fhir/sid/icd-10#N95.1) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
