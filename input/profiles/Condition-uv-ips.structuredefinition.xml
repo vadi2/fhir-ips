@@ -68,14 +68,6 @@
 		</element>
 		<element id="Condition.code">
 			<path value="Condition.code"/>
-			<slicing>
-				<discriminator>
-					<type value="pattern"/>
-					<path value="$this"/>
-				</discriminator>
-				<description value="Discriminated by the bound value set"/>
-				<rules value="open"/>
-			</slicing>
 			<definition value="Identification of the condition, problem or diagnosis or recording of &quot;problem absent&quot; or of &quot;problems unknown&quot;."/>
 			<min value="1"/>
 			<max value="1"/>
@@ -85,8 +77,21 @@
 			</type>
 			<mustSupport value="true"/>
 		</element>
-		<element id="Condition.code:problemGPSCode">
-			<path value="Condition.code"/>
+		<element id="Condition.code.coding">
+			<path value="Condition.code.coding"/>
+			<slicing>
+				<discriminator>
+					<type value="pattern"/>
+					<path value="$this"/>
+				</discriminator>
+				<description value="Discriminated by the bound value set"/>
+				<rules value="open"/>
+			</slicing>
+			<min value="1"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Condition.code.coding:problemGPSCode">
+			<path value="Condition.code.coding"/>
 			<sliceName value="problemGPSCode"/>
 			<short value="Code for a problem from the SNOMED CT GPS code set"/>
 			<definition value="Code for a clinical problem that is selected from the SNOMED CT GPS code set."/>
@@ -102,8 +107,8 @@
 				<valueSet value="http://hl7.org/fhir/uv/ips/ValueSet/core-problem-finding-situation-event-gps-uv-ips"/>
 			</binding>
 		</element>
-		<element id="Condition.code:absentOrUnknownProblem">
-			<path value="Condition.code"/>
+		<element id="Condition.code.coding:absentOrUnknownProblem">
+			<path value="Condition.code.coding"/>
 			<sliceName value="absentOrUnknownProblem"/>
 			<short value="Code for absent problem or for unknown problem"/>
 			<definition value="Code representing the statement &quot;absent problem&quot; or the statement &quot;problems unknown&quot;"/>
