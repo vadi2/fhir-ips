@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+	<id value="Bundle-uv-ips"/>
+	<url value="http://hl7.org/fhir/uv/ips/StructureDefinition/Bundle-uv-ips"/>
+	<name value="BundleUvIps"/>
+	<title value="Bundle (IPS)"/>
+	<status value="active"/>
+	<publisher value="HL7 International"/>
+	<description value="This profile represents the constraints applied to the Bundle resource by the International Patient Summary (IPS) FHIR Implementation Guide. A record of a problem is represented in the patient summary as an instance of the Condition resource constrained by this profile."/>
+	<purpose value="An International Patient Summary (IPS) document is an electronic health record extract containing essential healthcare information about a subject of care, comprising at least the required elements of the IPS dataset. The IPS dataset is minimal and non-exhaustive; specialty-agnostic and condition-independent; but still clinically relevant. As specified in EN 17269 and ISO/DIS 27269, it is designed for supporting the use case scenario for ‘unplanned, cross border care’, but it is not limited to it. It is intended to be international, i.e., to provide generic solutions for global application beyond a particular region or country."/>
+	<copyright value="HL7 International"/>
+	<kind value="resource"/>
+	<abstract value="false"/>
+	<type value="Bundle"/>
+	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Bundle"/>
+	<derivation value="constraint"/>
+	<differential>
+		<element id="Bundle">
+			<path value="Bundle"/>
+			<short value="International Patient Summary Bundle"/>
+			<definition value="International Patient Summary Bundle. &#xD;&#xA;A container for a collection of resources in the patient summary document."/>
+			<constraint>
+				<key value="bdl-ips-1"/>
+				<severity value="error"/>
+				<human value="An IPS document must have no additional Composition (including Composition subclass) resources besides the first"/>
+				<expression value="entry.tail().where(resource is Composition).empty()"/>
+			</constraint>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Bundle.identifier">
+			<path value="Bundle.identifier"/>
+			<min value="1"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Bundle.type">
+			<path value="Bundle.type"/>
+			<fixedCode value="document"/>
+		</element>
+		<element id="Bundle.timestamp">
+			<path value="Bundle.timestamp"/>
+			<min value="1"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Bundle.link">
+			<path value="Bundle.link"/>
+			<max value="0"/>
+		</element>
+		<element id="Bundle.entry">
+			<path value="Bundle.entry"/>
+			<slicing>
+				<discriminator>
+					<type value="profile"/>
+					<path value="resource"/>
+				</discriminator>
+				<rules value="open"/>
+			</slicing>
+			<short value="Entry resource in the patient summary document bundle"/>
+			<definition value="An entry resource included in the patient summary document bundle resource."/>
+			<comment value="Must contain at a minimum the IPS Composition (the first entry) and at least one entry each for IPS Problems, Allergies and Medications."/>
+			<min value="4"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Bundle.entry.fullUrl">
+			<path value="Bundle.entry.fullUrl"/>
+			<min value="1"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Bundle.entry.search">
+			<path value="Bundle.entry.search"/>
+			<max value="0"/>
+		</element>
+		<element id="Bundle.entry.request">
+			<path value="Bundle.entry.request"/>
+			<max value="0"/>
+		</element>
+		<element id="Bundle.entry.response">
+			<path value="Bundle.entry.response"/>
+			<max value="0"/>
+		</element>
+		<element id="Bundle.entry:composition">
+			<path value="Bundle.entry"/>
+			<sliceName value="composition"/>
+			<min value="1"/>
+			<max value="1"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Bundle.entry:composition.resource">
+			<path value="Bundle.entry.resource"/>
+			<min value="1"/>
+			<type>
+				<code value="Resource"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/Composition-uv-ips"/>
+			</type>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Bundle.entry:problem">
+			<path value="Bundle.entry"/>
+			<sliceName value="problem"/>
+			<min value="1"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Bundle.entry:problem.resource">
+			<path value="Bundle.entry.resource"/>
+			<min value="1"/>
+			<type>
+				<code value="Resource"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"/>
+			</type>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Bundle.entry:allergy">
+			<path value="Bundle.entry"/>
+			<sliceName value="allergy"/>
+			<min value="1"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Bundle.entry:allergy.resource">
+			<path value="Bundle.entry.resource"/>
+			<min value="1"/>
+			<type>
+				<code value="Resource"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/AllergyIntolerance-uv-ips"/>
+			</type>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Bundle.entry:medication">
+			<path value="Bundle.entry"/>
+			<sliceName value="medication"/>
+			<min value="1"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Bundle.entry:medication.resource">
+			<path value="Bundle.entry.resource"/>
+			<min value="1"/>
+			<type>
+				<code value="Resource"/>
+				<profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips"/>
+			</type>
+			<mustSupport value="true"/>
+		</element>
+	</differential>
+</StructureDefinition>

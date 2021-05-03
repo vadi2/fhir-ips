@@ -35,6 +35,14 @@
 		</resource>
 		<resource>
 			<reference>
+				<reference value="Bundle/IPS-examples-Bundle-minimal"/>
+			</reference>
+			<name value="IPS Bundle example (minimal)"/>
+			<description value="IPS Bundle example (minimal)"/>
+			<exampleCanonical value="http://hl7.org/fhir/uv/ips/StructureDefinition/Bundle-uv-ips"/>
+		</resource>
+		<resource>
+			<reference>
 				<reference value="Medication/eumfh-39-07-1"/>
 			</reference>
 			<name value="Medication : Simvastatin 40 MG Disintegrating Oral Tablet"/>
@@ -95,6 +103,14 @@
 			</reference>
 			<name value="Practitioner example"/>
 			<description value="Practitioner example"/>
+			<exampleCanonical value="http://hl7.org/fhir/uv/ips/StructureDefinition/Practitioner-uv-ips"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="Practitioner/1c616b24-3895-48c4-9a02-9a64110351ef"/>
+			</reference>
+			<name value="Practitioner example 1c616b24-3895-48c4-9a02-9a64110351ef"/>
+			<description value="Practitioner example 1c616b24-3895-48c4-9a02-9a64110351ef (from bundle)"/>
 			<exampleCanonical value="http://hl7.org/fhir/uv/ips/StructureDefinition/Practitioner-uv-ips"/>
 		</resource>
 		<resource>
@@ -199,6 +215,14 @@
 			</reference>
 			<name value="Organization: lab example"/>
 			<description value="Best Hospital Lab Organization example"/>
+			<exampleCanonical value="http://hl7.org/fhir/uv/ips/StructureDefinition/Organization-uv-ips"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="Organization/890751f4-2924-4636-bab7-efffc7f3cf15"/>
+			</reference>
+			<name value="Organization example 890751f4-2924-4636-bab7-efffc7f3cf15"/>
+			<description value="Organization example 890751f4-2924-4636-bab7-efffc7f3cf15 (from bundle)"/>
 			<exampleCanonical value="http://hl7.org/fhir/uv/ips/StructureDefinition/Organization-uv-ips"/>
 		</resource>
 		<resource>
