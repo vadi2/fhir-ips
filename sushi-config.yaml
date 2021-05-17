@@ -1,0 +1,17 @@
+canonical: http://hl7.org/fhir/uv/ips
+fhirVersion: 4.0.1
+FSHOnly: false
+applyExtensionMetadataToRoot: false
+id: hl7.fhir.uv.ips
+name: InternationalPatientSummaryIG
+status: active
+version: 1.0.0
+copyrightYear: 2019+
+releaseLabel: ci-build
+title: International Patient Summary Implementation Guide
+description: International Patient Summary (IPS) FHIR Implementation Guide
+license: CC0-1.0
+publisher: 
+  name: Health Level Seven International - Patient Care Work Group
+  url: http://www.hl7.org/Special/committees/patientcare
+url: http://hl7.org/fhir/uv/ips/ImplementationGuide/ig-uv-ips
