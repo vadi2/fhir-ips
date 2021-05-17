@@ -22887,3 +22887,14 @@ v: {
   "error" : "The code provided (urn:oid:2.16.840.1.113883.6.43.1#8500/3) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
+  "code" : "8500/3",
+  "display" : "Infiltrating duct carcinoma, NOS"
+}, "valueSet" :64334052, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code provided (urn:oid:2.16.840.1.113883.6.43.1#8500/3) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
