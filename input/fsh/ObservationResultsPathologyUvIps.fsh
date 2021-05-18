@@ -38,24 +38,16 @@ Description: "This profile constrains the Observation resource to represent resu
 * performer 1.. MS
 * performer only Reference(PractitionerUvIps or PractitionerRoleUvIps or OrganizationUvIps)
 * value[x] MS
-* value[x] ^slicing.discriminator.type = #type
-* value[x] ^slicing.discriminator.path = "$this"
-* value[x] ^slicing.rules = #closed
-//* valueString contains valueString
+* valueString MS
 * valueString only string
-//* valueRange contains valueRange
 * valueRange only RangeIPS
-//* valueRatio contains valueRatio
 * valueRatio only RatioIPS
-//* valueTime contains valueTime
 * valueTime only time
-//* valueDateTime contains valueDateTime
 * valueDateTime only dateTime
-//* valuePeriod contains valuePeriod
 * valuePeriod only Period
-//* valueQuantity contains valueQuantity
+* valueQuantity MS
 * valueQuantity only QuantityIPS
-//* valueCodeableConcept contains valueCodeableConcept
+* valueCodeableConcept MS
 * valueCodeableConcept only CodeableConceptIPS
 * valueCodeableConcept from ResultsCodedValuesPathologyGpsUvIps (preferred)
 * specimen only Reference(SpecimenUvIps)

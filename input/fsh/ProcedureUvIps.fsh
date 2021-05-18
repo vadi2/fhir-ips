@@ -12,18 +12,18 @@ Description: "This profile represents the constraints applied to the Procedure r
 * ^jurisdiction = $m49.htm#001
 * . MS
 * status MS
-* code 1..1 MS
+* code MS
 * code only CodeableConceptIPS
 * code from ProceduresUvIps (preferred)
 * code ^definition = "Identification of the procedure or recording of \"absence of relevant procedures\" or of \"procedures unknown\"."
 * code ^binding.extension.url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName"
 * code ^binding.extension.valueString = "ProcedureCode"
-* code.coding 1.. MS
+* code.coding MS
 * code.coding ^slicing.discriminator.type = #pattern
 * code.coding ^slicing.discriminator.path = "$this"
 * code.coding ^slicing.description = "Discriminated by the bound value set"
 * code.coding ^slicing.rules = #open
-* code.coding contains absentOrUnknownProcedure 0..1 MS
+* code.coding contains absentOrUnknownProcedure ..1 MS
 * code.coding[absentOrUnknownProcedure] from NoProceduresInfoUvIps (required)
 * code.coding[absentOrUnknownProcedure] ^short = "Code for absent problem or for unknown procedure"
 * code.coding[absentOrUnknownProcedure] ^definition = "Code representing the statement \"absent problem\" or the statement \"procedures unknown\""

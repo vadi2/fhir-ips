@@ -28,17 +28,17 @@ Description: "This profile represents the constraints applied to the Condition r
 * severity from ProblemSeverityUvIps (preferred)
 * severity ^binding.extension.url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName"
 * severity ^binding.extension.valueString = "ConditionSeverity"
-* code 1..1 MS
+* code MS
 * code only CodeableConceptIPS
 * code ^definition = "Identification of the condition, problem or diagnosis or recording of \"problem absent\" or of \"problems unknown\"."
-* code.coding 1.. MS
+* code.coding MS
 * code.coding ^slicing.discriminator.type = #pattern
 * code.coding ^slicing.discriminator.path = "$this"
 * code.coding ^slicing.description = "Discriminated by the bound value set"
 * code.coding ^slicing.rules = #open
 * code.coding contains
-    problemGPSCode 0..1 MS and
-    absentOrUnknownProblem 0..1 MS
+    problemGPSCode ..* MS and
+    absentOrUnknownProblem ..1 MS
 * code.coding[problemGPSCode] from CoreProblemListFindingSituationEventGpsUvIps (required)
 * code.coding[problemGPSCode] ^short = "Code for a problem from the SNOMED CT GPS code set"
 * code.coding[problemGPSCode] ^definition = "Code for a clinical problem that is selected from the SNOMED CT GPS code set."
@@ -59,24 +59,12 @@ Description: "This profile represents the constraints applied to the Condition r
 * subject MS
 * subject.reference 1.. MS
 * onset[x] MS
-* onset[x] ^slicing.discriminator.type = #type
-* onset[x] ^slicing.discriminator.path = "$this"
-* onset[x] ^slicing.rules = #closed
-* onsetDateTime[onsetDateTime] only dateTime
-* onsetDateTime[onsetDateTime] ^sliceName = "onsetDateTime"
-* onsetDateTime[onsetDateTime] ^mustSupport = true
-* onsetPeriod[onsetPeriod] only Period
-* onsetPeriod[onsetPeriod] ^sliceName = "onsetPeriod"
-* onsetPeriod[onsetPeriod] ^mustSupport = false
+* onset[x] only dateTime or Period
+* onsetDateTime MS
+* onsetPeriod ^mustSupport = false
 * abatement[x] MS
-* abatement[x] ^slicing.discriminator.type = #type
-* abatement[x] ^slicing.discriminator.path = "$this"
-* abatement[x] ^slicing.rules = #closed
-* abatementDateTime[abatementDateTime] only dateTime
-* abatementDateTime[abatementDateTime] ^sliceName = "abatementDateTime"
-* abatementDateTime[abatementDateTime] ^mustSupport = true
-* abatementPeriod[abatementPeriod] only Period
-* abatementPeriod[abatementPeriod] ^sliceName = "abatementPeriod"
-* abatementPeriod[abatementPeriod] ^mustSupport = false
+* abatement[x] only dateTime or Period
+* abatementDateTime MS
+* abatementPeriod ^mustSupport = false
 * asserter MS
 * asserter ^definition = "Individual who is making the condition statement.\r\nInformation source."

@@ -19,6 +19,7 @@ Description: "This profile represents the constraints applied to the Device reso
 * type from MedicalDevicesUvIps (preferred)
 * type ^short = "Type of device.\r\nPreferably valued by using SNOMED CT.\r\nThe absence of information, or of devices relevant for purpose of this IPS, shall be explicitly stated by using the codes included in the absent-or-unknown-devices-uv-ips value set."
 * type ^binding.description = "The type of device"
+* type.coding MS
 * type.coding ^slicing.discriminator.type = #pattern
 * type.coding ^slicing.discriminator.path = "$this"
 * type.coding ^slicing.description = "Discriminated by the bound value set"

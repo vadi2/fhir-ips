@@ -24,20 +24,20 @@ It documents the relevant allergies or intolerances (conditions) for a patient, 
 * verificationStatus ^comment = "In the scope of the IPS the entered-in-error concept is not allowed."
 * type MS
 * criticality MS
-* code 1..1 MS
+* code MS
 * code only CodeableConceptIPS
 * code from AllergyIntoleranceSubstanceConditionUvIps (preferred)
 * code ^binding.extension.url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName"
 * code ^binding.extension.valueString = "AllergyIntoleranceCode"
 * code ^binding.description = "Type of the substance/product, allergy or intolerance condition."
-* code.coding 1.. MS
+* code.coding MS
 * code.coding ^slicing.discriminator.type = #pattern
 * code.coding ^slicing.discriminator.path = "$this"
 * code.coding ^slicing.description = "Discriminated by the bound value set"
 * code.coding ^slicing.rules = #open
 * code.coding contains
-    allergyIntoleranceGPSCode 0..1 MS and
-    absentOrUnknownAllergyIntolerance 0..1 MS
+    allergyIntoleranceGPSCode ..* MS and
+    absentOrUnknownAllergyIntolerance ..1 MS
 * code.coding[allergyIntoleranceGPSCode] from AllergyintolerancesubstanceconditionGPS (required)
 * code.coding[allergyIntoleranceGPSCode] ^short = "Code for allergy or intolerance from the SNOMED CT GPS code set"
 * code.coding[allergyIntoleranceGPSCode] ^definition = "Code for an allergy or intolerance statement that is selected from the SNOMED CT GPS code set."

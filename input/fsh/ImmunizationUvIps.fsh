@@ -16,21 +16,21 @@ It describes the event of a patient being administered a vaccination or a record
 * . MS
 * . ^definition = "Describes the event of a patient being administered a vaccination or a record of a vaccination as reported by a patient, a clinician or another party and may include vaccine reaction information and what vaccination protocol was followed"
 * status MS
-* vaccineCode 1..1 MS
+* vaccineCode MS
 * vaccineCode only CodeableConceptIPS
 * vaccineCode from VaccinesUvIps (preferred)
 * vaccineCode ^short = "Vaccine that was administered or was to be administered.Several kinds of vaccine product coding could be provided.\r\n\r\n     The IPS assumes that either the type of the vaccine for particular disease or diseases (e.g. MMR vaccine) against which the patient has been immunised is provided; or the known absent / unknown code.\r\n\r\n     Other coded information can be provided as well as: the IDMP Pharmaceutical Product Identifiers (PhPID), Medicinal Product Identifier (MPID), Packaged Medicinal Product Identifier (PCID), when available, or equivalent coded concepts; the WHO ATC codes; or any other kind of code that that identifies, classifies or cluster the administered product."
 * vaccineCode ^definition = "Vaccine that was administered or was to be administered. Several kinds of vaccine product coding could be provided.\r\n\r\nThe IPS assumes that either the type of the vaccine for particular disease or diseases (e.g. MMR vaccine) against which the patient has been immunized is provided; or the known absent / unknown.\r\n\r\n    Other coded information can be provided as well as:\r\n\r\n    1. The IDMP Pharmaceutical Product Identifier (PhPID), Level 1, [Substance(s)]. Example: Amoxicillin and Clavulanate Potassium; or any other equivalent coded concept.\r\n    2. The IDMP Pharmaceutical Product Identifier (PhPID), Level 2 [Substance(s) + Strength + reference strength]. Example: Amoxicillin 875 mg and Clavulanate Potassium 125 mg; or any other equivalent coded concept.\r\n    3. The IDMP Pharmaceutical Product Identifier (PhPID), Level 3 [Substance(s) + administrable dose form]. Example: Amoxicillin and Clavulanate Potassium, Oral Tablet; or any other equivalent coded concept.\r\n    4. The IDMP Pharmaceutical Product Identifier (PhPID), Level 4 [Substance(s) + strength + reference strength + administrable dose form]. Example: Amoxicillin 875 mg and clavulanate potassium 125 mg, oral tablet; or any other equivalent coded concept.\r\n    5. The IDMP Medicinal Product Identifier (MPID) or any equivalent Medicinal Product Identifier. IDMP MPID uniquely identifies a Medicinal Product, reflecting (but not replacing) any other authorization numbers allocated by a regulator. MPID implies one (set of) PhPID.     The MPID shall use a common segment pattern related to a Medicinal Product, which, when each segment is valued shall define a specific MPID concept.\r\n    6. The IDMP Packaged Medicinal Product Identifier (PCID) or any equivalent Packaged Medicinal Product Identifier.     Uniquely identifies a Medicinal Product based on its packaging. This implies one MPID can be associated with more than one PCID, if the same Medicinal Product has more than one type of package.\r\n    7. Any other kind of code that that identifies, classifies or clusters the administered product (e.g. the medicinal product or the product class).\r\n\r\n    The value sets used for the PhPID, MPID and PCID identifiers are provisional and include only few equivalent concepts used for exemplification purposes, they will be updated with real IDMP identifiers when they will become available."
 * vaccineCode ^binding.description = "The type of vaccine for particular disease or diseases against which the patient has been immunised."
-* vaccineCode.coding 1.. MS
+* vaccineCode.coding MS
 * vaccineCode.coding ^slicing.discriminator.type = #pattern
 * vaccineCode.coding ^slicing.discriminator.path = "$this"
 * vaccineCode.coding ^slicing.description = "Discriminated by bound value set"
 * vaccineCode.coding ^slicing.rules = #open
 * vaccineCode.coding contains
-    vaccineGPSCode 0..1 MS and
-    atcClass 0..1 MS and
-    absentOrUnknownImmunization 0..1 MS
+    vaccineGPSCode ..* MS and
+    atcClass ..* MS and
+    absentOrUnknownImmunization ..1 MS
 * vaccineCode.coding[vaccineGPSCode] from VaccinesGpsUvIps (required)
 * vaccineCode.coding[vaccineGPSCode] ^short = "Code for vaccine from the SNOMED CT GPS code set"
 * vaccineCode.coding[vaccineGPSCode] ^definition = "Code for a vaccine that is selected from the SNOMED CT GPS code set."

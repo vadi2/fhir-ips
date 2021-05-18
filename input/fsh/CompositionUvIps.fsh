@@ -189,8 +189,8 @@ This profile is based on the ClinicalDocument profile."""
 * section[sectionResults].entry ^short = "Relevant observation results collected on the patient or produced on in-vitro biologic specimens collected from the patient."
 * section[sectionResults].entry ^definition = "Relevant observation results collected on the patient or produced on in-vitro biologic specimens collected from the patient. Some of these results may be laboratory results, others may be anatomic pathology results, others, radiology results, and others, clinical results."
 * section[sectionResults].entry contains
-    results-observation 1..* MS and
-    results-diagnosticReport 1..* MS
+    results-observation ..* MS and
+    results-diagnosticReport ..* MS
 * section[sectionResults].entry[results-observation] only Reference(ObservationResultsUvIps)
 * section[sectionResults].entry[results-diagnosticReport] only Reference(DiagnosticReportUvIps)
 * section[sectionVitalSigns] ^extension.url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name"
