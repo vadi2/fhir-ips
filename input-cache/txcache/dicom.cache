@@ -1,86 +1,6 @@
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "code" : "121065"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Procedure Description",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "code" : "121069"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Previous Finding",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "code" : "121071"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Finding",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "code" : "121073"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Impression",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "code" : "121075"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Recommendation",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "code" : "121077"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Conclusion",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "code" : "121110"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Patient Presentation",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "code" : "121111"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Summary",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
   "code" : "121207"
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
@@ -179,6 +99,86 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "code" : "121065"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Procedure Description",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "code" : "121069"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Previous Finding",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "code" : "121071"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Finding",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "code" : "121073"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Impression",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "code" : "121075"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Recommendation",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "code" : "121077"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Conclusion",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "code" : "121110"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Patient Presentation",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "code" : "121111"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Summary",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
 {"hierarchical" : false, "valueSet" :{
   "resourceType" : "ValueSet",
   "compose" : {
@@ -195,6 +195,34 @@ v: {
       {
         "code" : "121206",
         "display" : "Distance"
+      },
+      {
+        "code" : "121216",
+        "display" : "Volume estimated from single 2D region"
+      },
+      {
+        "code" : "121218",
+        "display" : "Volume estimated from two non-coplanar 2D regions"
+      },
+      {
+        "code" : "121217",
+        "display" : "Volume estimated from three or more non-coplanar 2D regions"
+      },
+      {
+        "code" : "121222",
+        "display" : "Volume of sphere"
+      },
+      {
+        "code" : "121221",
+        "display" : "Volume of ellipsoid"
+      },
+      {
+        "code" : "121220",
+        "display" : "Volume of circumscribed sphere"
+      },
+      {
+        "code" : "121219",
+        "display" : "Volume of bounding three dimensional region"
       }]
     }]
   }
@@ -202,10 +230,11 @@ v: {
 e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
+  "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:f07e4d03-56f5-44cd-b7bd-81c5a481625c",
-    "timestamp" : "2021-05-03T03:34:14.188Z",
+    "identifier" : "urn:uuid:9b4af5fe-d56c-4d20-accf-34914da4ecd1",
+    "timestamp" : "2021-07-07T12:37:35.826Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -244,68 +273,8 @@ e: {
       "system" : "http://dicom.nema.org/resources/ontology/DCM",
       "code" : "121206",
       "display" : "Distance"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : false, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "concept" : [{
-        "code" : "121216",
-        "display" : "Volume estimated from single 2D region"
-      },
-      {
-        "code" : "121218",
-        "display" : "Volume estimated from two non-coplanar 2D regions"
-      },
-      {
-        "code" : "121217",
-        "display" : "Volume estimated from three or more non-coplanar 2D regions"
-      },
-      {
-        "code" : "121222",
-        "display" : "Volume of sphere"
-      },
-      {
-        "code" : "121221",
-        "display" : "Volume of ellipsoid"
-      },
-      {
-        "code" : "121220",
-        "display" : "Volume of circumscribed sphere"
-      },
-      {
-        "code" : "121219",
-        "display" : "Volume of bounding three dimensional region"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "status" : "active",
-  "expansion" : {
-    "identifier" : "urn:uuid:e7ab7530-6280-46f2-9ef3-8c235d4bf6d6",
-    "timestamp" : "2021-04-30T12:21:06.326Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
     },
     {
-      "name" : "excludeNested",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "version",
-      "valueString" : "http://dicom.nema.org/resources/ontology/DCM|01"
-    }],
-    "contains" : [{
       "extension" : [{
         "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
         "valueString" : "A three-dimensional numeric measurement that is approximate, based on a two-dimensional region in a single image"
@@ -416,10 +385,11 @@ e: {
 e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
+  "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:618b38ef-f1c5-4e0a-8543-a20ffa890f9b",
-    "timestamp" : "2021-04-30T12:21:06.983Z",
+    "identifier" : "urn:uuid:3b0209db-70fd-4b67-8cd9-23f972f77547",
+    "timestamp" : "2021-07-07T12:37:37.951Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -624,7 +594,7 @@ v: {
     },
     {
       "system" : "http://snomed.info/sct",
-      "version" : "http://snomed.info/sct/900000000000207008/version/20190731",
+      "version" : "http://snomed.info/sct/900000000000207008/version/20200731",
       "concept" : [{
         "code" : "116224001",
         "display" : "Complication of Procedure"
@@ -763,7 +733,7 @@ v: {
     },
     {
       "system" : "http://snomed.info/sct",
-      "version" : "http://snomed.info/sct/900000000000207008/version/20190731",
+      "version" : "http://snomed.info/sct/900000000000207008/version/20200731",
       "concept" : [{
         "code" : "116224001",
         "display" : "Complication of Procedure"
@@ -795,6 +765,165 @@ v: {
 v: {
   "display" : "Finding",
   "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://dicom.nema.org/resources/ontology/DCM",
+      "concept" : [{
+        "code" : "121207",
+        "display" : "Height"
+      },
+      {
+        "code" : "121211",
+        "display" : "Path length"
+      },
+      {
+        "code" : "121206",
+        "display" : "Distance"
+      },
+      {
+        "code" : "121216",
+        "display" : "Volume estimated from single 2D region"
+      },
+      {
+        "code" : "121218",
+        "display" : "Volume estimated from two non-coplanar 2D regions"
+      },
+      {
+        "code" : "121217",
+        "display" : "Volume estimated from three or more non-coplanar 2D regions"
+      },
+      {
+        "code" : "121222",
+        "display" : "Volume of sphere"
+      },
+      {
+        "code" : "121221",
+        "display" : "Volume of ellipsoid"
+      },
+      {
+        "code" : "121220",
+        "display" : "Volume of circumscribed sphere"
+      },
+      {
+        "code" : "121219",
+        "display" : "Volume of bounding three dimensional region"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:4acccbf5-ee91-4e90-8786-c321d8abf14a",
+    "timestamp" : "2021-07-07T12:39:01.357Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://dicom.nema.org/resources/ontology/DCM|01"
+    }],
+    "contains" : [{
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Vertical measurement value"
+      }],
+      "system" : "http://dicom.nema.org/resources/ontology/DCM",
+      "code" : "121207",
+      "display" : "Height"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "A one dimensional, or linear, numeric measurement along a polyline"
+      }],
+      "system" : "http://dicom.nema.org/resources/ontology/DCM",
+      "code" : "121211",
+      "display" : "Path length"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "A one dimensional, or linear, numeric measurement"
+      }],
+      "system" : "http://dicom.nema.org/resources/ontology/DCM",
+      "code" : "121206",
+      "display" : "Distance"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "A three-dimensional numeric measurement that is approximate, based on a two-dimensional region in a single image"
+      }],
+      "system" : "http://dicom.nema.org/resources/ontology/DCM",
+      "code" : "121216",
+      "display" : "Volume estimated from single 2D region"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "A three-dimensional numeric measurement that is approximate, based on two non-coplanar two-dimensional image regions"
+      }],
+      "system" : "http://dicom.nema.org/resources/ontology/DCM",
+      "code" : "121218",
+      "display" : "Volume estimated from two non-coplanar 2D regions"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "A three-dimensional numeric measurement that is approximate, based on three or more non-coplanar two-dimensional image regions"
+      }],
+      "system" : "http://dicom.nema.org/resources/ontology/DCM",
+      "code" : "121217",
+      "display" : "Volume estimated from three or more non-coplanar 2D regions"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "A three-dimensional numeric measurement of a sphere shaped three-dimensional region of interest in an image set"
+      }],
+      "system" : "http://dicom.nema.org/resources/ontology/DCM",
+      "code" : "121222",
+      "display" : "Volume of sphere"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "A three-dimensional numeric measurement of an ellipsoid shaped three-dimensional region of interest in an image set"
+      }],
+      "system" : "http://dicom.nema.org/resources/ontology/DCM",
+      "code" : "121221",
+      "display" : "Volume of ellipsoid"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "A three-dimensional numeric measurement of the bounding sphere of a three-dimensional region of interest in an image set"
+      }],
+      "system" : "http://dicom.nema.org/resources/ontology/DCM",
+      "code" : "121220",
+      "display" : "Volume of circumscribed sphere"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "A three-dimensional numeric measurement of the bounding region of a three-dimensional region of interest in an image set"
+      }],
+      "system" : "http://dicom.nema.org/resources/ontology/DCM",
+      "code" : "121219",
+      "display" : "Volume of bounding three dimensional region"
+    }]
+  }
+},
   "error" : ""
 }
 -------------------------------------------------------------------------------------
@@ -841,10 +970,11 @@ v: {
 e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
+  "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:77ad06d3-baa3-43be-8d74-45eb34ce0e75",
-    "timestamp" : "2021-04-30T12:23:01.092Z",
+    "identifier" : "urn:uuid:15af04cb-dc1a-41b0-83d2-30f9dc30a164",
+    "timestamp" : "2021-07-07T12:39:01.998Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -924,529 +1054,6 @@ e: {
       "system" : "http://dicom.nema.org/resources/ontology/DCM",
       "code" : "121111",
       "display" : "Summary"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "concept" : [{
-        "code" : "121207",
-        "display" : "Height"
-      },
-      {
-        "code" : "121211",
-        "display" : "Path length"
-      },
-      {
-        "code" : "121206",
-        "display" : "Distance"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "status" : "active",
-  "expansion" : {
-    "identifier" : "urn:uuid:757a0aa4-267b-47e0-8da0-237f20408f21",
-    "timestamp" : "2021-04-30T12:23:05.295Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "version",
-      "valueString" : "http://dicom.nema.org/resources/ontology/DCM|01"
-    }],
-    "contains" : [{
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "Vertical measurement value"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "121207",
-      "display" : "Height"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "A one dimensional, or linear, numeric measurement along a polyline"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "121211",
-      "display" : "Path length"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "A one dimensional, or linear, numeric measurement"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "121206",
-      "display" : "Distance"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : false, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "concept" : [{
-        "code" : "121207",
-        "display" : "Height"
-      },
-      {
-        "code" : "121211",
-        "display" : "Path length"
-      },
-      {
-        "code" : "121206",
-        "display" : "Distance"
-      },
-      {
-        "code" : "121216",
-        "display" : "Volume estimated from single 2D region"
-      },
-      {
-        "code" : "121218",
-        "display" : "Volume estimated from two non-coplanar 2D regions"
-      },
-      {
-        "code" : "121217",
-        "display" : "Volume estimated from three or more non-coplanar 2D regions"
-      },
-      {
-        "code" : "121222",
-        "display" : "Volume of sphere"
-      },
-      {
-        "code" : "121221",
-        "display" : "Volume of ellipsoid"
-      },
-      {
-        "code" : "121220",
-        "display" : "Volume of circumscribed sphere"
-      },
-      {
-        "code" : "121219",
-        "display" : "Volume of bounding three dimensional region"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "status" : "active",
-  "expansion" : {
-    "identifier" : "urn:uuid:26d318a5-4b0a-4ebe-ad3d-3cb549aa2c7a",
-    "timestamp" : "2021-05-17T08:09:14.155Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "excludeNested",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "version",
-      "valueString" : "http://dicom.nema.org/resources/ontology/DCM|01"
-    }],
-    "contains" : [{
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "Vertical measurement value"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "121207",
-      "display" : "Height"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "A one dimensional, or linear, numeric measurement along a polyline"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "121211",
-      "display" : "Path length"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "A one dimensional, or linear, numeric measurement"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "121206",
-      "display" : "Distance"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "A three-dimensional numeric measurement that is approximate, based on a two-dimensional region in a single image"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "121216",
-      "display" : "Volume estimated from single 2D region"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "A three-dimensional numeric measurement that is approximate, based on two non-coplanar two-dimensional image regions"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "121218",
-      "display" : "Volume estimated from two non-coplanar 2D regions"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "A three-dimensional numeric measurement that is approximate, based on three or more non-coplanar two-dimensional image regions"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "121217",
-      "display" : "Volume estimated from three or more non-coplanar 2D regions"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "A three-dimensional numeric measurement of a sphere shaped three-dimensional region of interest in an image set"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "121222",
-      "display" : "Volume of sphere"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "A three-dimensional numeric measurement of an ellipsoid shaped three-dimensional region of interest in an image set"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "121221",
-      "display" : "Volume of ellipsoid"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "A three-dimensional numeric measurement of the bounding sphere of a three-dimensional region of interest in an image set"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "121220",
-      "display" : "Volume of circumscribed sphere"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "A three-dimensional numeric measurement of the bounding region of a three-dimensional region of interest in an image set"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "121219",
-      "display" : "Volume of bounding three dimensional region"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "code" : "121065",
-  "display" : "Procedure Description"
-}, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "concept" : [{
-        "code" : "121065",
-        "display" : "Procedure Description"
-      },
-      {
-        "code" : "121069",
-        "display" : "Previous Finding"
-      },
-      {
-        "code" : "121071",
-        "display" : "Finding"
-      },
-      {
-        "code" : "121073",
-        "display" : "Impression"
-      },
-      {
-        "code" : "121075",
-        "display" : "Recommendation"
-      },
-      {
-        "code" : "121077",
-        "display" : "Conclusion"
-      },
-      {
-        "code" : "121110",
-        "display" : "Patient Presentation"
-      },
-      {
-        "code" : "121111",
-        "display" : "Summary"
-      }]
-    },
-    {
-      "system" : "http://loinc.org",
-      "concept" : [{
-        "code" : "11329-0",
-        "display" : "History"
-      },
-      {
-        "code" : "55115-0",
-        "display" : "Request"
-      }]
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "concept" : [{
-        "code" : "116224001",
-        "display" : "Complication of Procedure"
-      }]
-    }]
-  }
-}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
-v: {
-  "display" : "Procedure Description",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "code" : "121071",
-  "display" : "Finding"
-}, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "concept" : [{
-        "code" : "121065",
-        "display" : "Procedure Description"
-      },
-      {
-        "code" : "121069",
-        "display" : "Previous Finding"
-      },
-      {
-        "code" : "121071",
-        "display" : "Finding"
-      },
-      {
-        "code" : "121073",
-        "display" : "Impression"
-      },
-      {
-        "code" : "121075",
-        "display" : "Recommendation"
-      },
-      {
-        "code" : "121077",
-        "display" : "Conclusion"
-      },
-      {
-        "code" : "121110",
-        "display" : "Patient Presentation"
-      },
-      {
-        "code" : "121111",
-        "display" : "Summary"
-      }]
-    },
-    {
-      "system" : "http://loinc.org",
-      "concept" : [{
-        "code" : "11329-0",
-        "display" : "History"
-      },
-      {
-        "code" : "55115-0",
-        "display" : "Request"
-      }]
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "concept" : [{
-        "code" : "116224001",
-        "display" : "Complication of Procedure"
-      }]
-    }]
-  }
-}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
-v: {
-  "display" : "Finding",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "concept" : [{
-        "code" : "121207",
-        "display" : "Height"
-      },
-      {
-        "code" : "121211",
-        "display" : "Path length"
-      },
-      {
-        "code" : "121206",
-        "display" : "Distance"
-      },
-      {
-        "code" : "121216",
-        "display" : "Volume estimated from single 2D region"
-      },
-      {
-        "code" : "121218",
-        "display" : "Volume estimated from two non-coplanar 2D regions"
-      },
-      {
-        "code" : "121217",
-        "display" : "Volume estimated from three or more non-coplanar 2D regions"
-      },
-      {
-        "code" : "121222",
-        "display" : "Volume of sphere"
-      },
-      {
-        "code" : "121221",
-        "display" : "Volume of ellipsoid"
-      },
-      {
-        "code" : "121220",
-        "display" : "Volume of circumscribed sphere"
-      },
-      {
-        "code" : "121219",
-        "display" : "Volume of bounding three dimensional region"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "status" : "active",
-  "expansion" : {
-    "identifier" : "urn:uuid:3c7a60af-cd1e-412f-88cf-80bc35360f81",
-    "timestamp" : "2021-05-17T08:09:40.718Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "version",
-      "valueString" : "http://dicom.nema.org/resources/ontology/DCM|01"
-    }],
-    "contains" : [{
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "Vertical measurement value"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "121207",
-      "display" : "Height"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "A one dimensional, or linear, numeric measurement along a polyline"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "121211",
-      "display" : "Path length"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "A one dimensional, or linear, numeric measurement"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "121206",
-      "display" : "Distance"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "A three-dimensional numeric measurement that is approximate, based on a two-dimensional region in a single image"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "121216",
-      "display" : "Volume estimated from single 2D region"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "A three-dimensional numeric measurement that is approximate, based on two non-coplanar two-dimensional image regions"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "121218",
-      "display" : "Volume estimated from two non-coplanar 2D regions"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "A three-dimensional numeric measurement that is approximate, based on three or more non-coplanar two-dimensional image regions"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "121217",
-      "display" : "Volume estimated from three or more non-coplanar 2D regions"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "A three-dimensional numeric measurement of a sphere shaped three-dimensional region of interest in an image set"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "121222",
-      "display" : "Volume of sphere"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "A three-dimensional numeric measurement of an ellipsoid shaped three-dimensional region of interest in an image set"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "121221",
-      "display" : "Volume of ellipsoid"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "A three-dimensional numeric measurement of the bounding sphere of a three-dimensional region of interest in an image set"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "121220",
-      "display" : "Volume of circumscribed sphere"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "A three-dimensional numeric measurement of the bounding region of a three-dimensional region of interest in an image set"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "121219",
-      "display" : "Volume of bounding three dimensional region"
     }]
   }
 },

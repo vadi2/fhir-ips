@@ -37,8 +37,8 @@
 			<reference>
 				<reference value="Bundle/IPS-examples-Bundle-minimal"/>
 			</reference>
-			<name value="IPS Bundle example (minimal)"/>
-			<description value="IPS Bundle example (minimal)"/>
+			<name value="IPS Bundle example - minimal"/>
+			<description value="IPS Bundle example - minimal"/>
 			<exampleCanonical value="http://hl7.org/fhir/uv/ips/StructureDefinition/Bundle-uv-ips"/>
 		</resource>
 		<resource>
@@ -71,7 +71,7 @@
 			</reference>
 			<name value="AllergyIntolerance: No known allergies"/>
 			<description value="AllergyIntolerance: No known allergies"/>
-			<exampleCanonical value="http://hl7.org/fhir/uv/ips/StructureDefinition/AllergyIntolerance-uv-ips"/>
+			<exampleCanonical value="http://hl7.org/fhir/uv/ips/StructureDefinition/AllergyIntolerance-cross-border-uv-ips"/>
 		</resource>
 		<resource>
 			<reference>
@@ -79,7 +79,7 @@
 			</reference>
 			<name value="AllergyIntolerance: resolved allergy"/>
 			<description value="AllergyIntolerance: resolved allergy"/>
-			<exampleCanonical value="http://hl7.org/fhir/uv/ips/StructureDefinition/AllergyIntolerance-uv-ips"/>
+			<exampleCanonical value="http://hl7.org/fhir/uv/ips/StructureDefinition/AllergyIntolerance-cross-border-uv-ips"/>
 		</resource>
 		<resource>
 			<reference>
@@ -338,6 +338,11 @@
 				<generation value="markdown"/>
 			</page>
 			<page>
+				<nameUrl value="artifacts.html"/>
+				<title value="Artifact List"/>
+				<generation value="html"/>
+			</page>
+			<page>
 				<nameUrl value="ipsStructure.html"/>
 				<title value="IPS Structure"/>
 				<generation value="markdown"/>
@@ -347,6 +352,7 @@
 				<title value="Profiles defined as part of the IPS Guide"/>
 				<generation value="markdown"/>
 			</page>
+			<!--
 			<page>
 				<nameUrl value="datatypes.html"/>
 				<title value="Datatypes defined for this Guide"/>
@@ -357,16 +363,19 @@
 				<title value="Extensions"/>
 				<generation value="markdown"/>
 			</page>
+		-->
 			<page>
 				<nameUrl value="terminology.html"/>
 				<title value="Terminology artifacts defined as part of the IPS Implementation Guide"/>
 				<generation value="markdown"/>
 			</page>
+			<!--
 			<page>
 				<nameUrl value="examples.html"/>
 				<title value="Examples"/>
 				<generation value="markdown"/>
 			</page>
+		-->
 			<page>
 				<nameUrl value="downloads.html"/>
 				<title value="Downloads"/>
@@ -394,5 +403,11 @@
 			<code value="path-binary"/>
 			<value value="input\cql"/>
 		</parameter>
+		<!--
+		<parameter>
+			<code value="special-url"/>
+			<value value="http://terminology.hl7.org/ValueSet/snomed-intl-gps"/>
+		</parameter>
+	-->
 	</definition>
 </ImplementationGuide>

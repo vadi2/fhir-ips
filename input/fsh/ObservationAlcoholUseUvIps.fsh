@@ -1,7 +1,7 @@
 Profile: ObservationAlcoholUseUvIps
 Parent: Observation
 Id: Observation-alcoholuse-uv-ips
-Title: "Observation (SH: alcohol use)"
+Title: "Observation - SH: Alcohol Use"
 Description: "This profile constrains the Observation resource to represent alcohol use assessment in a patient summary."
 * ^version = "1.0.0"
 * ^date = "2021-05-14T21:56:28-05:00"

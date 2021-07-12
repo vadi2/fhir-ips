@@ -1,7 +1,7 @@
 Profile: SimpleQuantityIPS
 Parent: SimpleQuantity
 Id: SimpleQuantity-uv-ips
-Title: "SimpleQuantity (IPS)"
+Title: "SimpleQuantity - IPS"
 Description: "Data type profile SimpleQuantity constrained to use UCUM as the code system for units"
 * ^version = "1.0.0"
 * ^date = "2021-05-14T21:56:28-05:00"

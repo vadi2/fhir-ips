@@ -1,7 +1,7 @@
 Profile: ObservationPregnancyEddUvIps
 Parent: Observation
 Id: Observation-pregnancy-edd-uv-ips
-Title: "Observation (Pregnancy: EDD)"
+Title: "Observation - Pregnancy: EDD"
 Description: "This profile constrains the Observation resource to represent the pregnancy expected delivery date."
 * ^version = "1.0.0"
 * ^date = "2021-05-14T21:56:28-05:00"

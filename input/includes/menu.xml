@@ -21,25 +21,28 @@
 		<a href="ipsStructure.html">The "IPS"</a>
 	</li>
 	<li class="dropdown">
-		<a href="#" data-toggle="dropdown" class="dropdown-toggle">FHIR Artifacts</a>
+		<a href="#" data-toggle="dropdown" class="dropdown-toggle">Artifacts</a>
 		<ul class="dropdown-menu">
 			<li>
-				<a href="StructureDefinition-Composition-uv-ips.html">The IPS Composition</a>
+				<a href="artifacts.html">Artifacts (all)</a>
 			</li>
 			<li>
-				<a href="profiles.html">IPS library</a>
+				<a href="StructureDefinition-Composition-uv-ips.html">The IPS Composition (Document)</a>
 			</li>
 			<li>
-				<a href="datatypes.html">Datatypes</a>
+				<a href="profiles.html">Profiles ("IPS Library")</a>
 			</li>
 			<li>
-				<a href="extensions.html">Extensions</a>
+				<a href="artifacts.html#structures-data-type-profiles">Datatypes</a>
+			</li>
+			<li>
+				<a href="artifacts.html#structures-extension-definitions">Extensions</a>
 			</li>
 			<li>
 				<a href="terminology.html">Terminology</a>
 			</li>
             <li>
-		      <a href="examples.html">Examples</a>
+		      <a href="artifacts.html#example-example-instances">Examples</a>
 	       </li>
 		</ul>
 	</li>

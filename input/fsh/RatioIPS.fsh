@@ -1,7 +1,7 @@
 Profile: RatioIPS
 Parent: Ratio
 Id: Ratio-uv-ips
-Title: "Ratio (IPS)"
+Title: "Ratio - IPS"
 Description: "Ratio data type, constrained to use UCUM as the code system for units."
 * ^version = "1.0.0"
 * ^date = "2021-05-14T21:56:28-05:00"

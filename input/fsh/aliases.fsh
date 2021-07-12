@@ -1,5 +1,6 @@
 Alias: $shareablevalueset = http://hl7.org/fhir/StructureDefinition/shareablevalueset
 Alias: $absent-unknown-uv-ips = http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips
+Alias: $text-only-uv-ips = http://hl7.org/fhir/uv/ips/CodeSystem/text-only-uv-ips
 Alias: $loinc = http://loinc.org
 Alias: $rxnorm = http://www.nlm.nih.gov/research/umls/rxnorm
 Alias: $ndc = http://hl7.org/fhir/sid/ndc
@@ -10,6 +11,8 @@ Alias: $atc = http://www.whocc.no/atc
 Alias: $allergyintolerance-clinical = http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical
 Alias: $allergyintolerance-verification = http://terminology.hl7.org/CodeSystem/allergyintolerance-verification
 Alias: $sct = http://snomed.info/sct
+Alias: SNOMED_CTv20200731 = http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20200731
+Alias: SnomedIntlGps = http://terminology.hl7.org/ValueSet/snomed-intl-gps
 Alias: $m49.htm = http://unstats.un.org/unsd/methods/m49/m49.htm
 Alias: $condition-clinical = http://terminology.hl7.org/CodeSystem/condition-clinical
 Alias: $mms = http://id.who.int/icd11/mms

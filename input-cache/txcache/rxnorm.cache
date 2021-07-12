@@ -52,10 +52,11 @@ v: {
 e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
+  "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:a51bae4f-8715-4383-921c-db3e0ff9a82a",
-    "timestamp" : "2021-05-03T03:33:59.423Z",
+    "identifier" : "urn:uuid:d3c079cb-40c0-4b0a-a56f-212bd5f788af",
+    "timestamp" : "2021-07-07T12:36:26.748Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -71,12 +72,12 @@ e: {
     "contains" : [{
       "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
       "code" : "331055",
-      "display" : "Amoxicillin 1000 MG"
+      "display" : "amoxicillin 1000 MG"
     },
     {
       "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
       "code" : "437158",
-      "display" : "Acetaminophen 100 MG"
+      "display" : "acetaminophen 100 MG"
     },
     {
       "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
@@ -114,7 +115,7 @@ v: {
 v: {
   "display" : "",
   "severity" : "error",
-  "error" : "The code provided (http://www.nlm.nih.gov/research/umls/rxnorm#757704) is not valid in the value set 'WhoAtcUvIps' (from http://tx.fhir.org/r4)"
+  "error" : "The display \"Simvastatin 40 MG Disintegrating Oral Tablet\" is not a valid display for the code ,{http://www.nlm.nih.gov/research/umls/rxnorm}757704 - should be one of [simvastatin 40 MG Disintegrating Oral Tablet]; The code provided (http://www.nlm.nih.gov/research/umls/rxnorm#757704) is not valid in the value set 'WhoAtcUvIps' (from http://tx.fhir.org/r4)"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -137,7 +138,7 @@ v: {
 v: {
   "display" : "",
   "severity" : "error",
-  "error" : "The code provided (http://www.nlm.nih.gov/research/umls/rxnorm#757704) is not valid in the value set 'MedicationSnomedCodesUvIps' (from http://tx.fhir.org/r4)"
+  "error" : "The display \"Simvastatin 40 MG Disintegrating Oral Tablet\" is not a valid display for the code ,{http://www.nlm.nih.gov/research/umls/rxnorm}757704 - should be one of [simvastatin 40 MG Disintegrating Oral Tablet]; The code provided (http://www.nlm.nih.gov/research/umls/rxnorm#757704) is not valid in the value set 'MedicationSnomedCodesUvIps' (from http://tx.fhir.org/r4)"
 }
 -------------------------------------------------------------------------------------
 {"code" : {

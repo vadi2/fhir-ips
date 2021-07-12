@@ -1,7 +1,7 @@
 Profile: DiagnosticReportUvIps
 Parent: DiagnosticReport
 Id: DiagnosticReport-uv-ips
-Title: "DiagnosticReport (IPS)"
+Title: "DiagnosticReport - IPS"
 Description: "This profile constrains the DiagnosticReport resource to represent diagnostic test and procedure reports in a patient summary."
 * ^version = "1.0.0"
 * ^status = #active

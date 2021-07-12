@@ -1,7 +1,7 @@
 Profile: ObservationPregnancyOutcomeUvIps
 Parent: Observation
 Id: Observation-pregnancy-outcome-uv-ips
-Title: "Observation (Pregnancy: outcome)"
+Title: "Observation - Pregnancy: Outcome"
 Description: "This profile constrains the Observation resource to represent the history of pregnancy outcomes (summary)."
 * ^version = "1.0.0"
 * ^date = "2021-05-14T21:56:28-05:00"

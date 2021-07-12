@@ -1,7 +1,7 @@
 Profile: PatientUvIps
 Parent: Patient
 Id: Patient-uv-ips
-Title: "Patient (IPS)"
+Title: "Patient - IPS"
 Description: "This profile represents the constraints applied to the Patient resource by the International Patient Summary (IPS) FHIR Implementation Guide and describes the minimum expectations for the Patient resource when used in the IPS composition or in one of the referred resources."
 * ^version = "1.0.0"
 * ^date = "2021-05-14T21:56:28-05:00"

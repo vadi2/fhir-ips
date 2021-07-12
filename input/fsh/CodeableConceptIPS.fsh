@@ -1,7 +1,7 @@
 Profile: CodeableConceptIPS
 Parent: CodeableConcept
 Id: CodeableConcept-uv-ips
-Title: "Codeable Concept (IPS)"
+Title: "Codeable Concept - IPS"
 Description: "This profile represents the constraint applied to the CodeableConcept data type by the International Patient Summary (IPS) FHIR Implementation Guide to use the Coding-uv-ips data type profile."
 * ^version = "1.0.0"
 * ^date = "2021-05-14T21:56:28-05:00"

@@ -21,6 +21,8 @@ Usage: #example
 * clinicalStatus = $allergyintolerance-clinical#active
 * verificationStatus = $allergyintolerance-verification#confirmed
 * code = $absent-unknown-uv-ips#no-known-allergies "No known allergies"
+//* code.extension.url = "http://hl7.org/fhir/uv/ips/StructureDefinition/absent-or-unknown-uv-ips"
+//* code.extension.valueCodeableConcept = $absent-unknown-uv-ips#no-known-allergies "No known allergies"
 * patient = Reference(Patient/eumfh-39-07) "Alexander Heig (inject 39-07)"
 * onsetDateTime.extension.url = "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
 * onsetDateTime.extension.valueCode = #unknown
@@ -78,8 +80,8 @@ Usage: #example
 
 Instance: IPS-examples-Bundle-minimal
 InstanceOf: Bundle
-Title: "IPS Bundle example (minimal)"
-Description: "IPS Bundle example (minimal)"
+Title: "IPS Bundle example - minimal"
+Description: "IPS Bundle example - minimal"
 Usage: #example
 * language = #en-US
 * identifier.system = "urn:oid:2.16.724.4.8.10.200.10"
@@ -198,6 +200,32 @@ Usage: #definition
 * concept[=].definition = "The subject has no history of procedures that have to be reported in this record. This can mean either that there are none known, or that those known are not relevant for the purpose of this record."
 * concept[=].designation.language = #it-IT
 * concept[=].designation.value = "Nessuna procedure pregressa rilevante nota"
+
+/*
+Instance: text-only-uv-ips
+InstanceOf: CodeSystem
+Title: "Code for text-only data entry in CodeableConcept data type "
+Description: "Code to enable text data entry in CodeableConcept data type (used with slices with required bindings and closed slicing rule)."
+Usage: #definition
+* url = "http://hl7.org/fhir/uv/ips/CodeSystem/text-only-uv-ips"
+* version = "1.0.0"
+* name = "IPSCodeSystemTextOnly"
+* title = "Code for Text-Only - IPS"
+* status = #active
+* experimental = false
+* date = "2021-07-08"
+* publisher = "Health Level Seven International - Patient Care Work Group"
+* contact.telecom.system = #url
+* contact.telecom.value = "http://www.hl7.org/Special/committees/patientcare"
+* description = "International Patient Summary (IPS) codes for \"known absent\" and \"not known\" data."
+* jurisdiction = $m49.htm#001
+* copyright = "Produced by HL7 under the terms of HL7® Governance and Operations Manual relating to Intellectual Property (Section 16), specifically its copyright, trademark and patent provisions. This document is licensed under Creative Commons \"No Rights Reserved\" (CC0)."
+* caseSensitive = true
+* content = #complete
+* concept[0].code = #text-only
+* concept[=].display = "Enable text-only data entry"
+* concept[=].definition = "Placeholder code for text-only data entry in CodeableConcept data type."
+*/
 
 Instance: absence-to-snomed-uv-ips
 InstanceOf: ConceptMap

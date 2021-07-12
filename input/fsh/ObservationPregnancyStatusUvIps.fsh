@@ -1,7 +1,7 @@
 Profile: ObservationPregnancyStatusUvIps
 Parent: Observation
 Id: Observation-pregnancy-status-uv-ips
-Title: "Observation (Pregnancy: status)"
+Title: "Observation - Pregnancy: Status"
 Description: "This profile constrains the Observation resource to represent the pregnancy status."
 * ^version = "1.0.0"
 * ^date = "2021-05-14T21:56:28-05:00"

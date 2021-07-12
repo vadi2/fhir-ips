@@ -1,7 +1,7 @@
 Profile: MediaObservationUvIps
 Parent: Media
 Id: Media-observation-uv-ips
-Title: "Media observation (Results: laboratory, media)"
+Title: "Media observation - Results: Laboratory, Media"
 Description: "This profile constrains the Media resource (which is a specialized observation)."
 * ^version = "1.0.0"
 * ^status = #active

@@ -1,7 +1,7 @@
 Profile: ObservationResultsUvIps
 Parent: Observation
 Id: Observation-results-uv-ips
-Title: "Observation Results (IPS)"
+Title: "Observation Results - IPS"
 Description: "This profile constrains the Observation resource to represent various types of results and associated observations in a patient summary.  This is the base profile from which the other results profiles are derived."
 * ^version = "1.0.0"
 * ^experimental = false

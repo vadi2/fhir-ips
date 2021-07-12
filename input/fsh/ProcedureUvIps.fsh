@@ -1,7 +1,7 @@
 Profile: ProcedureUvIps
 Parent: Procedure
 Id: Procedure-uv-ips
-Title: "Procedure (IPS)"
+Title: "Procedure - IPS"
 Description: "This profile represents the constraints applied to the Procedure resource by the IPS project, which specifies an entry of the History of Procedure for the international patient summary based on the FHIR standard R4."
 * ^version = "1.0.0"
 * ^status = #active

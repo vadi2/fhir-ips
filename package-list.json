@@ -2,18 +2,18 @@
   "package-id": "hl7.fhir.uv.ips",
   "title": "International Patient Summary Implementation Guide",
   "canonical": "http://hl7.org/fhir/uv/ips",
+  "introduction": "The International Patient Summary (IPS) is a minimal and non-exhaustive patient summary, specialty-agnostic, condition-independent, but readily usable by clinicians for the cross-border unscheduled care of a patient. It supports:\r\n\r\n* Cross-jurisdictional summaries\r\n* Emergency and unplanned care in any country, regardless of language\r\n* Where possible, value sets from international vocabularies that are usable and understandable in any country\r\n* Data//metadata for document-level provenance",
   "list": [
     {
       "version": "current",
       "desc": "Continuous Integration Build (latest in version control)",
-      "path": "https://build.fhir.org/ig/HL7/fhir-ips",
-      "fhirversion": "4.0.1",
+      "path": "http://build.fhir.org/ig/HL7/fhir-ips",
       "status": "ci-build",
       "current": true
     },
     {
       "version": "1.0.0",
-      "date": "2020-05-18",
+      "date": "2020-05-19",
       "desc": "STU 1",
       "path": "http://hl7.org/fhir/uv/ips/STU1",
       "sequence": "STU 1",
@@ -23,30 +23,31 @@
     },
     {
       "version": "0.3.0",
-      "date": "2019-07-31",
+      "date": "2019-08-06",
       "desc": "STU 1 Ballot 3",
       "path": "http://hl7.org/fhir/uv/ips/2019Sep",
       "sequence": "STU 1 (FHIR R4)",
-      "fhirversion": "4.0.1",
+      "fhirversion": "4.0.0",
       "status": "ballot"
     },
     {
       "version": "0.2.0",
       "date": "2018-08-21",
-      "desc": "STU 1 Ballot 2",
+      "descmd": "STU 1 Ballot 2. Changes:\r\n* [15981](https://gforge.hl7.org/gf/project/fhir/tracker/?action\u003dTrackerItemEdit\u0026tracker_item_id\u003d15981), [16223](https://gforge.hl7.org/gf/project/fhir/tracker/?action\u003dTrackerItemEdit\u0026tracker_item_id\u003d16223) Migrated IG from FHIR version 3.0.1 (STU3) to 3.5.0 (R4)\r\n* [16202](https://gforge.hl7.org/gf/project/fhir/tracker/?action\u003dTrackerItemEdit\u0026tracker_item_id\u003d16202)-[16215](https://gforge.hl7.org/gf/project/fhir/tracker/?action\u003dTrackerItemEdit\u0026tracker_item_id\u003d16215), [16282](https://gforge.hl7.org/gf/project/fhir/tracker/?action\u003dTrackerItemEdit\u0026tracker_item_id\u003d16282) Fixed wrong content shown in differential views\r\n* [16275](https://gforge.hl7.org/gf/project/fhir/tracker/?action\u003dTrackerItemEdit\u0026tracker_item_id\u003d16275) Added new slice for vaccine type\r\n* [16463](https://gforge.hl7.org/gf/project/fhir/tracker/?action\u003dTrackerItemEdit\u0026tracker_item_id\u003d16463) Cardinality of clinicalStatus relaxed to 0..1\r\n* [16468](https://gforge.hl7.org/gf/project/fhir/tracker/?action\u003dTrackerItemEdit\u0026tracker_item_id\u003d16468) Relaxed excessive cardinality contraints and added mustSupport where appropriate\r\n* (many) Fixed typos and additional wording and formatting updates",
       "path": "http://hl7.org/fhir/uv/ips/2018Sep",
-      "sequence": "STU 1 (FHIR R4)",
-      "fhirversion": "4.0.1",
-      "status": "ballot"
+      "status": "ballot",
+      "sequence": "STU 1",
+      "fhirversion": "3.5.0"
     },
     {
       "version": "0.1.0",
       "date": "2018-04-04",
       "desc": "STU 1 Ballot 1",
       "path": "http://hl7.org/fhir/uv/ips/2018May",
-      "sequence": "STU 1 (FHIR R3)",
-      "fhirversion": "4.0.1",
-      "status": "ballot"
+      "status": "ballot",
+      "sequence": "STU 1",
+      "fhirversion": "3.0.1"
     }
-  ]
+  ],
+  "category": "Patient Summary"
 }

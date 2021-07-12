@@ -10,9 +10,4 @@ A complete list of the sections and of the used profiles is available in the <a 
 
 ### List of Profiles
 
-The links to the Profiles that have been defined for this implementation guide are listed hereafter.
-
-{% include table-profiles.xhtml %}
-
-
----
+The links to the Profiles that have been defined for this implementation guide are listed [here](artifacts.html#structures-resource-profiles).

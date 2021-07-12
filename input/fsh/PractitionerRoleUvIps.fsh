@@ -1,7 +1,7 @@
 Profile: PractitionerRoleUvIps
 Parent: PractitionerRole
 Id: PractitionerRole-uv-ips
-Title: "PractitionerRole (IPS)"
+Title: "PractitionerRole - IPS"
 Description: "This profile constrains the PractitionerRole resource to represent a practitioner acting as observer for observattion results for a specified organization."
 * ^version = "1.0.0"
 * ^status = #active

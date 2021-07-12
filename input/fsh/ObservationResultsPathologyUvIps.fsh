@@ -1,7 +1,7 @@
 Profile: ObservationResultsPathologyUvIps
 Parent: ObservationResultsUvIps
 Id: Observation-results-pathology-uv-ips
-Title: "Observation Results: pathology (IPS)"
+Title: "Observation Results: Pathology - IPS"
 Description: "This profile constrains the Observation resource to represent results produced by pathology studies in a patient summary."
 * ^experimental = false
 * ^date = "2021-05-14T21:56:28-05:00"

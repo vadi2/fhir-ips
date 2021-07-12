@@ -1,7 +1,7 @@
 Profile: ConditionUvIps
 Parent: Condition
 Id: Condition-uv-ips
-Title: "Condition (IPS)"
+Title: "Condition - IPS"
 Description: "This profile represents the constraints applied to the Condition resource by the International Patient Summary (IPS) FHIR Implementation Guide. A record of a problem is represented in the patient summary as an instance of the Condition resource constrained by this profile."
 * ^version = "1.0.0"
 * ^status = #active

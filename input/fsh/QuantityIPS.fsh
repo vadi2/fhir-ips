@@ -1,7 +1,7 @@
 Profile: QuantityIPS
 Parent: Quantity
 Id: Quantity-uv-ips
-Title: "Quantity (IPS)"
+Title: "Quantity - IPS"
 Description: "Data type Quantity constrained to use UCUM as the code system for units"
 * ^version = "1.0.0"
 * ^date = "2021-05-14T21:56:28-05:00"

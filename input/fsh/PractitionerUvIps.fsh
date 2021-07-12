@@ -1,7 +1,7 @@
 Profile: PractitionerUvIps
 Parent: Practitioner
 Id: Practitioner-uv-ips
-Title: "Practitioner (IPS)"
+Title: "Practitioner - IPS"
 Description: "This profile constrains the practitioner resource to represent a practitioner acting as observer for these imaging results."
 * ^version = "1.0.0"
 * ^status = #active

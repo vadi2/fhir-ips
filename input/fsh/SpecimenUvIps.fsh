@@ -1,7 +1,7 @@
 Profile: SpecimenUvIps
 Parent: Specimen
 Id: Specimen-uv-ips
-Title: "Specimen (IPS)"
+Title: "Specimen - IPS"
 Description: "This profile constrains the Specimen resource to represent the characteristics of a biological specimens in the context of laboratory results integrated to a patient summary."
 * ^version = "1.0.0"
 * ^status = #active

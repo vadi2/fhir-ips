@@ -1,7 +1,7 @@
 Profile: ImmunizationUvIps
 Parent: Immunization
 Id: Immunization-uv-ips
-Title: "Immunization (IPS)"
+Title: "Immunization - IPS"
 Description: """This profile represents the constraints applied to the Immunization resource by the International Patient Summary (IPS) FHIR Implementation Guide. A record of an immunization is represented in the patient summary as an instance of an Immunization resource constrained by this profile.
 
 It describes the event of a patient being administered a vaccination or a record of a vaccination as reported by a patient, a clinician or another party."""

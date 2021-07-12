@@ -1,7 +1,7 @@
 Profile: RangeIPS
 Parent: Range
 Id: Range-uv-ips
-Title: "Range (IPS)"
+Title: "Range - IPS"
 Description: "Range constrained to UCUM as the code system for units."
 * ^version = "1.0.0"
 * ^experimental = false

@@ -1,7 +1,7 @@
 Profile: AllergyIntoleranceUvIps
 Parent: AllergyIntolerance
 Id: AllergyIntolerance-uv-ips
-Title: "Allergy Intolerance (IPS)"
+Title: "Allergy Intolerance - IPS"
 Description: """This profile represents the constraints applied to the AllergyIntolerance resource by the International Patient Summary (IPS) FHIR Implementation Guide. A record of an allergy or intolerance is represented in the patient summary as an instance of an AllergyIntolerance resource constrained by this profile.
 
 It documents the relevant allergies or intolerances (conditions) for a patient, describing the kind of reaction (e.g. rash, anaphylaxis,..); preferably the agents that cause it; and optionally the criticality and the certainty of the allergy."""
@@ -26,30 +26,57 @@ It documents the relevant allergies or intolerances (conditions) for a patient, 
 * criticality MS
 * code MS
 * code only CodeableConceptIPS
-* code from AllergyIntoleranceSubstanceConditionUvIps (preferred)
+* code from AllergyIntoleranceSubstanceProductGpsUvIps (preferred)
+//* code obeys ips-ait-1
 * code ^binding.extension.url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName"
 * code ^binding.extension.valueString = "AllergyIntoleranceCode"
-* code ^binding.description = "Type of the substance/product, allergy or intolerance condition."
+* code ^binding.description = "Type of the substance/product known or suspected to be the cause of the allergy or intolerance condition."
+//* code.extension MS
+//* code.extension contains AbsentOrUnknownUvIps named absent-or-unknown-allergy-intolerance ..1 MS
+//* code.extension[absent-or-unknown-allergy-intolerance] ^short = "AllergyIntolerance Absent or Unknown Data"
+//* code.extension[absent-or-unknown-allergy-intolerance].valueCodeableConcept from NoAllergiesInfoUvIps (required)
 * code.coding MS
 * code.coding ^slicing.discriminator.type = #pattern
 * code.coding ^slicing.discriminator.path = "$this"
 * code.coding ^slicing.description = "Discriminated by the bound value set"
 * code.coding ^slicing.rules = #open
 * code.coding contains
-    allergyIntoleranceGPSCode ..* MS and
+    allergyIntoleranceSubstanceProductGpsCode ..* MS and
+    allergyIntoleranceSubstanceProductSnomedExtendedCode ..* MS and
+    allergyIntoleranceSnomedConditionCode ..1 MS and
+    atcClass ..1 MS and
     absentOrUnknownAllergyIntolerance ..1 MS
-* code.coding[allergyIntoleranceGPSCode] from AllergyintolerancesubstanceconditionGPS (required)
-* code.coding[allergyIntoleranceGPSCode] ^short = "Code for allergy or intolerance from the SNOMED CT GPS code set"
-* code.coding[allergyIntoleranceGPSCode] ^definition = "Code for an allergy or intolerance statement that is selected from the SNOMED CT GPS code set."
-* code.coding[allergyIntoleranceGPSCode] ^binding.extension.url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName"
-* code.coding[allergyIntoleranceGPSCode] ^binding.extension.valueString = "GPS"
-* code.coding[allergyIntoleranceGPSCode] ^binding.description = "Codes for allergy or intolerance from the SNOMED CT GPS code set"
+    //textOnly ..1 // and
+* code.coding[allergyIntoleranceSubstanceProductGpsCode] from AllergyIntoleranceSubstanceProductGpsUvIps (required)
+* code.coding[allergyIntoleranceSubstanceProductGpsCode] ^short = "Code for allergy or intolerance from the SNOMED CT GPS value set"
+* code.coding[allergyIntoleranceSubstanceProductGpsCode] ^definition = "Code for an allergy or intolerance statement that is selected from the SNOMED CT GPS value set."
+//* code.coding[allergyIntoleranceSubstanceProductGpsCode] ^binding.extension.url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName"
+//* code.coding[allergyIntoleranceSubstanceProductGpsCode] ^binding.extension.valueString = "AllergyIntoleranceSubstanceProductGps"
+* code.coding[allergyIntoleranceSubstanceProductGpsCode] ^binding.description = "Codes for allergy or intolerance from the SNOMED CT GPS value set"
+* code.coding[allergyIntoleranceSubstanceProductSnomedExtendedCode] from AllergyIntoleranceSubstanceProductSnomedExtendedUvIps (required)
+* code.coding[allergyIntoleranceSubstanceProductSnomedExtendedCode] ^short = "Code for allergy or intolerance from the SNOMED CT code system, not included in the SNOMED CT GPS"
+* code.coding[allergyIntoleranceSubstanceProductSnomedExtendedCode] ^definition = "Code for an allergy or intolerance statement that is selected from the SNOMED CT code system (excluding codes in the SNOMED CT GPS)."
+//* code.coding[allergyIntoleranceSubstanceProductGpsCode] ^binding.extension.url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName"
+//* code.coding[allergyIntoleranceSubstanceProductGpsCode] ^binding.extension.valueString = "AllergyIntoleranceSubstanceProductSnomedExtended"
+* code.coding[allergyIntoleranceSubstanceProductSnomedExtendedCode] ^binding.description = "Codes for allergy or intolerance from the SNOMED CT code system (not included in the SNOMED CT GPS value set"
+* code.coding[allergyIntoleranceSnomedConditionCode] from AllergyIntoleranceConditionUvIps (required)
+* code.coding[allergyIntoleranceSnomedConditionCode] ^short = "Code for allergy or intolerance conditions from the SNOMED CT code system"
+* code.coding[allergyIntoleranceSnomedConditionCode] ^definition = "Code for an allergy or intolerance statement that is selected from the SNOMED CT code system."
+//* code.coding[allergyIntoleranceSnomedConditionCode] ^binding.extension.url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName"
+//* code.coding[allergyIntoleranceSnomedConditionCode] ^binding.extension.valueString = "AllergyIntoleranceCondition"
+* code.coding[allergyIntoleranceSnomedConditionCode] ^binding.description = "Codes for allergy or intolerance conditions from the SNOMED CT code system"
+* code.coding[atcClass] from WhoAtcUvIps (required)
+* code.coding[atcClass] ^short = "WHO ATC classification"
+* code.coding[atcClass] ^definition = "WHO ATC classification"
+* code.coding[atcClass] ^binding.description = "Codes for allergy or intolerance to medicinal substances/products from the ATC (WHO) code system"
 * code.coding[absentOrUnknownAllergyIntolerance] from NoAllergiesInfoUvIps (required)
 * code.coding[absentOrUnknownAllergyIntolerance] ^short = "Code for absent or unknown allergy or intolerance"
-* code.coding[absentOrUnknownAllergyIntolerance] ^definition = "Code for an allergy or intolerance statement (either a positive or a negated/excluded statement).  This describes a categorical negated statement (e.g., \"No known allergy\")."
-* code.coding[absentOrUnknownAllergyIntolerance] ^binding.extension.url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName"
-* code.coding[absentOrUnknownAllergyIntolerance] ^binding.extension.valueString = "absentOrUnknownAllergy"
+* code.coding[absentOrUnknownAllergyIntolerance] ^definition = "Code for a categorial negated/excluded allergy or intolerance statement (e.g., \"No known allergy\")."
+//* code.coding[absentOrUnknownAllergyIntolerance] ^binding.extension.url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName"
+//* code.coding[absentOrUnknownAllergyIntolerance] ^binding.extension.valueString = "absentOrUnknownAllergy"
 * code.coding[absentOrUnknownAllergyIntolerance] ^binding.description = "negation/exclusion codes for reporting no known allergies or not available data."
+//* code.coding[textOnly] from TextOnlyUvIps (required)
+
 * patient only Reference(PatientUvIps)
 * patient MS
 * patient.reference 1.. MS
@@ -71,3 +98,11 @@ It documents the relevant allergies or intolerances (conditions) for a patient, 
 * reaction.manifestation[allergyIntoleranceReactionManifestationGPSCode] ^binding.extension.valueString = "ReactionManifestationGPS"
 * reaction.onset MS
 * reaction.severity MS
+
+/*
+Invariant:  ips-ait-1
+Description: "Either AllergyIntolerance.code.coding (one or more) or AllergyIntolerance.code.extension[absent-or-unknown-allergy-intolerance] (but not both) SHALL be present"
+Expression: "(coding.count() >= 1 and extension.where(url = 'http://hl7.org/fhir/uv/ips/StructureDefinition/absent-or-unknown-uv-ips' and valueCodeableConcept.coding.count() >= 1).empty()) or (extension.where(url = 'http://hl7.org/fhir/uv/ips/StructureDefinition/absent-or-unknown-uv-ips' and valueCodeableConcept.coding.count() >= 1).exists() and coding.count() = 0)"
+Severity:   #error
+XPath:      "(f:coding[0] and not(f:extension[absent-or-unknown-allergy-intolerance)) or (f:extension[absent-or-unknown-allergy-intolerance] and not(f:coding[0]))"
+*/
