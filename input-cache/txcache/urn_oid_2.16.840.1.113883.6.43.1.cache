@@ -14,7 +14,7 @@ v: {
   "system" : "urn:oid:2.16.840.1.113883.6.43.1",
   "code" : "8500/3",
   "display" : "Infiltrating duct carcinoma, NOS"
-}, "valueSet" :1940653618, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :1169583251, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "",
   "severity" : "error",
@@ -51,7 +51,7 @@ v: {
   "system" : "urn:oid:2.16.840.1.113883.6.43.1",
   "code" : "8500/3",
   "display" : "Infiltrating duct carcinoma, NOS"
-}, "valueSet" :1472211300, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :659550367, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "",
   "severity" : "error",
@@ -62,7 +62,7 @@ v: {
   "system" : "urn:oid:2.16.840.1.113883.6.43.1",
   "code" : "8500/3",
   "display" : "Infiltrating duct carcinoma, NOS"
-}, "valueSet" :1245887416, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :594264610, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "",
   "severity" : "error",
@@ -73,7 +73,7 @@ v: {
   "system" : "urn:oid:2.16.840.1.113883.6.43.1",
   "code" : "8500/3",
   "display" : "Infiltrating duct carcinoma, NOS"
-}, "valueSet" :630730630, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :1943492612, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "",
   "severity" : "error",
@@ -84,637 +84,54 @@ v: {
   "system" : "urn:oid:2.16.840.1.113883.6.43.1",
   "code" : "8500/3",
   "display" : "Infiltrating duct carcinoma, NOS"
-}, "valueSet" :1422460022, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :763215982, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "",
   "severity" : "error",
-  "error" : "The code provided (urn:oid:2.16.840.1.113883.6.43.1#8500/3) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
+  "error" : "The code provided (urn:oid:2.16.840.1.113883.6.43.1#8500/3) is not valid in the value set 'CoreProblemListFindingSituationEventSnomedGpsUvIps' (from http://tx.fhir.org/r4)"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "urn:oid:2.16.840.1.113883.6.43.1",
   "code" : "8500/3",
   "display" : "Infiltrating duct carcinoma, NOS"
-}, "valueSet" :1350137401, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :846049059, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "",
   "severity" : "error",
-  "error" : "The code provided (urn:oid:2.16.840.1.113883.6.43.1#8500/3) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
+  "error" : "The code provided (urn:oid:2.16.840.1.113883.6.43.1#8500/3) is not valid in the value set 'CoreProblemListFindingSituationEventSnomedGpsUvIps' (from http://tx.fhir.org/r4)"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "urn:oid:2.16.840.1.113883.6.43.1",
   "code" : "8500/3",
   "display" : "Infiltrating duct carcinoma, NOS"
-}, "valueSet" :866800092, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :1203911045, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "",
   "severity" : "error",
-  "error" : "The code provided (urn:oid:2.16.840.1.113883.6.43.1#8500/3) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
+  "error" : "The code provided (urn:oid:2.16.840.1.113883.6.43.1#8500/3) is not valid in the value set 'CoreProblemListFindingSituationEventSnomedGpsUvIps' (from http://tx.fhir.org/r4)"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "urn:oid:2.16.840.1.113883.6.43.1",
   "code" : "8500/3",
   "display" : "Infiltrating duct carcinoma, NOS"
-}, "valueSet" :1004694375, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :1336312646, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "",
   "severity" : "error",
-  "error" : "The code provided (urn:oid:2.16.840.1.113883.6.43.1#8500/3) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
+  "error" : "The code provided (urn:oid:2.16.840.1.113883.6.43.1#8500/3) is not valid in the value set 'CoreProblemListFindingSituationEventSnomedGpsUvIps' (from http://tx.fhir.org/r4)"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "urn:oid:2.16.840.1.113883.6.43.1",
   "code" : "8500/3",
   "display" : "Infiltrating duct carcinoma, NOS"
-}, "valueSet" :972815564, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :820197238, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "",
   "severity" : "error",
-  "error" : "The code provided (urn:oid:2.16.840.1.113883.6.43.1#8500/3) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
-  "code" : "8500/3",
-  "display" : "Infiltrating duct carcinoma, NOS"
-}, "valueSet" :1996430139, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code provided (urn:oid:2.16.840.1.113883.6.43.1#8500/3) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
-  "code" : "8500/3",
-  "display" : "Infiltrating duct carcinoma, NOS"
-}, "valueSet" :865216467, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code provided (urn:oid:2.16.840.1.113883.6.43.1#8500/3) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
-  "code" : "8500/3",
-  "display" : "Infiltrating duct carcinoma, NOS"
-}, "valueSet" :1817472622, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code provided (urn:oid:2.16.840.1.113883.6.43.1#8500/3) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
-  "code" : "8500/3",
-  "display" : "Infiltrating duct carcinoma, NOS"
-}, "valueSet" :124646099, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code provided (urn:oid:2.16.840.1.113883.6.43.1#8500/3) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
-  "code" : "8500/3",
-  "display" : "Infiltrating duct carcinoma, NOS"
-}, "valueSet" :1691216522, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code provided (urn:oid:2.16.840.1.113883.6.43.1#8500/3) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
-  "code" : "8500/3",
-  "display" : "Infiltrating duct carcinoma, NOS"
-}, "valueSet" :554623874, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code provided (urn:oid:2.16.840.1.113883.6.43.1#8500/3) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
-  "code" : "8500/3",
-  "display" : "Infiltrating duct carcinoma, NOS"
-}, "valueSet" :1003397145, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code provided (urn:oid:2.16.840.1.113883.6.43.1#8500/3) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
-  "code" : "8500/3",
-  "display" : "Infiltrating duct carcinoma, NOS"
-}, "valueSet" :441466332, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code provided (urn:oid:2.16.840.1.113883.6.43.1#8500/3) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
-  "code" : "8500/3",
-  "display" : "Infiltrating duct carcinoma, NOS"
-}, "valueSet" :1894206338, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code provided (urn:oid:2.16.840.1.113883.6.43.1#8500/3) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
-  "code" : "8500/3",
-  "display" : "Infiltrating duct carcinoma, NOS"
-}, "valueSet" :1793309476, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code provided (urn:oid:2.16.840.1.113883.6.43.1#8500/3) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
-  "code" : "8500/3",
-  "display" : "Infiltrating duct carcinoma, NOS"
-}, "valueSet" :2058489335, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code provided (urn:oid:2.16.840.1.113883.6.43.1#8500/3) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
-  "code" : "8500/3",
-  "display" : "Infiltrating duct carcinoma, NOS"
-}, "valueSet" :254883648, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code provided (urn:oid:2.16.840.1.113883.6.43.1#8500/3) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
-  "code" : "8500/3",
-  "display" : "Infiltrating duct carcinoma, NOS"
-}, "valueSet" :1142624729, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code provided (urn:oid:2.16.840.1.113883.6.43.1#8500/3) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
-  "code" : "8500/3",
-  "display" : "Infiltrating duct carcinoma, NOS"
-}, "valueSet" :1279230096, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code provided (urn:oid:2.16.840.1.113883.6.43.1#8500/3) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
-  "code" : "8500/3",
-  "display" : "Infiltrating duct carcinoma, NOS"
-}, "valueSet" :1839042345, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code provided (urn:oid:2.16.840.1.113883.6.43.1#8500/3) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
-  "code" : "8500/3",
-  "display" : "Infiltrating duct carcinoma, NOS"
-}, "valueSet" :1464214703, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code provided (urn:oid:2.16.840.1.113883.6.43.1#8500/3) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
-  "code" : "8500/3",
-  "display" : "Infiltrating duct carcinoma, NOS"
-}, "valueSet" :502600650, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code provided (urn:oid:2.16.840.1.113883.6.43.1#8500/3) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
-  "code" : "8500/3",
-  "display" : "Infiltrating duct carcinoma, NOS"
-}, "valueSet" :532265120, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code provided (urn:oid:2.16.840.1.113883.6.43.1#8500/3) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
-  "code" : "8500/3",
-  "display" : "Infiltrating duct carcinoma, NOS"
-}, "valueSet" :1067781670, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code provided (urn:oid:2.16.840.1.113883.6.43.1#8500/3) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
-  "code" : "8500/3",
-  "display" : "Infiltrating duct carcinoma, NOS"
-}, "valueSet" :1736707486, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code provided (urn:oid:2.16.840.1.113883.6.43.1#8500/3) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
-  "code" : "8500/3",
-  "display" : "Infiltrating duct carcinoma, NOS"
-}, "valueSet" :1058268655, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code provided (urn:oid:2.16.840.1.113883.6.43.1#8500/3) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
-  "code" : "8500/3",
-  "display" : "Infiltrating duct carcinoma, NOS"
-}, "valueSet" :500827704, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code provided (urn:oid:2.16.840.1.113883.6.43.1#8500/3) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
-  "code" : "8500/3",
-  "display" : "Infiltrating duct carcinoma, NOS"
-}, "valueSet" :1101719863, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code provided (urn:oid:2.16.840.1.113883.6.43.1#8500/3) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
-  "code" : "8500/3",
-  "display" : "Infiltrating duct carcinoma, NOS"
-}, "valueSet" :978439638, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code provided (urn:oid:2.16.840.1.113883.6.43.1#8500/3) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
-  "code" : "8500/3",
-  "display" : "Infiltrating duct carcinoma, NOS"
-}, "valueSet" :806785104, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code provided (urn:oid:2.16.840.1.113883.6.43.1#8500/3) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
-  "code" : "8500/3",
-  "display" : "Infiltrating duct carcinoma, NOS"
-}, "valueSet" :780018570, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code provided (urn:oid:2.16.840.1.113883.6.43.1#8500/3) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
-  "code" : "8500/3",
-  "display" : "Infiltrating duct carcinoma, NOS"
-}, "valueSet" :405245519, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code provided (urn:oid:2.16.840.1.113883.6.43.1#8500/3) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
-  "code" : "8500/3",
-  "display" : "Infiltrating duct carcinoma, NOS"
-}, "valueSet" :2025097808, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code provided (urn:oid:2.16.840.1.113883.6.43.1#8500/3) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
-  "code" : "8500/3",
-  "display" : "Infiltrating duct carcinoma, NOS"
-}, "valueSet" :528394055, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code provided (urn:oid:2.16.840.1.113883.6.43.1#8500/3) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
-  "code" : "8500/3",
-  "display" : "Infiltrating duct carcinoma, NOS"
-}, "valueSet" :849152900, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code provided (urn:oid:2.16.840.1.113883.6.43.1#8500/3) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
-  "code" : "8500/3",
-  "display" : "Infiltrating duct carcinoma, NOS"
-}, "valueSet" :1887365352, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code provided (urn:oid:2.16.840.1.113883.6.43.1#8500/3) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
-  "code" : "8500/3",
-  "display" : "Infiltrating duct carcinoma, NOS"
-}, "valueSet" :1987366958, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code provided (urn:oid:2.16.840.1.113883.6.43.1#8500/3) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
-  "code" : "8500/3",
-  "display" : "Infiltrating duct carcinoma, NOS"
-}, "valueSet" :1227956282, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code provided (urn:oid:2.16.840.1.113883.6.43.1#8500/3) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
-  "code" : "8500/3",
-  "display" : "Infiltrating duct carcinoma, NOS"
-}, "valueSet" :1197141903, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code provided (urn:oid:2.16.840.1.113883.6.43.1#8500/3) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
-  "code" : "8500/3",
-  "display" : "Infiltrating duct carcinoma, NOS"
-}, "valueSet" :1101377111, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code provided (urn:oid:2.16.840.1.113883.6.43.1#8500/3) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
-  "code" : "8500/3",
-  "display" : "Infiltrating duct carcinoma, NOS"
-}, "valueSet" :479219884, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code provided (urn:oid:2.16.840.1.113883.6.43.1#8500/3) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
-  "code" : "8500/3",
-  "display" : "Infiltrating duct carcinoma, NOS"
-}, "valueSet" :715928457, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code provided (urn:oid:2.16.840.1.113883.6.43.1#8500/3) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
-  "code" : "8500/3",
-  "display" : "Infiltrating duct carcinoma, NOS"
-}, "valueSet" :2012151736, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code provided (urn:oid:2.16.840.1.113883.6.43.1#8500/3) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
-  "code" : "8500/3",
-  "display" : "Infiltrating duct carcinoma, NOS"
-}, "valueSet" :1276949486, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code provided (urn:oid:2.16.840.1.113883.6.43.1#8500/3) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
-  "code" : "8500/3",
-  "display" : "Infiltrating duct carcinoma, NOS"
-}, "valueSet" :1615331577, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code provided (urn:oid:2.16.840.1.113883.6.43.1#8500/3) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
-  "code" : "8500/3",
-  "display" : "Infiltrating duct carcinoma, NOS"
-}, "valueSet" :316850980, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code provided (urn:oid:2.16.840.1.113883.6.43.1#8500/3) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
-  "code" : "8500/3",
-  "display" : "Infiltrating duct carcinoma, NOS"
-}, "valueSet" :297182281, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code provided (urn:oid:2.16.840.1.113883.6.43.1#8500/3) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
-  "code" : "8500/3",
-  "display" : "Infiltrating duct carcinoma, NOS"
-}, "valueSet" :2069329476, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code provided (urn:oid:2.16.840.1.113883.6.43.1#8500/3) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
-  "code" : "8500/3",
-  "display" : "Infiltrating duct carcinoma, NOS"
-}, "valueSet" :1791272991, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code provided (urn:oid:2.16.840.1.113883.6.43.1#8500/3) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
-  "code" : "8500/3",
-  "display" : "Infiltrating duct carcinoma, NOS"
-}, "valueSet" :1706900495, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code provided (urn:oid:2.16.840.1.113883.6.43.1#8500/3) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
-  "code" : "8500/3",
-  "display" : "Infiltrating duct carcinoma, NOS"
-}, "valueSet" :372793141, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code provided (urn:oid:2.16.840.1.113883.6.43.1#8500/3) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
-  "code" : "8500/3",
-  "display" : "Infiltrating duct carcinoma, NOS"
-}, "valueSet" :406546453, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code provided (urn:oid:2.16.840.1.113883.6.43.1#8500/3) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
-  "code" : "8500/3",
-  "display" : "Infiltrating duct carcinoma, NOS"
-}, "valueSet" :1349536011, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code provided (urn:oid:2.16.840.1.113883.6.43.1#8500/3) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
-  "code" : "8500/3",
-  "display" : "Infiltrating duct carcinoma, NOS"
-}, "valueSet" :917799650, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code provided (urn:oid:2.16.840.1.113883.6.43.1#8500/3) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
-  "code" : "8500/3",
-  "display" : "Infiltrating duct carcinoma, NOS"
-}, "valueSet" :1394034431, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code provided (urn:oid:2.16.840.1.113883.6.43.1#8500/3) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
-  "code" : "8500/3",
-  "display" : "Infiltrating duct carcinoma, NOS"
-}, "valueSet" :1054915156, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code provided (urn:oid:2.16.840.1.113883.6.43.1#8500/3) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
-  "code" : "8500/3",
-  "display" : "Infiltrating duct carcinoma, NOS"
-}, "valueSet" :187552894, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code provided (urn:oid:2.16.840.1.113883.6.43.1#8500/3) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
-  "code" : "8500/3",
-  "display" : "Infiltrating duct carcinoma, NOS"
-}, "valueSet" :798784727, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code provided (urn:oid:2.16.840.1.113883.6.43.1#8500/3) is not valid in the value set 'CoreProblemListFindingSituationEventGpsUvIps' (from http://tx.fhir.org/r4)"
+  "error" : "The code provided (urn:oid:2.16.840.1.113883.6.43.1#8500/3) is not valid in the value set 'CoreProblemListFindingSituationEventSnomedGpsUvIps' (from http://tx.fhir.org/r4)"
 }
 -------------------------------------------------------------------------------------

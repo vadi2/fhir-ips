@@ -25,8 +25,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:8121805d-2012-4a63-a748-6971e052ec44",
-    "timestamp" : "2021-07-07T12:36:18.076Z",
+    "identifier" : "urn:uuid:f38d0d6b-c221-4c08-ba4d-d52ed9ffadcf",
+    "timestamp" : "2021-08-17T19:57:24.472Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -37,7 +37,7 @@ e: {
     },
     {
       "name" : "version",
-      "valueString" : "http://loinc.org|2.69"
+      "valueString" : "http://loinc.org|2.70"
     }],
     "contains" : [{
       "system" : "http://loinc.org",
@@ -137,8 +137,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:2f308ba1-7a7d-420a-98e7-ae468d422c6d",
-    "timestamp" : "2021-07-07T12:36:24.420Z",
+    "identifier" : "urn:uuid:f5f44735-a5e8-4fdc-bfb9-b0e8b17992b6",
+    "timestamp" : "2021-08-17T19:57:37.066Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -149,7 +149,7 @@ e: {
     },
     {
       "name" : "version",
-      "valueString" : "http://loinc.org|2.69"
+      "valueString" : "http://loinc.org|2.70"
     }],
     "contains" : [{
       "system" : "http://loinc.org",
@@ -222,8 +222,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:ec177e4f-edf2-4106-95e9-decf3de765dd",
-    "timestamp" : "2021-07-07T12:36:24.638Z",
+    "identifier" : "urn:uuid:32b41ca4-208b-481d-a25e-c9be933dfdac",
+    "timestamp" : "2021-08-17T19:57:37.285Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -234,7 +234,7 @@ e: {
     },
     {
       "name" : "version",
-      "valueString" : "http://loinc.org|2.69"
+      "valueString" : "http://loinc.org|2.70"
     }],
     "contains" : [{
       "system" : "http://loinc.org",
@@ -306,8 +306,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:d20478c0-457f-490e-b692-57c6040d8ae5",
-    "timestamp" : "2021-07-07T12:36:28.138Z",
+    "identifier" : "urn:uuid:ccbc994e-9b06-4d78-af18-869652917846",
+    "timestamp" : "2021-08-17T19:57:43.566Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -318,7 +318,7 @@ e: {
     },
     {
       "name" : "version",
-      "valueString" : "http://loinc.org|2.69"
+      "valueString" : "http://loinc.org|2.70"
     }],
     "contains" : [{
       "system" : "http://loinc.org",
@@ -396,8 +396,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:38e0dc30-9638-47fd-8b31-97a1d7d3fd3c",
-    "timestamp" : "2021-07-07T12:36:28.388Z",
+    "identifier" : "urn:uuid:1f9168df-90db-408a-b476-1f283e0d3f95",
+    "timestamp" : "2021-08-17T19:57:43.926Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -408,7 +408,7 @@ e: {
     },
     {
       "name" : "version",
-      "valueString" : "http://loinc.org|2.69"
+      "valueString" : "http://loinc.org|2.70"
     }],
     "contains" : [{
       "system" : "http://loinc.org",
@@ -448,8 +448,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:0b87c885-c7a3-4223-a1e7-43ccb56f4e73",
-    "timestamp" : "2021-07-07T12:36:28.701Z",
+    "identifier" : "urn:uuid:a8de4700-240f-4c8f-aee0-d0bbb9c09de8",
+    "timestamp" : "2021-08-17T19:57:44.613Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -460,7 +460,7 @@ e: {
     },
     {
       "name" : "version",
-      "valueString" : "http://loinc.org|2.69"
+      "valueString" : "http://loinc.org|2.70"
     }],
     "contains" : [{
       "system" : "http://loinc.org",
@@ -495,8 +495,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-toocostly",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:e173c59e-a2b7-4d67-9716-46909ffa1bed",
-    "timestamp" : "2021-07-07T12:36:37.873Z",
+    "identifier" : "urn:uuid:bb8cef3a-2802-44bf-867b-6bf0725a8725",
+    "timestamp" : "2021-08-17T19:57:57.144Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -507,7 +507,7 @@ e: {
     },
     {
       "name" : "version",
-      "valueString" : "http://loinc.org|2.69"
+      "valueString" : "http://loinc.org|2.70"
     }],
     "contains" : [{
       "system" : "http://loinc.org",
@@ -2917,7 +2917,7 @@ e: {
     {
       "system" : "http://loinc.org",
       "code" : "31150-6",
-      "display" : "HER2 [Presence] in Tissue by FISH"
+      "display" : "ERBB2 gene duplication [Presence] in Tissue by FISH"
     },
     {
       "system" : "http://loinc.org",
@@ -5538,8 +5538,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:a5c03394-3ed2-4e2a-913b-5a0bf8b16c7b",
-    "timestamp" : "2021-07-07T12:36:38.873Z",
+    "identifier" : "urn:uuid:6915a991-050f-4e8e-b7ee-0e7d809ac8d6",
+    "timestamp" : "2021-08-17T19:57:58.488Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -5582,8 +5582,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:890e06bf-d49d-49b3-bcca-56013d233708",
-    "timestamp" : "2021-07-07T12:37:09.248Z",
+    "identifier" : "urn:uuid:e19c01bd-73ae-4cd0-9598-1560c8196a7e",
+    "timestamp" : "2021-08-17T19:58:43.332Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -5620,8 +5620,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-toocostly",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:c7c7c406-c802-49eb-ad89-f01ce87cd515",
-    "timestamp" : "2021-07-07T12:37:36.154Z",
+    "identifier" : "urn:uuid:8520cc35-3f4c-44a6-9976-26899955c13c",
+    "timestamp" : "2021-08-17T19:59:25.598Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -5632,7 +5632,7 @@ e: {
     },
     {
       "name" : "version",
-      "valueString" : "http://loinc.org|2.69"
+      "valueString" : "http://loinc.org|2.70"
     }],
     "contains" : [{
       "system" : "http://loinc.org",
@@ -10661,8 +10661,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:2d7d0d77-cc6f-43e8-bdb2-114c9479d935",
-    "timestamp" : "2021-07-07T12:37:37.623Z",
+    "identifier" : "urn:uuid:5225a5a7-557c-4efe-ac1f-0a3adefce5c9",
+    "timestamp" : "2021-08-17T19:59:28.035Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -10673,7 +10673,7 @@ e: {
     },
     {
       "name" : "version",
-      "valueString" : "http://loinc.org|2.69"
+      "valueString" : "http://loinc.org|2.70"
     }],
     "contains" : [{
       "system" : "http://loinc.org",
