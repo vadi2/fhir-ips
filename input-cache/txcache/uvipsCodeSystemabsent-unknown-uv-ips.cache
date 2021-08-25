@@ -2,6 +2,41 @@
 {"code" : {
   "coding" : [{
     "system" : "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips",
+    "code" : "no-known-allergies",
+    "display" : "No known allergies"
+  }]
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "105590001"
+      }],
+      "valueSet" : ["http://terminology.hl7.org/ValueSet/snomed-intl-gps"]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "373873005"
+      }],
+      "valueSet" : ["http://terminology.hl7.org/ValueSet/snomed-intl-gps"]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"CHECK_MEMERSHIP_ONLY"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips\" is not known (encountered paired with code = \"no-known-allergies\"); The code provided (http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips#no-known-allergies) is not valid in the value set 'AllergyIntoleranceSubstanceProductGpsUvIps' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips",
     "code" : "no-known-food-allergies"
   }]
 }, "valueSet" :{
@@ -30,6 +65,6 @@
 v: {
   "display" : "",
   "severity" : "error",
-  "error" : "The code system \"http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips\" is not known (encountered paired with code = \"no-known-food-allergies\"); The code provided (http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips#no-known-food-allergies) is not valid in the value set 'AllergyIntoleranceSubstanceProductSnomedGpsUvIps' (from http://tx.fhir.org/r4)"
+  "error" : "The code system \"http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips\" is not known (encountered paired with code = \"no-known-food-allergies\"); The code provided (http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips#no-known-food-allergies) is not valid in the value set 'AllergyIntoleranceSubstanceProductGpsUvIps' (from http://tx.fhir.org/r4)"
 }
 -------------------------------------------------------------------------------------
