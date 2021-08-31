@@ -26,15 +26,9 @@ It documents the relevant allergies or intolerances (conditions) for a patient, 
 * criticality MS
 * code MS
 * code only CodeableConceptIPS
-* code from AllergyIntoleranceSubstanceProductGpsUvIps (preferred)
-//* code obeys ips-ait-1
-* code ^binding.extension.url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName"
-* code ^binding.extension.valueString = "AllergyIntoleranceCode"
+* code from AllergyIntoleranceCodesUvIps (preferred)
 * code ^binding.description = "Type of the substance/product known or suspected to be the cause of the allergy or intolerance condition."
-//* code.extension MS
-//* code.extension contains AbsentOrUnknownUvIps named absent-or-unknown-allergy-intolerance ..1 MS
-//* code.extension[absent-or-unknown-allergy-intolerance] ^short = "AllergyIntolerance Absent or Unknown Data"
-//* code.extension[absent-or-unknown-allergy-intolerance].valueCodeableConcept from NoAllergiesInfoUvIps (required)
+/*
 * code.coding MS
 * code.coding ^slicing.discriminator.type = #pattern
 * code.coding ^slicing.discriminator.path = "$this"
@@ -75,8 +69,8 @@ It documents the relevant allergies or intolerances (conditions) for a patient, 
 //* code.coding[absentOrUnknownAllergyIntolerance] ^binding.extension.url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName"
 //* code.coding[absentOrUnknownAllergyIntolerance] ^binding.extension.valueString = "absentOrUnknownAllergy"
 * code.coding[absentOrUnknownAllergyIntolerance] ^binding.description = "negation/exclusion codes for reporting no known allergies or not available data."
-//* code.coding[textOnly] from TextOnlyUvIps (required)
-
+* code.coding[absentOrUnknownAllergyIntolerance].system = "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips"
+*/
 * patient only Reference(PatientUvIps)
 * patient MS
 * patient.reference 1.. MS
@@ -86,6 +80,8 @@ It documents the relevant allergies or intolerances (conditions) for a patient, 
 * reaction MS
 * reaction.manifestation only CodeableConceptIPS
 * reaction.manifestation MS
+* reaction.manifestation from AllergyReactionSnomedGpsUvIps (preferred)
+/*
 * reaction.manifestation ^slicing.discriminator.type = #pattern
 * reaction.manifestation ^slicing.discriminator.path = "$this"
 * reaction.manifestation ^slicing.description = "Discriminated by the bound value set"
@@ -96,6 +92,7 @@ It documents the relevant allergies or intolerances (conditions) for a patient, 
 * reaction.manifestation[allergyIntoleranceReactionManifestationGPSCode] ^definition = "Code for an allergy or intolerance reaction manifestation statement that is selected from the SNOMED CT GPS code set."
 * reaction.manifestation[allergyIntoleranceReactionManifestationGPSCode] ^binding.extension.url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName"
 * reaction.manifestation[allergyIntoleranceReactionManifestationGPSCode] ^binding.extension.valueString = "ReactionManifestationGPS"
+*/
 * reaction.onset MS
 * reaction.severity MS
 

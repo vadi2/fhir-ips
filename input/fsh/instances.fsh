@@ -202,15 +202,15 @@ Usage: #definition
 * concept[=].designation.value = "Nessuna procedure pregressa rilevante nota"
 
 /*
-Instance: text-only-uv-ips
+Instance: no-standard-code-uv-ips
 InstanceOf: CodeSystem
-Title: "Code for text-only data entry in CodeableConcept data type "
-Description: "Code to enable text data entry in CodeableConcept data type (used with slices with required bindings and closed slicing rule)."
+Title: "Code for text-only data entry in CodeableConcept data type, when no standard code is available."
+Description: "Code to enable text data entry in CodeableConcept data type, for use when no standard code is available (used with slices with required bindings and closed slicing rule)."
 Usage: #definition
-* url = "http://hl7.org/fhir/uv/ips/CodeSystem/text-only-uv-ips"
+* url = "http://hl7.org/fhir/uv/ips/CodeSystem/no-standard-code-uv-ips"
 * version = "1.0.0"
-* name = "IPSCodeSystemTextOnly"
-* title = "Code for Text-Only - IPS"
+* name = "IPSCodeSystemNoStandardCode"
+* title = "No Standard Code - IPS"
 * status = #active
 * experimental = false
 * date = "2021-07-08"
@@ -222,9 +222,9 @@ Usage: #definition
 * copyright = "Produced by HL7 under the terms of HL7® Governance and Operations Manual relating to Intellectual Property (Section 16), specifically its copyright, trademark and patent provisions. This document is licensed under Creative Commons \"No Rights Reserved\" (CC0)."
 * caseSensitive = true
 * content = #complete
-* concept[0].code = #text-only
-* concept[=].display = "Enable text-only data entry"
-* concept[=].definition = "Placeholder code for text-only data entry in CodeableConcept data type."
+* concept[0].code = #no-standard-code
+* concept[=].display = "No standard code is available"
+* concept[=].definition = "Placeholder code for text-only data entry in CodeableConcept data type when no standard code is available."
 */
 
 Instance: absence-to-snomed-uv-ips

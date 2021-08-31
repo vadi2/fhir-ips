@@ -31,6 +31,8 @@ Description: "This profile represents the constraints applied to the Condition r
 * code MS
 * code only CodeableConceptIPS
 * code ^definition = "Identification of the condition, problem or diagnosis or recording of \"problem absent\" or of \"problems unknown\"."
+* code from ConditionCodesUvIps (preferred)
+/*
 * code.coding MS
 * code.coding ^slicing.discriminator.type = #pattern
 * code.coding ^slicing.discriminator.path = "$this"
@@ -51,6 +53,7 @@ Description: "This profile represents the constraints applied to the Condition r
 * code.coding[absentOrUnknownProblem] ^binding.extension.url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName"
 * code.coding[absentOrUnknownProblem] ^binding.extension.valueString = "absentOrUnknownProblem"
 * code.coding[absentOrUnknownProblem] ^binding.description = "Absent problem or unknown problem"
+*/
 * bodySite only CodeableConceptIPS
 * bodySite from SNOMEDCTBodyStructures (example)
 * bodySite ^binding.extension.url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName"

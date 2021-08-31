@@ -1,6 +1,6 @@
 Alias: $shareablevalueset = http://hl7.org/fhir/StructureDefinition/shareablevalueset
 Alias: $absent-unknown-uv-ips = http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips
-Alias: $text-only-uv-ips = http://hl7.org/fhir/uv/ips/CodeSystem/text-only-uv-ips
+//Alias: $no-standard-code-uv-ips = http://hl7.org/fhir/uv/ips/CodeSystem/no-standard-code-uv-ips
 Alias: $loinc = http://loinc.org
 Alias: $rxnorm = http://www.nlm.nih.gov/research/umls/rxnorm
 Alias: $ndc = http://hl7.org/fhir/sid/ndc

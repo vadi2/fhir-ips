@@ -12,5 +12,6 @@ It documents the relevant allergies or intolerances (conditions) for a patient, 
 * ^contact.telecom.system = #url
 * ^contact.telecom.value = "http://www.hl7.org/Special/committees/patientcare"
 * code 1..1 MS
-* code.coding 1..* MS
-* code.coding ^slicing.rules = #closed
+* code from AllergyIntoleranceCodesUvIps (extensible)
+//* code.coding 1..* MS
+//* code.coding ^slicing.rules = #closed
