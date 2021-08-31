@@ -1826,11 +1826,6 @@ Description: "IPS Allergy-intolerance condition GPS value set. This value set in
 */
 * include codes from valueset SnomedIntlGps and system SNOMED_CT where concept descendent-of #418038007 "Propensity to adverse reactions to substance (finding)"
 
-<<<<<<< Updated upstream
-ValueSet: AllergyReactionGpsUvIps
-Id: allergy-reaction-gps-uv-ips
-Title: "Allergy Reaction - GPS - IPS"
-=======
 ValueSet: AllergyIntoleranceCodesUvIps
 Id: allergy-intolerance-codes-uv-ips
 Title: "Allergy-intolerance Codes - IPS"
@@ -1846,7 +1841,6 @@ from the SNOMED International Global Patient Set (GPS) subset of SNOMED CT."
 ValueSet: AllergyReactionSnomedGpsUvIps
 Id: allergy-reaction-snomed-gps-uv-ips
 Title: "Allergy Reaction - SNOMED CT GPS - IPS"
->>>>>>> Stashed changes
 Description: "IPS Allergy reaction GPS value set. This value set includes a set of codes from the SNOMED International Global Patient Set (GPS) subset of SNOMED CT that may be used to represent allergy or intolerance reactions.  The current value set contains concepts from the September 2020 release of the GPS, which is based on the July 2020 SNOMED CT International Edition release."
 * ^status = #active
 * ^version = "1.0.0"
