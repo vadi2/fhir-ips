@@ -19,7 +19,7 @@ Description: "This profile represents the constraints applied to the Bundle reso
 //* type = #document (exactly)
 * timestamp 1.. MS
 * link ..0
-* entry MS
+* entry 4..* MS
 * entry ^slicing.discriminator.type = #profile
 * entry ^slicing.discriminator.path = "resource"
 * entry ^slicing.rules = #open
@@ -31,18 +31,19 @@ Description: "This profile represents the constraints applied to the Bundle reso
 * entry.request ..0
 * entry.response ..0
 * entry contains
-    composition 1..1 MS and
-    problem 1.. MS and
-    allergy 1.. MS and
-    medication 1.. MS
+    composition 1..1 MS //and
+//    problem 1.. MS and
+//    allergy 1.. MS and
+//    medication 1.. MS
 * entry[composition].resource 1.. MS
 * entry[composition].resource only CompositionUvIps
-* entry[problem].resource 1.. MS
-* entry[problem].resource only ConditionUvIps
-* entry[allergy].resource 1.. MS
-* entry[allergy].resource only AllergyIntoleranceUvIps
-* entry[medication].resource 1.. MS
-* entry[medication].resource only MedicationIPS
+// The additional required section constraints for problems, allergies and medications are contained in the IPS Composition resource
+//* entry[problem].resource 1.. MS
+//* entry[problem].resource only ConditionUvIps
+//* entry[allergy].resource 1.. MS
+//* entry[allergy].resource only AllergyIntoleranceUvIps
+//* entry[medication].resource 1.. MS
+//* entry[medication].resource only MedicationIPS
 
 /*
 Invariant: bdl-ips-1

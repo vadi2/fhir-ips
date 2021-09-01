@@ -15,36 +15,14 @@ Description: "This profile represents the constraints applied to the Bundle reso
 * obeys bdl-ips-1
 * . ^short = "International Patient Summary Cross Border Document Bundle"
 * . ^definition = "International Patient Summary Cross Border Document Bundle. \r\nA container for a collection of resources in the patient summary document."
-//* identifier 1.. MS
 * type = #document (exactly)
-//* timestamp 1.. MS
-//* link ..0
-//* entry MS
-//* entry ^slicing.discriminator.type = #profile
-//* entry ^slicing.discriminator.path = "resource"
-//* entry ^slicing.rules = #open
-* entry ^short = "Entry resource in the patient summary document bundle"
-* entry ^definition = "An entry resource included in the patient summary document bundle resource."
+//* entry ^short = "Entry resource in the patient summary document bundle"
+//* entry ^definition = "An entry resource included in the patient summary document bundle resource."
 * entry ^comment = "Must contain at a minimum the IPS Composition as the first entry (only a single Composition resource instance may be included) and at least one entry each for IPS Problems, Allergies and Medications."
-//* entry.fullUrl 1.. MS
-//* entry.search ..0
-//* entry.request ..0
-//* entry.response ..0
-/*
-* entry contains
-    composition 1..1 MS and
-    problem 1.. MS and
-    allergy 1.. MS and
-    medication 1.. MS
-*/
-//* entry[composition].resource 1.. MS
-* entry[composition].resource only CompositionUvIps
-//* entry[problem].resource 1.. MS
-* entry[problem].resource only ConditionUvIps
-//* entry[allergy].resource 1.. MS
-* entry[allergy].resource only AllergyIntoleranceCrossBorderUvIps
-//* entry[medication].resource 1.. MS
-* entry[medication].resource only MedicationIPS
+//* entry[composition].resource only CompositionUvIps
+//* entry[problem].resource only ConditionUvIps
+//* entry[allergy].resource only AllergyIntoleranceCrossBorderUvIps
+//* entry[medication].resource only MedicationIPS
 
 Invariant: bdl-ips-1
 Description: "An IPS document must have no additional Composition (including Composition subclass) resources besides the first"

@@ -2,13 +2,13 @@ Profile: ObservationResultsRadiologyUvIps
 Parent: ObservationResultsUvIps
 Id: Observation-results-radiology-uv-ips
 Title: "Observation Results: Radiology - IPS"
-Description: """This profile represents the constraints applied to the Observation resource by the IPS project, which specifies a radiology observation for the international patient summary based on the FHIR standard R4. 
+Description: """This profile represents the constraints applied to the Observation resource by the IPS project, which specifies a radiology observation for the International Patient Summary based on the FHIR R4 standard. 
 
-This observation may represent the conclusions of a diagnostic procedure such a Chest RX, or it may group the set of results produced by that single or multi-modality procedure. 
+This observation may represent the conclusions of a diagnostic procedure such a Chest X-ray, or it may group the set of results produced by that single or multi-modality procedure. 
 
-In the latter case, the main observation (this one) carries the overall conclusion of the study and/or a global interpretation by the observer of the study as value of this observation; and may references the atomic results of the study as "child observations".
+In the latter case, the main observation (this one) carries the overall conclusion of the study and/or a global interpretation by the observer of the study as value of this observation; and it may reference the atomic results of the study as "child observations".
 
-It allows also providing details about the related study using the partOf element referring to an ImagingStudy resource.
+It also allows providing details about the related study using the partOf element referring to an ImagingStudy resource.
 """
 * ^experimental = false
 * ^date = "2021-05-14T21:56:28-05:00"

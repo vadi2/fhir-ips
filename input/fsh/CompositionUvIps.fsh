@@ -52,7 +52,7 @@ This profile is based on the ClinicalDocument profile."""
 * event[careProvisioningEvent].code 1.. MS
 * event[careProvisioningEvent].code = $v3-ActClass#PCPR
 * event[careProvisioningEvent].period MS
-* section 1.. MS
+* section 3.. MS
 * section ^extension.url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name"
 * section ^extension.valueString = "Section"
 * section ^slicing.discriminator.type = #pattern
@@ -99,7 +99,7 @@ This profile is based on the ClinicalDocument profile."""
 * section[sectionMedications].entry ^short = "Medications relevant for the scope of the patient summary"
 * section[sectionMedications].entry ^definition = "This list the medications relevant for the scope of the patient summary or it is used to indicate that the subject is known not to be on any relevant medication; either that no information is available about medications."
 * section[sectionMedications].entry contains medicationStatement 1.. MS
-* section[sectionMedications].entry[medicationStatement] only Reference(MedicationStatementIPS)
+* section[sectionMedications].entry[medicationStatement] only Reference(MedicationStatementIPS or MedicationRequestIPS)
 * section[sectionAllergies] ^extension.url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name"
 * section[sectionAllergies] ^extension.valueString = "Section"
 * section[sectionAllergies] ^short = "IPS Allergies and Intolerances Section"

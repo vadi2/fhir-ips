@@ -64,14 +64,14 @@ It describes the event of a patient being administered a vaccination or a record
 * route ^binding.extension.valueString = "ImmunizationRoute"
 * performer MS
 * performer.actor MS
-* protocolApplied.targetDisease from TargetDiseasesUvIps (preferred)
-* protocolApplied.targetDisease ^slicing.discriminator.type = #pattern
-* protocolApplied.targetDisease ^slicing.discriminator.path = "$this"
-* protocolApplied.targetDisease ^slicing.description = "Discriminated by bound value set"
-* protocolApplied.targetDisease ^slicing.rules = #open
-* protocolApplied.targetDisease contains targetDiseaseGPSCode 0..1 MS
-* protocolApplied.targetDisease[targetDiseaseGPSCode] from TargetDiseasesSnomedGpsUvIps (required)
-* protocolApplied.targetDisease[targetDiseaseGPSCode] ^short = "Code for a disease the vaccination is against from the SNOMED CT GPS code set."
-* protocolApplied.targetDisease[targetDiseaseGPSCode] ^definition = "Code for a disease the vaccination is against from the SNOMED CT GPS code set."
-* protocolApplied.targetDisease[targetDiseaseGPSCode] ^binding.extension.url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName"
-* protocolApplied.targetDisease[targetDiseaseGPSCode] ^binding.extension.valueString = "TargetDiseasesSnomedGpsUvIps"
+* protocolApplied.targetDisease from TargetDiseaseCodesUvIps (preferred)
+//* protocolApplied.targetDisease ^slicing.discriminator.type = #pattern
+//* protocolApplied.targetDisease ^slicing.discriminator.path = "$this"
+//* protocolApplied.targetDisease ^slicing.description = "Discriminated by bound value set"
+//* protocolApplied.targetDisease ^slicing.rules = #open
+//* protocolApplied.targetDisease contains targetDiseaseGPSCode 0..1 MS
+//* protocolApplied.targetDisease[targetDiseaseGPSCode] from TargetDiseasesSnomedGpsUvIps (required)
+//* protocolApplied.targetDisease[targetDiseaseGPSCode] ^short = "Code for a disease the vaccination is against from the SNOMED CT GPS code set."
+//* protocolApplied.targetDisease[targetDiseaseGPSCode] ^definition = "Code for a disease the vaccination is against from the SNOMED CT GPS code set."
+//* protocolApplied.targetDisease[targetDiseaseGPSCode] ^binding.extension.url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName"
+//* protocolApplied.targetDisease[targetDiseaseGPSCode] ^binding.extension.valueString = "TargetDiseasesSnomedGpsUvIps"

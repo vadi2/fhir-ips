@@ -15,7 +15,7 @@ Description: "This profile represents the constraints applied to the MedicationS
 * status MS
 * status ^comment = "In the scope of the IPS the entered-in-error concept is not allowed."
 * medication[x] MS
-//* medication[x] from MedicationExampleCodesUvIps (example)
+* medication[x] from MedicationStatementCodesUvIps (preferred)
 * medication[x] ^definition = "Identifies the medication being administered or the reason for absent or unknown Medication. This is either a link to a resource representing the details of the medication or a simple attribute carrying a code. To improve global interoperability is strongly encouraged that the reference to a medication resource is used, limiting the usage of the medicationCodeableConcept only to the cases in which no other information than a simple code is available."
 * medication[x] ^binding.description = "The type of medication"
 * medicationReference MS

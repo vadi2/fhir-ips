@@ -15,10 +15,10 @@ Description: "This profile constrains the PractitionerRole resource to represent
 * organization only Reference(OrganizationUvIps)
 * organization MS
 * code only CodeableConceptIPS
-* code ^slicing.discriminator.type = #pattern
-* code ^slicing.discriminator.path = "$this"
-* code ^slicing.description = "Discriminated by the bound value set"
-* code ^slicing.rules = #open
+//* code ^slicing.discriminator.type = #pattern
+//* code ^slicing.discriminator.path = "$this"
+//* code ^slicing.description = "Discriminated by the bound value set"
+//* code ^slicing.rules = #open
 * code ^definition = "Roles which this practitioner is authorized to perform for the organization."
 * code from HealthcareProfessionalRolesUvIps (preferred)
 /*
