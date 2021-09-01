@@ -49,7 +49,7 @@ Description: "This profile constrains the Observation resource to represent resu
 * valueQuantity only QuantityIPS
 * valueCodeableConcept MS
 * valueCodeableConcept only CodeableConceptIPS
-* valueCodeableConcept from ResultsCodedValuesPathologyGpsUvIps (preferred)
+* valueCodeableConcept from ResultsCodedValuesPathologySnomedGpsUvIps (preferred)
 * specimen only Reference(SpecimenUvIps)
 * specimen MS
 * hasMember only Reference(ObservationResultsPathologyUvIps or ObservationResultsUvIps)

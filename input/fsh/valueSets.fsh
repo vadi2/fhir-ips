@@ -145,9 +145,9 @@ Description: "Code to enable text-only data entry in CodeableConcept data type"
 * include codes from system $text-only-uv-ips
 */
 
-ValueSet: AllergyIntoleranceSubstanceProductSnomedExtendedUvIps
-Id: allergy-intolerance-substance-product-snomed-extended-uv-ips
-Title: "Allergy intolerance substance product - SNOMED CT extended - IPS"
+ValueSet: AllergyIntoleranceSubstanceProductSnomedNonGpsUvIps
+Id: allergy-intolerance-substance-product-snomed-non-gps-uv-ips
+Title: "Allergy intolerance substance product - SNOMED CT Non GPS - IPS"
 Description: "IPS Allergy intolerance substance product value set. This value set includes codes from SNOMED Clinical Terms®: all descendants of 105590001 | Substance (substance); all descendants of 373873005 | Pharmaceutical / biologic product (product); excluding any codes that are also contained in the SNOMED International Global Patient Set (GPS)."
 * ^status = #active
 * ^version = "1.0.0"
@@ -163,15 +163,10 @@ Description: "IPS Allergy intolerance substance product value set. This value se
 * ^jurisdiction = $m49.htm#001
 * ^immutable = false
 * ^copyright = "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyrighted material of the International Health Terminology Standards Development Organisation (IHTSDO). Where an implementation of this artefact makes use of SNOMED CT content, the implementer must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/get-snomed-ct or info@snomed.org"
-/* * include codes from system SNOMED_CT where concept descendent-of #410942007 "Drug or medicament (substance)"
-* include codes from system SNOMED_CT where concept descendent-of #762766007 "Edible substance (substance)"
-//* include codes from system SNOMED_CT where concept descendent-of #406455002 "Allergen class (substance)"
-* include codes from system SNOMED_CT where concept descendent-of #115668003 "Biological substance (substance)"
-* include codes from system SNOMED_CT where concept descendent-of #425620007 "Metal (substance)"
-* include codes from system SNOMED_CT where concept descendent-of #373873005 "Pharmaceutical / biologic product (product)" */
 * include codes from system SNOMED_CT where concept descendent-of #105590001 "Substance (substance)"
 * include codes from system SNOMED_CT where concept descendent-of #373873005 "Pharmaceutical / biologic product (product)"
-//* exclude codes from valueset AllergyIntoleranceSubstanceProductGpsUvIps
+* exclude codes from valueset SnomedIntlGps
+/*
 * exclude SNOMED_CT#346755004 "Treemix allergy maintenance kit (product)"
 * exclude SNOMED_CT#346469000 "House mite allergy vaccine (product)"
 * exclude SNOMED_CT#59057006 "Product containing antihemophilic factor agent (medicinal product)"
@@ -956,11 +951,12 @@ Description: "IPS Allergy intolerance substance product value set. This value se
 * exclude SNOMED_CT#417324009 "Vascular endothelial growth factor (substance)"
 * exclude SNOMED_CT#419604006 "Weed pollen (substance)"
 * exclude SNOMED_CT#710943006 "Cockroach protein (substance)"
+*/
 
-ValueSet: AllergyIntoleranceSubstanceProductGpsUvIps
-Id: allergy-intolerance-substance-product-gps-uv-ips
-Title: "Allergy-intolerance substance-product - GPS - IPS"
-Description: "IPS Allergy-intolerance substance-product GPS value set. This value set includes the codes from the SNOMED International Global Patient Set (GPS) subset of SNOMED CT that are included in: all descendants of 105590001 | Substance (substance); all descendants of 373873005 | Pharmaceutical / biologic product (product)."
+ValueSet: AllergyIntoleranceSubstanceProductSnomedGpsUvIps
+Id: allergy-intolerance-substance-product-snomed-gps-uv-ips
+Title: "Allergy-intolerance substance-product - SNOMED CT GPS - IPS"
+Description: "IPS Allergy-intolerance substance-product SNOMED CT GPS value set. This value set includes the codes from the SNOMED International Global Patient Set (GPS) subset of SNOMED CT that are included in: all descendants of 105590001 | Substance (substance); all descendants of 373873005 | Pharmaceutical / biologic product (product)."
 //  The current value set contains concepts from the September 2020 release of the GPS, which is based on the July 2020 SNOMED CT International Edition release."
 * ^status = #active
 * ^version = "1.0.0"
@@ -975,14 +971,6 @@ Description: "IPS Allergy-intolerance substance-product GPS value set. This valu
 * ^jurisdiction = $m49.htm#001
 * ^immutable = false
 * ^copyright = "The GPS is produced by SNOMED International under the terms of the [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/)\n\nAdditional information about this license specific to SNOMED International’s release of the GPS:\n* SNOMED CT is © and ® SNOMED International. The right to maintain the GPS remains vested exclusively in SNOMED International.\n* The Licensee can redistribute the GPS.\n* The Licensee can create derivatives or implementation-related products and services based on the GPS.\n* The Licensee cannot claim that SNOMED International or any of its Members endorses the Licensee’s derivative because it uses content from the GPS.\n* Neither SNOMED International nor any of the contributors accept any liability for the Licensee’s use or redistribution of the GPS.\n* SNOMED CT® was originally created by the College of American Pathologists.\n\nWithout obtaining prior written permission from SNOMED International, you are expressly prohibited from using, distributing or reproducing the SNOMED International, SNOMED CT or SNOMED GPS logo, service mark or trademark. Please review all terms and conditions of use [here](http://www.snomed.org/terms-and-conditions)."
-//* include codes from valueset SnomedIntlGps and http://hl7.org/fhir/uv/ips/ValueSet/allergy-intolerance-substance-condition-uv-ips 
-/*
-* include codes from valueset SnomedIntlGps and system SNOMED_CT where concept descendent-of #410942007 "Drug or medicament (substance)"
-* include codes from valueset SnomedIntlGps and system SNOMED_CT where concept descendent-of #762766007 "Edible substance (substance)"
-//* include codes from valueset SnomedIntlGps and system SNOMED_CT where concept descendent-of #406455002 "Allergen class (substance)"
-* include codes from valueset SnomedIntlGps and system SNOMED_CT where concept descendent-of #115668003 "Biological substance (substance)"
-* include codes from valueset SnomedIntlGps and system SNOMED_CT where concept descendent-of #425620007 "Metal (substance)"
-*/
 * include codes from valueset SnomedIntlGps and system SNOMED_CT where concept descendent-of #105590001 "Substance (substance)"
 * include codes from valueset SnomedIntlGps and system SNOMED_CT where concept descendent-of #373873005 "Pharmaceutical / biologic product (product)"
 /*
@@ -1772,10 +1760,10 @@ Description: "IPS Allergy-intolerance substance-product GPS value set. This valu
 * SNOMED_CTv20200731#710943006 "Cockroach protein (substance)"
 */
 
-ValueSet: AllergyIntoleranceConditionUvIps
-Id: allergy-intolerance-condition-uv-ips
-Title: "Allergy intolerance condition - IPS"
-Description: "IPS Allergy intolerance condition value set. This value set includes codes from SNOMED Clinical Terms®: #418038007 | Propensity to adverse reactions to substance (finding)"
+ValueSet: AllergyIntoleranceConditionSnomedNonGpsUvIps
+Id: allergy-intolerance-condition-snomed-non-gps-uv-ips
+Title: "Allergy intolerance condition - SNOMED CT Non GPS IPS"
+Description: "IPS Allergy intolerance condition value set. This value set includes codes from SNOMED Clinical Terms®: #418038007 | Propensity to adverse reactions to substance (finding), excluding the codes from the SNOMED International Global Patient Set (GPS) subset of SNOMED CT."
 * ^status = #active
 * ^version = "1.0.0"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
@@ -1790,18 +1778,13 @@ Description: "IPS Allergy intolerance condition value set. This value set includ
 * ^jurisdiction = $m49.htm#001
 * ^immutable = false
 * ^copyright = "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyrighted material of the International Health Terminology Standards Development Organisation (IHTSDO). Where an implementation of this artefact makes use of SNOMED CT content, the implementer must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/get-snomed-ct or info@snomed.org"
-/* * include codes from system SNOMED_CT where concept descendent-of #410942007 "Drug or medicament (substance)"
-* include codes from system SNOMED_CT where concept descendent-of #762766007 "Edible substance (substance)"
-//* include codes from system SNOMED_CT where concept descendent-of #406455002 "Allergen class (substance)"
-* include codes from system SNOMED_CT where concept descendent-of #115668003 "Biological substance (substance)"
-* include codes from system SNOMED_CT where concept descendent-of #425620007 "Metal (substance)"
-* include codes from system SNOMED_CT where concept descendent-of #373873005 "Pharmaceutical / biologic product (product)" */
 * include codes from system SNOMED_CT where concept descendent-of #418038007 "Propensity to adverse reactions to substance (finding)"
+* exclude codes from valueset SnomedIntlGps
 
-ValueSet: AllergyIntoleranceConditionGpsUvIps
-Id: allergy-intolerance-condition-gps-uv-ips
-Title: "Allergy-intolerance condition - GPS - IPS"
-Description: "IPS Allergy-intolerance condition GPS value set. This value set includes the codes from the SNOMED International Global Patient Set (GPS) subset of SNOMED CT that are included in: #418038007 | Propensity to adverse reactions to substance (finding)."
+ValueSet: AllergyIntoleranceConditionSnomedGpsUvIps
+Id: allergy-intolerance-condition-snomed-gps-uv-ips
+Title: "Allergy-intolerance condition - SNOMED CT GPS - IPS"
+Description: "IPS Allergy-intolerance condition SNOMED CT GPS value set. This value set includes the codes from the SNOMED International Global Patient Set (GPS) subset of SNOMED CT that are included in: #418038007 | Propensity to adverse reactions to substance (finding)."
 //  The current value set contains concepts from the September 2020 release of the GPS, which is based on the July 2020 SNOMED CT International Edition release."
 * ^status = #active
 * ^version = "1.0.0"
@@ -1907,9 +1890,9 @@ Description: "Problem Severity"
 * $loinc#LA6751-7 "Moderate"
 * $loinc#LA6750-9 "Severe"
 
-ValueSet: CoreProblemListFindingSituationEventGpsUvIps
-Id: core-problem-finding-situation-event-gps-uv-ips
-Title: "CORE Problem List Finding/Situation/Event - GPS - IPS"
+ValueSet: CoreProblemListFindingSituationEventSnomedGpsUvIps
+Id: core-problem-finding-situation-event-snomed-gps-uv-ips
+Title: "CORE Problem List Finding/Situation/Event - SNOMED CT GPS - IPS"
 Description: """This value set is a special subset for the International Patient Summary of the concepts in the CORE Problem List Subset of SNOMED CT® which are also contained in the SNOMED CT Global Patient Set (GPS).  This value set includes the concepts which are in the Clinical finding, Situation with explicit context and Event hierarchies, but excludes the concepts from the Procedure hierarchy, as they are expected to be represented separately in the History of Procedures Section. The CORE Problem List Subset includes SNOMED CT concepts that can be used for the problem list, discharge diagnoses, or reason for encounter.  The concepts currently included in the value set are the set contained in both the November 2020 release of the CORE Problem List Subset and the September 2020 release of the GPS, both of which are based on the July 2020 SNOMED CT International Edition release.  The value set additionally contains three recently added SNOMED CT concepts for Coronavirus from the March 2020 Interim International Release.   
 
    The CORE Problem List Subset is updated regularly by the NLM for new SNOMED CT releases. https://www.nlm.nih.gov/research/umls/Snomed/core_subset.html"""
@@ -8457,9 +8440,9 @@ Description: "This value set includes codes from SNOMED Clinical Terms®: all de
 * exclude codes from system SNOMED_CT where concept is-a #710135002
 * exclude codes from system SNOMED_CT where concept is-a #389084004
 
-ValueSet: ResultsCodedValuesLabGpsUvIps
-Id: result-coded-value-laboratory-gps-uv-ips
-Title: "Results Coded Values Laboratory - GPS - IPS"
+ValueSet: ResultsCodedValuesLabSnomedGpsUvIps
+Id: result-coded-value-laboratory-snomed-gps-uv-ips
+Title: "Results Coded Values Laboratory - SNOMED CT GPS - IPS"
 Description: "This Value set is defined as the union of: (a) ABO and Rh group [Type] in Blood (2.16.840.1.113883.11.22.51); (b) Presence/Absence Indicators (2.16.840.1.113883.11.22.52) (c) Organisms (2.16.840.1.113883.11.22.49)"
 * ^status = #active
 * ^version = "1.0.0"
@@ -8475,13 +8458,13 @@ Description: "This Value set is defined as the union of: (a) ABO and Rh group [T
 * ^jurisdiction = $m49.htm#001
 * ^immutable = false
 * ^copyright = "The GPS is produced by SNOMED International under the terms of the [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/)\n\nAdditional information about this license specific to SNOMED International’s release of the GPS:\n* SNOMED CT is © and ® SNOMED International. The right to maintain the GPS remains vested exclusively in SNOMED International.\n* The Licensee can redistribute the GPS.\n* The Licensee can create derivatives or implementation-related products and services based on the GPS.\n* The Licensee cannot claim that SNOMED International or any of its Members endorses the Licensee’s derivative because it uses content from the GPS.\n* Neither SNOMED International nor any of the contributors accept any liability for the Licensee’s use or redistribution of the GPS.\n* SNOMED CT® was originally created by the College of American Pathologists.\n\nWithout obtaining prior written permission from SNOMED International, you are expressly prohibited from using, distributing or reproducing the SNOMED International, SNOMED CT or SNOMED GPS logo, service mark or trademark. Please review all terms and conditions of use [here](http://www.snomed.org/terms-and-conditions)."
-* include codes from valueset ResultsLabAboRhGroupGpsUvIps
-* include codes from valueset ResultsLabPresenceAbsenceGpsUvIps
-* include codes from valueset ResultsOrganismGpsUvIps
+* include codes from valueset ResultsLabAboRhGroupSnomedGpsUvIps
+* include codes from valueset ResultsLabPresenceAbsenceSnomedGpsUvIps
+* include codes from valueset ResultsOrganismSnomedGpsUvIps
 
-ValueSet: ResultsCodedValuesPathologyGpsUvIps
-Id: result-coded-value-pathology-gps-uv-ips
-Title: "Results Coded Values Pathology - GPS - IPS"
+ValueSet: ResultsCodedValuesPathologySnomedGpsUvIps
+Id: result-coded-value-pathology-snomed-gps-uv-ips
+Title: "Results Coded Values Pathology - SNOMED CT GPS - IPS"
 Description: "IPS Pathology observation coded results GPS value set.  the codes from the SNOMED International Global Patient Set (GPS) subset of SNOMED CT that are included in: all descendants of 106253005 |Histologic grading differentiation AND/OR behavior (qualifier value)|, all descendants of 373369003 |Finding of histologic grading differentiation AND/OR behavior (finding)|, all descendants of 399981008 |Neoplasm and/or hamartoma (disorder)|.  The current value set contains concepts from the September 2020 release of the GPS, which is based on the July 2020 SNOMED CT International Edition release."
 * ^status = #active
 * ^version = "1.0.0"
@@ -9118,9 +9101,9 @@ Description: "IPS Pathology observation coded results GPS value set.  the codes 
 * SNOMED_CTv20200731#93473009 "Hemangioma of subcutaneous tissue (disorder)"
 * SNOMED_CTv20200731#402867006 "Capillary hemangioma (disorder)"
 
-ValueSet: ResultsLabAboRhGroupGpsUvIps
-Id: results-laboratory-blood-abo-rh-grp-gps-uv-ips
-Title: "Results Laboratory ABO+RH Group - GPS - IPS"
+ValueSet: ResultsLabAboRhGroupSnomedGpsUvIps
+Id: results-laboratory-blood-abo-rh-grp-snomed-gps-uv-ips
+Title: "Results Laboratory ABO+RH Group - SNOMED CT GPS - IPS"
 Description: "ABO and Rh group [Type] in Blood"
 * ^status = #active
 * ^version = "1.0.0"
@@ -9163,13 +9146,13 @@ Description: "Value Set Definition: LOINC {STATUS in {ACTIVE}, CLASSTYPE in {1},
 * ^jurisdiction = $m49.htm#001
 * ^immutable = false
 * ^copyright = "This artifact includes content from LOINC®. LOINC codes are copyright Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee. Terms & Conditions in https://loinc.org/license/"
-* include codes from system $loinc where STATUS = "ACTIVE" and CLASSTYPE = "1"
+* include codes from system $loinc where STATUS = #ACTIVE and CLASSTYPE = #1
 * exclude codes from system $loinc
     where CLASS regex /CYTO|HL7\.CYTOGEN|HL7\.GENETICS|^PATH(\..*)?|^MOLPATH(\..*)?|NR STATS|H&P\.HX\.LAB|CHALSKIN|LABORDERS/
 
-ValueSet: ResultsLabPresenceAbsenceGpsUvIps
-Id: results-laboratory-presence-absence-gps-uv-ips
-Title: "Results Laboratory Presence/Absence - GPS - IPS"
+ValueSet: ResultsLabPresenceAbsenceSnomedGpsUvIps
+Id: results-laboratory-presence-absence-snomed-gps-uv-ips
+Title: "Results Laboratory Presence/Absence - SNOMED CT GPS - IPS"
 Description: "Presence/Absence value set"
 * ^status = #active
 * ^version = "1.0.0"
@@ -9195,9 +9178,9 @@ Description: "Presence/Absence value set"
 * SNOMED_CTv20200731#260349009 "Present +++ out of ++++ (qualifier value)"
 * SNOMED_CTv20200731#260350009 "Present ++++ out of ++++ (qualifier value)"
 
-ValueSet: ResultsOrganismGpsUvIps
-Id: results-organism-gps-uv-ips
-Title: "Results Organism - GPS - IPS"
+ValueSet: ResultsOrganismSnomedGpsUvIps
+Id: results-organism-snomed-gps-uv-ips
+Title: "Results Organism - SNOMED CT GPS - IPS"
 Description: "This is a value set of the SNOMED CT organism concepts contained in the SNOMED CT Global Patient Set (GPS) for use in the Results section observation values.  The concepts currently included in the value set are from the September 2020 release of the GPS, which is based on the July 2020 SNOMED CT International Edition release.  This value set additionally contains the recently added SNOMED CT concept for the Coronavirus organism from the March 2020 Interim International Release."
 * ^status = #active
 * ^version = "1.0.0"
@@ -13320,8 +13303,8 @@ LOINC {STATUS in {ACTIVE}, CLASSTYPE in {1}, CLASS in {CYTO, HL7.CYTOGEN, HL7.GE
 * ^immutable = false
 * ^copyright = "This artifact includes content from LOINC®. LOINC codes are copyright Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee. Terms & Conditions in https://loinc.org/license/"
 * include codes from system $loinc
-    where STATUS = "ACTIVE" and
-    CLASSTYPE = "1" and
+    where STATUS = #ACTIVE and
+    CLASSTYPE = #1 and
     CLASS regex /CYTO|HL7\.CYTOGEN|HL7\.GENETICS|^PATH(\..*)?|^MOLPATH(\..*)?/
 
 ValueSet: ResultsRadMeasuresObservationGpsDicomUvIps
@@ -13388,7 +13371,7 @@ LOINC {CLASS in {RAD}}
 * ^jurisdiction = $m49.htm#001
 * ^immutable = false
 * ^copyright = "This artifact includes content from LOINC®. LOINC codes are copyright Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee. Terms & Conditions in https://loinc.org/license/"
-* include codes from system $loinc where CLASS = "RAD"
+* include codes from system $loinc where CLASS = #RAD
 
 ValueSet: ResultsRadTxtObsGpsDicomLoincUvIps
 Id: results-radiology-txtobs-gps-dicom-loinc-uv-ips
@@ -13417,9 +13400,9 @@ Description: "IPS Results Radiology Textual Observations"
 * $loinc#55115-0 "Request"
 * SNOMED_CTv20200731#116224001 "Complication of Procedure"
 
-ValueSet: ResultsSpecimenCollectionMethodGpsUvIps
-Id: results-specimen-collection-method-gps-uv-ips
-Title: "Results Specimen Collection Method - GPS - IPS"
+ValueSet: ResultsSpecimenCollectionMethodSnomedGpsUvIps
+Id: results-specimen-collection-method-snomed-gps-uv-ips
+Title: "Results Specimen Collection Method - SNOMED CT GPS - IPS"
 Description: "IPS Specimen Collection Method"
 * ^status = #active
 * ^version = "1.0.0"
@@ -13443,10 +13426,10 @@ Description: "IPS Specimen Collection Method"
 * SNOMED_CTv20200731#386089008 "Collection of coughed sputum"
 * SNOMED_CTv20200731#278450005 "Finger-prick sampling"
 
-ValueSet: ResultsSpecimenTypeGpsUvIps
-Id: results-specimen-type-gps-uv-ips
-Title: "Results Specimen Type - GPS - IPS"
-Description: "IPS Specimen Type GPS value set. This value set includes a set of codes from the SNOMED International Global Patient Set (GPS) subset of SNOMED CT that may be used to represent specimen types.  The current value set contains concepts from the September 2020 release of the GPS, which is based on the July 2020 SNOMED CT International Edition release."
+ValueSet: ResultsSpecimenTypeSnomedGpsUvIps
+Id: results-specimen-type-snomed-gps-uv-ips
+Title: "Results Specimen Type - SNOMED CT GPS - IPS"
+Description: "IPS Specimen Type SNOMED CT GPS value set. This value set includes a set of codes from the SNOMED International Global Patient Set (GPS) subset of SNOMED CT that may be used to represent specimen types.  The current value set contains concepts from the September 2020 release of the GPS, which is based on the July 2020 SNOMED CT International Edition release."
 * ^status = #active
 * ^version = "1.0.0"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
@@ -13606,9 +13589,9 @@ Description: "This value set includes codes from SNOMED Clinical Terms®: all de
 * ^copyright = "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyrighted material of the International Health Terminology Standards Development Organisation (IHTSDO). Where an implementation of this artefact makes use of SNOMED CT content, the implementer must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/get-snomed-ct or info@snomed.org"
 * include codes from system SNOMED_CT where concept descendent-of #442083009
 
-ValueSet: TargetDiseasesGpsUvIps
-Id: targetDiseases-gps-uv-ips
-Title: "Vaccine Target Diseases - GPS - IPS"
+ValueSet: TargetDiseasesSnomedGpsUvIps
+Id: targetDiseases-snomed-gps-uv-ips
+Title: "Vaccine Target Diseases - SNOMED CT GPS - IPS"
 Description: "This value set includes the codes from the SNOMED International Global Patient Set (GPS) subset of SNOMED CT describing Vaccine Target Diseases. The concepts currently included in the value set are from the September 2020 release of the GPS, which is based on the July 2020 SNOMED CT International Edition release."
 * ^status = #active
 * ^version = "1.0.0"
@@ -13712,9 +13695,9 @@ Description: "This value set includes the codes from SNOMED CT describing Vaccin
 * SNOMED_CT#417093003 "Disease caused by West Nile virus (disorder)"
 * SNOMED_CT#6541001 "Yellow fever (disorder)"
 
-ValueSet: VaccinesGpsUvIps
-Id: vaccines-gps-uv-ips
-Title: "Vaccines - GPS - IPS"
+ValueSet: VaccinesSnomedGpsUvIps
+Id: vaccines-snomed-gps-uv-ips
+Title: "Vaccines - SNOMED CT GPS - IPS"
 Description: "This value set includes the codes from the SNOMED International Global Patient Set (GPS) subset of SNOMED CT that are included in: all descendants of 71181003 |Product containing vaccine (product)|.  The concepts currently included in the value set are from the September 2020 release of the GPS, which is based on the July 2020 SNOMED CT International Edition release."
 * ^status = #active
 * ^version = "1.0.0"

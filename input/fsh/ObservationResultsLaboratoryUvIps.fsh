@@ -48,7 +48,7 @@ This observation may represent the result of a simple laboratory test such as he
 * valueQuantity only QuantityIPS
 * valueCodeableConcept MS
 * valueCodeableConcept only CodeableConceptIPS
-* valueCodeableConcept from ResultsCodedValuesLabGpsUvIps (preferred)
+* valueCodeableConcept from ResultsCodedValuesLabSnomedGpsUvIps (preferred)
 * interpretation only CodeableConceptIPS
 * interpretation MS
 * specimen only Reference(SpecimenUvIps)

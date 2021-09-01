@@ -32,7 +32,7 @@ It describes the event of a patient being administered a vaccination or a record
     vaccineGPSCode ..* MS and
     atcClass ..* MS and
     absentOrUnknownImmunization ..1 MS
-* vaccineCode.coding[vaccineGPSCode] from VaccinesGpsUvIps (required)
+* vaccineCode.coding[vaccineGPSCode] from VaccinesSnomedGpsUvIps (required)
 * vaccineCode.coding[vaccineGPSCode] ^short = "Code for vaccine from the SNOMED CT GPS code set"
 * vaccineCode.coding[vaccineGPSCode] ^definition = "Code for a vaccine that is selected from the SNOMED CT GPS code set."
 * vaccineCode.coding[vaccineGPSCode] ^binding.extension.url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName"
@@ -70,8 +70,8 @@ It describes the event of a patient being administered a vaccination or a record
 * protocolApplied.targetDisease ^slicing.description = "Discriminated by bound value set"
 * protocolApplied.targetDisease ^slicing.rules = #open
 * protocolApplied.targetDisease contains targetDiseaseGPSCode 0..1 MS
-* protocolApplied.targetDisease[targetDiseaseGPSCode] from TargetDiseasesGpsUvIps (required)
+* protocolApplied.targetDisease[targetDiseaseGPSCode] from TargetDiseasesSnomedGpsUvIps (required)
 * protocolApplied.targetDisease[targetDiseaseGPSCode] ^short = "Code for a disease the vaccination is against from the SNOMED CT GPS code set."
 * protocolApplied.targetDisease[targetDiseaseGPSCode] ^definition = "Code for a disease the vaccination is against from the SNOMED CT GPS code set."
 * protocolApplied.targetDisease[targetDiseaseGPSCode] ^binding.extension.url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName"
-* protocolApplied.targetDisease[targetDiseaseGPSCode] ^binding.extension.valueString = "TargetDiseasesGpsUvIps"
+* protocolApplied.targetDisease[targetDiseaseGPSCode] ^binding.extension.valueString = "TargetDiseasesSnomedGpsUvIps"
