@@ -25,8 +25,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:26b67240-c31f-400e-a354-d894386e0e29",
-    "timestamp" : "2021-08-25T10:44:57.539Z",
+    "identifier" : "urn:uuid:48a22ec6-e8b8-42b5-9ed1-3a46625032d7",
+    "timestamp" : "2021-09-01T01:40:46.594Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -37,7 +37,7 @@ e: {
     },
     {
       "name" : "version",
-      "valueString" : "http://loinc.org|2.70"
+      "valueString" : "http://loinc.org|2.71"
     }],
     "contains" : [{
       "system" : "http://loinc.org",
@@ -137,8 +137,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:3edddfd6-aa28-4d7e-bb29-a36e6930f658",
-    "timestamp" : "2021-08-25T10:45:05.742Z",
+    "identifier" : "urn:uuid:8af93ebd-b8ed-422f-85d3-f7b99208c04c",
+    "timestamp" : "2021-09-01T01:40:47.344Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -149,7 +149,7 @@ e: {
     },
     {
       "name" : "version",
-      "valueString" : "http://loinc.org|2.70"
+      "valueString" : "http://loinc.org|2.71"
     }],
     "contains" : [{
       "system" : "http://loinc.org",
@@ -222,8 +222,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:dbefdfb4-b3ed-4eae-bc16-2ebe52e06ea8",
-    "timestamp" : "2021-08-25T10:45:06.008Z",
+    "identifier" : "urn:uuid:b6cf0801-d287-445f-8ad5-54bbfd387d5c",
+    "timestamp" : "2021-09-01T01:40:47.860Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -234,7 +234,7 @@ e: {
     },
     {
       "name" : "version",
-      "valueString" : "http://loinc.org|2.70"
+      "valueString" : "http://loinc.org|2.71"
     }],
     "contains" : [{
       "system" : "http://loinc.org",
@@ -306,8 +306,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:a7f48b82-3dc1-4585-bde7-df2c8358ac20",
-    "timestamp" : "2021-08-25T10:45:09.539Z",
+    "identifier" : "urn:uuid:ac5a8fd2-eea5-44a5-b252-1a6116527912",
+    "timestamp" : "2021-09-01T01:40:51.203Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -318,7 +318,7 @@ e: {
     },
     {
       "name" : "version",
-      "valueString" : "http://loinc.org|2.70"
+      "valueString" : "http://loinc.org|2.71"
     }],
     "contains" : [{
       "system" : "http://loinc.org",
@@ -396,8 +396,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:1f158666-4277-4eda-85aa-349dd0f8beea",
-    "timestamp" : "2021-08-25T10:45:09.820Z",
+    "identifier" : "urn:uuid:9c905c56-82bb-4f4e-981c-8211f7da10fd",
+    "timestamp" : "2021-09-01T01:40:51.719Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -408,7 +408,7 @@ e: {
     },
     {
       "name" : "version",
-      "valueString" : "http://loinc.org|2.70"
+      "valueString" : "http://loinc.org|2.71"
     }],
     "contains" : [{
       "system" : "http://loinc.org",
@@ -448,8 +448,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:17aacea0-35f1-4d68-82e2-b0b28f92d850",
-    "timestamp" : "2021-08-25T10:45:10.133Z",
+    "identifier" : "urn:uuid:c46ebe2d-b4de-4109-8907-bd6ebe8c12ad",
+    "timestamp" : "2021-09-01T01:40:52.203Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -460,7 +460,7 @@ e: {
     },
     {
       "name" : "version",
-      "valueString" : "http://loinc.org|2.70"
+      "valueString" : "http://loinc.org|2.71"
     }],
     "contains" : [{
       "system" : "http://loinc.org",
@@ -495,8 +495,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-toocostly",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:882fffc2-c281-44ba-97f7-d23f5a7e0ce3",
-    "timestamp" : "2021-08-25T10:45:21.367Z",
+    "identifier" : "urn:uuid:f3714d8b-4f26-47ed-8cdb-1835ae72d53f",
+    "timestamp" : "2021-09-01T01:40:59.891Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -507,7 +507,7 @@ e: {
     },
     {
       "name" : "version",
-      "valueString" : "http://loinc.org|2.70"
+      "valueString" : "http://loinc.org|2.71"
     }],
     "contains" : [{
       "system" : "http://loinc.org",
@@ -3262,7 +3262,7 @@ e: {
     {
       "system" : "http://loinc.org",
       "code" : "33745-1",
-      "display" : "Deprecated Polyps by CAP cancer protocols"
+      "display" : "Polyps in Specimen Narrative"
     },
     {
       "system" : "http://loinc.org",
@@ -5542,8 +5542,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-toocostly",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:0a2f17a1-779c-4d90-9ceb-baffb56338ba",
-    "timestamp" : "2021-08-25T10:45:22.414Z",
+    "identifier" : "urn:uuid:f9c67047-0054-4687-a18e-ef9035f2eda6",
+    "timestamp" : "2021-09-01T01:41:01.266Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -5554,7 +5554,7 @@ e: {
     },
     {
       "name" : "version",
-      "valueString" : "http://loinc.org|2.70"
+      "valueString" : "http://loinc.org|2.71"
     }],
     "contains" : [{
       "system" : "http://loinc.org",
@@ -10594,8 +10594,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-toocostly",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:f7ad716d-d17f-47d5-87b2-e85196da38b9",
-    "timestamp" : "2021-08-25T10:45:28.680Z",
+    "identifier" : "urn:uuid:ab67f83e-50ea-4029-ae3d-d250e27f6a5e",
+    "timestamp" : "2021-09-01T01:41:03.907Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -10606,7 +10606,7 @@ e: {
     },
     {
       "name" : "version",
-      "valueString" : "http://loinc.org|2.70"
+      "valueString" : "http://loinc.org|2.71"
     }],
     "contains" : [{
       "system" : "http://loinc.org",
@@ -13221,7 +13221,7 @@ e: {
     {
       "system" : "http://loinc.org",
       "code" : "33745-1",
-      "display" : "Deprecated Polyps by CAP cancer protocols"
+      "display" : "Polyps in Specimen Narrative"
     },
     {
       "system" : "http://loinc.org",
@@ -15636,8 +15636,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-toocostly",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:0d04db65-42c4-427b-ae6c-67fae9a41a66",
-    "timestamp" : "2021-08-25T10:45:30.680Z",
+    "identifier" : "urn:uuid:ea09af9f-8e86-43b3-bfc0-e2db16b414d1",
+    "timestamp" : "2021-09-01T01:41:08.063Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -15648,7 +15648,7 @@ e: {
     },
     {
       "name" : "version",
-      "valueString" : "http://loinc.org|2.70"
+      "valueString" : "http://loinc.org|2.71"
     }],
     "contains" : [{
       "system" : "http://loinc.org",
@@ -20677,8 +20677,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:6dc5abf5-1e6f-464d-a4e9-4cadf31ec7ec",
-    "timestamp" : "2021-08-25T10:45:31.320Z",
+    "identifier" : "urn:uuid:d72f56cc-7b83-454b-99d1-e0bc096e0cb2",
+    "timestamp" : "2021-09-01T01:41:09.797Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -20689,7 +20689,7 @@ e: {
     },
     {
       "name" : "version",
-      "valueString" : "http://loinc.org|2.70"
+      "valueString" : "http://loinc.org|2.71"
     }],
     "contains" : [{
       "system" : "http://loinc.org",
