@@ -27,6 +27,21 @@ e: {
   "resourceType" : "ValueSet",
   "compose" : {
     "include" : [{
+      "valueSet" : ["http://hl7.org/fhir/uv/ips/ValueSet/absent-or-unknown-problems-uv-ips"]
+    },
+    {
+      "valueSet" : ["http://hl7.org/fhir/uv/ips/ValueSet/core-problem-finding-situation-event-snomed-gps-uv-ips"]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to find value set \"http://hl7.org/fhir/uv/ips/ValueSet/absent-or-unknown-problems-uv-ips\""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
       "valueSet" : ["http://hl7.org/fhir/uv/ips/ValueSet/vaccines-snomed-gps-uv-ips"]
     },
     {
@@ -42,6 +57,54 @@ e: {
 }}####
 e: {
   "error" : "Error from server: Unable to find value set \"http://hl7.org/fhir/uv/ips/ValueSet/vaccines-snomed-gps-uv-ips\""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "valueSet" : ["http://hl7.org/fhir/uv/ips/ValueSet/targetDiseases-snomed-gps-uv-ips"]
+    },
+    {
+      "valueSet" : ["http://hl7.org/fhir/uv/ips/ValueSet/targetDiseases-snomed-non-gps-uv-ips"]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to find value set \"http://hl7.org/fhir/uv/ips/ValueSet/targetDiseases-snomed-gps-uv-ips\""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "valueSet" : ["http://hl7.org/fhir/uv/ips/ValueSet/results-laboratory-blood-abo-rh-grp-snomed-gps-uv-ips"]
+    },
+    {
+      "valueSet" : ["http://hl7.org/fhir/uv/ips/ValueSet/results-laboratory-presence-absence-snomed-gps-uv-ips"]
+    },
+    {
+      "valueSet" : ["http://hl7.org/fhir/uv/ips/ValueSet/results-organism-snomed-gps-uv-ips"]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to find value set \"http://hl7.org/fhir/uv/ips/ValueSet/results-laboratory-blood-abo-rh-grp-snomed-gps-uv-ips\""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "valueSet" : ["http://hl7.org/fhir/uv/ips/ValueSet/targetDiseases-snomed-gps-uv-ips"]
+    },
+    {
+      "valueSet" : ["http://hl7.org/fhir/uv/ips/ValueSet/targetDiseases-snomed-non-gps-uv-ips"]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to find value set \"http://hl7.org/fhir/uv/ips/ValueSet/targetDiseases-snomed-gps-uv-ips\""
 }
 -------------------------------------------------------------------------------------
 {"hierarchical" : true, "valueSet" :{
@@ -66,6 +129,21 @@ e: {
 }}####
 e: {
   "error" : "Error from server: Unable to find value set \"http://hl7.org/fhir/uv/ips/ValueSet/absent-or-unknown-allergies-uv-ips\""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "valueSet" : ["http://hl7.org/fhir/uv/ips/ValueSet/absent-or-unknown-problems-uv-ips"]
+    },
+    {
+      "valueSet" : ["http://hl7.org/fhir/uv/ips/ValueSet/core-problem-finding-situation-event-snomed-gps-uv-ips"]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to find value set \"http://hl7.org/fhir/uv/ips/ValueSet/absent-or-unknown-problems-uv-ips\""
 }
 -------------------------------------------------------------------------------------
 {"hierarchical" : true, "valueSet" :{

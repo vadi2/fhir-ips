@@ -1060,3 +1060,279 @@ e: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "code" : "121065",
+  "display" : "Procedure Description"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://dicom.nema.org/resources/ontology/DCM",
+      "concept" : [{
+        "code" : "121065",
+        "display" : "Procedure Description"
+      },
+      {
+        "code" : "121069",
+        "display" : "Previous Finding"
+      },
+      {
+        "code" : "121071",
+        "display" : "Finding"
+      },
+      {
+        "code" : "121073",
+        "display" : "Impression"
+      },
+      {
+        "code" : "121075",
+        "display" : "Recommendation"
+      },
+      {
+        "code" : "121077",
+        "display" : "Conclusion"
+      },
+      {
+        "code" : "121110",
+        "display" : "Patient Presentation"
+      },
+      {
+        "code" : "121111",
+        "display" : "Summary"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "11329-0",
+        "display" : "History"
+      },
+      {
+        "code" : "55115-0",
+        "display" : "Request"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "=",
+        "value" : "116224001"
+      }],
+      "valueSet" : ["http://terminology.hl7.org/ValueSet/snomed-intl-gps"]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The filter \"concept = 116224001\" was not understood in the context of http://snomed.info/sct (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "code" : "121071",
+  "display" : "Finding"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://dicom.nema.org/resources/ontology/DCM",
+      "concept" : [{
+        "code" : "121065",
+        "display" : "Procedure Description"
+      },
+      {
+        "code" : "121069",
+        "display" : "Previous Finding"
+      },
+      {
+        "code" : "121071",
+        "display" : "Finding"
+      },
+      {
+        "code" : "121073",
+        "display" : "Impression"
+      },
+      {
+        "code" : "121075",
+        "display" : "Recommendation"
+      },
+      {
+        "code" : "121077",
+        "display" : "Conclusion"
+      },
+      {
+        "code" : "121110",
+        "display" : "Patient Presentation"
+      },
+      {
+        "code" : "121111",
+        "display" : "Summary"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "11329-0",
+        "display" : "History"
+      },
+      {
+        "code" : "55115-0",
+        "display" : "Request"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "=",
+        "value" : "116224001"
+      }],
+      "valueSet" : ["http://terminology.hl7.org/ValueSet/snomed-intl-gps"]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The filter \"concept = 116224001\" was not understood in the context of http://snomed.info/sct (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "code" : "121065",
+  "display" : "Procedure Description"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://dicom.nema.org/resources/ontology/DCM",
+      "concept" : [{
+        "code" : "121065",
+        "display" : "Procedure Description"
+      },
+      {
+        "code" : "121069",
+        "display" : "Previous Finding"
+      },
+      {
+        "code" : "121071",
+        "display" : "Finding"
+      },
+      {
+        "code" : "121073",
+        "display" : "Impression"
+      },
+      {
+        "code" : "121075",
+        "display" : "Recommendation"
+      },
+      {
+        "code" : "121077",
+        "display" : "Conclusion"
+      },
+      {
+        "code" : "121110",
+        "display" : "Patient Presentation"
+      },
+      {
+        "code" : "121111",
+        "display" : "Summary"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "11329-0",
+        "display" : "History"
+      },
+      {
+        "code" : "55115-0",
+        "display" : "Request"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "116224001",
+        "display" : "Complication of Procedure"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+v: {
+  "display" : "Procedure Description",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "code" : "121071",
+  "display" : "Finding"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://dicom.nema.org/resources/ontology/DCM",
+      "concept" : [{
+        "code" : "121065",
+        "display" : "Procedure Description"
+      },
+      {
+        "code" : "121069",
+        "display" : "Previous Finding"
+      },
+      {
+        "code" : "121071",
+        "display" : "Finding"
+      },
+      {
+        "code" : "121073",
+        "display" : "Impression"
+      },
+      {
+        "code" : "121075",
+        "display" : "Recommendation"
+      },
+      {
+        "code" : "121077",
+        "display" : "Conclusion"
+      },
+      {
+        "code" : "121110",
+        "display" : "Patient Presentation"
+      },
+      {
+        "code" : "121111",
+        "display" : "Summary"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "11329-0",
+        "display" : "History"
+      },
+      {
+        "code" : "55115-0",
+        "display" : "Request"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "116224001",
+        "display" : "Complication of Procedure"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+v: {
+  "display" : "Finding",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
