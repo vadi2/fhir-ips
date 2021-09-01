@@ -7651,12 +7651,14 @@ Please note that this Value set is not representing any IDMP identifier. It is e
 ValueSet: MedicationCodesUvIps
 Id: medication-codes-uv-ips
 Title: "Medication Codes - IPS"
+Description: "This value set includes the codes from the \"Medications - SNOMED CT - IPS\" and \"WHO ATC - IPS\" value sets."
 * include codes from valueset MedicationSnomedCodesUvIps
 * include codes from valueset WhoAtcUvIps
 
 ValueSet: MedicationStatementCodesUvIps
 Id: medication-statement-codes-uv-ips
 Title: "Medication Statement Codes - IPS"
+Description: "This value set includes the codes from the \"Medications - SNOMED CT - IPS\", \"Absent or Unknown Medication - IPS\" and \"WHO ATC - IPS\" value sets."
 * include codes from valueset MedicationSnomedCodesUvIps
 * include codes from valueset WhoAtcUvIps
 * include codes from valueset NoMedsInfoUvIps
