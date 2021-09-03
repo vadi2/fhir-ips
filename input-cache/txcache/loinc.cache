@@ -352,11 +352,11 @@ v: {
   "code" : "74013-4"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
-  "display" : "",
-  "code" : "",
-  "system" : "",
-  "severity" : "error",
-  "error" : "Error performing operation 'validate-code: null' (parameters = \"\")"
+  "display" : "Alcoholic drinks per day",
+  "code" : "74013-4",
+  "system" : "http://loinc.org",
+  "severity" : null,
+  "error" : ""
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -364,11 +364,11 @@ v: {
   "code" : "72166-2"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
-  "display" : "",
-  "code" : "",
-  "system" : "",
-  "severity" : "error",
-  "error" : "Error performing operation 'validate-code: null' (parameters = \"\")"
+  "display" : "Tobacco smoking status",
+  "code" : "72166-2",
+  "system" : "http://loinc.org",
+  "severity" : null,
+  "error" : ""
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -376,11 +376,11 @@ v: {
   "code" : "82810-3"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
-  "display" : "",
-  "code" : "",
-  "system" : "",
-  "severity" : "error",
-  "error" : "Error performing operation 'validate-code: null' (parameters = \"\")"
+  "display" : "Pregnancy status",
+  "code" : "82810-3",
+  "system" : "http://loinc.org",
+  "severity" : null,
+  "error" : ""
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -388,11 +388,11 @@ v: {
   "code" : "60591-5"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
-  "display" : "",
-  "code" : "",
-  "system" : "",
-  "severity" : "error",
-  "error" : "Error performing operation 'validate-code: null' (parameters = \"\")"
+  "display" : "Patient summary Document",
+  "code" : "60591-5",
+  "system" : "http://loinc.org",
+  "severity" : null,
+  "error" : ""
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -400,11 +400,11 @@ v: {
   "code" : "10160-0"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
-  "display" : "",
-  "code" : "",
-  "system" : "",
-  "severity" : "error",
-  "error" : "Error performing operation 'validate-code: null' (parameters = \"\")"
+  "display" : "History of Medication use Narrative",
+  "code" : "10160-0",
+  "system" : "http://loinc.org",
+  "severity" : null,
+  "error" : ""
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -412,11 +412,11 @@ v: {
   "code" : "48765-2"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
-  "display" : "",
-  "code" : "",
-  "system" : "",
-  "severity" : "error",
-  "error" : "Error performing operation 'validate-code: null' (parameters = \"\")"
+  "display" : "Allergies and adverse reactions Document",
+  "code" : "48765-2",
+  "system" : "http://loinc.org",
+  "severity" : null,
+  "error" : ""
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -424,11 +424,11 @@ v: {
   "code" : "11450-4"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
-  "display" : "",
-  "code" : "",
-  "system" : "",
-  "severity" : "error",
-  "error" : "Error performing operation 'validate-code: null' (parameters = \"\")"
+  "display" : "Problem list - Reported",
+  "code" : "11450-4",
+  "system" : "http://loinc.org",
+  "severity" : null,
+  "error" : ""
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -436,11 +436,11 @@ v: {
   "code" : "47519-4"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
-  "display" : "",
-  "code" : "",
-  "system" : "",
-  "severity" : "error",
-  "error" : "Error performing operation 'validate-code: null' (parameters = \"\")"
+  "display" : "History of Procedures Document",
+  "code" : "47519-4",
+  "system" : "http://loinc.org",
+  "severity" : null,
+  "error" : ""
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -448,11 +448,11 @@ v: {
   "code" : "11369-6"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
-  "display" : "",
-  "code" : "",
-  "system" : "",
-  "severity" : "error",
-  "error" : "Error performing operation 'validate-code: null' (parameters = \"\")"
+  "display" : "History of Immunization Narrative",
+  "code" : "11369-6",
+  "system" : "http://loinc.org",
+  "severity" : null,
+  "error" : ""
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -460,11 +460,11 @@ v: {
   "code" : "46264-8"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
-  "display" : "",
-  "code" : "",
-  "system" : "",
-  "severity" : "error",
-  "error" : "Error performing operation 'validate-code: null' (parameters = \"\")"
+  "display" : "History of medical device use",
+  "code" : "46264-8",
+  "system" : "http://loinc.org",
+  "severity" : null,
+  "error" : ""
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -472,11 +472,11 @@ v: {
   "code" : "30954-2"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
-  "display" : "",
-  "code" : "",
-  "system" : "",
-  "severity" : "error",
-  "error" : "Error performing operation 'validate-code: null' (parameters = \"\")"
+  "display" : "Relevant diagnostic tests/laboratory data Narrative",
+  "code" : "30954-2",
+  "system" : "http://loinc.org",
+  "severity" : null,
+  "error" : ""
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -484,11 +484,11 @@ v: {
   "code" : "8716-3"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
-  "display" : "",
-  "code" : "",
-  "system" : "",
-  "severity" : "error",
-  "error" : "Error performing operation 'validate-code: null' (parameters = \"\")"
+  "display" : "Vital signs",
+  "code" : "8716-3",
+  "system" : "http://loinc.org",
+  "severity" : null,
+  "error" : ""
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -496,11 +496,11 @@ v: {
   "code" : "11348-0"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
-  "display" : "",
-  "code" : "",
-  "system" : "",
-  "severity" : "error",
-  "error" : "Error performing operation 'validate-code: null' (parameters = \"\")"
+  "display" : "History of Past illness Narrative",
+  "code" : "11348-0",
+  "system" : "http://loinc.org",
+  "severity" : null,
+  "error" : ""
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -508,11 +508,11 @@ v: {
   "code" : "47420-5"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
-  "display" : "",
-  "code" : "",
-  "system" : "",
-  "severity" : "error",
-  "error" : "Error performing operation 'validate-code: null' (parameters = \"\")"
+  "display" : "Functional status assessment note",
+  "code" : "47420-5",
+  "system" : "http://loinc.org",
+  "severity" : null,
+  "error" : ""
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -520,11 +520,11 @@ v: {
   "code" : "18776-5"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
-  "display" : "",
-  "code" : "",
-  "system" : "",
-  "severity" : "error",
-  "error" : "Error performing operation 'validate-code: null' (parameters = \"\")"
+  "display" : "Plan of care note",
+  "code" : "18776-5",
+  "system" : "http://loinc.org",
+  "severity" : null,
+  "error" : ""
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -532,11 +532,11 @@ v: {
   "code" : "29762-2"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
-  "display" : "",
-  "code" : "",
-  "system" : "",
-  "severity" : "error",
-  "error" : "Error performing operation 'validate-code: null' (parameters = \"\")"
+  "display" : "Social history Narrative",
+  "code" : "29762-2",
+  "system" : "http://loinc.org",
+  "severity" : null,
+  "error" : ""
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -544,11 +544,11 @@ v: {
   "code" : "10162-6"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
-  "display" : "",
-  "code" : "",
-  "system" : "",
-  "severity" : "error",
-  "error" : "Error performing operation 'validate-code: null' (parameters = \"\")"
+  "display" : "History of pregnancies Narrative",
+  "code" : "10162-6",
+  "system" : "http://loinc.org",
+  "severity" : null,
+  "error" : ""
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -556,11 +556,11 @@ v: {
   "code" : "42348-3"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
-  "display" : "",
-  "code" : "",
-  "system" : "",
-  "severity" : "error",
-  "error" : "Error performing operation 'validate-code: null' (parameters = \"\")"
+  "display" : "Advance directives",
+  "code" : "42348-3",
+  "system" : "http://loinc.org",
+  "severity" : null,
+  "error" : ""
 }
 -------------------------------------------------------------------------------------
 {"hierarchical" : false, "valueSet" :{
@@ -589,8 +589,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:f8150fd7-49ec-46cd-a10f-d8329e6b90d5",
-    "timestamp" : "2021-09-02T03:13:02.002Z",
+    "identifier" : "urn:uuid:1a0aa445-3579-4559-9a96-a03097480a39",
+    "timestamp" : "2021-09-03T00:26:26.381Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -701,8 +701,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:74f322a2-8402-40e2-b9e6-96941307bd3f",
-    "timestamp" : "2021-09-02T03:13:16.518Z",
+    "identifier" : "urn:uuid:ae95ab2a-1efb-4181-85b1-2be897e224f0",
+    "timestamp" : "2021-09-02T11:26:56.483Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -786,8 +786,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:6cc7225b-8aaa-416a-bc71-c3cdd9fe1af0",
-    "timestamp" : "2021-09-02T03:13:17.315Z",
+    "identifier" : "urn:uuid:bcf068ae-3954-444b-be0b-059aab85fbb0",
+    "timestamp" : "2021-09-02T11:26:56.608Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -870,8 +870,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:81404a6a-d35a-416a-94d8-d86a08ba5a8a",
-    "timestamp" : "2021-09-02T03:13:27.205Z",
+    "identifier" : "urn:uuid:ad8e4719-a455-4da4-9e88-ea005734724c",
+    "timestamp" : "2021-09-02T11:26:59.014Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -960,8 +960,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:79b88fa6-0e5b-4d01-b45a-ae0cccc22458",
-    "timestamp" : "2021-09-02T03:13:28.096Z",
+    "identifier" : "urn:uuid:7e37aa78-a422-41d2-ad43-1d82dfe39e37",
+    "timestamp" : "2021-09-02T11:26:59.155Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -1012,8 +1012,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:0faaff11-bec2-42f1-8163-8b8df10e1c5e",
-    "timestamp" : "2021-09-02T03:13:28.986Z",
+    "identifier" : "urn:uuid:df8c8bc5-7a7b-4133-8f75-3eafb4b85a95",
+    "timestamp" : "2021-09-02T11:26:59.389Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -1059,8 +1059,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-toocostly",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:41901216-abdf-47c1-a74c-140bca683d95",
-    "timestamp" : "2021-09-02T03:14:04.346Z",
+    "identifier" : "urn:uuid:2576bcf6-f169-4516-9ff2-8eed7c6de33e",
+    "timestamp" : "2021-09-02T11:27:06.405Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -6106,8 +6106,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-toocostly",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:eeb53306-48cb-435f-b4e6-414453294902",
-    "timestamp" : "2021-09-02T03:14:08.424Z",
+    "identifier" : "urn:uuid:29a90af6-15e4-4ebf-99e4-02c16a96c3e3",
+    "timestamp" : "2021-09-02T11:27:07.608Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -11158,8 +11158,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-toocostly",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:757402bb-df40-4141-87dd-7f2ae1609510",
-    "timestamp" : "2021-09-02T03:14:25.096Z",
+    "identifier" : "urn:uuid:0a4ac43c-6566-4132-91eb-9507d2567471",
+    "timestamp" : "2021-09-02T11:27:11.452Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -16200,8 +16200,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-toocostly",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:5dfd2ba7-0b89-4449-99e3-a03fed1e5a46",
-    "timestamp" : "2021-09-02T03:14:33.471Z",
+    "identifier" : "urn:uuid:82bb33d4-a656-4099-b57c-aff833bee5e8",
+    "timestamp" : "2021-09-02T11:27:12.873Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -21241,8 +21241,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:b6b7e271-88a4-4da3-815d-2d6e1f16eb70",
-    "timestamp" : "2021-09-02T03:14:36.439Z",
+    "identifier" : "urn:uuid:4f513d1a-39ae-4da8-a547-d0cca0c8e330",
+    "timestamp" : "2021-09-02T11:27:13.264Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -22646,8 +22646,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:c3d3460a-81be-40a4-bd27-231b00ab0bc3",
-    "timestamp" : "2021-09-02T03:18:04.689Z",
+    "identifier" : "urn:uuid:cd140805-754f-4e9b-b0af-3f23ed022fe0",
+    "timestamp" : "2021-09-02T20:30:49.508Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -22744,8 +22744,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:198cbc7a-1029-408a-b821-d1b34e6e23bf",
-    "timestamp" : "2021-09-02T03:18:07.986Z",
+    "identifier" : "urn:uuid:5c4cb6cc-0087-46c3-ac8f-86dbd5c0764a",
+    "timestamp" : "2021-09-02T20:30:42.460Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -22825,8 +22825,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:6e359d68-0724-4012-ad86-df3508cb5bbf",
-    "timestamp" : "2021-09-02T03:20:24.580Z",
+    "identifier" : "urn:uuid:eed5294e-6b11-483f-a812-7ac3c55f361f",
+    "timestamp" : "2021-09-02T20:30:37.882Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -22888,8 +22888,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-toocostly",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:3d888007-9443-4ee1-bf12-88fd11bad487",
-    "timestamp" : "2021-09-02T03:20:45.798Z",
+    "identifier" : "urn:uuid:34c3cc6a-bf85-4016-ab63-5c098aff1b62",
+    "timestamp" : "2021-09-02T20:30:57.148Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -27929,8 +27929,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:f9d51ac5-ea2b-4f56-8756-5c9f4bd5b815",
-    "timestamp" : "2021-09-02T03:20:52.939Z",
+    "identifier" : "urn:uuid:0e2d5bae-7df0-4d8f-9e8d-56ddf114ec46",
+    "timestamp" : "2021-09-02T20:30:48.820Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -28009,8 +28009,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:7850db4c-2f91-4afb-97a2-aa0fc4b9a286",
-    "timestamp" : "2021-09-02T03:21:04.861Z",
+    "identifier" : "urn:uuid:7614a790-cbf8-4343-b965-b932079bd7c3",
+    "timestamp" : "2021-09-02T20:30:48.148Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -28095,8 +28095,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:b645a01e-06c6-4fe4-8154-6b080edf1717",
-    "timestamp" : "2021-09-02T03:21:05.548Z",
+    "identifier" : "urn:uuid:860b5f04-b386-4c95-917a-7d14eb916280",
+    "timestamp" : "2021-09-02T20:30:43.304Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -28148,8 +28148,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-toocostly",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:e5020ccc-55a3-400a-abbc-aa69aa46c52b",
-    "timestamp" : "2021-09-02T03:21:07.095Z",
+    "identifier" : "urn:uuid:acfc6e02-944e-49aa-b8b2-386b5e59a421",
+    "timestamp" : "2021-09-02T20:31:00.288Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true

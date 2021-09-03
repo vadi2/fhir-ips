@@ -952,11 +952,11 @@ v: {
   "code" : "10101000"
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
-  "display" : "",
-  "code" : "",
-  "system" : "",
-  "severity" : "error",
-  "error" : "Error performing operation 'validate-code: null' (parameters = \"\")"
+  "display" : "Oral drops, solution",
+  "code" : "10101000",
+  "system" : "http://standardterms.edqm.eu",
+  "severity" : null,
+  "error" : ""
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -8337,8 +8337,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:3f58eb69-a513-42a1-8bb9-9621feb3a60f",
-    "timestamp" : "2021-09-02T03:13:25.408Z",
+    "identifier" : "urn:uuid:48609294-243d-4e15-b830-10a2483d1031",
+    "timestamp" : "2021-09-02T11:26:58.264Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -10991,8 +10991,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:35a41c1b-8ba7-4b4c-8dc3-1753da78cbf8",
-    "timestamp" : "2021-09-02T03:13:26.268Z",
+    "identifier" : "urn:uuid:9deb5958-9e8d-4552-ba8f-72093ae709f7",
+    "timestamp" : "2021-09-02T11:26:58.639Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -18381,8 +18381,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:19796336-d400-4c34-bfff-5f43c9547687",
-    "timestamp" : "2021-09-02T03:20:34.564Z",
+    "identifier" : "urn:uuid:adc82e87-9943-4a91-aa05-f61966b71df5",
+    "timestamp" : "2021-09-02T11:28:04.592Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -21031,8 +21031,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:f171c325-4dd1-47a6-a072-cc2991be6d43",
-    "timestamp" : "2021-09-02T03:20:49.955Z",
+    "identifier" : "urn:uuid:7c7fcbbf-0644-43d4-b1b4-32bbd8a07e29",
+    "timestamp" : "2021-09-02T11:28:16.608Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true

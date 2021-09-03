@@ -13,8 +13,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:752db911-449f-479b-a6e4-f44b127cc789",
-    "timestamp" : "2021-09-02T03:16:17.064Z",
+    "identifier" : "urn:uuid:b29ca5e6-dca1-476a-b0b3-9cc0361d8978",
+    "timestamp" : "2021-09-03T00:28:01.975Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -1984,8 +1984,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:68efc0ec-a952-48f5-895d-690df3237b63",
-    "timestamp" : "2021-09-02T03:18:05.002Z",
+    "identifier" : "urn:uuid:acb042f3-af1c-4fc4-8af3-0552cb9c93dc",
+    "timestamp" : "2021-09-02T11:28:04.842Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -3666,19 +3666,6 @@ e: {
     }]
   }
 },
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://www.whocc.no/atc",
-  "code" : "J07CA02",
-  "display" : "diphtheria-pertussis-poliomyelitis-tetanus"
-}, "valueSet" :null, "lang":"fr-LU", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "diphtheria-pertussis-poliomyelitis-tetanus",
-  "code" : "J07CA02",
-  "system" : "http://www.whocc.no/atc",
-  "severity" : null,
   "error" : ""
 }
 -------------------------------------------------------------------------------------
