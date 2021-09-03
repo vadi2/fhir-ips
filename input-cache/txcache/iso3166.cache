@@ -6,6 +6,8 @@
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "United States of America",
+  "code" : "US",
+  "system" : "urn:iso:std:iso:3166",
   "severity" : null,
   "error" : ""
 }

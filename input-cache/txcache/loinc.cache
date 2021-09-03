@@ -5,6 +5,8 @@
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "[#] Births.live",
+  "code" : "11636-8",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -15,6 +17,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "[#] Births.preterm",
+  "code" : "11637-6",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -25,6 +29,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "[#] Births.still living",
+  "code" : "11638-4",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -35,6 +41,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "[#] Births.term",
+  "code" : "11639-2",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -45,6 +53,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "[#] Births total",
+  "code" : "11640-0",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -55,6 +65,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "[#] Abortions",
+  "code" : "11612-9",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -65,6 +77,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "[#] Abortions.induced",
+  "code" : "11613-7",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -75,6 +89,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "[#] Abortions.spontaneous",
+  "code" : "11614-5",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -85,6 +101,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "[#] Ectopic pregnancy",
+  "code" : "33065-4",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -95,6 +113,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "History general Narrative - Reported",
+  "code" : "11329-0",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -105,6 +125,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Requested imaging studies information Document",
+  "code" : "55115-0",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -115,6 +137,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Mild",
+  "code" : "LA6752-5",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -125,6 +149,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Moderate",
+  "code" : "LA6751-7",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -135,6 +161,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Severe",
+  "code" : "LA6750-9",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -145,6 +173,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Pregnant",
+  "code" : "LA15173-0",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -155,6 +185,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Not pregnant",
+  "code" : "LA26683-5",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -165,6 +197,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Unknown",
+  "code" : "LA4489-6",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -175,6 +209,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Delivery date Estimated",
+  "code" : "11778-8",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -185,6 +221,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Delivery date Estimated from last menstrual period",
+  "code" : "11779-6",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -195,6 +233,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Delivery date Estimated from ovulation date",
+  "code" : "11780-4",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -205,6 +245,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Problem",
+  "code" : "75326-9",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -215,6 +257,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Current every day smoker",
+  "code" : "LA18976-3",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -225,6 +269,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Current some day smoker",
+  "code" : "LA18977-1",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -235,6 +281,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Former smoker",
+  "code" : "LA15920-4",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -245,6 +293,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Never smoker",
+  "code" : "LA18978-9",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -255,6 +305,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Smoker, current status unknown",
+  "code" : "LA18979-7",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -265,6 +317,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Unknown if ever smoked",
+  "code" : "LA18980-5",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -275,6 +329,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Heavy tobacco smoker",
+  "code" : "LA18981-3",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -285,6 +341,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Light tobacco smoker",
+  "code" : "LA18982-1",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -295,6 +353,8 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Alcoholic drinks per day",
+  "code" : "74013-4",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -305,6 +365,8 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Pregnancy status",
+  "code" : "82810-3",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -315,6 +377,8 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Patient summary Document",
+  "code" : "60591-5",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -325,6 +389,8 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "History of Medication use Narrative",
+  "code" : "10160-0",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -335,6 +401,8 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Allergies and adverse reactions Document",
+  "code" : "48765-2",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -345,6 +413,8 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Problem list - Reported",
+  "code" : "11450-4",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -355,6 +425,8 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "History of Procedures Document",
+  "code" : "47519-4",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -365,6 +437,8 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "History of Immunization Narrative",
+  "code" : "11369-6",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -375,6 +449,8 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "History of medical device use",
+  "code" : "46264-8",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -385,6 +461,8 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Relevant diagnostic tests/laboratory data Narrative",
+  "code" : "30954-2",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -395,6 +473,8 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Vital signs",
+  "code" : "8716-3",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -405,6 +485,8 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "History of Past illness Narrative",
+  "code" : "11348-0",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -415,6 +497,8 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Functional status assessment note",
+  "code" : "47420-5",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -425,6 +509,8 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Plan of care note",
+  "code" : "18776-5",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -435,6 +521,8 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Social history Narrative",
+  "code" : "29762-2",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -445,6 +533,8 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "History of pregnancies Narrative",
+  "code" : "10162-6",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -455,6 +545,8 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Advance directives",
+  "code" : "42348-3",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -465,6 +557,8 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Tobacco smoking status",
+  "code" : "72166-2",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -495,8 +589,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:67b36728-30a7-4733-a60c-1f55c824fbf7",
-    "timestamp" : "2021-09-01T01:40:46.953Z",
+    "identifier" : "urn:uuid:797afc59-0349-4585-b846-8561269cab0c",
+    "timestamp" : "2021-09-03T01:30:05.595Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -607,8 +701,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:be80bfe7-6661-4ebf-bc25-dad531498449",
-    "timestamp" : "2021-09-01T01:40:47.625Z",
+    "identifier" : "urn:uuid:ae95ab2a-1efb-4181-85b1-2be897e224f0",
+    "timestamp" : "2021-09-02T11:26:56.483Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -692,8 +786,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:97bccebe-42f2-437a-8b54-20038528490e",
-    "timestamp" : "2021-09-01T01:40:48.141Z",
+    "identifier" : "urn:uuid:bcf068ae-3954-444b-be0b-059aab85fbb0",
+    "timestamp" : "2021-09-02T11:26:56.608Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -776,8 +870,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:1b823b74-8876-446d-a450-6faef05cfac0",
-    "timestamp" : "2021-09-01T01:40:51.469Z",
+    "identifier" : "urn:uuid:ad8e4719-a455-4da4-9e88-ea005734724c",
+    "timestamp" : "2021-09-02T11:26:59.014Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -866,8 +960,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:c672d15e-0643-4c72-8893-08387b66a3b7",
-    "timestamp" : "2021-09-01T01:40:51.969Z",
+    "identifier" : "urn:uuid:7e37aa78-a422-41d2-ad43-1d82dfe39e37",
+    "timestamp" : "2021-09-02T11:26:59.155Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -918,8 +1012,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:5d37680e-9f60-4132-8032-ecba263ecadd",
-    "timestamp" : "2021-09-01T01:40:52.469Z",
+    "identifier" : "urn:uuid:df8c8bc5-7a7b-4133-8f75-3eafb4b85a95",
+    "timestamp" : "2021-09-02T11:26:59.389Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -965,8 +1059,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-toocostly",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:d3181c95-2bd3-4afa-86d2-7e226abfc6cf",
-    "timestamp" : "2021-09-01T01:41:02.125Z",
+    "identifier" : "urn:uuid:2576bcf6-f169-4516-9ff2-8eed7c6de33e",
+    "timestamp" : "2021-09-02T11:27:06.405Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -6012,8 +6106,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-toocostly",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:ee0b005a-ae38-40c1-a55f-ea2e6fad90b8",
-    "timestamp" : "2021-09-01T01:41:03.281Z",
+    "identifier" : "urn:uuid:29a90af6-15e4-4ebf-99e4-02c16a96c3e3",
+    "timestamp" : "2021-09-02T11:27:07.608Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -11064,8 +11158,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-toocostly",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:d537dff4-f823-4cac-9f67-01d6e90c0d07",
-    "timestamp" : "2021-09-01T01:41:05.250Z",
+    "identifier" : "urn:uuid:0a4ac43c-6566-4132-91eb-9507d2567471",
+    "timestamp" : "2021-09-02T11:27:11.452Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -16106,8 +16200,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-toocostly",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:c88b8422-5cbb-481c-9571-70973f363b43",
-    "timestamp" : "2021-09-01T01:41:08.938Z",
+    "identifier" : "urn:uuid:82bb33d4-a656-4099-b57c-aff833bee5e8",
+    "timestamp" : "2021-09-02T11:27:12.873Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -21147,8 +21241,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:31e81c2e-ee26-49a8-90fe-52bcdb133fe9",
-    "timestamp" : "2021-09-01T01:41:10.578Z",
+    "identifier" : "urn:uuid:4f513d1a-39ae-4da8-a547-d0cca0c8e330",
+    "timestamp" : "2021-09-02T11:27:13.264Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -21194,6 +21288,8 @@ e: {
 }, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "CT Abdomen W contrast IV",
+  "code" : "79103-8",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -21217,6 +21313,8 @@ v: {
 }, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
 v: {
   "display" : "CT Abdomen W contrast IV",
+  "code" : "79103-8",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -21227,6 +21325,8 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "CT Abdomen W contrast IV",
+  "code" : "79103-8",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -21238,6 +21338,8 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "SPECT Heart perfusion and wall motion at rest and W stress and W Tl-201 IV and W Tc-99m Sestamibi IV",
+  "code" : "49569-7",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -21291,6 +21393,8 @@ v: {
 }, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "[#] Births total",
+  "code" : "11640-0",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -21345,6 +21449,8 @@ v: {
 }, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
 v: {
   "display" : "[#] Births total",
+  "code" : "11640-0",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -21355,6 +21461,8 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "[#] Births total",
+  "code" : "11640-0",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -21382,6 +21490,8 @@ v: {
 }, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Hemoglobin A1c/Hemoglobin.total in Blood by HPLC",
+  "code" : "17856-6",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -21404,6 +21514,8 @@ v: {
 }, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "",
+  "code" : "",
+  "system" : "",
   "severity" : "error",
   "error" : "The code provided (http://loinc.org#17856-6) is not valid (from http://tx.fhir.org/r4)"
 }
@@ -21442,6 +21554,8 @@ v: {
 }, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"CHECK_MEMERSHIP_ONLY"}####
 v: {
   "display" : "Hemoglobin A1c/Hemoglobin.total in Blood by HPLC",
+  "code" : "17856-6",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -21478,6 +21592,8 @@ v: {
 }, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
 v: {
   "display" : "Hemoglobin A1c/Hemoglobin.total in Blood by HPLC",
+  "code" : "17856-6",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -21488,6 +21604,8 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Hemoglobin A1c/Hemoglobin.total in Blood by HPLC",
+  "code" : "17856-6",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -21505,6 +21623,8 @@ v: {
 }, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Laboratory report",
+  "code" : "11502-2",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -21523,6 +21643,8 @@ v: {
 }, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
 v: {
   "display" : "Laboratory report",
+  "code" : "11502-2",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -21533,6 +21655,8 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Laboratory report",
+  "code" : "11502-2",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -21555,6 +21679,8 @@ v: {
 }, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Patient summary Document",
+  "code" : "60591-5",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -21578,6 +21704,8 @@ v: {
 }, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
 v: {
   "display" : "Patient summary Document",
+  "code" : "60591-5",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -21599,6 +21727,8 @@ v: {
 }, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Problem",
+  "code" : "75326-9",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -21621,6 +21751,8 @@ v: {
 }, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
 v: {
   "display" : "Problem",
+  "code" : "75326-9",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -21631,6 +21763,8 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Problem",
+  "code" : "75326-9",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -21660,6 +21794,8 @@ v: {
 }, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Moderate",
+  "code" : "LA6751-7",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -21690,6 +21826,8 @@ v: {
 }, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
 v: {
   "display" : "Moderate",
+  "code" : "LA6751-7",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -21700,6 +21838,8 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Moderate",
+  "code" : "LA6751-7",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -21711,6 +21851,8 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Problem list - Reported",
+  "code" : "11450-4",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -21722,6 +21864,8 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Problem",
+  "code" : "75326-9",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -21733,6 +21877,8 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Moderate",
+  "code" : "LA6751-7",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -21744,6 +21890,8 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "History of Medication use Narrative",
+  "code" : "10160-0",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -21755,6 +21903,8 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Allergies and adverse reactions Document",
+  "code" : "48765-2",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -21784,6 +21934,8 @@ v: {
 }, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Severe",
+  "code" : "LA6750-9",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -21814,6 +21966,8 @@ v: {
 }, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
 v: {
   "display" : "Severe",
+  "code" : "LA6750-9",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -21824,6 +21978,8 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Severe",
+  "code" : "LA6750-9",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -21835,6 +21991,8 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "History of Past illness Narrative",
+  "code" : "11348-0",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -21846,6 +22004,8 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Severe",
+  "code" : "LA6750-9",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -21857,6 +22017,8 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Plan of care note",
+  "code" : "18776-5",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -21868,6 +22030,8 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "ABO and Rh group [Type] in Blood",
+  "code" : "882-1",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -21879,6 +22043,8 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "C Ab [Presence] in Serum or Plasma",
+  "code" : "945-6",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -21890,6 +22056,8 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "E Ab [Presence] in Serum or Plasma",
+  "code" : "1018-1",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -21901,6 +22069,8 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "little c Ab [Presence] in Serum or Plasma",
+  "code" : "1156-9",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -21912,6 +22082,8 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Hemoglobin A1c/Hemoglobin.total in Blood by HPLC",
+  "code" : "17856-6",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -21923,6 +22095,8 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Bacteria identified in Isolate",
+  "code" : "42803-7",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -21934,6 +22108,8 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Relevant diagnostic tests/laboratory data Narrative",
+  "code" : "30954-2",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -21961,6 +22137,8 @@ v: {
 }, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Creatinine [Mass/volume] in Serum or Plasma",
+  "code" : "2160-0",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -21983,6 +22161,8 @@ v: {
 }, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "",
+  "code" : "",
+  "system" : "",
   "severity" : "error",
   "error" : "The code provided (http://loinc.org#2160-0) is not valid (from http://tx.fhir.org/r4)"
 }
@@ -22021,6 +22201,8 @@ v: {
 }, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"CHECK_MEMERSHIP_ONLY"}####
 v: {
   "display" : "Creatinine [Mass/volume] in Serum or Plasma",
+  "code" : "2160-0",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -22057,6 +22239,8 @@ v: {
 }, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
 v: {
   "display" : "Creatinine [Mass/volume] in Serum or Plasma",
+  "code" : "2160-0",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -22067,6 +22251,8 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Creatinine [Mass/volume] in Serum or Plasma",
+  "code" : "2160-0",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -22096,6 +22282,8 @@ v: {
 }, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Delivery date Estimated",
+  "code" : "11778-8",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -22126,6 +22314,8 @@ v: {
 }, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
 v: {
   "display" : "Delivery date Estimated",
+  "code" : "11778-8",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -22136,6 +22326,8 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Delivery date Estimated",
+  "code" : "11778-8",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -22147,6 +22339,8 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Pregnancy status",
+  "code" : "82810-3",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -22176,6 +22370,8 @@ v: {
 }, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Pregnant",
+  "code" : "LA15173-0",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -22206,6 +22402,8 @@ v: {
 }, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
 v: {
   "display" : "Pregnant",
+  "code" : "LA15173-0",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -22216,6 +22414,8 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Pregnant",
+  "code" : "LA15173-0",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -22227,6 +22427,8 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Pregnant",
+  "code" : "LA15173-0",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -22238,6 +22440,8 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Tobacco smoking status",
+  "code" : "72166-2",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -22319,6 +22523,8 @@ v: {
 }, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Former smoker",
+  "code" : "LA15920-4",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -22401,6 +22607,8 @@ v: {
 }, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
 v: {
   "display" : "Former smoker",
+  "code" : "LA15920-4",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -22411,6 +22619,8 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Former smoker",
+  "code" : "LA15920-4",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -22422,6 +22632,8 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Former smoker",
+  "code" : "LA15920-4",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -22454,6 +22666,8 @@ v: {
 }, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Estrogen receptor [Interpretation] in Tissue",
+  "code" : "16112-5",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -22487,6 +22701,8 @@ v: {
 }, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
 v: {
   "display" : "Estrogen receptor [Interpretation] in Tissue",
+  "code" : "16112-5",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -22497,6 +22713,8 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Estrogen receptor [Interpretation] in Tissue",
+  "code" : "16112-5",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -22508,6 +22726,8 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Alcoholic drinks per day",
+  "code" : "74013-4",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -22530,6 +22750,8 @@ v: {
 }, "lang":"en-US", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Patient summary Document",
+  "code" : "60591-5",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -22553,6 +22775,8 @@ v: {
 }, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
 v: {
   "display" : "Patient summary Document",
+  "code" : "60591-5",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -22563,6 +22787,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Patient summary Document",
+  "code" : "60591-5",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -22574,6 +22800,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Problem list - Reported",
+  "code" : "11450-4",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -22585,6 +22813,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "History of Medication use Narrative",
+  "code" : "10160-0",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -22596,6 +22826,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Allergies and adverse reactions Document",
+  "code" : "48765-2",
+  "system" : "http://loinc.org",
   "severity" : null,
   "error" : ""
 }
@@ -22650,8 +22882,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:9910f41a-c748-41ca-a754-68e041cb5422",
-    "timestamp" : "2021-09-01T01:42:34.406Z",
+    "identifier" : "urn:uuid:7614a790-cbf8-4343-b965-b932079bd7c3",
+    "timestamp" : "2021-09-02T20:30:48.148Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -22736,8 +22968,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:c72004dd-2994-45c7-8683-60393c02f817",
-    "timestamp" : "2021-09-01T01:42:44.610Z",
+    "identifier" : "urn:uuid:0e2d5bae-7df0-4d8f-9e8d-56ddf114ec46",
+    "timestamp" : "2021-09-02T20:30:48.820Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -22789,8 +23021,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-toocostly",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:83dfdb8f-239e-4838-b6eb-98e6564eec10",
-    "timestamp" : "2021-09-01T01:42:45.172Z",
+    "identifier" : "urn:uuid:acfc6e02-944e-49aa-b8b2-386b5e59a421",
+    "timestamp" : "2021-09-02T20:31:00.288Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -27830,8 +28062,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:c649f629-e85f-4489-bb7d-ebae1278158c",
-    "timestamp" : "2021-09-01T01:42:46.610Z",
+    "identifier" : "urn:uuid:860b5f04-b386-4c95-917a-7d14eb916280",
+    "timestamp" : "2021-09-02T20:30:43.304Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -27878,8 +28110,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:f29ccc79-c2df-4df9-ae3f-881e30569671",
-    "timestamp" : "2021-09-01T01:42:49.313Z",
+    "identifier" : "urn:uuid:cd140805-754f-4e9b-b0af-3f23ed022fe0",
+    "timestamp" : "2021-09-02T20:30:49.508Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -27976,8 +28208,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:a4304584-f390-4ad7-bde6-f8a321d02ffc",
-    "timestamp" : "2021-09-01T01:42:52.828Z",
+    "identifier" : "urn:uuid:5c4cb6cc-0087-46c3-ac8f-86dbd5c0764a",
+    "timestamp" : "2021-09-02T20:30:42.460Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -28057,8 +28289,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:ea94a703-619d-4f7e-9c1f-bdc0f37a41ed",
-    "timestamp" : "2021-09-01T01:43:02.859Z",
+    "identifier" : "urn:uuid:eed5294e-6b11-483f-a812-7ac3c55f361f",
+    "timestamp" : "2021-09-02T20:30:37.882Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -28120,8 +28352,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-toocostly",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:7e0da736-3bb2-419f-8394-6abba239d379",
-    "timestamp" : "2021-09-01T01:43:04.125Z",
+    "identifier" : "urn:uuid:34c3cc6a-bf85-4016-ab63-5c098aff1b62",
+    "timestamp" : "2021-09-02T20:30:57.148Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true

@@ -26,8 +26,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:9a730036-5bc9-4017-b0ba-0da98961ecc4",
-    "timestamp" : "2021-09-01T01:40:30.657Z",
+    "identifier" : "urn:uuid:15d802ca-538a-4680-9ca0-5c6a98e30119",
+    "timestamp" : "2021-09-03T00:26:17.569Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -5072,8 +5072,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:0a80151f-613e-4da3-a7c8-70de4ac298ce",
-    "timestamp" : "2021-09-01T01:40:31.328Z",
+    "identifier" : "urn:uuid:70fd3b16-2a81-4af6-b3c1-5311c0eda941",
+    "timestamp" : "2021-09-03T00:26:18.178Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -10114,8 +10114,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:a884b1ab-0921-4c38-9d28-843003ffac83",
-    "timestamp" : "2021-09-01T01:40:31.891Z",
+    "identifier" : "urn:uuid:0aaf6d58-f017-4b36-b360-fdea98b86dbd",
+    "timestamp" : "2021-09-03T00:26:19.647Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -10156,8 +10156,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:9ace702f-1c76-4531-a4b6-3c1c251d2a79",
-    "timestamp" : "2021-09-01T01:40:32.172Z",
+    "identifier" : "urn:uuid:c25baed0-b058-4718-aedc-1c4ea34edc6b",
+    "timestamp" : "2021-09-03T00:26:20.147Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -15198,8 +15198,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:daaad350-2bb3-47b1-8469-05bd6c414ede",
-    "timestamp" : "2021-09-01T01:40:32.782Z",
+    "identifier" : "urn:uuid:b0fc34f0-5663-4a10-ab2d-5d09f14390ea",
+    "timestamp" : "2021-09-03T00:26:21.412Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -15309,8 +15309,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:257460db-0a89-4e28-9828-64dadef5a3e0",
-    "timestamp" : "2021-09-01T01:40:33.297Z",
+    "identifier" : "urn:uuid:c8efd1f3-b331-4fb1-9dc3-c0bcf7c1d58d",
+    "timestamp" : "2021-09-03T00:26:21.787Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -20355,8 +20355,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:4f41d35c-be0b-4efc-9638-2b299162cd9c",
-    "timestamp" : "2021-09-01T01:40:34.828Z",
+    "identifier" : "urn:uuid:162311b9-00cd-41a1-a7da-e2cedb4ab0a6",
+    "timestamp" : "2021-09-03T01:29:52.455Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -25392,8 +25392,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:4d457595-0246-4e6f-8b99-29cdc0d3558f",
-    "timestamp" : "2021-09-01T01:40:35.750Z",
+    "identifier" : "urn:uuid:d9f5cc3b-c33a-4da0-a066-a694403654ee",
+    "timestamp" : "2021-09-03T01:29:53.970Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -25443,8 +25443,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:3c06c059-9d84-4565-be65-d74bd97ad802",
-    "timestamp" : "2021-09-01T01:40:37.828Z",
+    "identifier" : "urn:uuid:62c6d06c-4cea-4360-9ed0-ff01acca93d0",
+    "timestamp" : "2021-09-03T00:26:39.819Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -30485,8 +30485,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:d561330f-3fd2-4800-b192-67fb1721ec5f",
-    "timestamp" : "2021-09-01T01:40:39.125Z",
+    "identifier" : "urn:uuid:216077e7-cd62-4aff-8a0d-699a73ff646a",
+    "timestamp" : "2021-09-03T00:28:00.693Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -31465,6 +31465,480 @@ e: {
     "include" : [{
       "system" : "http://snomed.info/sct",
       "concept" : [{
+        "code" : "186150001",
+        "display" : "Enteritis caused by rotavirus (disorder)"
+      },
+      {
+        "code" : "56717001",
+        "display" : "Tuberculosis (disorder)"
+      },
+      {
+        "code" : "27836007",
+        "display" : "Pertussis (disorder)"
+      },
+      {
+        "code" : "372244006",
+        "display" : "Malignant melanoma (disorder)"
+      },
+      {
+        "code" : "36989005",
+        "display" : "Mumps (disorder)"
+      },
+      {
+        "code" : "38907003",
+        "display" : "Varicella (disorder)"
+      },
+      {
+        "code" : "23502006",
+        "display" : "Lyme disease (disorder)"
+      },
+      {
+        "code" : "14189004",
+        "display" : "Measles (disorder)"
+      },
+      {
+        "code" : "25225006",
+        "display" : "Disease caused by Adenovirus (disorder)"
+      },
+      {
+        "code" : "442438000",
+        "display" : "Influenza caused by Influenza A virus (disorder)"
+      },
+      {
+        "code" : "24662006",
+        "display" : "Influenza caused by Influenza B virus (disorder)"
+      },
+      {
+        "code" : "6142004",
+        "display" : "Influenza (disorder)"
+      },
+      {
+        "code" : "240532009",
+        "display" : "Human papillomavirus infection (disorder)"
+      },
+      {
+        "code" : "4834000",
+        "display" : "Typhoid fever (disorder)"
+      },
+      {
+        "code" : "76902006",
+        "display" : "Tetanus (disorder)"
+      },
+      {
+        "code" : "32398004",
+        "display" : "Bronchitis (disorder)"
+      },
+      {
+        "code" : "70036007",
+        "display" : "Haemophilus influenzae pneumonia (disorder)"
+      },
+      {
+        "code" : "398102009",
+        "display" : "Acute poliomyelitis (disorder)"
+      },
+      {
+        "code" : "40468003",
+        "display" : "Viral hepatitis, type A (disorder)"
+      },
+      {
+        "code" : "66071002",
+        "display" : "Viral hepatitis type B (disorder)"
+      },
+      {
+        "code" : "50711007",
+        "display" : "Viral hepatitis type C (disorder)"
+      },
+      {
+        "code" : "397430003",
+        "display" : "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
+      },
+      {
+        "code" : "409498004",
+        "display" : "Anthrax (disorder)"
+      },
+      {
+        "code" : "75702008",
+        "display" : "Brucellosis (disorder)"
+      },
+      {
+        "code" : "63650001",
+        "display" : "Cholera (disorder)"
+      },
+      {
+        "code" : "709410003",
+        "display" : "Haemophilus influenzae type b infection (disorder)"
+      },
+      {
+        "code" : "442696006",
+        "display" : "Influenza caused by Influenza A virus subtype H1N1 (disorder)"
+      },
+      {
+        "code" : "772810003",
+        "display" : "Influenza caused by Influenza A virus subtype H3N2 (disorder)"
+      },
+      {
+        "code" : "713083002",
+        "display" : "Influenza caused by Influenza A virus subtype H5 (disorder)"
+      },
+      {
+        "code" : "772828001",
+        "display" : "Influenza caused by Influenza A virus subtype H5N1 (disorder)"
+      },
+      {
+        "code" : "450715004",
+        "display" : "Influenza caused by Influenza A virus subtype H7 (disorder)"
+      },
+      {
+        "code" : "707448003",
+        "display" : "Influenza caused by Influenza A virus subtype H7N9 (disorder)"
+      },
+      {
+        "code" : "52947006",
+        "display" : "Japanese encephalitis virus disease (disorder)"
+      },
+      {
+        "code" : "36653000",
+        "display" : "Rubella (disorder)"
+      },
+      {
+        "code" : "67924001",
+        "display" : "Smallpox (disorder)"
+      },
+      {
+        "code" : "23511006",
+        "display" : "Meningococcal infectious disease (disorder)"
+      },
+      {
+        "code" : "85904008",
+        "display" : "Paratyphoid fever (disorder)"
+      },
+      {
+        "code" : "398565003",
+        "display" : "Infection caused by Clostridium botulinum (disorder)"
+      },
+      {
+        "code" : "58750007",
+        "display" : "Plague (disorder)"
+      },
+      {
+        "code" : "186788009",
+        "display" : "Q fever (disorder)"
+      },
+      {
+        "code" : "14168008",
+        "display" : "Rabies (disorder)"
+      },
+      {
+        "code" : "37246009",
+        "display" : "Disease caused by rickettsiae (disorder)"
+      },
+      {
+        "code" : "186772009",
+        "display" : "Rocky Mountain spotted fever (disorder)"
+      },
+      {
+        "code" : "18624000",
+        "display" : "Disease caused by Rotavirus (disorder)"
+      },
+      {
+        "code" : "712986001",
+        "display" : "Encephalitis caused by tick-borne encephalitis virus (disorder)"
+      },
+      {
+        "code" : "240613006",
+        "display" : "Typhus group rickettsial disease (disorder)"
+      },
+      {
+        "code" : "111852003",
+        "display" : "Vaccinia (disorder)"
+      },
+      {
+        "code" : "417093003",
+        "display" : "Disease caused by West Nile virus (disorder)"
+      },
+      {
+        "code" : "6541001",
+        "display" : "Yellow fever (disorder)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:55a373da-e297-46cc-b7f2-c4d91237bce6",
+    "timestamp" : "2021-09-03T00:27:58.740Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210731"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "186150001",
+      "display" : "Enteritis due to rotavirus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "56717001",
+      "display" : "Tuberculosis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "27836007",
+      "display" : "Pertussis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "372244006",
+      "display" : "Malignant melanoma (disorder)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "36989005",
+      "display" : "Mumps"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "38907003",
+      "display" : "Varicella"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "23502006",
+      "display" : "Lyme disease"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "14189004",
+      "display" : "Measles"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "25225006",
+      "display" : "Disease due to Adenovirus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "442438000",
+      "display" : "Influenza due to Influenza A virus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "24662006",
+      "display" : "Influenza caused by Influenza B virus (disorder)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "6142004",
+      "display" : "Influenza"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "240532009",
+      "display" : "Human papilloma virus infection"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "4834000",
+      "display" : "Typhoid fever"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "76902006",
+      "display" : "Tetanus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "32398004",
+      "display" : "Bronchitis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "70036007",
+      "display" : "Haemophilus influenzae pneumonia"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "398102009",
+      "display" : "Acute poliomyelitis (disorder)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "40468003",
+      "display" : "Viral hepatitis, type A"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "66071002",
+      "display" : "Type B viral hepatitis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "50711007",
+      "display" : "Viral hepatitis C"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "397430003",
+      "display" : "Diphtheria due to Corynebacterium diphtheriae"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "409498004",
+      "display" : "Anthrax (disorder)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "75702008",
+      "display" : "Brucellosis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "63650001",
+      "display" : "Cholera"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "709410003",
+      "display" : "Haemophilus influenzae type b infection"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "442696006",
+      "display" : "Influenza A (H1N1)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "772810003",
+      "display" : "Influenza caused by Influenza A virus subtype H3N2 (disorder)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "713083002",
+      "display" : "Influenza caused by Influenza A virus subtype H5 (disorder)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "772828001",
+      "display" : "Influenza caused by Influenza A virus subtype H5N1 (disorder)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "450715004",
+      "display" : "Influenza due to Influenza A virus subtype H7"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "707448003",
+      "display" : "Influenza due to Influenza A virus subtype H7N9"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "52947006",
+      "display" : "Japanese encephalitis virus disease"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "36653000",
+      "display" : "Rubella"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "67924001",
+      "display" : "Smallpox"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "23511006",
+      "display" : "Meningococcal infectious disease"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "85904008",
+      "display" : "Paratyphoid fever"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "398565003",
+      "display" : "Botulism"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "58750007",
+      "display" : "Plague"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "186788009",
+      "display" : "Q fever"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "14168008",
+      "display" : "Rabies"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "37246009",
+      "display" : "Rickettsial disease"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "186772009",
+      "display" : "RMSF - Rocky Mountain spotted fever"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "18624000",
+      "display" : "Disease due to Rotavirus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "712986001",
+      "display" : "Tickborne encephalitis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "240613006",
+      "display" : "Typhus group rickettsial disease"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "111852003",
+      "display" : "Vaccinia"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "417093003",
+      "display" : "Disease due to West Nile virus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "6541001",
+      "display" : "Entire anterior commissure of mitral valve"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
         "code" : "777067000",
         "display" : "Acetaminophen only product"
       },
@@ -31521,8 +31995,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:f2584ad0-93f4-45cb-b786-e67ea504511b",
-    "timestamp" : "2021-09-01T01:40:40.172Z",
+    "identifier" : "urn:uuid:e68c2305-bd43-4eda-ac8b-81dc654850d5",
+    "timestamp" : "2021-09-03T00:26:41.381Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -31623,8 +32097,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:1e1c1ead-74f8-4a32-aa70-f34adfbbadb4",
-    "timestamp" : "2021-09-01T01:40:44.313Z",
+    "identifier" : "urn:uuid:33f10089-16f8-4fd1-8164-655b9d16f9f2",
+    "timestamp" : "2021-09-03T01:30:02.924Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -34635,8 +35109,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:4d6f85a6-1956-4f77-8c31-80444c151ddf",
-    "timestamp" : "2021-09-01T01:40:45.297Z",
+    "identifier" : "urn:uuid:99f731a2-2125-44f9-90e4-1ce42159d674",
+    "timestamp" : "2021-09-03T00:27:25.100Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -35344,8 +35818,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:f250cf5d-4ea0-47fd-9867-26dcd16e872e",
-    "timestamp" : "2021-09-01T01:40:46.078Z",
+    "identifier" : "urn:uuid:3df4310a-9f63-43ae-b695-b718eb276ec1",
+    "timestamp" : "2021-09-03T00:27:24.522Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -35440,8 +35914,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:80328ee9-2c43-4312-9c53-09b3ba014d87",
-    "timestamp" : "2021-09-01T01:40:52.719Z",
+    "identifier" : "urn:uuid:8a2432c1-149f-41c1-bde3-bcab95bd6764",
+    "timestamp" : "2021-09-03T00:26:46.944Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -40482,8 +40956,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:26cbe51b-4d3e-47a0-a120-debebf4c4fe6",
-    "timestamp" : "2021-09-01T01:40:53.532Z",
+    "identifier" : "urn:uuid:b52f070f-0daa-4cb0-86b4-ccff51dbb4fb",
+    "timestamp" : "2021-09-03T00:26:47.506Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -40704,8 +41178,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:3ed23dac-f2a0-460d-8b26-b447800e18d0",
-    "timestamp" : "2021-09-01T01:40:53.860Z",
+    "identifier" : "urn:uuid:c059109b-d057-4dea-93d5-77a91c461576",
+    "timestamp" : "2021-09-03T00:26:47.850Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -40901,8 +41375,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:f86c13e0-a7fe-4012-905d-829a0fd601a4",
-    "timestamp" : "2021-09-01T01:40:54.157Z",
+    "identifier" : "urn:uuid:00b3761c-2586-46ce-a72e-277149ccf664",
+    "timestamp" : "2021-09-03T00:26:48.147Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -40993,8 +41467,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:ea049c58-eff2-4c41-8439-53fcf33c6e24",
-    "timestamp" : "2021-09-01T01:40:54.438Z",
+    "identifier" : "urn:uuid:e03d1fed-a7a4-4981-9bbc-0e324871330b",
+    "timestamp" : "2021-09-03T00:26:48.397Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -41235,8 +41709,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:abf2cc70-3cf4-4281-bd93-46de2b16506a",
-    "timestamp" : "2021-09-01T01:40:54.782Z",
+    "identifier" : "urn:uuid:28d28852-ac00-4e16-a074-c49f14529a81",
+    "timestamp" : "2021-09-03T00:26:48.756Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -42067,8 +42541,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:7d549d39-c2d6-42a6-90e1-ab1ed6b34714",
-    "timestamp" : "2021-09-01T01:40:55.125Z",
+    "identifier" : "urn:uuid:9790c2d6-5be4-455b-9bea-da4ac4aa906e",
+    "timestamp" : "2021-09-03T00:26:49.147Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -42394,8 +42868,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:f521130a-12fa-4973-93e6-c613ff651e2a",
-    "timestamp" : "2021-09-01T01:40:55.438Z",
+    "identifier" : "urn:uuid:3a164c4c-2084-4bc3-99a8-d690055d9440",
+    "timestamp" : "2021-09-03T00:26:49.506Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -42505,8 +42979,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:43bbd256-e95e-48d8-ab29-e557df6b5346",
-    "timestamp" : "2021-09-01T01:40:55.750Z",
+    "identifier" : "urn:uuid:337fd503-cc47-4f63-8211-8c935623d327",
+    "timestamp" : "2021-09-03T00:26:49.850Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -47591,8 +48065,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:b02107ef-78cf-42e4-ba0d-392af4e86cae",
-    "timestamp" : "2021-09-01T01:41:06.657Z",
+    "identifier" : "urn:uuid:6a9ecc12-4a2f-487f-bd1c-98db636105ea",
+    "timestamp" : "2021-09-03T00:27:19.131Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -47698,8 +48172,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:234fd8cb-5b91-4c31-9fac-02fae121e4b7",
-    "timestamp" : "2021-09-01T01:41:06.938Z",
+    "identifier" : "urn:uuid:8af2f28e-1158-40ad-bfd5-258618f3beca",
+    "timestamp" : "2021-09-03T00:27:19.694Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -47746,8 +48220,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:53c086b3-9990-4dd1-b8f3-37d175ff8166",
-    "timestamp" : "2021-09-01T01:41:07.235Z",
+    "identifier" : "urn:uuid:0346ffef-cd5c-4ca0-b0a6-5eea899d827c",
+    "timestamp" : "2021-09-03T00:27:20.319Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -47789,8 +48263,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:1542aca4-64dd-44d4-ab25-1b24d6de1d67",
-    "timestamp" : "2021-09-01T01:41:10.047Z",
+    "identifier" : "urn:uuid:c18c7fcb-004a-4500-9f62-e6a75425194e",
+    "timestamp" : "2021-09-03T00:27:23.381Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -47840,8 +48314,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:83c73542-3451-4266-b9a9-f6f0d56b09e2",
-    "timestamp" : "2021-09-01T01:41:11.172Z",
+    "identifier" : "urn:uuid:ee48715f-d9a4-4a61-aef5-2d5a536d552a",
+    "timestamp" : "2021-09-03T00:27:56.615Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -52853,480 +53327,6 @@ e: {
       "system" : "http://snomed.info/sct",
       "code" : "10328008",
       "display" : "Capsule of calcaneocuboidal joint"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : false, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "concept" : [{
-        "code" : "186150001",
-        "display" : "Enteritis caused by rotavirus (disorder)"
-      },
-      {
-        "code" : "56717001",
-        "display" : "Tuberculosis (disorder)"
-      },
-      {
-        "code" : "27836007",
-        "display" : "Pertussis (disorder)"
-      },
-      {
-        "code" : "372244006",
-        "display" : "Malignant melanoma (disorder)"
-      },
-      {
-        "code" : "36989005",
-        "display" : "Mumps (disorder)"
-      },
-      {
-        "code" : "38907003",
-        "display" : "Varicella (disorder)"
-      },
-      {
-        "code" : "23502006",
-        "display" : "Lyme disease (disorder)"
-      },
-      {
-        "code" : "14189004",
-        "display" : "Measles (disorder)"
-      },
-      {
-        "code" : "25225006",
-        "display" : "Disease caused by Adenovirus (disorder)"
-      },
-      {
-        "code" : "442438000",
-        "display" : "Influenza caused by Influenza A virus (disorder)"
-      },
-      {
-        "code" : "24662006",
-        "display" : "Influenza caused by Influenza B virus (disorder)"
-      },
-      {
-        "code" : "6142004",
-        "display" : "Influenza (disorder)"
-      },
-      {
-        "code" : "240532009",
-        "display" : "Human papillomavirus infection (disorder)"
-      },
-      {
-        "code" : "4834000",
-        "display" : "Typhoid fever (disorder)"
-      },
-      {
-        "code" : "76902006",
-        "display" : "Tetanus (disorder)"
-      },
-      {
-        "code" : "32398004",
-        "display" : "Bronchitis (disorder)"
-      },
-      {
-        "code" : "70036007",
-        "display" : "Haemophilus influenzae pneumonia (disorder)"
-      },
-      {
-        "code" : "398102009",
-        "display" : "Acute poliomyelitis (disorder)"
-      },
-      {
-        "code" : "40468003",
-        "display" : "Viral hepatitis, type A (disorder)"
-      },
-      {
-        "code" : "66071002",
-        "display" : "Viral hepatitis type B (disorder)"
-      },
-      {
-        "code" : "50711007",
-        "display" : "Viral hepatitis type C (disorder)"
-      },
-      {
-        "code" : "397430003",
-        "display" : "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
-      },
-      {
-        "code" : "409498004",
-        "display" : "Anthrax (disorder)"
-      },
-      {
-        "code" : "75702008",
-        "display" : "Brucellosis (disorder)"
-      },
-      {
-        "code" : "63650001",
-        "display" : "Cholera (disorder)"
-      },
-      {
-        "code" : "709410003",
-        "display" : "Haemophilus influenzae type b infection (disorder)"
-      },
-      {
-        "code" : "442696006",
-        "display" : "Influenza caused by Influenza A virus subtype H1N1 (disorder)"
-      },
-      {
-        "code" : "772810003",
-        "display" : "Influenza caused by Influenza A virus subtype H3N2 (disorder)"
-      },
-      {
-        "code" : "713083002",
-        "display" : "Influenza caused by Influenza A virus subtype H5 (disorder)"
-      },
-      {
-        "code" : "772828001",
-        "display" : "Influenza caused by Influenza A virus subtype H5N1 (disorder)"
-      },
-      {
-        "code" : "450715004",
-        "display" : "Influenza caused by Influenza A virus subtype H7 (disorder)"
-      },
-      {
-        "code" : "707448003",
-        "display" : "Influenza caused by Influenza A virus subtype H7N9 (disorder)"
-      },
-      {
-        "code" : "52947006",
-        "display" : "Japanese encephalitis virus disease (disorder)"
-      },
-      {
-        "code" : "36653000",
-        "display" : "Rubella (disorder)"
-      },
-      {
-        "code" : "67924001",
-        "display" : "Smallpox (disorder)"
-      },
-      {
-        "code" : "23511006",
-        "display" : "Meningococcal infectious disease (disorder)"
-      },
-      {
-        "code" : "85904008",
-        "display" : "Paratyphoid fever (disorder)"
-      },
-      {
-        "code" : "398565003",
-        "display" : "Infection caused by Clostridium botulinum (disorder)"
-      },
-      {
-        "code" : "58750007",
-        "display" : "Plague (disorder)"
-      },
-      {
-        "code" : "186788009",
-        "display" : "Q fever (disorder)"
-      },
-      {
-        "code" : "14168008",
-        "display" : "Rabies (disorder)"
-      },
-      {
-        "code" : "37246009",
-        "display" : "Disease caused by rickettsiae (disorder)"
-      },
-      {
-        "code" : "186772009",
-        "display" : "Rocky Mountain spotted fever (disorder)"
-      },
-      {
-        "code" : "18624000",
-        "display" : "Disease caused by Rotavirus (disorder)"
-      },
-      {
-        "code" : "712986001",
-        "display" : "Encephalitis caused by tick-borne encephalitis virus (disorder)"
-      },
-      {
-        "code" : "240613006",
-        "display" : "Typhus group rickettsial disease (disorder)"
-      },
-      {
-        "code" : "111852003",
-        "display" : "Vaccinia (disorder)"
-      },
-      {
-        "code" : "417093003",
-        "display" : "Disease caused by West Nile virus (disorder)"
-      },
-      {
-        "code" : "6541001",
-        "display" : "Yellow fever (disorder)"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "language" : "en",
-  "status" : "active",
-  "expansion" : {
-    "identifier" : "urn:uuid:ec82c0e7-0ea4-4cef-a5b7-50e47de89242",
-    "timestamp" : "2021-09-01T01:41:12.203Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "excludeNested",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210731"
-    }],
-    "contains" : [{
-      "system" : "http://snomed.info/sct",
-      "code" : "186150001",
-      "display" : "Enteritis due to rotavirus"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "56717001",
-      "display" : "Tuberculosis"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "27836007",
-      "display" : "Pertussis"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "372244006",
-      "display" : "Malignant melanoma (disorder)"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "36989005",
-      "display" : "Mumps"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "38907003",
-      "display" : "Varicella"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "23502006",
-      "display" : "Lyme disease"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "14189004",
-      "display" : "Measles"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "25225006",
-      "display" : "Disease due to Adenovirus"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "442438000",
-      "display" : "Influenza due to Influenza A virus"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "24662006",
-      "display" : "Influenza caused by Influenza B virus (disorder)"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "6142004",
-      "display" : "Influenza"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "240532009",
-      "display" : "Human papilloma virus infection"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "4834000",
-      "display" : "Typhoid fever"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "76902006",
-      "display" : "Tetanus"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "32398004",
-      "display" : "Bronchitis"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "70036007",
-      "display" : "Haemophilus influenzae pneumonia"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "398102009",
-      "display" : "Acute poliomyelitis (disorder)"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "40468003",
-      "display" : "Viral hepatitis, type A"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "66071002",
-      "display" : "Type B viral hepatitis"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "50711007",
-      "display" : "Viral hepatitis C"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "397430003",
-      "display" : "Diphtheria due to Corynebacterium diphtheriae"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "409498004",
-      "display" : "Anthrax (disorder)"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "75702008",
-      "display" : "Brucellosis"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "63650001",
-      "display" : "Cholera"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "709410003",
-      "display" : "Haemophilus influenzae type b infection"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "442696006",
-      "display" : "Influenza A (H1N1)"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "772810003",
-      "display" : "Influenza caused by Influenza A virus subtype H3N2 (disorder)"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "713083002",
-      "display" : "Influenza caused by Influenza A virus subtype H5 (disorder)"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "772828001",
-      "display" : "Influenza caused by Influenza A virus subtype H5N1 (disorder)"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "450715004",
-      "display" : "Influenza due to Influenza A virus subtype H7"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "707448003",
-      "display" : "Influenza due to Influenza A virus subtype H7N9"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "52947006",
-      "display" : "Japanese encephalitis virus disease"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "36653000",
-      "display" : "Rubella"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "67924001",
-      "display" : "Smallpox"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "23511006",
-      "display" : "Meningococcal infectious disease"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "85904008",
-      "display" : "Paratyphoid fever"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "398565003",
-      "display" : "Botulism"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "58750007",
-      "display" : "Plague"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "186788009",
-      "display" : "Q fever"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "14168008",
-      "display" : "Rabies"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "37246009",
-      "display" : "Rickettsial disease"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "186772009",
-      "display" : "RMSF - Rocky Mountain spotted fever"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "18624000",
-      "display" : "Disease due to Rotavirus"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "712986001",
-      "display" : "Tickborne encephalitis"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "240613006",
-      "display" : "Typhus group rickettsial disease"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "111852003",
-      "display" : "Vaccinia"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "417093003",
-      "display" : "Disease due to West Nile virus"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "6541001",
-      "display" : "Entire anterior commissure of mitral valve"
     }]
   }
 },

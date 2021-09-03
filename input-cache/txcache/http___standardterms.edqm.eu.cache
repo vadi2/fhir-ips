@@ -5,6 +5,8 @@
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Auricular use",
+  "code" : "20001000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -15,6 +17,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Buccal use",
+  "code" : "20002500",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -25,6 +29,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Cutaneous use",
+  "code" : "20003000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -35,6 +41,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Dental use",
+  "code" : "20004000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -45,6 +53,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Endocervical use",
+  "code" : "20006000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -55,6 +65,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Endosinusial use",
+  "code" : "20007000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -65,6 +77,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Endotracheopulmonary use",
+  "code" : "20008000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -75,6 +89,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Epidural use",
+  "code" : "20009000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -85,6 +101,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Epilesional use",
+  "code" : "20010000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -95,6 +113,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Extraamniotic use",
+  "code" : "20011000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -105,6 +125,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Extracorporeal use",
+  "code" : "20011500",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -115,6 +137,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Gastric use",
+  "code" : "20013500",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -125,6 +149,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Gastroenteral use",
+  "code" : "20013000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -135,6 +161,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Gingival use",
+  "code" : "20014000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -145,6 +173,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Haemodialysis",
+  "code" : "20015000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -155,6 +185,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Implantation",
+  "code" : "20015500",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -165,6 +197,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Infiltration",
+  "code" : "20019500",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -175,6 +209,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Inhalation use",
+  "code" : "20020000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -185,6 +221,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Intestinal use",
+  "code" : "20021000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -195,6 +233,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Intraamniotic use",
+  "code" : "20022000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -205,6 +245,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Intraarterial use",
+  "code" : "20023000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -215,6 +257,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Intraarticular use",
+  "code" : "20024000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -225,6 +269,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Intrabursal use",
+  "code" : "20025000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -235,6 +281,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Intracameral use",
+  "code" : "20025500",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -245,6 +293,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Intracardiac use",
+  "code" : "20026000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -255,6 +305,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Intracartilaginous use",
+  "code" : "20026500",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -265,6 +317,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Intracavernous use",
+  "code" : "20027000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -275,6 +329,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Intracerebral use",
+  "code" : "20027010",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -285,6 +341,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Intracerebroventricular use",
+  "code" : "20080000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -295,6 +353,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Intracervical use",
+  "code" : "20028000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -305,6 +365,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Intracholangiopancreatic use",
+  "code" : "20028300",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -315,6 +377,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Intracisternal use",
+  "code" : "20028500",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -325,6 +389,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Intracoronary use",
+  "code" : "20029000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -335,6 +401,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Intradermal use",
+  "code" : "20030000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -345,6 +413,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Intradiscal use",
+  "code" : "20031000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -355,6 +425,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Intraepidermal use",
+  "code" : "20031500",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -365,6 +437,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Intraglandular use",
+  "code" : "20031700",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -375,6 +449,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Intralesional use",
+  "code" : "20032000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -385,6 +461,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Intralymphatic use",
+  "code" : "20033000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -395,6 +473,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Intramuscular use",
+  "code" : "20035000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -405,6 +485,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Intraocular use",
+  "code" : "20036000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -415,6 +497,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Intraosseous use",
+  "code" : "20036500",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -425,6 +509,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Intrapericardial use",
+  "code" : "20037000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -435,6 +521,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Intraperitoneal use",
+  "code" : "20038000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -445,6 +533,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Intrapleural use",
+  "code" : "20039000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -455,6 +545,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Intraportal use",
+  "code" : "20039200",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -465,6 +557,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Intraprostatic use",
+  "code" : "20039500",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -475,6 +569,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Intrasternal use",
+  "code" : "20041000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -485,6 +581,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Intrathecal use",
+  "code" : "20042000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -495,6 +593,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Intratumoral use",
+  "code" : "20043000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -505,6 +605,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Intrauterine use",
+  "code" : "20044000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -515,6 +617,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Intravenous use",
+  "code" : "20045000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -525,6 +629,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Intravesical use",
+  "code" : "20046000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -535,6 +641,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Intravitreal use",
+  "code" : "20047000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -545,6 +653,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Iontophoresis",
+  "code" : "20047500",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -555,6 +665,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Laryngopharyngeal use",
+  "code" : "20048000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -565,6 +677,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Nasal use",
+  "code" : "20049000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -575,6 +689,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Ocular use",
+  "code" : "20051000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -585,6 +701,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Oral use",
+  "code" : "20053000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -595,6 +713,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Oromucosal use",
+  "code" : "20054000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -605,6 +725,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Oropharyngeal use",
+  "code" : "20055000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -615,6 +737,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Periarticular use",
+  "code" : "20057000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -625,6 +749,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Perineural use",
+  "code" : "20058000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -635,6 +761,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Periodontal use",
+  "code" : "20059000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -645,6 +773,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Periosseous use",
+  "code" : "20059300",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -655,6 +785,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Peritumoral use",
+  "code" : "20059400",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -665,6 +797,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Posterior juxtascleral use",
+  "code" : "20059500",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -675,6 +809,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Rectal use",
+  "code" : "20061000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -685,6 +821,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Retrobulbar use",
+  "code" : "20061500",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -695,6 +833,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Route of administration not applicable",
+  "code" : "20062000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -705,6 +845,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Skin scarification",
+  "code" : "20063000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -715,6 +857,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Subconjunctival use",
+  "code" : "20065000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -725,6 +869,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Subcutaneous use",
+  "code" : "20066000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -735,6 +881,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Sublingual use",
+  "code" : "20067000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -745,6 +893,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Submucosal use",
+  "code" : "20067500",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -755,6 +905,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Subretinal use",
+  "code" : "20081000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -765,6 +917,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Transdermal use",
+  "code" : "20070000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -775,6 +929,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Urethral use",
+  "code" : "20071000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -785,6 +941,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Vaginal use",
+  "code" : "20072000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -795,6 +953,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Oral drops, solution",
+  "code" : "10101000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -805,6 +965,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Oral drops, suspension",
+  "code" : "10102000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -815,6 +977,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Oral drops, emulsion",
+  "code" : "10103000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -825,6 +989,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Oral liquid",
+  "code" : "10104000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -835,6 +1001,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Oral solution",
+  "code" : "10105000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -845,6 +1013,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Oral suspension",
+  "code" : "10106000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -855,6 +1025,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Oral emulsion",
+  "code" : "10107000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -865,6 +1037,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Oral gel",
+  "code" : "10108000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -875,6 +1049,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Oral paste",
+  "code" : "10109000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -885,6 +1061,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Powder for oral solution",
+  "code" : "10110000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -895,6 +1073,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Powder for oral suspension",
+  "code" : "10111000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -905,6 +1085,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Granules for oral solution",
+  "code" : "10112000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -915,6 +1097,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Granules for oral suspension",
+  "code" : "10113000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -925,6 +1109,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Powder and solvent for oral solution",
+  "code" : "10114000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -935,6 +1121,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Powder and solvent for oral suspension",
+  "code" : "10115000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -945,6 +1133,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Lyophilisate for suspension",
+  "code" : "10116000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -955,6 +1145,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Syrup",
+  "code" : "10117000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -965,6 +1157,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Powder for syrup",
+  "code" : "10118000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -975,6 +1169,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Granules for syrup",
+  "code" : "10119000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -985,6 +1181,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Soluble tablet",
+  "code" : "10120000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -995,6 +1193,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Dispersible tablet",
+  "code" : "10121000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1005,6 +1205,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Herbal tea",
+  "code" : "10122000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1015,6 +1217,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Oral powder",
+  "code" : "10201000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1025,6 +1229,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Instant herbal tea",
+  "code" : "10202000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1035,6 +1241,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Effervescent powder",
+  "code" : "10203000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1045,6 +1253,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Granules",
+  "code" : "10204000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1055,6 +1265,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Effervescent granules",
+  "code" : "10205000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1065,6 +1277,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Gastro-resistant granules",
+  "code" : "10206000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1075,6 +1289,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Prolonged-release granules",
+  "code" : "10207000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1085,6 +1301,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Modified-release granules",
+  "code" : "10208000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1095,6 +1313,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Cachet",
+  "code" : "10209000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1105,6 +1325,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Capsule, hard",
+  "code" : "10210000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1115,6 +1337,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Capsule, soft",
+  "code" : "10211000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1125,6 +1349,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Gastro-resistant capsule, hard",
+  "code" : "10212000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1135,6 +1361,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Gastro-resistant capsule, soft",
+  "code" : "10213000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1145,6 +1373,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Chewable capsule, soft",
+  "code" : "10214000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1155,6 +1385,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Prolonged-release capsule, hard",
+  "code" : "10215000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1165,6 +1397,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Prolonged-release capsule, soft",
+  "code" : "10216000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1175,6 +1409,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Modified-release capsule, hard",
+  "code" : "10217000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1185,6 +1421,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Modified-release capsule, soft",
+  "code" : "10218000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1195,6 +1433,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Tablet",
+  "code" : "10219000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1205,6 +1445,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Coated tablet",
+  "code" : "10220000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1215,6 +1457,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Film-coated tablet",
+  "code" : "10221000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1225,6 +1469,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Effervescent tablet",
+  "code" : "10222000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1235,6 +1481,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Orodispersible tablet",
+  "code" : "10223000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1245,6 +1493,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Oral lyophilisate",
+  "code" : "10224000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1255,6 +1505,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Gastro-resistant tablet",
+  "code" : "10225000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1265,6 +1517,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Prolonged-release tablet",
+  "code" : "10226000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1275,6 +1529,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Modified-release tablet",
+  "code" : "10227000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1285,6 +1541,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Chewable tablet",
+  "code" : "10228000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1295,6 +1553,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Medicated chewing-gum",
+  "code" : "10229000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1305,6 +1565,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Oral gum",
+  "code" : "10230000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1315,6 +1577,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Pillules",
+  "code" : "10231000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1325,6 +1589,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Orodispersible film",
+  "code" : "10236100",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1335,6 +1601,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Gargle",
+  "code" : "10301000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1345,6 +1613,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Concentrate for gargle",
+  "code" : "10302000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1355,6 +1625,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Gargle, powder for solution",
+  "code" : "10303000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1365,6 +1637,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Gargle, tablet for solution",
+  "code" : "10304000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1375,6 +1649,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Oromucosal solution",
+  "code" : "10305000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1385,6 +1661,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Oromucosal suspension",
+  "code" : "10306000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1395,6 +1673,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Oromucosal drops",
+  "code" : "10307000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1405,6 +1685,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Oromucosal spray",
+  "code" : "10308000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1415,6 +1697,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Sublingual spray",
+  "code" : "10309000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1425,6 +1709,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Mouthwash",
+  "code" : "10310000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1435,6 +1721,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Mouthwash, tablet for solution",
+  "code" : "10311000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1445,6 +1733,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Gingival solution",
+  "code" : "10312000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1455,6 +1745,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Oromucosal gel",
+  "code" : "10313000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1465,6 +1757,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Oromucosal paste",
+  "code" : "10314000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1475,6 +1769,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Oromucosal ointment",
+  "code" : "10314005",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1485,6 +1781,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Oromucosal cream",
+  "code" : "10314010",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1495,6 +1793,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Buccal film",
+  "code" : "10314011",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1505,6 +1805,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Gingival gel",
+  "code" : "10315000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1515,6 +1817,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Gingival paste",
+  "code" : "10316000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1525,6 +1829,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Oromucosal capsule",
+  "code" : "10317000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1535,6 +1841,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Sublingual tablet",
+  "code" : "10318000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1545,6 +1853,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Muco-adhesive buccal tablet",
+  "code" : "10319000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1555,6 +1865,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Buccal tablet",
+  "code" : "10320000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1565,6 +1877,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Lozenge",
+  "code" : "10321000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1575,6 +1889,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Compressed lozenge",
+  "code" : "10322000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1585,6 +1901,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Pastille",
+  "code" : "10323000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1595,6 +1913,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Periodontal powder",
+  "code" : "10401000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1605,6 +1925,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Dental gel",
+  "code" : "10402000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1615,6 +1937,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Dental stick",
+  "code" : "10403000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1625,6 +1949,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Dental insert",
+  "code" : "10404000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1635,6 +1961,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Dental powder",
+  "code" : "10405000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1645,6 +1973,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Dental solution",
+  "code" : "10406000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1655,6 +1985,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Dental suspension",
+  "code" : "10407000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1665,6 +1997,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Dental emulsion",
+  "code" : "10408000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1675,6 +2009,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Toothpaste",
+  "code" : "10409000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1685,6 +2021,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Periodontal gel",
+  "code" : "10410000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1695,6 +2033,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Periodontal insert",
+  "code" : "10411000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1705,6 +2045,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Bath additive",
+  "code" : "10501000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1715,6 +2057,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Cream",
+  "code" : "10502000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1725,6 +2069,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Gel",
+  "code" : "10503000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1735,6 +2081,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Ointment",
+  "code" : "10504000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1745,6 +2093,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Cutaneous paste",
+  "code" : "10505000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1755,6 +2105,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Medicated plaster",
+  "code" : "10506000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1765,6 +2117,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Cutaneous foam",
+  "code" : "10507000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1775,6 +2129,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Shampoo",
+  "code" : "10508000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1785,6 +2141,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Cutaneous spray, solution",
+  "code" : "10509000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1795,6 +2153,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Cutaneous spray, suspension",
+  "code" : "10510000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1805,6 +2165,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Cutaneous spray, powder",
+  "code" : "10511000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1815,6 +2177,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Cutaneous liquid",
+  "code" : "10512000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1825,6 +2189,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Cutaneous solution",
+  "code" : "10513000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1835,6 +2201,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Concentrate for cutaneous solution",
+  "code" : "10514000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1845,6 +2213,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Cutaneous suspension",
+  "code" : "10515000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1855,6 +2225,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Cutaneous emulsion",
+  "code" : "10516000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1865,6 +2237,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Cutaneous powder",
+  "code" : "10517000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1875,6 +2249,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Cutaneous patch",
+  "code" : "10517500",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1885,6 +2261,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Solution for iontophoresis",
+  "code" : "10518000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1895,6 +2273,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Transdermal patch",
+  "code" : "10519000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1905,6 +2285,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Collodion",
+  "code" : "10520000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1915,6 +2297,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Medicated nail lacquer",
+  "code" : "10521000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1925,6 +2309,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Nail solution",
+  "code" : "10521500",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1935,6 +2321,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Poultice",
+  "code" : "10522000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1945,6 +2333,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Cutaneous stick",
+  "code" : "10523000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1955,6 +2345,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Cutaneous sponge",
+  "code" : "10524000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1965,6 +2357,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Impregnated dressing",
+  "code" : "10525000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1975,6 +2369,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Scrub",
+  "code" : "10539500",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1985,6 +2381,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Transdermal spray, solution",
+  "code" : "10546500",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -1995,6 +2393,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Transdermal system",
+  "code" : "10547000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2005,6 +2405,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Solution for skin-prick test",
+  "code" : "10548000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2015,6 +2417,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Solution for skin-scratch test",
+  "code" : "10549000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2025,6 +2429,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Plaster for provocation test",
+  "code" : "10550000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2035,6 +2441,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Eye cream",
+  "code" : "10601000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2045,6 +2453,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Eye gel",
+  "code" : "10602000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2055,6 +2465,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Eye ointment",
+  "code" : "10603000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2065,6 +2477,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Eye drops, solution",
+  "code" : "10604000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2075,6 +2489,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Eye drops, emulsion",
+  "code" : "10604500",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2085,6 +2501,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Eye drops, suspension",
+  "code" : "10605000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2095,6 +2513,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Eye drops, powder and solvent for solution",
+  "code" : "10606000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2105,6 +2525,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Eye drops, powder and solvent for suspension",
+  "code" : "10607000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2115,6 +2537,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Eye drops, solvent for reconstitution",
+  "code" : "10608000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2125,6 +2549,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Eye drops, prolonged-release",
+  "code" : "10609000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2135,6 +2561,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Eye lotion",
+  "code" : "10610000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2145,6 +2573,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Eye lotion, solvent for reconstitution",
+  "code" : "10611000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2155,6 +2585,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Ophthalmic insert",
+  "code" : "10612000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2165,6 +2597,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Ophthalmic strip",
+  "code" : "10613000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2175,6 +2609,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Ear cream",
+  "code" : "10701000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2185,6 +2621,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Ear gel",
+  "code" : "10702000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2195,6 +2633,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Ear ointment",
+  "code" : "10703000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2205,6 +2645,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Ear drops, solution",
+  "code" : "10704000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2215,6 +2657,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Ear drops, suspension",
+  "code" : "10705000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2225,6 +2669,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Ear drops, emulsion",
+  "code" : "10706000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2235,6 +2681,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Ear drops, powder and solvent for suspension",
+  "code" : "10707000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2245,6 +2693,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Ear powder",
+  "code" : "10708000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2255,6 +2705,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Ear spray, solution",
+  "code" : "10709000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2265,6 +2717,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Ear spray, suspension",
+  "code" : "10710000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2275,6 +2729,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Ear spray, emulsion",
+  "code" : "10711000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2285,6 +2741,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Ear wash, solution",
+  "code" : "10712000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2295,6 +2753,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Ear wash, emulsion",
+  "code" : "10713000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2305,6 +2765,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Ear tampon",
+  "code" : "10714000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2315,6 +2777,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Ear stick",
+  "code" : "10715000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2325,6 +2789,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Nasal cream",
+  "code" : "10801000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2335,6 +2801,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Nasal gel",
+  "code" : "10802000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2345,6 +2813,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Nasal ointment",
+  "code" : "10803000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2355,6 +2825,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Nasal drops, solution",
+  "code" : "10804000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2365,6 +2837,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Nasal drops, suspension",
+  "code" : "10805000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2375,6 +2849,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Nasal drops, emulsion",
+  "code" : "10806000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2385,6 +2861,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Nasal powder",
+  "code" : "10807000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2395,6 +2873,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Nasal spray, solution",
+  "code" : "10808000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2405,6 +2885,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Nasal spray, suspension",
+  "code" : "10809000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2415,6 +2897,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Nasal spray, emulsion",
+  "code" : "10810000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2425,6 +2909,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Nasal wash",
+  "code" : "10811000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2435,6 +2921,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Nasal stick",
+  "code" : "10812000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2445,6 +2933,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Intravaginal ring",
+  "code" : "10900500",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2455,6 +2945,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Vaginal cream",
+  "code" : "10901000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2465,6 +2957,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Vaginal gel",
+  "code" : "10902000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2475,6 +2969,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Vaginal ointment",
+  "code" : "10903000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2485,6 +2981,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Vaginal foam",
+  "code" : "10904000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2495,6 +2993,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Vaginal solution",
+  "code" : "10905000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2505,6 +3005,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Vaginal suspension",
+  "code" : "10906000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2515,6 +3017,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Vaginal emulsion",
+  "code" : "10907000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2525,6 +3029,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Tablet for vaginal solution",
+  "code" : "10908000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2535,6 +3041,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Pessary",
+  "code" : "10909000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2545,6 +3053,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Vaginal capsule, hard",
+  "code" : "10910000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2555,6 +3065,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Vaginal capsule, soft",
+  "code" : "10911000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2565,6 +3077,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Vaginal tablet",
+  "code" : "10912000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2575,6 +3089,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Effervescent vaginal tablet",
+  "code" : "10913000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2585,6 +3101,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Medicated vaginal tampon",
+  "code" : "10914000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2595,6 +3113,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Vaginal delivery system",
+  "code" : "10915000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2605,6 +3125,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Vaginal sponge",
+  "code" : "10916000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2615,6 +3137,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Rectal cream",
+  "code" : "11001000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2625,6 +3149,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Rectal gel",
+  "code" : "11002000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2635,6 +3161,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Rectal ointment",
+  "code" : "11003000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2645,6 +3173,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Rectal foam",
+  "code" : "11004000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2655,6 +3185,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Rectal solution",
+  "code" : "11005000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2665,6 +3197,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Rectal suspension",
+  "code" : "11006000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2675,6 +3209,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Rectal emulsion",
+  "code" : "11007000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2685,6 +3221,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Concentrate for rectal solution",
+  "code" : "11008000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2695,6 +3233,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Powder for rectal solution",
+  "code" : "11009000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2705,6 +3245,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Oral drops",
+  "code" : "11010",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2715,6 +3257,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Powder for rectal suspension",
+  "code" : "11010000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2725,6 +3269,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Tablet for rectal solution",
+  "code" : "11011000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2735,6 +3281,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Tablet for rectal suspension",
+  "code" : "11012000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2745,6 +3293,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Suppository",
+  "code" : "11013000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2755,6 +3305,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Rectal capsule",
+  "code" : "11014000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2765,6 +3317,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Rectal tampon",
+  "code" : "11015000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2775,6 +3329,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Oral liquid",
+  "code" : "11050",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2785,6 +3341,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Nebuliser solution",
+  "code" : "11101000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2795,6 +3353,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Nebuliser suspension",
+  "code" : "11102000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2805,6 +3365,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Powder for nebuliser suspension",
+  "code" : "11103000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2815,6 +3377,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Powder for nebuliser solution",
+  "code" : "11104000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2825,6 +3389,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Nebuliser emulsion",
+  "code" : "11105000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2835,6 +3401,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Pressurised inhalation, solution",
+  "code" : "11106000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2845,6 +3413,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Pressurised inhalation, suspension",
+  "code" : "11107000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2855,6 +3425,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Pressurised inhalation, emulsion",
+  "code" : "11108000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2865,6 +3437,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Inhalation powder",
+  "code" : "11109000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2875,6 +3449,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Inhalation powder, hard capsule",
+  "code" : "11110000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2885,6 +3461,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Inhalation powder, pre-dispensed",
+  "code" : "11111000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2895,6 +3473,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Inhalation vapour, powder",
+  "code" : "11112000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2905,6 +3485,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Inhalation vapour, capsule",
+  "code" : "11113000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2915,6 +3497,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Inhalation vapour, solution",
+  "code" : "11114000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2925,6 +3509,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Inhalation vapour, tablet",
+  "code" : "11115000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2935,6 +3521,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Inhalation vapour, ointment",
+  "code" : "11116000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2945,6 +3533,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Inhalation vapour, liquid",
+  "code" : "11117000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2955,6 +3545,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Inhalation gas",
+  "code" : "11118000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2965,6 +3557,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Solution for injection",
+  "code" : "11201000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2975,6 +3569,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Suspension for injection",
+  "code" : "11202000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2985,6 +3581,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Emulsion for injection",
+  "code" : "11203000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -2995,6 +3593,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Gel for injection",
+  "code" : "11204000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3005,6 +3605,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Powder for solution for injection",
+  "code" : "11205000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3015,6 +3617,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Powder for suspension for injection",
+  "code" : "11206000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3025,6 +3629,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Powder and solvent for solution for injection",
+  "code" : "11207000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3035,6 +3641,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Powder and solvent for suspension for injection",
+  "code" : "11208000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3045,6 +3653,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Concentrate for solution for injection",
+  "code" : "11209000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3055,6 +3665,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Solution for infusion",
+  "code" : "11210000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3065,6 +3677,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Solution for infusion in administration system",
+  "code" : "11210500",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3075,6 +3689,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Emulsion for infusion",
+  "code" : "11211000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3085,6 +3701,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Powder for solution for infusion",
+  "code" : "11212000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3095,6 +3713,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Concentrate for solution for infusion",
+  "code" : "11213000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3105,6 +3725,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Powder and solvent for solution for infusion",
+  "code" : "11214000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3115,6 +3737,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Lyophilisate and solvent for solution for injection",
+  "code" : "11214500",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3125,6 +3749,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Lyophilisate for solution for infusion",
+  "code" : "11215000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3135,6 +3761,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Solvent for parenteral use",
+  "code" : "11216000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3145,6 +3773,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Lyophilisate for solution for injection",
+  "code" : "11217000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3155,6 +3785,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Lyophilisate for suspension for injection",
+  "code" : "11218000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3165,6 +3797,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Implant",
+  "code" : "11301000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3175,6 +3809,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Implantation tablet",
+  "code" : "11302000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3185,6 +3821,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Implantation chain",
+  "code" : "11303000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3195,6 +3833,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Implantation suspension",
+  "code" : "11303500",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3205,6 +3845,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Powder and solvent for implantation paste",
+  "code" : "11304000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3215,6 +3857,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Solution for peritoneal dialysis",
+  "code" : "11401000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3225,6 +3869,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Solution for haemofiltration",
+  "code" : "11402000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3235,6 +3881,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Solution for haemodiafiltration",
+  "code" : "11403000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3245,6 +3893,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Solution for haemodialysis",
+  "code" : "11404000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3255,6 +3905,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Concentrate for solution for haemodialysis",
+  "code" : "11405000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3265,6 +3917,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Solution for intravesical use",
+  "code" : "11501000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3275,6 +3929,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Bladder irrigation",
+  "code" : "11502000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3285,6 +3941,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Powder for bladder irrigation",
+  "code" : "11503000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3295,6 +3953,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Urethral gel",
+  "code" : "11504000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3305,6 +3965,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Urethral stick",
+  "code" : "11505000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3315,6 +3977,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Endotracheopulmonary instillation, solution",
+  "code" : "11601000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3325,6 +3989,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Endotracheopulmonary instillation, powder for solution",
+  "code" : "11602000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3335,6 +4001,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Endotracheopulmonary instillation, suspension",
+  "code" : "11603000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3345,6 +4013,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Endotracheopulmonary instillation, powder and solvent for solution",
+  "code" : "11604000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3355,6 +4025,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Endocervical gel",
+  "code" : "11701000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3365,6 +4037,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Powder and solvent for endocervical gel",
+  "code" : "11702000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3375,6 +4049,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Intrauterine delivery system",
+  "code" : "11901000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3385,6 +4061,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Intrauterine solution",
+  "code" : "11902000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3395,6 +4073,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Intrauterine suspension",
+  "code" : "11903000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3405,6 +4085,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Intrauterine emulsion",
+  "code" : "11904000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3415,6 +4097,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Intrauterine tablet",
+  "code" : "11905000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3425,6 +4109,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Intrauterine capsule",
+  "code" : "11906000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3435,6 +4121,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Nebulisation solution",
+  "code" : "12004000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3445,6 +4133,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Capsule",
+  "code" : "12100",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3455,6 +4145,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Absorbable coated sponge",
+  "code" : "12100500",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3465,6 +4157,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Denture lacquer",
+  "code" : "12101000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3475,6 +4169,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Anticoagulant and preservative solution for blood",
+  "code" : "12102000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3485,6 +4181,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Solution for blood fraction modification",
+  "code" : "12103000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3495,6 +4193,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Wound stick",
+  "code" : "12104000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3505,6 +4205,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Radiopharmaceutical precursor",
+  "code" : "12105000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3515,6 +4217,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Radionuclide generator",
+  "code" : "12106000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3525,6 +4229,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Kit for radiopharmaceutical preparation",
+  "code" : "12107000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3535,6 +4241,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Gastroenteral solution",
+  "code" : "12108000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3545,6 +4253,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Dispersion",
+  "code" : "12109000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3555,6 +4265,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Fibrin sealant-powder and solvent for fibrin sealant",
+  "code" : "12109500",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3565,6 +4277,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Gastroenteral suspension",
+  "code" : "12110000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3575,6 +4289,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Gastroenteral emulsion",
+  "code" : "12111000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3585,6 +4301,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Solution for organ preservation",
+  "code" : "12112000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3595,6 +4313,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Irrigation solution",
+  "code" : "12113000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3605,6 +4325,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Stomach irrigation",
+  "code" : "12114000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3615,6 +4337,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Sealant",
+  "code" : "12115000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3625,6 +4349,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Solution for perfusion of organs",
+  "code" : "12115500",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3635,6 +4361,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Powder and solvent for sealant",
+  "code" : "12116000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3645,6 +4373,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Impregnated pad",
+  "code" : "12117000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3655,6 +4385,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Living tissue equivalent",
+  "code" : "12118000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3665,6 +4397,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Medicated sponge",
+  "code" : "12119000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3675,6 +4409,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Gastro-resistant capsule",
+  "code" : "12120",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3685,6 +4421,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Intestinal gel",
+  "code" : "12120000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3695,6 +4433,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Medicated thread",
+  "code" : "12130000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3705,6 +4445,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Solution for provocation test",
+  "code" : "12131000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3715,6 +4457,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Prolonged-release capsule",
+  "code" : "12150",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3725,6 +4469,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Tablet",
+  "code" : "12200",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3735,6 +4481,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Medicinal gas, compressed",
+  "code" : "12301000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3745,6 +4493,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Medicinal gas, cryogenic",
+  "code" : "12302000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3755,6 +4505,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Medicinal gas, liquefied",
+  "code" : "12303000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3765,6 +4517,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Oromucosal liquid",
+  "code" : "13050",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3775,6 +4529,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Lozenge",
+  "code" : "13220",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3785,6 +4541,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Dental liquid",
+  "code" : "14050",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3795,6 +4553,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Cutaneous spray",
+  "code" : "15090",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3805,6 +4565,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Cutaneous liquid",
+  "code" : "15130",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3815,6 +4577,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Eye drops",
+  "code" : "16040",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3825,6 +4589,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Ear drops",
+  "code" : "17040",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3835,6 +4601,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Ear spray",
+  "code" : "17090",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3845,6 +4613,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Ear wash",
+  "code" : "17120",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3855,6 +4625,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Nasal drops",
+  "code" : "18040",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3865,6 +4637,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Nasal spray",
+  "code" : "18080",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3875,6 +4649,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Vaginal liquid",
+  "code" : "19050",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3885,6 +4661,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Vaginal capsule",
+  "code" : "19100",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3895,6 +4673,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Enema",
+  "code" : "20050",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3905,6 +4685,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Nebuliser liquid",
+  "code" : "21010",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3915,6 +4697,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Pressurised inhalation",
+  "code" : "21060",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3925,6 +4709,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Inhalation powder",
+  "code" : "21100",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3935,6 +4721,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Inhalation vapour",
+  "code" : "21140",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3945,6 +4733,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Injection",
+  "code" : "22010",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3955,6 +4745,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Powder for injection",
+  "code" : "22050",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3965,6 +4757,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Sterile concentrate",
+  "code" : "22090",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3975,6 +4769,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Infusion",
+  "code" : "22100",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3985,6 +4781,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Powder for infusion",
+  "code" : "22120",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -3995,6 +4793,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Endotracheopulmonary instillation",
+  "code" : "26010",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4005,6 +4805,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Intrauterine liquid",
+  "code" : "29020",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4015,6 +4817,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Pouch",
+  "code" : "30047500",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4025,6 +4829,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Blood fraction modifier",
+  "code" : "31030",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4035,6 +4841,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Gastroenteral liquid",
+  "code" : "31080",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4045,6 +4853,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Chewable/dispersible tablet",
+  "code" : "50001000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4055,6 +4865,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Coated granules in sachet",
+  "code" : "50001250",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4065,6 +4877,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Concentrate and diluent for solution for infusion",
+  "code" : "50001500",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4075,6 +4889,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Concentrate and solvent for concentrate for solution for infusion",
+  "code" : "50002000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4085,6 +4901,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Concentrate and solvent for cutaneous solution",
+  "code" : "50003000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4095,6 +4913,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Concentrate and solvent for cutaneous use",
+  "code" : "50004000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4105,6 +4925,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Concentrate and solvent for injection",
+  "code" : "50005000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4115,6 +4937,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Concentrate and solvent for solution for infusion",
+  "code" : "50006000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4125,6 +4949,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Concentrate and solvent for solution for injection",
+  "code" : "50007000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4135,6 +4961,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Concentrate and solvent for suspension for injection",
+  "code" : "50008000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4145,6 +4973,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Concentrate for cutaneous spray, emulsion",
+  "code" : "50009000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4155,6 +4985,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Concentrate for dispersion for infusion",
+  "code" : "50009300",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4165,6 +4997,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Concentrate for emulsion for infusion",
+  "code" : "50009500",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4175,6 +5009,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Concentrate for oral solution",
+  "code" : "50010000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4185,6 +5021,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Concentrate for oral/rectal solution",
+  "code" : "50011000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4195,6 +5033,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Concentrate for peritoneal dialysis solution",
+  "code" : "50012000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4205,6 +5045,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Concentrate for solution for intravesical use",
+  "code" : "50013000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4215,6 +5057,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Concentrate for spray emulsion",
+  "code" : "50013500",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4225,6 +5069,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Concentrate for suspension for infusion",
+  "code" : "50014000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4235,6 +5081,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Cutaneous and nasal ointment",
+  "code" : "50015000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4245,6 +5093,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Cutaneous/oromucosal/oral solution",
+  "code" : "50015300",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4255,6 +5105,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Cutaneous/oromucosal spray",
+  "code" : "50015400",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4265,6 +5117,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Cutaneous spray, emulsion",
+  "code" : "50015500",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4275,6 +5129,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Cutaneous spray, ointment",
+  "code" : "50016000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4285,6 +5141,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Dental paste",
+  "code" : "50017000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4295,6 +5153,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Ear/eye drops, solution",
+  "code" : "50018000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4305,6 +5165,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Ear/eye ointment",
+  "code" : "50019000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4315,6 +5177,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Ear/eye/nose drops, solution",
+  "code" : "50020000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4325,6 +5189,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Effervescent buccal tablet",
+  "code" : "50020500",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4335,6 +5201,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Emulsion for injection/infusion",
+  "code" : "50021000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4345,6 +5213,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Emulsion and suspension for emulsion for injection",
+  "code" : "50021500",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4355,6 +5225,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Endosinusial wash, suspension",
+  "code" : "50022000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4365,6 +5237,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Eye drops, solution in single-dose container",
+  "code" : "50023000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4375,6 +5249,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Film coated gastro-resistant tablet",
+  "code" : "50023500",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4385,6 +5261,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Gargle/mouthwash",
+  "code" : "50024000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4395,6 +5273,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Gastro-resistant coated tablet",
+  "code" : "50025000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4405,6 +5285,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Gastro-resistant granules for oral suspension",
+  "code" : "50026000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4415,6 +5297,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Gastro-resistant prolonged-release tablet",
+  "code" : "50026250",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4425,6 +5309,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Granules and solvent for oral suspension",
+  "code" : "50026500",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4435,6 +5321,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Granules and solvent for suspension for injection",
+  "code" : "50027000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4445,6 +5333,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Granules for oral and rectal suspension",
+  "code" : "50028000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4455,6 +5345,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Granules for oral drops, solution",
+  "code" : "50029000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4465,6 +5357,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Granules for use in drinking water",
+  "code" : "50029250",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4475,6 +5369,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Granules for vaginal solution",
+  "code" : "50029500",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4485,6 +5381,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Hard capsule with gastro-resistant pellets",
+  "code" : "50029600",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4495,6 +5393,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Herbal tea in bag",
+  "code" : "50029700",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4505,6 +5405,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Inhalation powder, tablet",
+  "code" : "50030000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4515,6 +5417,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Inhalation vapour, effervescent tablet",
+  "code" : "50031000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4525,6 +5429,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Inhalation vapour, emulsion",
+  "code" : "50032000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4535,6 +5441,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Inhalation vapour, impregnated pad",
+  "code" : "50033000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4545,6 +5453,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Intrauterine foam",
+  "code" : "50033300",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4555,6 +5465,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Intravitreal implant in applicator",
+  "code" : "50033500",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4565,6 +5477,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Liquefied gas for dental use",
+  "code" : "50034000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4575,6 +5489,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Modified-release film-coated tablet",
+  "code" : "50035000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4585,6 +5501,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Modified-release granules for oral suspension",
+  "code" : "50036000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4595,6 +5513,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Muco-adhesive buccal prolonged-release tablet",
+  "code" : "50036100",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4605,6 +5525,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Nasal/oromucosal solution",
+  "code" : "50036500",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4615,6 +5537,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Nasal spray and oromucosal solution",
+  "code" : "50037000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4625,6 +5549,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Nasal spray, solution in single-dose container",
+  "code" : "50037250",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4635,6 +5561,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Oral drops, liquid",
+  "code" : "50037750",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4645,6 +5573,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Oral/rectal suspension",
+  "code" : "50038000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4655,6 +5585,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Oral solution/concentrate for nebuliser solution",
+  "code" : "50038500",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4665,6 +5597,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Oromucosal patch",
+  "code" : "50039000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4675,6 +5609,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Oromucosal powder in pouch",
+  "code" : "50039300",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4685,6 +5621,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Oromucosal/laryngopharyngeal solution",
+  "code" : "50039500",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4695,6 +5633,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Oromucosal/laryngopharyngeal solution/spray",
+  "code" : "50040000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4705,6 +5645,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Pillules in single-dose container",
+  "code" : "50041000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4715,6 +5657,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Powder and solution for solution for injection",
+  "code" : "50041500",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4725,6 +5669,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Powder and solvent for concentrate for solution for infusion",
+  "code" : "50042000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4735,6 +5681,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Powder for concentrate for solution for infusion",
+  "code" : "50043000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4745,6 +5693,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Powder and solvent for cutaneous solution",
+  "code" : "50044000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4755,6 +5705,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Powder and solvent for dispersion for injection",
+  "code" : "50044500",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4765,6 +5717,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Powder and solvent for endosinusial solution",
+  "code" : "50045000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4775,6 +5729,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Powder and solvent for epilesional solution",
+  "code" : "50045500",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4785,6 +5741,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Powder and solvent for gingival gel",
+  "code" : "50046000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4795,6 +5753,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Powder and solvent for intraocular instillation solution",
+  "code" : "50047000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4805,6 +5765,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Powder and solvent for intravesical solution",
+  "code" : "50047500",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4815,6 +5777,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Powder and solvent for nebuliser solution",
+  "code" : "50047700",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4825,6 +5789,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Powder and solvent for prolonged-release suspension for injection",
+  "code" : "50048000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4835,6 +5801,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Powder and solvent for solution for injection in pre-filled syringe",
+  "code" : "50048250",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4845,6 +5813,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Powder and solvent for suspension for injection in pre-filled syringe",
+  "code" : "50048300",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4855,6 +5825,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Powder and suspension for suspension for injection",
+  "code" : "50048500",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4865,6 +5837,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Powder, dispersion and solvent for concentrate for dispersion for infusion",
+  "code" : "50048600",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4875,6 +5849,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Powder for concentrate for dispersion for infusion",
+  "code" : "50048750",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4885,6 +5861,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Powder for concentrate for haemodialysis solution",
+  "code" : "50049000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4895,6 +5873,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Powder for concentrate for intravesical suspension",
+  "code" : "50049100",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4905,6 +5885,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Powder for concentrate for solution for injection/infusion",
+  "code" : "50049250",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4915,6 +5897,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Powder for dental solution",
+  "code" : "50049270",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4925,6 +5909,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Powder for epilesional solution",
+  "code" : "50049300",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4935,6 +5921,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Powder for implantation suspension",
+  "code" : "50049500",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4945,6 +5933,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Powder for intravesical solution",
+  "code" : "50050000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4955,6 +5945,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Powder for intravesical suspension",
+  "code" : "50051000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4965,6 +5957,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Powder for mouth wash",
+  "code" : "50051100",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4975,6 +5969,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Powder for oral/rectal suspension",
+  "code" : "50052000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4985,6 +5981,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Powder for solution for injection or infusion",
+  "code" : "50053000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -4995,6 +5993,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Powder for solution for injection/infusion",
+  "code" : "50053500",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -5005,6 +6005,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Powder for solution for intravesical use",
+  "code" : "50054000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -5015,6 +6017,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Powder for solution for nasal spray",
+  "code" : "50055000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -5025,6 +6029,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Prolonged-release film-coated tablet",
+  "code" : "50055500",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -5035,6 +6041,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Prolonged-release granules for oral suspension",
+  "code" : "50056000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -5045,6 +6053,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Radiopharmaceutical precursor, solution",
+  "code" : "50056500",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -5055,6 +6065,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Solution for haemodialysis/haemofiltration",
+  "code" : "50057000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -5065,6 +6077,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Solution for infusion and oral solution",
+  "code" : "50058000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -5075,6 +6089,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Solution for injection/concentrate for solution for infusion",
+  "code" : "50059000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -5085,6 +6101,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Solution for injection/infusion",
+  "code" : "50060000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -5095,6 +6113,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Solution for injection in cartridge",
+  "code" : "50060100",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -5105,6 +6125,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Solution for injection in pre-filled pen",
+  "code" : "50060200",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -5115,6 +6137,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Solution for injection in pre-filled syringe",
+  "code" : "50060300",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -5125,6 +6149,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Solution for injection in pre-filled syringe with automatic needle guard",
+  "code" : "50060400",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -5135,6 +6161,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Solution for injection/infusion in pre-filled syringe",
+  "code" : "50060500",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -5145,6 +6173,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Solution for intraperitoneal use",
+  "code" : "50061000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -5155,6 +6185,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Solution for use in drinking water",
+  "code" : "50061300",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -5165,6 +6197,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Solution for sealant",
+  "code" : "50061500",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -5175,6 +6209,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Solvent for nasal use",
+  "code" : "50061600",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -5185,6 +6221,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Suspension and effervescent granules for oral suspension",
+  "code" : "50062000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -5195,6 +6233,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Suspension and solution for spray",
+  "code" : "50062500",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -5205,6 +6245,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Suspension for infusion",
+  "code" : "50063000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -5215,6 +6257,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Suspension for injection in cartridge",
+  "code" : "50063100",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -5225,6 +6269,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Suspension for injection in pre-filled pen",
+  "code" : "50063200",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -5235,6 +6281,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Suspension for injection in pre-filled syringe",
+  "code" : "50063300",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -5245,6 +6293,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Suspension for use in drinking water",
+  "code" : "50063500",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -5255,6 +6305,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Tablet and solvent for rectal suspension",
+  "code" : "50064000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -5265,6 +6317,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Tablet and powder for oral solution",
+  "code" : "50065000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -5275,6 +6329,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Tablet for oral suspension",
+  "code" : "50066000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -5285,6 +6341,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Oral suspension for use in drinking water",
+  "code" : "50070000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -5295,6 +6353,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Powder and solvent for dental gel",
+  "code" : "50071000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -5305,6 +6365,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Powder for use in drinking water",
+  "code" : "50072000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -5315,6 +6377,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Powder for solution for intraocular irrigation",
+  "code" : "50073000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -5325,6 +6389,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Solvent for solution for intraocular irrigation",
+  "code" : "50074000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -5335,6 +6401,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Solvent for solution for infusion",
+  "code" : "50076000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -5345,6 +6413,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Dispersion for injection",
+  "code" : "50077000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -5355,6 +6425,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Gas and solvent for dispersion for injection/infusion",
+  "code" : "50078000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -5365,6 +6437,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Concentrate for solution for injection/infusion",
+  "code" : "50079000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -5375,6 +6449,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Powder and solvent for solution for injection/infusion",
+  "code" : "50080000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -5385,6 +6461,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Inhalation solution",
+  "code" : "50081000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -5395,6 +6473,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Oral drops, powder for suspension",
+  "code" : "50082000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -7257,8 +8337,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:3ece3489-5096-4d48-ae84-b81e19a6a6d2",
-    "timestamp" : "2021-09-01T01:40:50.016Z",
+    "identifier" : "urn:uuid:48609294-243d-4e15-b830-10a2483d1031",
+    "timestamp" : "2021-09-02T11:26:58.264Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -9911,8 +10991,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:c0bf80f2-51b4-45f0-b7e7-b28282532694",
-    "timestamp" : "2021-09-01T01:40:50.938Z",
+    "identifier" : "urn:uuid:9deb5958-9e8d-4552-ba8f-72093ae709f7",
+    "timestamp" : "2021-09-02T11:26:58.639Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -10332,6 +11412,8 @@ e: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Oral use",
+  "code" : "20053000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -10665,6 +11747,8 @@ v: {
 }, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Oral use",
+  "code" : "20053000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -10999,6 +12083,8 @@ v: {
 }, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
 v: {
   "display" : "Oral use",
+  "code" : "20053000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -11009,6 +12095,8 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Oral use",
+  "code" : "20053000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -12870,6 +13958,8 @@ v: {
 }, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Tablet",
+  "code" : "10219000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -14732,6 +15822,8 @@ v: {
 }, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
 v: {
   "display" : "Tablet",
+  "code" : "10219000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -14742,6 +15834,8 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Tablet",
+  "code" : "10219000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -15075,6 +16169,8 @@ v: {
 }, "lang":"fr-LU", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Intramuscular use",
+  "code" : "20035000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -15409,6 +16505,8 @@ v: {
 }, "lang":"fr-LU", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
 v: {
   "display" : "Intramuscular use",
+  "code" : "20035000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -15419,6 +16517,8 @@ v: {
 }, "valueSet" :null, "lang":"fr-LU", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Intramuscular use",
+  "code" : "20035000",
+  "system" : "http://standardterms.edqm.eu",
   "severity" : null,
   "error" : ""
 }
@@ -17281,8 +18381,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:b9267b5d-25e7-43c7-9932-d6f737ba9c80",
-    "timestamp" : "2021-09-01T01:42:43.922Z",
+    "identifier" : "urn:uuid:adc82e87-9943-4a91-aa05-f61966b71df5",
+    "timestamp" : "2021-09-02T11:28:04.592Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -19931,8 +21031,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:a36a4ebd-c591-4696-9c6e-a32bee3707fd",
-    "timestamp" : "2021-09-01T01:42:54.578Z",
+    "identifier" : "urn:uuid:7c7fcbbf-0644-43d4-b1b4-32bbd8a07e29",
+    "timestamp" : "2021-09-02T11:28:16.608Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true

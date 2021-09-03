@@ -5,6 +5,8 @@
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Health Professionals",
+  "code" : "22",
+  "system" : "urn:oid:2.16.840.1.113883.2.9.6.2.7",
   "severity" : null,
   "error" : ""
 }
@@ -15,6 +17,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Medical Doctors",
+  "code" : "221",
+  "system" : "urn:oid:2.16.840.1.113883.2.9.6.2.7",
   "severity" : null,
   "error" : ""
 }
@@ -25,6 +29,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Generalist Medical Practitioners",
+  "code" : "2211",
+  "system" : "urn:oid:2.16.840.1.113883.2.9.6.2.7",
   "severity" : null,
   "error" : ""
 }
@@ -35,6 +41,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Specialist Medical Practitioners",
+  "code" : "2212",
+  "system" : "urn:oid:2.16.840.1.113883.2.9.6.2.7",
   "severity" : null,
   "error" : ""
 }
@@ -45,6 +53,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Nursing and Midwifery Professionals",
+  "code" : "222",
+  "system" : "urn:oid:2.16.840.1.113883.2.9.6.2.7",
   "severity" : null,
   "error" : ""
 }
@@ -55,6 +65,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Nursing Professionals",
+  "code" : "2221",
+  "system" : "urn:oid:2.16.840.1.113883.2.9.6.2.7",
   "severity" : null,
   "error" : ""
 }
@@ -65,6 +77,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Midwifery Professionals",
+  "code" : "2222",
+  "system" : "urn:oid:2.16.840.1.113883.2.9.6.2.7",
   "severity" : null,
   "error" : ""
 }
@@ -75,6 +89,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Traditional and Complementary Medicine Professionals",
+  "code" : "223",
+  "system" : "urn:oid:2.16.840.1.113883.2.9.6.2.7",
   "severity" : null,
   "error" : ""
 }
@@ -85,6 +101,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Paramedical Practitioners",
+  "code" : "224",
+  "system" : "urn:oid:2.16.840.1.113883.2.9.6.2.7",
   "severity" : null,
   "error" : ""
 }
@@ -95,6 +113,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Veterinarians",
+  "code" : "225",
+  "system" : "urn:oid:2.16.840.1.113883.2.9.6.2.7",
   "severity" : null,
   "error" : ""
 }
@@ -105,6 +125,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Other Health Professionals",
+  "code" : "226",
+  "system" : "urn:oid:2.16.840.1.113883.2.9.6.2.7",
   "severity" : null,
   "error" : ""
 }
@@ -115,6 +137,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Dentists",
+  "code" : "2261",
+  "system" : "urn:oid:2.16.840.1.113883.2.9.6.2.7",
   "severity" : null,
   "error" : ""
 }
@@ -125,6 +149,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Pharmacists",
+  "code" : "2262",
+  "system" : "urn:oid:2.16.840.1.113883.2.9.6.2.7",
   "severity" : null,
   "error" : ""
 }
@@ -135,6 +161,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Environmental and Occupational Health and Hygiene Professionals",
+  "code" : "2263",
+  "system" : "urn:oid:2.16.840.1.113883.2.9.6.2.7",
   "severity" : null,
   "error" : ""
 }
@@ -145,6 +173,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Physiotherapists",
+  "code" : "2264",
+  "system" : "urn:oid:2.16.840.1.113883.2.9.6.2.7",
   "severity" : null,
   "error" : ""
 }
@@ -155,6 +185,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Dieticians and Nutritionists",
+  "code" : "2265",
+  "system" : "urn:oid:2.16.840.1.113883.2.9.6.2.7",
   "severity" : null,
   "error" : ""
 }
@@ -165,6 +197,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Audiologists and Speech Therapists",
+  "code" : "2266",
+  "system" : "urn:oid:2.16.840.1.113883.2.9.6.2.7",
   "severity" : null,
   "error" : ""
 }
@@ -175,6 +209,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Optometrists and Ophthalmic Opticians",
+  "code" : "2267",
+  "system" : "urn:oid:2.16.840.1.113883.2.9.6.2.7",
   "severity" : null,
   "error" : ""
 }
@@ -185,6 +221,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Health Professionals Not Elsewhere Classified",
+  "code" : "2269",
+  "system" : "urn:oid:2.16.840.1.113883.2.9.6.2.7",
   "severity" : null,
   "error" : ""
 }
@@ -195,6 +233,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Health Associate Professionals",
+  "code" : "32",
+  "system" : "urn:oid:2.16.840.1.113883.2.9.6.2.7",
   "severity" : null,
   "error" : ""
 }
@@ -205,6 +245,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Medical and Pharmaceutical Technicians",
+  "code" : "321",
+  "system" : "urn:oid:2.16.840.1.113883.2.9.6.2.7",
   "severity" : null,
   "error" : ""
 }
@@ -215,6 +257,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Medical Imaging and Therapeutic Equipment Technicians",
+  "code" : "3211",
+  "system" : "urn:oid:2.16.840.1.113883.2.9.6.2.7",
   "severity" : null,
   "error" : ""
 }
@@ -225,6 +269,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Medical and Pathology Laboratory Technicians",
+  "code" : "3212",
+  "system" : "urn:oid:2.16.840.1.113883.2.9.6.2.7",
   "severity" : null,
   "error" : ""
 }
@@ -235,6 +281,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Pharmaceutical Technicians and Assistants",
+  "code" : "3213",
+  "system" : "urn:oid:2.16.840.1.113883.2.9.6.2.7",
   "severity" : null,
   "error" : ""
 }
@@ -245,6 +293,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Medical and Dental Prosthetic Technicians",
+  "code" : "3214",
+  "system" : "urn:oid:2.16.840.1.113883.2.9.6.2.7",
   "severity" : null,
   "error" : ""
 }
@@ -255,6 +305,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Nursing and Midwifery Associate Professionals",
+  "code" : "322",
+  "system" : "urn:oid:2.16.840.1.113883.2.9.6.2.7",
   "severity" : null,
   "error" : ""
 }
@@ -265,6 +317,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Nursing Associate Professionals",
+  "code" : "3221",
+  "system" : "urn:oid:2.16.840.1.113883.2.9.6.2.7",
   "severity" : null,
   "error" : ""
 }
@@ -275,6 +329,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Midwifery Associate Professionals",
+  "code" : "3222",
+  "system" : "urn:oid:2.16.840.1.113883.2.9.6.2.7",
   "severity" : null,
   "error" : ""
 }
@@ -285,6 +341,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Traditional and Complementary Medicine Associate Professionals",
+  "code" : "323",
+  "system" : "urn:oid:2.16.840.1.113883.2.9.6.2.7",
   "severity" : null,
   "error" : ""
 }
@@ -295,6 +353,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Other Health Associate Professionals",
+  "code" : "325",
+  "system" : "urn:oid:2.16.840.1.113883.2.9.6.2.7",
   "severity" : null,
   "error" : ""
 }
@@ -305,6 +365,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Dental Assistants and Therapists",
+  "code" : "3251",
+  "system" : "urn:oid:2.16.840.1.113883.2.9.6.2.7",
   "severity" : null,
   "error" : ""
 }
@@ -315,6 +377,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Medical Records and Health Information Technicians",
+  "code" : "3252",
+  "system" : "urn:oid:2.16.840.1.113883.2.9.6.2.7",
   "severity" : null,
   "error" : ""
 }
@@ -325,6 +389,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Community Health Workers",
+  "code" : "3253",
+  "system" : "urn:oid:2.16.840.1.113883.2.9.6.2.7",
   "severity" : null,
   "error" : ""
 }
@@ -335,6 +401,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Dispensing Opticians",
+  "code" : "3254",
+  "system" : "urn:oid:2.16.840.1.113883.2.9.6.2.7",
   "severity" : null,
   "error" : ""
 }
@@ -345,6 +413,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Physiotherapy Technicians and Assistants",
+  "code" : "3255",
+  "system" : "urn:oid:2.16.840.1.113883.2.9.6.2.7",
   "severity" : null,
   "error" : ""
 }
@@ -355,6 +425,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Medical Assistants",
+  "code" : "3256",
+  "system" : "urn:oid:2.16.840.1.113883.2.9.6.2.7",
   "severity" : null,
   "error" : ""
 }
@@ -365,6 +437,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Environmental and Occupational Health Inspectors and Associates",
+  "code" : "3257",
+  "system" : "urn:oid:2.16.840.1.113883.2.9.6.2.7",
   "severity" : null,
   "error" : ""
 }
@@ -375,6 +449,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Ambulance Workers",
+  "code" : "3258",
+  "system" : "urn:oid:2.16.840.1.113883.2.9.6.2.7",
   "severity" : null,
   "error" : ""
 }
@@ -385,6 +461,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Health Associate Professionals Not Elsewhere Classified",
+  "code" : "3259",
+  "system" : "urn:oid:2.16.840.1.113883.2.9.6.2.7",
   "severity" : null,
   "error" : ""
 }
@@ -559,8 +637,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:bf3074fa-ded5-435f-b5d1-e4a241c887cf",
-    "timestamp" : "2021-09-01T01:40:44.922Z",
+    "identifier" : "urn:uuid:ccdee9bc-f1dd-4ffd-9671-9bd60e921a24",
+    "timestamp" : "2021-09-02T11:26:56.733Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -943,8 +1021,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:287dd6b0-56dd-448f-9111-a8f2c5337a55",
-    "timestamp" : "2021-09-01T01:42:56.953Z",
+    "identifier" : "urn:uuid:95327e84-4e7a-4eff-aec1-5cb542170816",
+    "timestamp" : "2021-09-02T11:28:16.264Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true

@@ -13,8 +13,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:98442277-a395-4a21-a870-b72ff189be05",
-    "timestamp" : "2021-09-01T01:40:42.047Z",
+    "identifier" : "urn:uuid:56959a50-04eb-4054-ac81-3a1e46b8d83e",
+    "timestamp" : "2021-09-02T11:27:28.467Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -1715,6 +1715,8 @@ e: {
 }, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "anastrozole",
+  "code" : "L02BG03",
+  "system" : "http://www.whocc.no/atc",
   "severity" : null,
   "error" : ""
 }
@@ -1736,6 +1738,8 @@ v: {
 }, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
 v: {
   "display" : "anastrozole",
+  "code" : "L02BG03",
+  "system" : "http://www.whocc.no/atc",
   "severity" : null,
   "error" : ""
 }
@@ -1746,6 +1750,8 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "anastrozole",
+  "code" : "L02BG03",
+  "system" : "http://www.whocc.no/atc",
   "severity" : null,
   "error" : ""
 }
@@ -1757,6 +1763,8 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "anastrozole",
+  "code" : "L02BG03",
+  "system" : "http://www.whocc.no/atc",
   "severity" : null,
   "error" : ""
 }
@@ -1778,6 +1786,8 @@ v: {
 }, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
 v: {
   "display" : "Cimicifugae rhizoma",
+  "code" : "G02CX04",
+  "system" : "http://www.whocc.no/atc",
   "severity" : null,
   "error" : ""
 }
@@ -1788,6 +1798,8 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Cimicifugae rhizoma",
+  "code" : "G02CX04",
+  "system" : "http://www.whocc.no/atc",
   "severity" : null,
   "error" : ""
 }
@@ -1799,6 +1811,8 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Cimicifugae rhizoma",
+  "code" : "G02CX04",
+  "system" : "http://www.whocc.no/atc",
   "severity" : null,
   "error" : ""
 }
@@ -1816,6 +1830,8 @@ v: {
 }, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "simvastatin",
+  "code" : "C10AA01",
+  "system" : "http://www.whocc.no/atc",
   "severity" : null,
   "error" : ""
 }
@@ -1837,6 +1853,8 @@ v: {
 }, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
 v: {
   "display" : "simvastatin",
+  "code" : "C10AA01",
+  "system" : "http://www.whocc.no/atc",
   "severity" : null,
   "error" : ""
 }
@@ -1847,6 +1865,8 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "simvastatin",
+  "code" : "C10AA01",
+  "system" : "http://www.whocc.no/atc",
   "severity" : null,
   "error" : ""
 }
@@ -1874,6 +1894,8 @@ v: {
 }, "lang":"fr-LU", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
 v: {
   "display" : "diphtheria-pertussis-poliomyelitis-tetanus",
+  "code" : "J07CA02",
+  "system" : "http://www.whocc.no/atc",
   "severity" : null,
   "error" : ""
 }
@@ -1884,6 +1906,8 @@ v: {
 }, "valueSet" :null, "lang":"fr-LU", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "diphtheria-pertussis-poliomyelitis-tetanus",
+  "code" : "J07CA02",
+  "system" : "http://www.whocc.no/atc",
   "severity" : null,
   "error" : ""
 }
@@ -1902,8 +1926,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:7cf2cc89-b7dd-4595-88ef-4e20fb28ffd1",
-    "timestamp" : "2021-09-01T01:42:49.625Z",
+    "identifier" : "urn:uuid:acb042f3-af1c-4fc4-8af3-0552cb9c93dc",
+    "timestamp" : "2021-09-02T11:28:04.842Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true

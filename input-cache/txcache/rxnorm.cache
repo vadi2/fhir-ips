@@ -16,6 +16,8 @@
 }, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
 v: {
   "display" : "simvastatin 40 MG Disintegrating Oral Tablet",
+  "code" : "757704",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "severity" : null,
   "error" : ""
 }
@@ -26,6 +28,8 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "simvastatin 40 MG Disintegrating Oral Tablet",
+  "code" : "757704",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "severity" : null,
   "error" : ""
 }
@@ -1888,6 +1892,8 @@ v: {
 }, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
 v: {
   "display" : "Disintegrating Oral Product",
+  "code" : "1294713",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "severity" : null,
   "error" : ""
 }
@@ -1898,6 +1904,8 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Disintegrating Oral Product",
+  "code" : "1294713",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "severity" : null,
   "error" : ""
 }
@@ -1909,6 +1917,8 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "simvastatin",
+  "code" : "36567",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "severity" : null,
   "error" : ""
 }

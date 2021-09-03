@@ -5,6 +5,8 @@
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Height",
+  "code" : "121207",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
   "severity" : null,
   "error" : ""
 }
@@ -15,6 +17,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Path length",
+  "code" : "121211",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
   "severity" : null,
   "error" : ""
 }
@@ -25,6 +29,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Distance",
+  "code" : "121206",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
   "severity" : null,
   "error" : ""
 }
@@ -35,6 +41,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Volume estimated from single 2D region",
+  "code" : "121216",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
   "severity" : null,
   "error" : ""
 }
@@ -45,6 +53,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Volume estimated from two non-coplanar 2D regions",
+  "code" : "121218",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
   "severity" : null,
   "error" : ""
 }
@@ -55,6 +65,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Volume estimated from three or more non-coplanar 2D regions",
+  "code" : "121217",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
   "severity" : null,
   "error" : ""
 }
@@ -65,6 +77,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Volume of sphere",
+  "code" : "121222",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
   "severity" : null,
   "error" : ""
 }
@@ -75,6 +89,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Volume of ellipsoid",
+  "code" : "121221",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
   "severity" : null,
   "error" : ""
 }
@@ -85,6 +101,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Volume of circumscribed sphere",
+  "code" : "121220",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
   "severity" : null,
   "error" : ""
 }
@@ -95,6 +113,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Volume of bounding three dimensional region",
+  "code" : "121219",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
   "severity" : null,
   "error" : ""
 }
@@ -105,6 +125,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Procedure Description",
+  "code" : "121065",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
   "severity" : null,
   "error" : ""
 }
@@ -115,6 +137,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Previous Finding",
+  "code" : "121069",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
   "severity" : null,
   "error" : ""
 }
@@ -125,6 +149,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Finding",
+  "code" : "121071",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
   "severity" : null,
   "error" : ""
 }
@@ -135,6 +161,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Impression",
+  "code" : "121073",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
   "severity" : null,
   "error" : ""
 }
@@ -145,6 +173,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Recommendation",
+  "code" : "121075",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
   "severity" : null,
   "error" : ""
 }
@@ -155,6 +185,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Conclusion",
+  "code" : "121077",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
   "severity" : null,
   "error" : ""
 }
@@ -165,6 +197,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Patient Presentation",
+  "code" : "121110",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
   "severity" : null,
   "error" : ""
 }
@@ -175,6 +209,8 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Summary",
+  "code" : "121111",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
   "severity" : null,
   "error" : ""
 }
@@ -233,8 +269,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:1a2344c4-b8ab-4802-a9fa-b39f1254cd56",
-    "timestamp" : "2021-09-01T01:41:07.516Z",
+    "identifier" : "urn:uuid:d3b59c27-fc24-4f6e-a759-faabee2f529e",
+    "timestamp" : "2021-09-03T01:30:22.752Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -388,8 +424,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:e1351d37-419a-4e4c-98b8-e06ddcf8530d",
-    "timestamp" : "2021-09-01T01:41:10.313Z",
+    "identifier" : "urn:uuid:247a25b0-b1b7-4f02-be4d-3217b3416427",
+    "timestamp" : "2021-09-02T11:27:13.530Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -486,6 +522,8 @@ e: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Nuclear Medicine",
+  "code" : "NM",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
   "severity" : null,
   "error" : ""
 }
@@ -535,6 +573,8 @@ v: {
 }, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Procedure Description",
+  "code" : "121065",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
   "severity" : null,
   "error" : ""
 }
@@ -594,7 +634,6 @@ v: {
     },
     {
       "system" : "http://snomed.info/sct",
-      "version" : "http://snomed.info/sct/900000000000207008/version/20200731",
       "concept" : [{
         "code" : "116224001",
         "display" : "Complication of Procedure"
@@ -604,6 +643,8 @@ v: {
 }, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
 v: {
   "display" : "Procedure Description",
+  "code" : "121065",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
   "severity" : null,
   "error" : ""
 }
@@ -614,6 +655,8 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Procedure Description",
+  "code" : "121065",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
   "severity" : null,
   "error" : ""
 }
@@ -625,6 +668,8 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Procedure Description",
+  "code" : "121065",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
   "severity" : null,
   "error" : ""
 }
@@ -674,6 +719,8 @@ v: {
 }, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Finding",
+  "code" : "121071",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
   "severity" : null,
   "error" : ""
 }
@@ -733,7 +780,6 @@ v: {
     },
     {
       "system" : "http://snomed.info/sct",
-      "version" : "http://snomed.info/sct/900000000000207008/version/20200731",
       "concept" : [{
         "code" : "116224001",
         "display" : "Complication of Procedure"
@@ -743,6 +789,8 @@ v: {
 }, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
 v: {
   "display" : "Finding",
+  "code" : "121071",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
   "severity" : null,
   "error" : ""
 }
@@ -753,6 +801,8 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Finding",
+  "code" : "121071",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
   "severity" : null,
   "error" : ""
 }
@@ -764,6 +814,8 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Finding",
+  "code" : "121071",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
   "severity" : null,
   "error" : ""
 }
@@ -822,8 +874,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:5255df86-6e9a-43a8-82ef-0fca9ff3b4f6",
-    "timestamp" : "2021-09-01T01:42:33.750Z",
+    "identifier" : "urn:uuid:b42feb50-61b5-4d70-b8f1-1707389211e6",
+    "timestamp" : "2021-09-02T21:17:53.691Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -973,8 +1025,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:f172d51a-e5e9-4e99-9df7-d6f82ce42416",
-    "timestamp" : "2021-09-01T01:42:34.672Z",
+    "identifier" : "urn:uuid:b40ee9ad-7527-43f9-926c-084ff89acdb5",
+    "timestamp" : "2021-09-02T11:28:08.686Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -1057,282 +1109,6 @@ e: {
     }]
   }
 },
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "code" : "121065",
-  "display" : "Procedure Description"
-}, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "concept" : [{
-        "code" : "121065",
-        "display" : "Procedure Description"
-      },
-      {
-        "code" : "121069",
-        "display" : "Previous Finding"
-      },
-      {
-        "code" : "121071",
-        "display" : "Finding"
-      },
-      {
-        "code" : "121073",
-        "display" : "Impression"
-      },
-      {
-        "code" : "121075",
-        "display" : "Recommendation"
-      },
-      {
-        "code" : "121077",
-        "display" : "Conclusion"
-      },
-      {
-        "code" : "121110",
-        "display" : "Patient Presentation"
-      },
-      {
-        "code" : "121111",
-        "display" : "Summary"
-      }]
-    },
-    {
-      "system" : "http://loinc.org",
-      "concept" : [{
-        "code" : "11329-0",
-        "display" : "History"
-      },
-      {
-        "code" : "55115-0",
-        "display" : "Request"
-      }]
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "filter" : [{
-        "property" : "concept",
-        "op" : "=",
-        "value" : "116224001"
-      }],
-      "valueSet" : ["http://terminology.hl7.org/ValueSet/snomed-intl-gps"]
-    }]
-  }
-}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The filter \"concept = 116224001\" was not understood in the context of http://snomed.info/sct (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "code" : "121071",
-  "display" : "Finding"
-}, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "concept" : [{
-        "code" : "121065",
-        "display" : "Procedure Description"
-      },
-      {
-        "code" : "121069",
-        "display" : "Previous Finding"
-      },
-      {
-        "code" : "121071",
-        "display" : "Finding"
-      },
-      {
-        "code" : "121073",
-        "display" : "Impression"
-      },
-      {
-        "code" : "121075",
-        "display" : "Recommendation"
-      },
-      {
-        "code" : "121077",
-        "display" : "Conclusion"
-      },
-      {
-        "code" : "121110",
-        "display" : "Patient Presentation"
-      },
-      {
-        "code" : "121111",
-        "display" : "Summary"
-      }]
-    },
-    {
-      "system" : "http://loinc.org",
-      "concept" : [{
-        "code" : "11329-0",
-        "display" : "History"
-      },
-      {
-        "code" : "55115-0",
-        "display" : "Request"
-      }]
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "filter" : [{
-        "property" : "concept",
-        "op" : "=",
-        "value" : "116224001"
-      }],
-      "valueSet" : ["http://terminology.hl7.org/ValueSet/snomed-intl-gps"]
-    }]
-  }
-}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The filter \"concept = 116224001\" was not understood in the context of http://snomed.info/sct (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "code" : "121065",
-  "display" : "Procedure Description"
-}, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "concept" : [{
-        "code" : "121065",
-        "display" : "Procedure Description"
-      },
-      {
-        "code" : "121069",
-        "display" : "Previous Finding"
-      },
-      {
-        "code" : "121071",
-        "display" : "Finding"
-      },
-      {
-        "code" : "121073",
-        "display" : "Impression"
-      },
-      {
-        "code" : "121075",
-        "display" : "Recommendation"
-      },
-      {
-        "code" : "121077",
-        "display" : "Conclusion"
-      },
-      {
-        "code" : "121110",
-        "display" : "Patient Presentation"
-      },
-      {
-        "code" : "121111",
-        "display" : "Summary"
-      }]
-    },
-    {
-      "system" : "http://loinc.org",
-      "concept" : [{
-        "code" : "11329-0",
-        "display" : "History"
-      },
-      {
-        "code" : "55115-0",
-        "display" : "Request"
-      }]
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "concept" : [{
-        "code" : "116224001",
-        "display" : "Complication of Procedure"
-      }]
-    }]
-  }
-}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
-v: {
-  "display" : "Procedure Description",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "code" : "121071",
-  "display" : "Finding"
-}, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "concept" : [{
-        "code" : "121065",
-        "display" : "Procedure Description"
-      },
-      {
-        "code" : "121069",
-        "display" : "Previous Finding"
-      },
-      {
-        "code" : "121071",
-        "display" : "Finding"
-      },
-      {
-        "code" : "121073",
-        "display" : "Impression"
-      },
-      {
-        "code" : "121075",
-        "display" : "Recommendation"
-      },
-      {
-        "code" : "121077",
-        "display" : "Conclusion"
-      },
-      {
-        "code" : "121110",
-        "display" : "Patient Presentation"
-      },
-      {
-        "code" : "121111",
-        "display" : "Summary"
-      }]
-    },
-    {
-      "system" : "http://loinc.org",
-      "concept" : [{
-        "code" : "11329-0",
-        "display" : "History"
-      },
-      {
-        "code" : "55115-0",
-        "display" : "Request"
-      }]
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "concept" : [{
-        "code" : "116224001",
-        "display" : "Complication of Procedure"
-      }]
-    }]
-  }
-}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
-v: {
-  "display" : "Finding",
-  "severity" : null,
   "error" : ""
 }
 -------------------------------------------------------------------------------------
