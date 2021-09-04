@@ -245,3 +245,16 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
+  "code" : "8500/3",
+  "display" : "Infiltrating duct carcinoma, NOS"
+}, "valueSet" :249296123, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+v: {
+  "display" : "Infiltrating duct carcinoma, NOS",
+  "code" : "8500/3",
+  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------

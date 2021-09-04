@@ -245,3 +245,16 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "N95.1",
+  "display" : "Menopausal and female climacteric states"
+}, "valueSet" :1259370000, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+v: {
+  "display" : "Menopausal and female climacteric states",
+  "code" : "N95.1",
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
