@@ -13,8 +13,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:faafa031-35d0-47cd-b3be-506fcbacbecc",
-    "timestamp" : "2021-09-05T01:24:16.144Z",
+    "identifier" : "urn:uuid:f1b23948-28cf-4d95-be56-49f62f5a3762",
+    "timestamp" : "2021-09-05T23:42:40.222Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -2080,19 +2080,6 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://www.whocc.no/atc",
-  "code" : "J07CA02",
-  "display" : "diphtheria-pertussis-poliomyelitis-tetanus"
-}, "valueSet" :null, "lang":"fr-LU", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "diphtheria-pertussis-poliomyelitis-tetanus",
-  "code" : "J07CA02",
-  "system" : "http://www.whocc.no/atc",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
 {"hierarchical" : true, "valueSet" :{
   "resourceType" : "ValueSet",
   "compose" : {
@@ -2107,8 +2094,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:5d011c43-2112-4d13-b5c4-846897056bd6",
-    "timestamp" : "2021-09-05T01:39:33.456Z",
+    "identifier" : "urn:uuid:acb042f3-af1c-4fc4-8af3-0552cb9c93dc",
+    "timestamp" : "2021-09-02T11:28:04.842Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -3789,6 +3776,19 @@ e: {
     }]
   }
 },
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.whocc.no/atc",
+  "code" : "J07CA02",
+  "display" : "diphtheria-pertussis-poliomyelitis-tetanus"
+}, "valueSet" :null, "lang":"fr-LU", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "diphtheria-pertussis-poliomyelitis-tetanus",
+  "code" : "J07CA02",
+  "system" : "http://www.whocc.no/atc",
+  "severity" : null,
   "error" : ""
 }
 -------------------------------------------------------------------------------------
