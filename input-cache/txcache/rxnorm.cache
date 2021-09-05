@@ -61,8 +61,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:afeae003-969d-4c50-9396-4e05a66f7f5f",
-    "timestamp" : "2021-09-03T00:26:42.772Z",
+    "identifier" : "urn:uuid:43f0da4b-5ca8-400a-b77d-2f2fb839b784",
+    "timestamp" : "2021-09-05T01:23:36.347Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -92,6 +92,116 @@ e: {
     }]
   }
 },
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+  "code" : "7984",
+  "display" : "penicillin V"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "penicillin V",
+  "code" : "7984",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+  "code" : "7984",
+  "display" : "penicillin V"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "105590001"
+      }],
+      "valueSet" : ["http://terminology.hl7.org/ValueSet/snomed-intl-gps"]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "373873005"
+      }],
+      "valueSet" : ["http://terminology.hl7.org/ValueSet/snomed-intl-gps"]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "418038007"
+      }],
+      "valueSet" : ["http://terminology.hl7.org/ValueSet/snomed-intl-gps"]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+v: {
+  "display" : "penicillin V",
+  "code" : "7984",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+  "code" : "7984"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "penicillin V",
+  "code" : "7984",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+  "code" : "7984",
+  "display" : "penicillin V"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "105590001"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "373873005"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "418038007"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+v: {
+  "display" : "penicillin V",
+  "code" : "7984",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+  "severity" : null,
   "error" : ""
 }
 -------------------------------------------------------------------------------------

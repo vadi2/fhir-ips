@@ -13,8 +13,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:b29ca5e6-dca1-476a-b0b3-9cc0361d8978",
-    "timestamp" : "2021-09-03T00:28:01.975Z",
+    "identifier" : "urn:uuid:faafa031-35d0-47cd-b3be-506fcbacbecc",
+    "timestamp" : "2021-09-05T01:24:16.144Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -1704,6 +1704,116 @@ e: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.whocc.no/atc",
+  "code" : "N03AA02",
+  "display" : "phenobarbital"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "phenobarbital",
+  "code" : "N03AA02",
+  "system" : "http://www.whocc.no/atc",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.whocc.no/atc",
+  "code" : "N03AA02",
+  "display" : "phenobarbital"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "105590001"
+      }],
+      "valueSet" : ["http://terminology.hl7.org/ValueSet/snomed-intl-gps"]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "373873005"
+      }],
+      "valueSet" : ["http://terminology.hl7.org/ValueSet/snomed-intl-gps"]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "418038007"
+      }],
+      "valueSet" : ["http://terminology.hl7.org/ValueSet/snomed-intl-gps"]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+v: {
+  "display" : "phenobarbital",
+  "code" : "N03AA02",
+  "system" : "http://www.whocc.no/atc",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.whocc.no/atc",
+  "code" : "N03AA02"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "phenobarbital",
+  "code" : "N03AA02",
+  "system" : "http://www.whocc.no/atc",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.whocc.no/atc",
+  "code" : "N03AA02",
+  "display" : "phenobarbital"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "105590001"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "373873005"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "418038007"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+v: {
+  "display" : "phenobarbital",
+  "code" : "N03AA02",
+  "system" : "http://www.whocc.no/atc",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.whocc.no/atc",
   "code" : "L02BG03",
   "display" : "anastrozole"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
@@ -1970,6 +2080,19 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.whocc.no/atc",
+  "code" : "J07CA02",
+  "display" : "diphtheria-pertussis-poliomyelitis-tetanus"
+}, "valueSet" :null, "lang":"fr-LU", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "diphtheria-pertussis-poliomyelitis-tetanus",
+  "code" : "J07CA02",
+  "system" : "http://www.whocc.no/atc",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
 {"hierarchical" : true, "valueSet" :{
   "resourceType" : "ValueSet",
   "compose" : {
@@ -1984,8 +2107,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:acb042f3-af1c-4fc4-8af3-0552cb9c93dc",
-    "timestamp" : "2021-09-02T11:28:04.842Z",
+    "identifier" : "urn:uuid:5d011c43-2112-4d13-b5c4-846897056bd6",
+    "timestamp" : "2021-09-05T01:39:33.456Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -3666,19 +3789,6 @@ e: {
     }]
   }
 },
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://www.whocc.no/atc",
-  "code" : "J07CA02",
-  "display" : "diphtheria-pertussis-poliomyelitis-tetanus"
-}, "valueSet" :null, "lang":"fr-LU", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "diphtheria-pertussis-poliomyelitis-tetanus",
-  "code" : "J07CA02",
-  "system" : "http://www.whocc.no/atc",
-  "severity" : null,
   "error" : ""
 }
 -------------------------------------------------------------------------------------

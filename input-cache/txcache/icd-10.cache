@@ -16,7 +16,7 @@ v: {
   "system" : "http://hl7.org/fhir/sid/icd-10",
   "code" : "N95.1",
   "display" : "Menopausal and female climacteric states"
-}, "valueSet" :934671557, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+}, "valueSet" :1703239666, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
 v: {
   "display" : "Menopausal and female climacteric states",
   "code" : "N95.1",
@@ -54,7 +54,7 @@ v: {
   "system" : "http://hl7.org/fhir/sid/icd-10",
   "code" : "N95.1",
   "display" : "Menopausal and female climacteric states"
-}, "valueSet" :89054095, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+}, "valueSet" :2034937410, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
 v: {
   "display" : "Menopausal and female climacteric states",
   "code" : "N95.1",
@@ -67,7 +67,7 @@ v: {
   "system" : "http://hl7.org/fhir/sid/icd-10",
   "code" : "N95.1",
   "display" : "Menopausal and female climacteric states"
-}, "valueSet" :829124711, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+}, "valueSet" :1794237112, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
 v: {
   "display" : "Menopausal and female climacteric states",
   "code" : "N95.1",
@@ -80,7 +80,7 @@ v: {
   "system" : "http://hl7.org/fhir/sid/icd-10",
   "code" : "N95.1",
   "display" : "Menopausal and female climacteric states"
-}, "valueSet" :230086925, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+}, "valueSet" :1741843047, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
 v: {
   "display" : "Menopausal and female climacteric states",
   "code" : "N95.1",
@@ -93,7 +93,7 @@ v: {
   "system" : "http://hl7.org/fhir/sid/icd-10",
   "code" : "N95.1",
   "display" : "Menopausal and female climacteric states"
-}, "valueSet" :1824725535, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+}, "valueSet" :2127429469, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
 v: {
   "display" : "Menopausal and female climacteric states",
   "code" : "N95.1",
@@ -106,7 +106,7 @@ v: {
   "system" : "http://hl7.org/fhir/sid/icd-10",
   "code" : "N95.1",
   "display" : "Menopausal and female climacteric states"
-}, "valueSet" :1090817510, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+}, "valueSet" :1477642147, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
 v: {
   "display" : "Menopausal and female climacteric states",
   "code" : "N95.1",
@@ -119,7 +119,7 @@ v: {
   "system" : "http://hl7.org/fhir/sid/icd-10",
   "code" : "N95.1",
   "display" : "Menopausal and female climacteric states"
-}, "valueSet" :1588282260, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+}, "valueSet" :1382088903, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
 v: {
   "display" : "Menopausal and female climacteric states",
   "code" : "N95.1",
@@ -132,7 +132,7 @@ v: {
   "system" : "http://hl7.org/fhir/sid/icd-10",
   "code" : "N95.1",
   "display" : "Menopausal and female climacteric states"
-}, "valueSet" :896235668, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+}, "valueSet" :1261668757, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
 v: {
   "display" : "Menopausal and female climacteric states",
   "code" : "N95.1",
@@ -145,7 +145,7 @@ v: {
   "system" : "http://hl7.org/fhir/sid/icd-10",
   "code" : "N95.1",
   "display" : "Menopausal and female climacteric states"
-}, "valueSet" :585168722, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+}, "valueSet" :870823969, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
 v: {
   "display" : "Menopausal and female climacteric states",
   "code" : "N95.1",
@@ -158,7 +158,7 @@ v: {
   "system" : "http://hl7.org/fhir/sid/icd-10",
   "code" : "N95.1",
   "display" : "Menopausal and female climacteric states"
-}, "valueSet" :1948651548, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+}, "valueSet" :147715046, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
 v: {
   "display" : "Menopausal and female climacteric states",
   "code" : "N95.1",
@@ -171,7 +171,7 @@ v: {
   "system" : "http://hl7.org/fhir/sid/icd-10",
   "code" : "N95.1",
   "display" : "Menopausal and female climacteric states"
-}, "valueSet" :1074610089, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+}, "valueSet" :178538123, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
 v: {
   "display" : "Menopausal and female climacteric states",
   "code" : "N95.1",
@@ -184,98 +184,7 @@ v: {
   "system" : "http://hl7.org/fhir/sid/icd-10",
   "code" : "N95.1",
   "display" : "Menopausal and female climacteric states"
-}, "valueSet" :1565984829, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
-v: {
-  "display" : "Menopausal and female climacteric states",
-  "code" : "N95.1",
-  "system" : "http://hl7.org/fhir/sid/icd-10",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://hl7.org/fhir/sid/icd-10",
-  "code" : "N95.1",
-  "display" : "Menopausal and female climacteric states"
-}, "valueSet" :1572754005, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
-v: {
-  "display" : "Menopausal and female climacteric states",
-  "code" : "N95.1",
-  "system" : "http://hl7.org/fhir/sid/icd-10",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://hl7.org/fhir/sid/icd-10",
-  "code" : "N95.1",
-  "display" : "Menopausal and female climacteric states"
-}, "valueSet" :270462145, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
-v: {
-  "display" : "Menopausal and female climacteric states",
-  "code" : "N95.1",
-  "system" : "http://hl7.org/fhir/sid/icd-10",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://hl7.org/fhir/sid/icd-10",
-  "code" : "N95.1",
-  "display" : "Menopausal and female climacteric states"
-}, "valueSet" :876963362, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
-v: {
-  "display" : "Menopausal and female climacteric states",
-  "code" : "N95.1",
-  "system" : "http://hl7.org/fhir/sid/icd-10",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://hl7.org/fhir/sid/icd-10",
-  "code" : "N95.1",
-  "display" : "Menopausal and female climacteric states"
-}, "valueSet" :682851662, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
-v: {
-  "display" : "Menopausal and female climacteric states",
-  "code" : "N95.1",
-  "system" : "http://hl7.org/fhir/sid/icd-10",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://hl7.org/fhir/sid/icd-10",
-  "code" : "N95.1",
-  "display" : "Menopausal and female climacteric states"
-}, "valueSet" :1259370000, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
-v: {
-  "display" : "Menopausal and female climacteric states",
-  "code" : "N95.1",
-  "system" : "http://hl7.org/fhir/sid/icd-10",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://hl7.org/fhir/sid/icd-10",
-  "code" : "N95.1",
-  "display" : "Menopausal and female climacteric states"
-}, "valueSet" :1841146617, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
-v: {
-  "display" : "Menopausal and female climacteric states",
-  "code" : "N95.1",
-  "system" : "http://hl7.org/fhir/sid/icd-10",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://hl7.org/fhir/sid/icd-10",
-  "code" : "N95.1",
-  "display" : "Menopausal and female climacteric states"
-}, "valueSet" :658132151, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+}, "valueSet" :11525759, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
 v: {
   "display" : "Menopausal and female climacteric states",
   "code" : "N95.1",

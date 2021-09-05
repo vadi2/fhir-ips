@@ -1,26 +1,26 @@
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://hl7.org/fhir/sid/ndc",
-  "code" : "50436-3129"
+  "code" : "0781-1852"
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
-  "display" : "",
-  "code" : "",
-  "system" : "",
-  "severity" : "error",
-  "error" : "Code \"50436-3129\" not found in NDC; The code \"50436-3129\" is not valid in the system http://hl7.org/fhir/sid/ndc; The code provided (http://hl7.org/fhir/sid/ndc#50436-3129) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+  "display" : "Amoxicillin and Clavulanate Potassium  (product)",
+  "code" : "0781-1852",
+  "system" : "http://hl7.org/fhir/sid/ndc",
+  "severity" : null,
+  "error" : ""
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://hl7.org/fhir/sid/ndc",
-  "code" : "50436-3129-1"
+  "code" : "0781-1852-20"
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
-  "display" : "",
-  "code" : "",
-  "system" : "",
-  "severity" : "error",
-  "error" : "Code \"50436-3129-1\" not found in NDC; The code \"50436-3129-1\" is not valid in the system http://hl7.org/fhir/sid/ndc; The code provided (http://hl7.org/fhir/sid/ndc#50436-3129-1) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+  "display" : "Amoxicillin and Clavulanate Potassium, 20 TABLET, FILM COATED in 1 BOTTLE (0781-1852-20) (package)",
+  "code" : "0781-1852-20",
+  "system" : "http://hl7.org/fhir/sid/ndc",
+  "severity" : null,
+  "error" : ""
 }
 -------------------------------------------------------------------------------------
 {"hierarchical" : false, "valueSet" :{
@@ -29,8 +29,8 @@ v: {
     "include" : [{
       "system" : "http://hl7.org/fhir/sid/ndc",
       "concept" : [{
-        "code" : "50436-3129",
-        "display" : "Amoxicillin and Clavulanate Potassium 875 mg/1 125 mg/1 TABLET, FILM COATED"
+        "code" : "0781-1852",
+        "display" : "Amoxicillin and Clavulanate Potassium  (product)"
       }]
     }]
   }
@@ -41,8 +41,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:5086e573-f8a9-4a04-9b2a-078a6f8972ee",
-    "timestamp" : "2021-09-03T00:26:43.053Z",
+    "identifier" : "urn:uuid:e508303f-f8fb-416d-848b-fdf8ad89aa90",
+    "timestamp" : "2021-09-05T01:23:36.582Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -50,6 +50,11 @@ e: {
     {
       "name" : "excludeNested",
       "valueBoolean" : true
+    }],
+    "contains" : [{
+      "system" : "http://hl7.org/fhir/sid/ndc",
+      "code" : "0781-1852",
+      "display" : "Amoxicillin and Clavulanate Potassium  (product)"
     }]
   }
 },
@@ -62,8 +67,8 @@ e: {
     "include" : [{
       "system" : "http://hl7.org/fhir/sid/ndc",
       "concept" : [{
-        "code" : "50436-3129-1",
-        "display" : "Amoxicillin and Clavulanate Potassium 875 mg/1 125 mg/1 20 TABLET, FILM COATED in 1 BOTTLE (50436-3129-1)"
+        "code" : "0781-1852-20",
+        "display" : "Amoxicillin and Clavulanate Potassium, 20 TABLET, FILM COATED in 1 BOTTLE (0781-1852-20) (package)"
       }]
     }]
   }
@@ -74,8 +79,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:d20266fa-68e1-4a4d-8f2b-eaea33c69cb4",
-    "timestamp" : "2021-09-02T11:26:57.686Z",
+    "identifier" : "urn:uuid:a63c3f04-6bb1-4642-89e4-bece99eacffe",
+    "timestamp" : "2021-09-04T17:13:43.163Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -83,6 +88,11 @@ e: {
     {
       "name" : "excludeNested",
       "valueBoolean" : true
+    }],
+    "contains" : [{
+      "system" : "http://hl7.org/fhir/sid/ndc",
+      "code" : "0781-1852-20",
+      "display" : "Amoxicillin and Clavulanate Potassium, 20 TABLET, FILM COATED in 1 BOTTLE (0781-1852-20) (package)"
     }]
   }
 },

@@ -3792,6 +3792,186 @@ v: {
 }
 -------------------------------------------------------------------------------------
 {"code" : {
+  "coding" : [{
+    "system" : "http://snomed.info/sct",
+    "code" : "764146007",
+    "display" : "Penicillin (substance)"
+  },
+  {
+    "system" : "http://snomed.info/sct",
+    "code" : "91936005",
+    "display" : "Allergy to penicillin (finding)"
+  },
+  {
+    "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+    "code" : "7984",
+    "display" : "penicillin V"
+  },
+  {
+    "system" : "http://www.whocc.no/atc",
+    "code" : "N03AA02",
+    "display" : "phenobarbital"
+  }]
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "105590001"
+      }],
+      "valueSet" : ["http://terminology.hl7.org/ValueSet/snomed-intl-gps"]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "373873005"
+      }],
+      "valueSet" : ["http://terminology.hl7.org/ValueSet/snomed-intl-gps"]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "418038007"
+      }],
+      "valueSet" : ["http://terminology.hl7.org/ValueSet/snomed-intl-gps"]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Allergy to penicillin",
+  "code" : "91936005",
+  "system" : "http://snomed.info/sct",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://snomed.info/sct",
+    "code" : "764146007",
+    "display" : "Penicillin (substance)"
+  },
+  {
+    "system" : "http://snomed.info/sct",
+    "code" : "91936005",
+    "display" : "Allergy to penicillin (finding)"
+  },
+  {
+    "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+    "code" : "7984",
+    "display" : "penicillin V"
+  },
+  {
+    "system" : "http://www.whocc.no/atc",
+    "code" : "N03AA02",
+    "display" : "phenobarbital"
+  }]
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "105590001"
+      }],
+      "valueSet" : ["http://terminology.hl7.org/ValueSet/snomed-intl-gps"]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "373873005"
+      }],
+      "valueSet" : ["http://terminology.hl7.org/ValueSet/snomed-intl-gps"]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "418038007"
+      }],
+      "valueSet" : ["http://terminology.hl7.org/ValueSet/snomed-intl-gps"]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"CHECK_MEMERSHIP_ONLY"}####
+v: {
+  "display" : "Allergy to penicillin",
+  "code" : "91936005",
+  "system" : "http://snomed.info/sct",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://snomed.info/sct",
+    "code" : "764146007",
+    "display" : "Penicillin (substance)"
+  },
+  {
+    "system" : "http://snomed.info/sct",
+    "code" : "91936005",
+    "display" : "Allergy to penicillin (finding)"
+  },
+  {
+    "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+    "code" : "7984",
+    "display" : "penicillin V"
+  },
+  {
+    "system" : "http://www.whocc.no/atc",
+    "code" : "N03AA02",
+    "display" : "phenobarbital"
+  }]
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "105590001"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "373873005"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "418038007"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"CHECK_MEMERSHIP_ONLY"}####
+v: {
+  "display" : "Allergy to penicillin",
+  "code" : "91936005",
+  "system" : "http://snomed.info/sct",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
   "code" : "image/png"
 }, "valueSet" :{
   "resourceType" : "ValueSet",
