@@ -3792,3 +3792,71 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.whocc.no/atc",
+  "code" : "J07CA02"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://www.whocc.no/atc"
+    }]
+  }
+}, "lang":"fr-LU", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "diphtheria-pertussis-poliomyelitis-tetanus",
+  "code" : "J07CA02",
+  "system" : "http://www.whocc.no/atc",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.whocc.no/atc",
+  "code" : "J07CA02",
+  "display" : "diphtheria-pertussis-poliomyelitis-tetanus"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://www.whocc.no/atc"
+    }]
+  }
+}, "lang":"fr-LU", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+v: {
+  "display" : "diphtheria-pertussis-poliomyelitis-tetanus",
+  "code" : "J07CA02",
+  "system" : "http://www.whocc.no/atc",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://www.whocc.no/atc",
+    "code" : "J07CA02",
+    "display" : "diphtheria-pertussis-poliomyelitis-tetanus"
+  }],
+  "text" : "Vaccin anti diphtérie-coqueluche-tétanos-poliomyélite"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "787859002"
+      }],
+      "valueSet" : ["http://terminology.hl7.org/ValueSet/snomed-intl-gps"]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "code" : "",
+  "system" : "",
+  "severity" : "error",
+  "error" : "The code provided (http://www.whocc.no/atc#J07CA02, (Vaccin anti diphtérie-coqueluche-tétanos-poliomyélite)) is not valid in the value set 'VaccinesGpsUvIps' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------

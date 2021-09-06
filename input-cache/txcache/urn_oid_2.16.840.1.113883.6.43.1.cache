@@ -63,3 +63,198 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
+  "code" : "8500/3",
+  "display" : "Infiltrating duct carcinoma, NOS"
+}, "valueSet" :1485759654, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+v: {
+  "display" : "Infiltrating duct carcinoma, NOS",
+  "code" : "8500/3",
+  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
+  "code" : "8500/3",
+  "display" : "Infiltrating duct carcinoma, NOS"
+}, "valueSet" :1188697875, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+v: {
+  "display" : "Infiltrating duct carcinoma, NOS",
+  "code" : "8500/3",
+  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
+  "code" : "8500/3",
+  "display" : "Infiltrating duct carcinoma, NOS"
+}, "valueSet" :1585942386, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+v: {
+  "display" : "Infiltrating duct carcinoma, NOS",
+  "code" : "8500/3",
+  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
+  "code" : "8500/3",
+  "display" : "Infiltrating duct carcinoma, NOS"
+}, "valueSet" :178538123, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+v: {
+  "display" : "Infiltrating duct carcinoma, NOS",
+  "code" : "8500/3",
+  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
+  "code" : "8500/3",
+  "display" : "Infiltrating duct carcinoma, NOS"
+}, "valueSet" :1096816456, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+v: {
+  "display" : "Infiltrating duct carcinoma, NOS",
+  "code" : "8500/3",
+  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
+  "code" : "8500/3",
+  "display" : "Infiltrating duct carcinoma, NOS"
+}, "valueSet" :1680603453, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+v: {
+  "display" : "Infiltrating duct carcinoma, NOS",
+  "code" : "8500/3",
+  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
+  "code" : "8500/3",
+  "display" : "Infiltrating duct carcinoma, NOS"
+}, "valueSet" :962427761, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+v: {
+  "display" : "Infiltrating duct carcinoma, NOS",
+  "code" : "8500/3",
+  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
+  "code" : "8500/3",
+  "display" : "Infiltrating duct carcinoma, NOS"
+}, "valueSet" :1191047598, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+v: {
+  "display" : "Infiltrating duct carcinoma, NOS",
+  "code" : "8500/3",
+  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
+  "code" : "8500/3",
+  "display" : "Infiltrating duct carcinoma, NOS"
+}, "valueSet" :1898316354, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+v: {
+  "display" : "Infiltrating duct carcinoma, NOS",
+  "code" : "8500/3",
+  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
+  "code" : "8500/3",
+  "display" : "Infiltrating duct carcinoma, NOS"
+}, "valueSet" :364336076, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+v: {
+  "display" : "Infiltrating duct carcinoma, NOS",
+  "code" : "8500/3",
+  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
+  "code" : "8500/3",
+  "display" : "Infiltrating duct carcinoma, NOS"
+}, "valueSet" :460000539, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+v: {
+  "display" : "Infiltrating duct carcinoma, NOS",
+  "code" : "8500/3",
+  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
+  "code" : "8500/3",
+  "display" : "Infiltrating duct carcinoma, NOS"
+}, "valueSet" :1593365908, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+v: {
+  "display" : "Infiltrating duct carcinoma, NOS",
+  "code" : "8500/3",
+  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
+  "code" : "8500/3",
+  "display" : "Infiltrating duct carcinoma, NOS"
+}, "valueSet" :1868517828, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+v: {
+  "display" : "Infiltrating duct carcinoma, NOS",
+  "code" : "8500/3",
+  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
+  "code" : "8500/3",
+  "display" : "Infiltrating duct carcinoma, NOS"
+}, "valueSet" :55590187, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+v: {
+  "display" : "Infiltrating duct carcinoma, NOS",
+  "code" : "8500/3",
+  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
+  "code" : "8500/3",
+  "display" : "Infiltrating duct carcinoma, NOS"
+}, "valueSet" :1980936176, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+v: {
+  "display" : "Infiltrating duct carcinoma, NOS",
+  "code" : "8500/3",
+  "system" : "urn:oid:2.16.840.1.113883.6.43.1",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
