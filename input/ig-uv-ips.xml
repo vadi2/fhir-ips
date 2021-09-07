@@ -39,7 +39,7 @@
 			</reference>
 			<name value="IPS Bundle example - minimal"/>
 			<description value="IPS Bundle example - minimal"/>
-			<exampleCanonical value="http://hl7.org/fhir/uv/ips/StructureDefinition/Bundle-uv-ips"/>
+			<exampleCanonical value="http://hl7.org/fhir/uv/ips/StructureDefinition/Bundle-cross-border-uv-ips"/>
 		</resource>
 		<resource>
 			<reference>
