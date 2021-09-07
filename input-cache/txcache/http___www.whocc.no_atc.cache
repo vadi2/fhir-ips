@@ -13,8 +13,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:f1b23948-28cf-4d95-be56-49f62f5a3762",
-    "timestamp" : "2021-09-05T23:42:40.222Z",
+    "identifier" : "urn:uuid:90ad02d5-1936-42db-b16f-48c32816b818",
+    "timestamp" : "2021-09-07T03:07:26.357Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -2094,8 +2094,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:acb042f3-af1c-4fc4-8af3-0552cb9c93dc",
-    "timestamp" : "2021-09-02T11:28:04.842Z",
+    "identifier" : "urn:uuid:e517c3d8-0200-4262-b3c1-4bb493c2ecc0",
+    "timestamp" : "2021-09-06T14:08:59.239Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -3777,86 +3777,5 @@ e: {
   }
 },
   "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://www.whocc.no/atc",
-  "code" : "J07CA02",
-  "display" : "diphtheria-pertussis-poliomyelitis-tetanus"
-}, "valueSet" :null, "lang":"fr-LU", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "diphtheria-pertussis-poliomyelitis-tetanus",
-  "code" : "J07CA02",
-  "system" : "http://www.whocc.no/atc",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://www.whocc.no/atc",
-  "code" : "J07CA02"
-}, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://www.whocc.no/atc"
-    }]
-  }
-}, "lang":"fr-LU", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "diphtheria-pertussis-poliomyelitis-tetanus",
-  "code" : "J07CA02",
-  "system" : "http://www.whocc.no/atc",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://www.whocc.no/atc",
-  "code" : "J07CA02",
-  "display" : "diphtheria-pertussis-poliomyelitis-tetanus"
-}, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://www.whocc.no/atc"
-    }]
-  }
-}, "lang":"fr-LU", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
-v: {
-  "display" : "diphtheria-pertussis-poliomyelitis-tetanus",
-  "code" : "J07CA02",
-  "system" : "http://www.whocc.no/atc",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "coding" : [{
-    "system" : "http://www.whocc.no/atc",
-    "code" : "J07CA02",
-    "display" : "diphtheria-pertussis-poliomyelitis-tetanus"
-  }],
-  "text" : "Vaccin anti diphtérie-coqueluche-tétanos-poliomyélite"
-}, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "filter" : [{
-        "property" : "concept",
-        "op" : "descendent-of",
-        "value" : "787859002"
-      }],
-      "valueSet" : ["http://terminology.hl7.org/ValueSet/snomed-intl-gps"]
-    }]
-  }
-}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "code" : "",
-  "system" : "",
-  "severity" : "error",
-  "error" : "The code provided (http://www.whocc.no/atc#J07CA02, (Vaccin anti diphtérie-coqueluche-tétanos-poliomyélite)) is not valid in the value set 'VaccinesGpsUvIps' (from http://tx.fhir.org/r4)"
 }
 -------------------------------------------------------------------------------------

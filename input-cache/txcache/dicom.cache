@@ -97,594 +97,6 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "code" : "BMD"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Bone Mineral Densitometry",
-  "code" : "BMD",
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "code" : "EOG"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "code" : "",
-  "system" : "",
-  "severity" : "error",
-  "error" : "The code \"EOG\" is not valid in the system http://dicom.nema.org/resources/ontology/DCM; The code provided (http://dicom.nema.org/resources/ontology/DCM#EOG) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "code" : "SM"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Slide Microscopy",
-  "code" : "SM",
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "code" : "OP"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Ophthalmic photography",
-  "code" : "OP",
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "code" : "ECG"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Electrocardiography",
-  "code" : "ECG",
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "code" : "GM"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "General Microscopy",
-  "code" : "GM",
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "code" : "XA"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "X-Ray Angiography",
-  "code" : "XA",
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "code" : "XC"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "External-camera Photography",
-  "code" : "XC",
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "code" : "DMS"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "code" : "",
-  "system" : "",
-  "severity" : "error",
-  "error" : "The code \"DMS\" is not valid in the system http://dicom.nema.org/resources/ontology/DCM; The code provided (http://dicom.nema.org/resources/ontology/DCM#DMS) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "code" : "IVUS"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Intravascular Ultrasound",
-  "code" : "IVUS",
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "code" : "CR"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Computed Radiography",
-  "code" : "CR",
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "code" : "CT"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Computed Tomography",
-  "code" : "CT",
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "code" : "OSS"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Optical Survace Scanner",
-  "code" : "OSS",
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "code" : "TG"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Thermography",
-  "code" : "TG",
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "code" : "LEN"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Lensometry",
-  "code" : "LEN",
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "code" : "OPTENF"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "code" : "",
-  "system" : "",
-  "severity" : "error",
-  "error" : "The code \"OPTENF\" is not valid in the system http://dicom.nema.org/resources/ontology/DCM; The code provided (http://dicom.nema.org/resources/ontology/DCM#OPTENF) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "code" : "HD"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Hemodynamic Waveform",
-  "code" : "HD",
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "code" : "OCT"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Optical Coherence Tomography",
-  "code" : "OCT",
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "code" : "BDUS"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Ultrasound Bone Densitometry",
-  "code" : "BDUS",
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "code" : "DG"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Diaphanography",
-  "code" : "DG",
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "code" : "PT"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Positron emission tomography",
-  "code" : "PT",
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "code" : "EPS"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Cardiac Electrophysiology",
-  "code" : "EPS",
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "code" : "LS"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Laser surface scan",
-  "code" : "LS",
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "code" : "PX"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Panoramic X-Ray",
-  "code" : "PX",
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "code" : "OPM"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Ophthalmic Mapping",
-  "code" : "OPM",
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "code" : "OPTBSV"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "code" : "",
-  "system" : "",
-  "severity" : "error",
-  "error" : "The code \"OPTBSV\" is not valid in the system http://dicom.nema.org/resources/ontology/DCM; The code provided (http://dicom.nema.org/resources/ontology/DCM#OPTBSV) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "code" : "OPV"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Ophthalmic Visual Field",
-  "code" : "OPV",
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "code" : "DX"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Digital Radiography",
-  "code" : "DX",
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "code" : "OPT"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Ophthalmic Tomography",
-  "code" : "OPT",
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "code" : "MG"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Mammography",
-  "code" : "MG",
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "code" : "US"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Ultrasound",
-  "code" : "US",
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "code" : "EMG"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "code" : "",
-  "system" : "",
-  "severity" : "error",
-  "error" : "The code \"EMG\" is not valid in the system http://dicom.nema.org/resources/ontology/DCM; The code provided (http://dicom.nema.org/resources/ontology/DCM#EMG) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "code" : "IVOCT"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Intravascular Optical Coherence Tomography",
-  "code" : "IVOCT",
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "code" : "MR"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Magnetic Resonance",
-  "code" : "MR",
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "code" : "IO"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Intra-oral Radiography",
-  "code" : "IO",
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "code" : "EEG"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "code" : "",
-  "system" : "",
-  "severity" : "error",
-  "error" : "The code \"EEG\" is not valid in the system http://dicom.nema.org/resources/ontology/DCM; The code provided (http://dicom.nema.org/resources/ontology/DCM#EEG) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "code" : "RTIMAGE"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Radiotherapy Image",
-  "code" : "RTIMAGE",
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "code" : "VA"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Visual Acuity",
-  "code" : "VA",
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "code" : "RESP"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "code" : "",
-  "system" : "",
-  "severity" : "error",
-  "error" : "The code \"RESP\" is not valid in the system http://dicom.nema.org/resources/ontology/DCM; The code provided (http://dicom.nema.org/resources/ontology/DCM#RESP) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "code" : "ES"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Endoscopy",
-  "code" : "ES",
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "code" : "AR"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Autorefraction",
-  "code" : "AR",
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "code" : "POS"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "code" : "",
-  "system" : "",
-  "severity" : "error",
-  "error" : "The code \"POS\" is not valid in the system http://dicom.nema.org/resources/ontology/DCM; The code provided (http://dicom.nema.org/resources/ontology/DCM#POS) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "code" : "RG"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Radiographic imaging",
-  "code" : "RG",
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "code" : "RF"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Radiofluoroscopy",
-  "code" : "RF",
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "code" : "KER"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Keratometry",
-  "code" : "KER",
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "code" : "OAM"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Ophthalmic Axial Measurements",
-  "code" : "OAM",
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "code" : "NM"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Nuclear Medicine",
-  "code" : "NM",
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "code" : "BI"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Biomagnetic imaging",
-  "code" : "BI",
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "code" : "SRF"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Subjective Refraction",
-  "code" : "SRF",
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
   "code" : "121207"
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
@@ -805,6 +217,42 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "code" : "BMD"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Bone Mineral Densitometry",
+  "code" : "BMD",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "code" : "EOG"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "code" : "",
+  "system" : "",
+  "severity" : "error",
+  "error" : "The code \"EOG\" is not valid in the system http://dicom.nema.org/resources/ontology/DCM; The code provided (http://dicom.nema.org/resources/ontology/DCM#EOG) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "code" : "SM"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Slide Microscopy",
+  "code" : "SM",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
   "code" : "SR"
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
@@ -825,6 +273,18 @@ v: {
   "system" : "",
   "severity" : "error",
   "error" : "The code \"FID\" is not valid in the system http://dicom.nema.org/resources/ontology/DCM; The code provided (http://dicom.nema.org/resources/ontology/DCM#FID) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "code" : "OP"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Ophthalmic photography",
+  "code" : "OP",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "severity" : null,
+  "error" : ""
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -853,6 +313,42 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "code" : "ECG"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Electrocardiography",
+  "code" : "ECG",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "code" : "GM"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "General Microscopy",
+  "code" : "GM",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "code" : "XA"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "X-Ray Angiography",
+  "code" : "XA",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
   "code" : "IOL"
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
@@ -861,6 +357,18 @@ v: {
   "system" : "",
   "severity" : "error",
   "error" : "The code \"IOL\" is not valid in the system http://dicom.nema.org/resources/ontology/DCM; The code provided (http://dicom.nema.org/resources/ontology/DCM#IOL) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "code" : "XC"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "External-camera Photography",
+  "code" : "XC",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "severity" : null,
+  "error" : ""
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -877,11 +385,95 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "code" : "DMS"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "code" : "",
+  "system" : "",
+  "severity" : "error",
+  "error" : "The code \"DMS\" is not valid in the system http://dicom.nema.org/resources/ontology/DCM; The code provided (http://dicom.nema.org/resources/ontology/DCM#DMS) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "code" : "IVUS"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Intravascular Ultrasound",
+  "code" : "IVUS",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "code" : "CR"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Computed Radiography",
+  "code" : "CR",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "code" : "CT"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Computed Tomography",
+  "code" : "CT",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "code" : "OSS"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Optical Survace Scanner",
+  "code" : "OSS",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "code" : "TG"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Thermography",
+  "code" : "TG",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
   "code" : "REG"
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Registration",
   "code" : "REG",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "code" : "LEN"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Lensometry",
+  "code" : "LEN",
   "system" : "http://dicom.nema.org/resources/ontology/DCM",
   "severity" : null,
   "error" : ""
@@ -913,6 +505,18 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "code" : "OPTENF"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "code" : "",
+  "system" : "",
+  "severity" : "error",
+  "error" : "The code \"OPTENF\" is not valid in the system http://dicom.nema.org/resources/ontology/DCM; The code provided (http://dicom.nema.org/resources/ontology/DCM#OPTENF) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
   "code" : "HC"
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
@@ -937,6 +541,42 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "code" : "HD"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Hemodynamic Waveform",
+  "code" : "HD",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "code" : "OCT"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Optical Coherence Tomography",
+  "code" : "OCT",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "code" : "BDUS"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Ultrasound Bone Densitometry",
+  "code" : "BDUS",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
   "code" : "M3D"
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
@@ -949,11 +589,131 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "code" : "DG"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Diaphanography",
+  "code" : "DG",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
   "code" : "PR"
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Presentation State",
   "code" : "PR",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "code" : "PT"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Positron emission tomography",
+  "code" : "PT",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "code" : "EPS"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Cardiac Electrophysiology",
+  "code" : "EPS",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "code" : "LS"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Laser surface scan",
+  "code" : "LS",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "code" : "PX"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Panoramic X-Ray",
+  "code" : "PX",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "code" : "OPM"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Ophthalmic Mapping",
+  "code" : "OPM",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "code" : "OPTBSV"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "code" : "",
+  "system" : "",
+  "severity" : "error",
+  "error" : "The code \"OPTBSV\" is not valid in the system http://dicom.nema.org/resources/ontology/DCM; The code provided (http://dicom.nema.org/resources/ontology/DCM#OPTBSV) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "code" : "OPV"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Ophthalmic Visual Field",
+  "code" : "OPV",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "code" : "DX"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Digital Radiography",
+  "code" : "DX",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "code" : "OPT"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Ophthalmic Tomography",
+  "code" : "OPT",
   "system" : "http://dicom.nema.org/resources/ontology/DCM",
   "severity" : null,
   "error" : ""
@@ -985,11 +745,143 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "code" : "MG"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Mammography",
+  "code" : "MG",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "code" : "US"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Ultrasound",
+  "code" : "US",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "code" : "EMG"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "code" : "",
+  "system" : "",
+  "severity" : "error",
+  "error" : "The code \"EMG\" is not valid in the system http://dicom.nema.org/resources/ontology/DCM; The code provided (http://dicom.nema.org/resources/ontology/DCM#EMG) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "code" : "IVOCT"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Intravascular Optical Coherence Tomography",
+  "code" : "IVOCT",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
   "code" : "RTSTRUCT"
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Radiotherapy Structure Set",
   "code" : "RTSTRUCT",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "code" : "MR"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Magnetic Resonance",
+  "code" : "MR",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "code" : "IO"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Intra-oral Radiography",
+  "code" : "IO",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "code" : "EEG"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "code" : "",
+  "system" : "",
+  "severity" : "error",
+  "error" : "The code \"EEG\" is not valid in the system http://dicom.nema.org/resources/ontology/DCM; The code provided (http://dicom.nema.org/resources/ontology/DCM#EEG) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "code" : "RTIMAGE"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Radiotherapy Image",
+  "code" : "RTIMAGE",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "code" : "VA"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Visual Acuity",
+  "code" : "VA",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "code" : "RESP"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "code" : "",
+  "system" : "",
+  "severity" : "error",
+  "error" : "The code \"RESP\" is not valid in the system http://dicom.nema.org/resources/ontology/DCM; The code provided (http://dicom.nema.org/resources/ontology/DCM#RESP) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "code" : "ES"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Endoscopy",
+  "code" : "ES",
   "system" : "http://dicom.nema.org/resources/ontology/DCM",
   "severity" : null,
   "error" : ""
@@ -1009,6 +901,30 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "code" : "AR"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Autorefraction",
+  "code" : "AR",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "code" : "POS"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "code" : "",
+  "system" : "",
+  "severity" : "error",
+  "error" : "The code \"POS\" is not valid in the system http://dicom.nema.org/resources/ontology/DCM; The code provided (http://dicom.nema.org/resources/ontology/DCM#POS) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
   "code" : "SEG"
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
@@ -1021,11 +937,47 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "code" : "RG"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Radiographic imaging",
+  "code" : "RG",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "code" : "RF"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Radiofluoroscopy",
+  "code" : "RF",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
   "code" : "AU"
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Audio",
   "code" : "AU",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "code" : "KER"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Keratometry",
+  "code" : "KER",
   "system" : "http://dicom.nema.org/resources/ontology/DCM",
   "severity" : null,
   "error" : ""
@@ -1069,6 +1021,30 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "code" : "OAM"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Ophthalmic Axial Measurements",
+  "code" : "OAM",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "code" : "NM"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Nuclear Medicine",
+  "code" : "NM",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
   "code" : "PLAN"
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
@@ -1077,6 +1053,226 @@ v: {
   "system" : "",
   "severity" : "error",
   "error" : "The code \"PLAN\" is not valid in the system http://dicom.nema.org/resources/ontology/DCM; The code provided (http://dicom.nema.org/resources/ontology/DCM#PLAN) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "code" : "BI"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Biomagnetic imaging",
+  "code" : "BI",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "code" : "SRF"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Subjective Refraction",
+  "code" : "SRF",
+  "system" : "http://dicom.nema.org/resources/ontology/DCM",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://dicom.nema.org/resources/ontology/DCM",
+      "concept" : [{
+        "code" : "121207",
+        "display" : "Height"
+      },
+      {
+        "code" : "121211",
+        "display" : "Path length"
+      },
+      {
+        "code" : "121206",
+        "display" : "Distance"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:8a63a72a-cc5c-4c66-b514-40abe7d29a70",
+    "timestamp" : "2021-09-07T04:19:19.023Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://dicom.nema.org/resources/ontology/DCM|01"
+    }],
+    "contains" : [{
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Vertical measurement value"
+      }],
+      "system" : "http://dicom.nema.org/resources/ontology/DCM",
+      "code" : "121207",
+      "display" : "Height"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "A one dimensional, or linear, numeric measurement along a polyline"
+      }],
+      "system" : "http://dicom.nema.org/resources/ontology/DCM",
+      "code" : "121211",
+      "display" : "Path length"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "A one dimensional, or linear, numeric measurement"
+      }],
+      "system" : "http://dicom.nema.org/resources/ontology/DCM",
+      "code" : "121206",
+      "display" : "Distance"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://dicom.nema.org/resources/ontology/DCM",
+      "concept" : [{
+        "code" : "121216",
+        "display" : "Volume estimated from single 2D region"
+      },
+      {
+        "code" : "121218",
+        "display" : "Volume estimated from two non-coplanar 2D regions"
+      },
+      {
+        "code" : "121217",
+        "display" : "Volume estimated from three or more non-coplanar 2D regions"
+      },
+      {
+        "code" : "121222",
+        "display" : "Volume of sphere"
+      },
+      {
+        "code" : "121221",
+        "display" : "Volume of ellipsoid"
+      },
+      {
+        "code" : "121220",
+        "display" : "Volume of circumscribed sphere"
+      },
+      {
+        "code" : "121219",
+        "display" : "Volume of bounding three dimensional region"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:1075eeaa-e466-4e65-8e38-3e0df9965bdb",
+    "timestamp" : "2021-09-06T12:24:45.419Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://dicom.nema.org/resources/ontology/DCM|01"
+    }],
+    "contains" : [{
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "A three-dimensional numeric measurement that is approximate, based on a two-dimensional region in a single image"
+      }],
+      "system" : "http://dicom.nema.org/resources/ontology/DCM",
+      "code" : "121216",
+      "display" : "Volume estimated from single 2D region"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "A three-dimensional numeric measurement that is approximate, based on two non-coplanar two-dimensional image regions"
+      }],
+      "system" : "http://dicom.nema.org/resources/ontology/DCM",
+      "code" : "121218",
+      "display" : "Volume estimated from two non-coplanar 2D regions"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "A three-dimensional numeric measurement that is approximate, based on three or more non-coplanar two-dimensional image regions"
+      }],
+      "system" : "http://dicom.nema.org/resources/ontology/DCM",
+      "code" : "121217",
+      "display" : "Volume estimated from three or more non-coplanar 2D regions"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "A three-dimensional numeric measurement of a sphere shaped three-dimensional region of interest in an image set"
+      }],
+      "system" : "http://dicom.nema.org/resources/ontology/DCM",
+      "code" : "121222",
+      "display" : "Volume of sphere"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "A three-dimensional numeric measurement of an ellipsoid shaped three-dimensional region of interest in an image set"
+      }],
+      "system" : "http://dicom.nema.org/resources/ontology/DCM",
+      "code" : "121221",
+      "display" : "Volume of ellipsoid"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "A three-dimensional numeric measurement of the bounding sphere of a three-dimensional region of interest in an image set"
+      }],
+      "system" : "http://dicom.nema.org/resources/ontology/DCM",
+      "code" : "121220",
+      "display" : "Volume of circumscribed sphere"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "A three-dimensional numeric measurement of the bounding region of a three-dimensional region of interest in an image set"
+      }],
+      "system" : "http://dicom.nema.org/resources/ontology/DCM",
+      "code" : "121219",
+      "display" : "Volume of bounding three dimensional region"
+    }]
+  }
+},
+  "error" : ""
 }
 -------------------------------------------------------------------------------------
 {"hierarchical" : false, "valueSet" :{
@@ -1125,8 +1321,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:dbd90fd8-9415-42f0-a71b-77742cc2771d",
-    "timestamp" : "2021-09-06T13:17:56.212Z",
+    "identifier" : "urn:uuid:7b7ba0f0-78dd-4e23-bd6a-fee0122ccfd1",
+    "timestamp" : "2021-09-06T12:23:11.684Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -1221,221 +1417,6 @@ e: {
   "code" : "NM",
   "display" : "Nuclear Medicine"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Nuclear Medicine",
-  "code" : "NM",
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://dicom.nema.org/resources/ontology/DCM",
-  "code" : "NM"
-}, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "concept" : [{
-        "code" : "BMD",
-        "display" : "Bone Mineral Densitometry"
-      },
-      {
-        "code" : "EOG",
-        "display" : "Electrooculography"
-      },
-      {
-        "code" : "SM",
-        "display" : "Slide Microscopy"
-      },
-      {
-        "code" : "OP",
-        "display" : "Ophthalmic Photography"
-      },
-      {
-        "code" : "ECG",
-        "display" : "Electrocardiography"
-      },
-      {
-        "code" : "GM",
-        "display" : "General Microscopy"
-      },
-      {
-        "code" : "XA",
-        "display" : "X-Ray Angiography"
-      },
-      {
-        "code" : "XC",
-        "display" : "External-camera Photography"
-      },
-      {
-        "code" : "DMS",
-        "display" : "Dermoscopy"
-      },
-      {
-        "code" : "IVUS",
-        "display" : "Intravascular Ultrasound"
-      },
-      {
-        "code" : "CR",
-        "display" : "Computed Radiography"
-      },
-      {
-        "code" : "CT",
-        "display" : "Computed Tomography"
-      },
-      {
-        "code" : "OSS",
-        "display" : "Optical Surface Scanner"
-      },
-      {
-        "code" : "TG",
-        "display" : "Thermography"
-      },
-      {
-        "code" : "LEN",
-        "display" : "Lensometry"
-      },
-      {
-        "code" : "OPTENF",
-        "display" : "Ophthalmic Tomography En Face"
-      },
-      {
-        "code" : "HD",
-        "display" : "Hemodynamic Waveform"
-      },
-      {
-        "code" : "OCT",
-        "display" : "Optical Coherence Tomography"
-      },
-      {
-        "code" : "BDUS",
-        "display" : "Ultrasound Bone Densitometry"
-      },
-      {
-        "code" : "DG",
-        "display" : "Diaphanography"
-      },
-      {
-        "code" : "PT",
-        "display" : "Positron emission tomography"
-      },
-      {
-        "code" : "EPS",
-        "display" : "Cardiac Electrophysiology"
-      },
-      {
-        "code" : "LS",
-        "display" : "Laser Scan"
-      },
-      {
-        "code" : "PX",
-        "display" : "Panoramic X-Ray"
-      },
-      {
-        "code" : "OPM",
-        "display" : "Ophthalmic Mapping"
-      },
-      {
-        "code" : "OPTBSV",
-        "display" : "Ophthalmic Tomography B-scan Volume Analysis"
-      },
-      {
-        "code" : "OPV",
-        "display" : "Ophthalmic Visual Field"
-      },
-      {
-        "code" : "DX",
-        "display" : "Digital Radiography"
-      },
-      {
-        "code" : "OPT",
-        "display" : "Ophthalmic Tomography"
-      },
-      {
-        "code" : "MG",
-        "display" : "Mammography"
-      },
-      {
-        "code" : "US",
-        "display" : "Ultrasound"
-      },
-      {
-        "code" : "EMG",
-        "display" : "Electromyography"
-      },
-      {
-        "code" : "IVOCT",
-        "display" : "Intravascular Optical Coherence Tomography"
-      },
-      {
-        "code" : "MR",
-        "display" : "Magnetic Resonance"
-      },
-      {
-        "code" : "IO",
-        "display" : "Intra-oral Radiography"
-      },
-      {
-        "code" : "EEG",
-        "display" : "Electroencephalography"
-      },
-      {
-        "code" : "RTIMAGE",
-        "display" : "RT Image"
-      },
-      {
-        "code" : "VA",
-        "display" : "Visual Acuity"
-      },
-      {
-        "code" : "RESP",
-        "display" : "Respiratory Waveform"
-      },
-      {
-        "code" : "ES",
-        "display" : "Endoscopy"
-      },
-      {
-        "code" : "AR",
-        "display" : "Autorefraction"
-      },
-      {
-        "code" : "POS",
-        "display" : "Position Sensor"
-      },
-      {
-        "code" : "RG",
-        "display" : "Radiographic imaging"
-      },
-      {
-        "code" : "RF",
-        "display" : "Radiofluoroscopy"
-      },
-      {
-        "code" : "KER",
-        "display" : "Keratometry"
-      },
-      {
-        "code" : "OAM",
-        "display" : "Ophthalmic Axial Measurements"
-      },
-      {
-        "code" : "NM",
-        "display" : "Nuclear Medicine"
-      },
-      {
-        "code" : "BI",
-        "display" : "Biomagnetic Imaging"
-      },
-      {
-        "code" : "SRF",
-        "display" : "Subjective Refraction"
-      }]
-    }]
-  }
-}, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Nuclear Medicine",
   "code" : "NM",
@@ -1875,600 +1856,6 @@ e: {
     "include" : [{
       "system" : "http://dicom.nema.org/resources/ontology/DCM",
       "concept" : [{
-        "code" : "BMD",
-        "display" : "Bone Mineral Densitometry"
-      },
-      {
-        "code" : "EOG",
-        "display" : "Electrooculography"
-      },
-      {
-        "code" : "SM",
-        "display" : "Slide Microscopy"
-      },
-      {
-        "code" : "OP",
-        "display" : "Ophthalmic Photography"
-      },
-      {
-        "code" : "ECG",
-        "display" : "Electrocardiography"
-      },
-      {
-        "code" : "GM",
-        "display" : "General Microscopy"
-      },
-      {
-        "code" : "XA",
-        "display" : "X-Ray Angiography"
-      },
-      {
-        "code" : "XC",
-        "display" : "External-camera Photography"
-      },
-      {
-        "code" : "DMS",
-        "display" : "Dermoscopy"
-      },
-      {
-        "code" : "IVUS",
-        "display" : "Intravascular Ultrasound"
-      },
-      {
-        "code" : "CR",
-        "display" : "Computed Radiography"
-      },
-      {
-        "code" : "CT",
-        "display" : "Computed Tomography"
-      },
-      {
-        "code" : "OSS",
-        "display" : "Optical Surface Scanner"
-      },
-      {
-        "code" : "TG",
-        "display" : "Thermography"
-      },
-      {
-        "code" : "LEN",
-        "display" : "Lensometry"
-      },
-      {
-        "code" : "OPTENF",
-        "display" : "Ophthalmic Tomography En Face"
-      },
-      {
-        "code" : "HD",
-        "display" : "Hemodynamic Waveform"
-      },
-      {
-        "code" : "OCT",
-        "display" : "Optical Coherence Tomography"
-      },
-      {
-        "code" : "BDUS",
-        "display" : "Ultrasound Bone Densitometry"
-      },
-      {
-        "code" : "DG",
-        "display" : "Diaphanography"
-      },
-      {
-        "code" : "PT",
-        "display" : "Positron emission tomography"
-      },
-      {
-        "code" : "EPS",
-        "display" : "Cardiac Electrophysiology"
-      },
-      {
-        "code" : "LS",
-        "display" : "Laser Scan"
-      },
-      {
-        "code" : "PX",
-        "display" : "Panoramic X-Ray"
-      },
-      {
-        "code" : "OPM",
-        "display" : "Ophthalmic Mapping"
-      },
-      {
-        "code" : "OPTBSV",
-        "display" : "Ophthalmic Tomography B-scan Volume Analysis"
-      },
-      {
-        "code" : "OPV",
-        "display" : "Ophthalmic Visual Field"
-      },
-      {
-        "code" : "DX",
-        "display" : "Digital Radiography"
-      },
-      {
-        "code" : "OPT",
-        "display" : "Ophthalmic Tomography"
-      },
-      {
-        "code" : "MG",
-        "display" : "Mammography"
-      },
-      {
-        "code" : "US",
-        "display" : "Ultrasound"
-      },
-      {
-        "code" : "EMG",
-        "display" : "Electromyography"
-      },
-      {
-        "code" : "IVOCT",
-        "display" : "Intravascular Optical Coherence Tomography"
-      },
-      {
-        "code" : "MR",
-        "display" : "Magnetic Resonance"
-      },
-      {
-        "code" : "IO",
-        "display" : "Intra-oral Radiography"
-      },
-      {
-        "code" : "EEG",
-        "display" : "Electroencephalography"
-      },
-      {
-        "code" : "RTIMAGE",
-        "display" : "RT Image"
-      },
-      {
-        "code" : "VA",
-        "display" : "Visual Acuity"
-      },
-      {
-        "code" : "RESP",
-        "display" : "Respiratory Waveform"
-      },
-      {
-        "code" : "ES",
-        "display" : "Endoscopy"
-      },
-      {
-        "code" : "AR",
-        "display" : "Autorefraction"
-      },
-      {
-        "code" : "POS",
-        "display" : "Position Sensor"
-      },
-      {
-        "code" : "RG",
-        "display" : "Radiographic imaging"
-      },
-      {
-        "code" : "RF",
-        "display" : "Radiofluoroscopy"
-      },
-      {
-        "code" : "KER",
-        "display" : "Keratometry"
-      },
-      {
-        "code" : "OAM",
-        "display" : "Ophthalmic Axial Measurements"
-      },
-      {
-        "code" : "NM",
-        "display" : "Nuclear Medicine"
-      },
-      {
-        "code" : "BI",
-        "display" : "Biomagnetic Imaging"
-      },
-      {
-        "code" : "SRF",
-        "display" : "Subjective Refraction"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "language" : "en",
-  "status" : "active",
-  "expansion" : {
-    "identifier" : "urn:uuid:def6e59e-749b-4742-829d-de358f6c1aec",
-    "timestamp" : "2021-09-06T12:24:44.575Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "version",
-      "valueString" : "http://dicom.nema.org/resources/ontology/DCM|01"
-    }],
-    "contains" : [{
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "Bone Mineral Densitometry by X-Ray (modality), including dual-energy X-Ray absorptiometry (DXA) and morphometric X-Ray absorptiometry (MXA)"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "BMD",
-      "display" : "Bone Mineral Densitometry"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "Slide Microscopy"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "SM",
-      "display" : "Slide Microscopy"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "Ophthalmic photography modality"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "OP",
-      "display" : "Ophthalmic photography"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "Electrocardiography device"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "ECG",
-      "display" : "Electrocardiography"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "General Microscopy device"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "GM",
-      "display" : "General Microscopy"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "X-Ray Angiography device"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "XA",
-      "display" : "X-Ray Angiography"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "External-camera Photography device"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "XC",
-      "display" : "External-camera Photography"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "Intravascular Ultrasound device"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "IVUS",
-      "display" : "Intravascular Ultrasound"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "Computed Radiography device"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "CR",
-      "display" : "Computed Radiography"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "Computed Tomography device"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "CT",
-      "display" : "Computed Tomography"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "An acquisition device, process or method that performs optical surface scanning"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "OSS",
-      "display" : "Optical Survace Scanner"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "Thermography device"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "TG",
-      "display" : "Thermography"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "Lensometry device"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "LEN",
-      "display" : "Lensometry"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "Hemodynamic Waveform acquisition device"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "HD",
-      "display" : "Hemodynamic Waveform"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "Modality device that uses an interferometric, non-invasive optical tomographic technique to image 2D slices and 3D volumes of tissue using visible and near visible frequencies"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "OCT",
-      "display" : "Optical Coherence Tomography"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "Ultrasound Bone Densitometry (modality)"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "BDUS",
-      "display" : "Ultrasound Bone Densitometry"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "Diaphanography device"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "DG",
-      "display" : "Diaphanography"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "Positron emission tomography (PET) device"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "PT",
-      "display" : "Positron emission tomography"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "Cardiac Electrophysiology device"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "EPS",
-      "display" : "Cardiac Electrophysiology"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "Laser surface scan device"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "LS",
-      "display" : "Laser surface scan"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "Panoramic X-Ray device"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "PX",
-      "display" : "Panoramic X-Ray"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "Modality device that measures corneal topography, corneal or retinal thickness, and other similar parameters that are typically displayed as maps"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "OPM",
-      "display" : "Ophthalmic Mapping"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "Modality device that measures visual fields and perform visual perimetry"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "OPV",
-      "display" : "Ophthalmic Visual Field"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "Digital Radiography device"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "DX",
-      "display" : "Digital Radiography"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "Tomography of the eye acquired by a modality that is based on light and optical principles. Tomography based on other principles, such as ultrasound, is excluded"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "OPT",
-      "display" : "Ophthalmic Tomography"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "Mammography device"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "MG",
-      "display" : "Mammography"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "Ultrasound device"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "US",
-      "display" : "Ultrasound"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "An acquisition device, process or method that performs intravascular optical coherence tomography"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "IVOCT",
-      "display" : "Intravascular Optical Coherence Tomography"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "Magnetic Resonance device"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "MR",
-      "display" : "Magnetic Resonance"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "Intra-oral Radiography device"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "IO",
-      "display" : "Intra-oral Radiography"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "Radiotherapy Imaging device; includes portal imaging"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "RTIMAGE",
-      "display" : "Radiotherapy Image"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "Visual Acuity device"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "VA",
-      "display" : "Visual Acuity"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "Endoscopy device"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "ES",
-      "display" : "Endoscopy"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "Autorefraction device"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "AR",
-      "display" : "Autorefraction"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "Radiographic imaging (conventional film/screen)"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "RG",
-      "display" : "Radiographic imaging"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "Radiofluoroscopy device"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "RF",
-      "display" : "Radiofluoroscopy"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "Keratometry device"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "KER",
-      "display" : "Keratometry"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "Measurements of the axial length of the eye, which are done by various devices"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "OAM",
-      "display" : "Ophthalmic Axial Measurements"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "Nuclear Medicine device"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "NM",
-      "display" : "Nuclear Medicine"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "Biomagnetic imaging device"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "BI",
-      "display" : "Biomagnetic imaging"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "Subjective Refraction device"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "SRF",
-      "display" : "Subjective Refraction"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "concept" : [{
         "code" : "121207",
         "display" : "Height"
       },
@@ -2525,130 +1912,6 @@ e: {
       "system" : "http://dicom.nema.org/resources/ontology/DCM",
       "code" : "121206",
       "display" : "Distance"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : false, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "concept" : [{
-        "code" : "121216",
-        "display" : "Volume estimated from single 2D region"
-      },
-      {
-        "code" : "121218",
-        "display" : "Volume estimated from two non-coplanar 2D regions"
-      },
-      {
-        "code" : "121217",
-        "display" : "Volume estimated from three or more non-coplanar 2D regions"
-      },
-      {
-        "code" : "121222",
-        "display" : "Volume of sphere"
-      },
-      {
-        "code" : "121221",
-        "display" : "Volume of ellipsoid"
-      },
-      {
-        "code" : "121220",
-        "display" : "Volume of circumscribed sphere"
-      },
-      {
-        "code" : "121219",
-        "display" : "Volume of bounding three dimensional region"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "language" : "en",
-  "status" : "active",
-  "expansion" : {
-    "identifier" : "urn:uuid:1075eeaa-e466-4e65-8e38-3e0df9965bdb",
-    "timestamp" : "2021-09-06T12:24:45.419Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "excludeNested",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "version",
-      "valueString" : "http://dicom.nema.org/resources/ontology/DCM|01"
-    }],
-    "contains" : [{
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "A three-dimensional numeric measurement that is approximate, based on a two-dimensional region in a single image"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "121216",
-      "display" : "Volume estimated from single 2D region"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "A three-dimensional numeric measurement that is approximate, based on two non-coplanar two-dimensional image regions"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "121218",
-      "display" : "Volume estimated from two non-coplanar 2D regions"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "A three-dimensional numeric measurement that is approximate, based on three or more non-coplanar two-dimensional image regions"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "121217",
-      "display" : "Volume estimated from three or more non-coplanar 2D regions"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "A three-dimensional numeric measurement of a sphere shaped three-dimensional region of interest in an image set"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "121222",
-      "display" : "Volume of sphere"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "A three-dimensional numeric measurement of an ellipsoid shaped three-dimensional region of interest in an image set"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "121221",
-      "display" : "Volume of ellipsoid"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "A three-dimensional numeric measurement of the bounding sphere of a three-dimensional region of interest in an image set"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "121220",
-      "display" : "Volume of circumscribed sphere"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "A three-dimensional numeric measurement of the bounding region of a three-dimensional region of interest in an image set"
-      }],
-      "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "code" : "121219",
-      "display" : "Volume of bounding three dimensional region"
     }]
   }
 },
