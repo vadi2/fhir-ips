@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AllergyIntolerance xmlns="http://hl7.org/fhir">
+  <id value="allergyintolerance-no-global-standard-code"/>
+  <clinicalStatus>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"/>
+      <code value="active"/>
+    </coding>
+  </clinicalStatus>
+  <code>
+    <coding>
+        <code value="GlobalStandardCodeNotAvailable"/>
+    </coding>
+    <coding>
+        <system value="http://hl7.org/fhir/sid/icd-10"/>
+        <code value="T78.4"/>
+        <display value="Allergy, unspecified"/>
+    </coding>
+    <text value="There is no code available for this allergy or intolerance in any of the value sets from the standard global terminologies included in the slices available for cross-border use.  The text is used to convey the desired meaning (plus any codes that may also be available)."/>
+  </code>
+  <patient>
+    <reference value="Patient/66033"/>
+  </patient>
+</AllergyIntolerance>
