@@ -377,3 +377,94 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+  "code" : "7984",
+  "display" : "penicillin V"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/900000000000207008",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "105590001"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/900000000000207008",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "373873005"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/900000000000207008",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "418038007"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+v: {
+  "display" : "penicillin V",
+  "code" : "7984",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+  "code" : "7984",
+  "display" : "penicillin V"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/900000000000207008",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "105590001"
+      }],
+      "valueSet" : ["http://terminology.hl7.org/ValueSet/snomed-intl-gps"]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/900000000000207008",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "373873005"
+      }],
+      "valueSet" : ["http://terminology.hl7.org/ValueSet/snomed-intl-gps"]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/900000000000207008",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "418038007"
+      }],
+      "valueSet" : ["http://terminology.hl7.org/ValueSet/snomed-intl-gps"]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+v: {
+  "display" : "penicillin V",
+  "code" : "7984",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------

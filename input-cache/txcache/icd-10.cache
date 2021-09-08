@@ -752,3 +752,262 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "N95.1",
+  "display" : "Menopausal and female climacteric states"
+}, "valueSet" :1631111253, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+v: {
+  "display" : "Menopausal and female climacteric states",
+  "code" : "N95.1",
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "N95.1",
+  "display" : "Menopausal and female climacteric states"
+}, "valueSet" :1471256990, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+v: {
+  "display" : "Menopausal and female climacteric states",
+  "code" : "N95.1",
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "N95.1",
+  "display" : "Menopausal and female climacteric states"
+}, "valueSet" :628644418, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+v: {
+  "display" : "Menopausal and female climacteric states",
+  "code" : "N95.1",
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "N95.1",
+  "display" : "Menopausal and female climacteric states"
+}, "valueSet" :2128072520, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+v: {
+  "display" : "Menopausal and female climacteric states",
+  "code" : "N95.1",
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "N95.1",
+  "display" : "Menopausal and female climacteric states"
+}, "valueSet" :2115449655, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+v: {
+  "display" : "Menopausal and female climacteric states",
+  "code" : "N95.1",
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "N95.1",
+  "display" : "Menopausal and female climacteric states"
+}, "valueSet" :1398176243, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+v: {
+  "display" : "Menopausal and female climacteric states",
+  "code" : "N95.1",
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "N95.1",
+  "display" : "Menopausal and female climacteric states"
+}, "valueSet" :2136122384, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+v: {
+  "display" : "Menopausal and female climacteric states",
+  "code" : "N95.1",
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "code" : "GlobalStandardCodeNotAvailable"
+  },
+  {
+    "system" : "http://hl7.org/fhir/sid/icd-10",
+    "code" : "T78.4",
+    "display" : "Allergy, unspecified"
+  }],
+  "text" : "There is no code available for this allergy or intolerance in any of the value sets from the standard global terminologies included in the slices available for cross-border use.  The text is used to convey the desired meaning (plus any codes that may also be available)."
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/900000000000207008",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "105590001"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/900000000000207008",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "373873005"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/900000000000207008",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "418038007"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"CHECK_MEMERSHIP_ONLY"}####
+v: {
+  "display" : "",
+  "code" : "",
+  "system" : "",
+  "severity" : "error",
+  "error" : "The code system \"\" is not known (encountered paired with code = \"GlobalStandardCodeNotAvailable\"); None of the codes provided (#GlobalStandardCodeNotAvailable, http://hl7.org/fhir/sid/icd-10#T78.4, (There is no code available for this allergy or intolerance in any of the value sets from the standard global terminologies included in the slices available for cross-border use.  The text is used to convey the desired meaning (plus any codes that may also be available).)) are valid in the value set 'AllergyIntoleranceSubstanceConditionUvIps' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "N95.1",
+  "display" : "Menopausal and female climacteric states"
+}, "valueSet" :1488422080, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+v: {
+  "display" : "Menopausal and female climacteric states",
+  "code" : "N95.1",
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "N95.1",
+  "display" : "Menopausal and female climacteric states"
+}, "valueSet" :540677486, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+v: {
+  "display" : "Menopausal and female climacteric states",
+  "code" : "N95.1",
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "N95.1",
+  "display" : "Menopausal and female climacteric states"
+}, "valueSet" :920689666, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+v: {
+  "display" : "Menopausal and female climacteric states",
+  "code" : "N95.1",
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "N95.1",
+  "display" : "Menopausal and female climacteric states"
+}, "valueSet" :485365886, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+v: {
+  "display" : "Menopausal and female climacteric states",
+  "code" : "N95.1",
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "code" : "GlobalStandardCodeNotAvailable"
+  },
+  {
+    "system" : "http://hl7.org/fhir/sid/icd-10",
+    "code" : "T78.4",
+    "display" : "Allergy, unspecified"
+  }],
+  "text" : "There is no code available for this allergy or intolerance in any of the value sets from the standard global terminologies included in the slices available for cross-border use.  The text is used to convey the desired meaning (plus any codes that may also be available)."
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/900000000000207008",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "105590001"
+      }],
+      "valueSet" : ["http://terminology.hl7.org/ValueSet/snomed-intl-gps"]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/900000000000207008",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "373873005"
+      }],
+      "valueSet" : ["http://terminology.hl7.org/ValueSet/snomed-intl-gps"]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/900000000000207008",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "418038007"
+      }],
+      "valueSet" : ["http://terminology.hl7.org/ValueSet/snomed-intl-gps"]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "code" : "",
+  "system" : "",
+  "severity" : "error",
+  "error" : "The code system \"\" is not known (encountered paired with code = \"GlobalStandardCodeNotAvailable\"); None of the codes provided (#GlobalStandardCodeNotAvailable, http://hl7.org/fhir/sid/icd-10#T78.4, (There is no code available for this allergy or intolerance in any of the value sets from the standard global terminologies included in the slices available for cross-border use.  The text is used to convey the desired meaning (plus any codes that may also be available).)) are valid in the value set 'AllergyintolerancesubstanceconditionGPS' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "N95.1",
+  "display" : "Menopausal and female climacteric states"
+}, "valueSet" :2081618162, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+v: {
+  "display" : "Menopausal and female climacteric states",
+  "code" : "N95.1",
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
