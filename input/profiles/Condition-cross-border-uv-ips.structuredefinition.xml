@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+	<id value="Condition-cross-border-uv-ips"/>
+	<url value="http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-cross-border-uv-ips"/>
+	<name value="ConditionCrossBorderUvIps"/>
+    <title value="Condition - Cross Border (IPS)"/>
+	<status value="active"/>
+    <description value="This profile represents the constraints applied to the Condition resource by the International Patient Summary (IPS) FHIR Implementation Guide for the cross-border data exchange use case."/>
+    <purpose value="Representation of a problem in the international patient summary"/>
+	<kind value="resource"/>
+	<abstract value="false"/>
+	<type value="Condition"/>
+	<baseDefinition value="http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"/>
+	<derivation value="constraint"/>
+	<differential>
+		<element id="Condition">
+			<path value="Condition"/>
+		</element>
+		<element id="Condition.code">
+			<path value="Condition.code"/>
+			<slicing>
+                <discriminator>
+                    <type value="pattern"/>
+                    <path value="$this"/>
+                </discriminator>
+				<rules value="closed"/>
+			</slicing>
+            <min value="1"/>
+		</element>
+        <element id="Condition.code:globalStandardCodeNotAvailable">
+            <path value="Condition.code"/>
+            <sliceName value="globalStandardCodeNotAvailable"/>
+            <short value="globalStandardCodeNotAvailable"/>
+            <definition value="A standard code for global use from the other defined slices is not available.  Will represent the meaning as text (local or other &quot;translation&quot; codes may also be sent)."/>
+            <type>
+                <code value="CodeableConcept"/>
+                <profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/CodeableConcept-uv-ips"/>
+            </type>
+            <patternCodeableConcept>
+                <coding>
+                    <code value="GlobalStandardCodeNotAvailable"/>
+                </coding>
+            </patternCodeableConcept>
+            <min value="0"/>
+            <max value="1"/>
+            <mustSupport value="true"/>
+        </element>
+    </differential>
+</StructureDefinition>
