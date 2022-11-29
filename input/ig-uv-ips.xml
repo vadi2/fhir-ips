@@ -443,5 +443,9 @@
 			<code value="path-binary"/>
 			<value value="input\cql"/>
 		</parameter>
+    <parameter>
+      <code value="ipa-comparison"/>
+      <value value="current"/>
+    </parameter>
 	</definition>
 </ImplementationGuide>
